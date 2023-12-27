@@ -5,7 +5,7 @@ layout: '~/layouts/MarkdownLayout.astro'
 
 <META NAME="ROBOTS" CONTENT="NOINDEX,NOFOLLOW"/>
 
-Lukasz Dzikowski Hasengartenstr. 9b 65189 Wiesbaden
+Lukasz Dzikowski Heinrich-Zille-Str 52 65201 Wiesbaden
 
 Kontakt
 kontakt@uxffm.com 0162-751 9335

@@ -9,7 +9,7 @@ _Letztes Update_: 12.02.2023
 Information über die Erhebung personenbezogener Daten und Kontaktdaten des Verantwortlichen
 Im Folgenden informieren wir Sie über den Umgang mit Ihren personenbezogenen Daten bei Nutzung unserer Website. Personenbezogene Daten sind hierbei alle Daten, mit denen Sie persönlich identifiziert werden können.
 
-Verantwortlicher für die Datenverarbeitung auf dieser Website im Sinne der Datenschutz-Grundverordnung (DSGVO) ist Lukasz Adam Dzikowski, Hasengartenstr 9b, 65189 Wiesbaden, Deutschland, Tel.: 0162-751 9335, E-Mail: kontakt@uxffm.com
+Verantwortlicher für die Datenverarbeitung auf dieser Website im Sinne der Datenschutz-Grundverordnung (DSGVO) ist Lukasz Dzikowski, Heinrich-Zille-Str 52, 65201 Wiesbaden, Deutschland, Tel.: 0162-751 9335, E-Mail: kontakt@uxffm.com
 
 Der für die Verarbeitung von personenbezogenen Daten Verantwortliche ist diejenige natürliche oder juristische Person, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten entscheidet.
 
