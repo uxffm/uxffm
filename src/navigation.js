@@ -67,7 +67,7 @@ export const footerData = {
     {
       title: 'Links',
       links: [
-        { text: 'Impressum', href: '#' },
+        { text: 'Impressum', href: '/imoportant' },
         { text: 'Datenschutz', href: '/datenschutz' },
         { text: 'Über Mich', href: '/about-us' },
         { text: 'kontakt@uxffm.com', href: 'mailto:kontakt@uxffm.com">' },
@@ -76,16 +76,16 @@ export const footerData = {
     {
       title: 'Blog',
       links: [
-        { text: 'Do Follow Backlinks finden', href: '#' },
-        { text: 'SEO Manipulation', href: '#' },
+        { text: 'Do Follow Backlinks finden', href: '/dofollow-backlinks-finden' },
+        { text: 'SEO Manipulation', href: '/seo-manipulation' },
       ],
     },
     {
       title: 'Service',
       links: [
-        { text: 'Webdesign Frankfurt', href: '#' },
-        { text: 'WordPress Frankfurt', href: '#' },
-        { text: 'KI Services', href: '#' },
+        { text: 'Webdesign Frankfurt', href: '/service/webdesign-frankfurt' },
+        { text: 'WordPress Frankfurt', href: '/service/wordpress-frankfurt' },
+        { text: 'KI Services', href: '/service/ki-service' },
       ],
     },
  
