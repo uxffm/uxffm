@@ -1,0 +1,61 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import ContactUs from '~/components/widgets/Contact.astro';
+import Features2 from '~/components/widgets/Features2.astro';
+
+const metadata = {
+  title: 'Schreiben Sie mir eine Nachricht | SEO Freelancer Frankfurt',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- HeroText Widget ******************* -->
+
+  <HeroText tagline="Kontakt" title="Hier geht es zum Kontakt" />
+
+  <ContactUs
+    title="Ich freue mich auf Ihre Nachricht!"
+    subtitle="Hier finden Sie meine Kontaktdaten. Jede Anfrage ist selbstverständlich unverbindlich und kostenlos. Ich melde mich innerhalb kürzester Zeit bei Ihnen zurück."
+    inputs={[
+      {
+        type: 'text',
+        name: 'name',
+        label: 'Name',
+      },
+      {
+        type: 'email',
+        name: 'email',
+        label: 'Email',
+      },
+    ]}
+    textarea={{
+      label: 'Nachricht',
+    }}
+
+    description="Ich melde mich gewöhnlich innerhalb 24 Stunden zurück."
+  />
+
+  <!-- Features2 Widget ************** -->
+
+  <Features2
+    title="Ich bin hier um zu helfen!"
+    items={[
+      {
+        title: 'Telefon',
+        description: '+49 (162) 751-9335',
+        icon: 'tabler:headset',
+      },
+      {
+        title: 'Email',
+        description: 'kontakt@uxffm.com',
+        icon: 'tabler:mail',
+      },
+      {
+        title: 'Standort',
+        description: 'Frankfurt am Main, Hessen',
+        icon: 'tabler:map-pin',
+      },
+    ]}
+  />
+</Layout>

@@ -1,0 +1,115 @@
+---
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import Hero from '~/components/widgets/Hero.astro';
+import Layout from '~/layouts/PageLayout.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+
+const metadata = {
+  title: 'Freelance Webdesigner aus Frankfurt',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero Widget ******************* -->
+
+  <Hero
+    tagline="Service"
+    title="Freelance Webdesigner aus Frankfurt"
+    subtitle="Als Freelance Web Designer in Frankfurt gehört zu meinen Aufgaben, nicht nur SEO zu betreiben, sondern auch einfache und schöne Webseiten zu erstellen."
+    actions={[{ variant:"primary", target: '_blank', text: 'Jetzt anfragen!', href: '/kontakt' }]}
+    image={{
+      src: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80',
+      alt: 'AstroWind Hero Image',
+    }}
+  />
+
+
+<div class="wrapper">
+  <h2 class="leading-tighter text-heading text-4xl md:text-4xl font-bold leading-tighter tracking-tighter mb-4 font-heading">Webdesign aus Frankfurt</h2>
+
+  <p>Zu meinem Service in der Main-Metropole Frankfurt, gehört die Freelance Webentwicklung und die Erstellung einer Homepage.
+    <br><br>
+    Angefangen mit der Benutzeroberfläche, glaube ich daran, dass jede Website ihren primären Fokus auf die Benutzerfreundlichkeit legen sollte. Die Nutzbarkeit sollte so einfach wie möglich sein, da es sonst keine Rolle spielt, wie schön die Webseite ist. Ohne zufriedene Besucher wird man seine Conversion Rate und seine Ziele nur sehr schwer erreichen können.
+    <br><br>
+    Als Freelance Web Designer biete ich modernes Webdesign und helfe Ihnen dabei Ihre Ziele zu erreichen. Schon alleine deshalb, sollten dem Nutzer keine Steine in den Weg gelegt werden. Sei es eine Newsletter-Anmeldung, eine einfache Informationen oder ein spannender Blog-Artikel, alles sollte problems mit wenigen Klicks erreichbar sein. All die visuellen Elemente müssen im Zusammenspiel miteinander funktionieren. Alleine die Typographie kann beispielsweise dazu beitragen, ob ein Design erfolgreich wird oder nicht. Die Wahl der richtigen Schriftart, der richtigen Schriftgröße und der richtigen visuellen Elemente, können jeder Homepage eine Persönlichkeit verleihen.</p>
+</div>
+
+<div class="wrapper">
+  <h2 class="leading-tighter text-heading text-4xl md:text-4xl font-bold leading-tighter tracking-tighter mb-4 font-heading">Vom Seitenlayout bis zum Design</h2>
+
+  <p>Ich übernehme als Freelance Webdesigner die gesamte Entwicklung und Gestaltung. Daneben kümmere ich mich ebenfalls um die Webentwicklung, das WordPress Webdesign oder die Suchmaschinenoptimierung. Ich stelle sicher, dass Ihr Seitenlayout zu Ihrer Idee passt und Ihnen bei der Erreichung Ihrer Ziele zur Seite steht. Eine Website sollte Ihre Vision an Ihre Kunden kommunizieren können. Besuchern sollte es sofort klar sein, warum sie ausgerechnet Ihren Service buchen oder Ihr Produkt kaufen sollten.
+    <br><br>
+    Für jede meiner Gestaltungen, nutze ich sogenannte Gestaltungsraster. Solche Rastersysteme, helfen mir mit dem Aufbau einer Webseite und gehören zu dem täglichen Werkzeug eines jeden Webdesigners. Jedes meiner Design-Muster wird an Smartphones und Table (oder Phablet) Geräte angepasst. Es spielt daher keine Rolle, ob man Ihre Seite mit einem iPhone 10, mit einem Android Smartphone oder mit einem iPad abruft, die Elemente werden automatisch an jede Bildschirmauflösung angepasst.
+    <br><br>
+    Ich erstelle jedes Design meiner Webseiten, mit der App Sketch. Sketch ist ein digitales Design Tool, welches es Webdesignern vereinfacht Raster zu nutzen, iOS Bildschirmsynchronisation zu nutzen oder Grafiken in Codes umzuwandeln. Nachdem das Design erstellt worden ist, schreibe ich das Markup mit HTML, CSS und programmiere mit Javascript und PHP. Das gehört allerdings mehr in die Webentwicklung.</p>
+</div>
+
+  <!-- Features3 Widget ************** -->
+
+  <Features3
+    title="Zu meinem Freelance Webdesign Service gehört:"
+    subtitle="Faire Preise, transparente Kosten und ein schneller Service."
+    columns={2}
+    items={[
+      {
+        title: 'Gestaltung & Design von One-Pagern',
+        description: 'Gestaltung & Design von One-Pagern mit einem modernen und zeitgemäßen Design.',
+        icon: 'tabler:stairs',
+      },
+      {
+        title: 'Erstellung individueller Illustrationen',
+        description: 'Erstellung individueller Illustrationen für Ihre Webseite oder für Ihre Social Media Kanäle.',
+        icon: 'tabler:flip-vertical',
+      },
+      {
+        title: 'Werbebanner',
+        description: 'Werbebanner für Ihre Webseite oder für Ihre Social Media Kanäle.',
+        icon: 'tabler:shield-lock',
+      },
+      {
+        title: 'Das Design einer kompletten Webseite',
+        description: `Das Design einer kompletten Webseite mit mehreren Unterseiten.`,
+        icon: 'tabler:accessible',
+      },
+      {
+        title: 'Einzelne Felder wie “Newsletter"',
+        description: 'Einzelne Felder wie “Newsletter" oder “Kontaktformular" können ebenfalls erstellt werden.',
+        icon: 'tabler:headset',
+      },
+      {
+        title: 'Redesign einer bestehenden Website',
+        description: 'Redesign einer bestehenden Website mit neuen Elementen und Funktionen.',
+        icon: 'tabler:headset',
+      },
+    ]}
+    classes={{ container: 'max-w-5xl' }}
+  />
+
+
+
+  <!-- CallToAction Widget *********** -->
+
+  <CallToAction
+    actions={[{
+      variant: "primary",
+      text: 'Jetzt unverbindlich anfragen!',
+      href: '/kontakt',
+    }]}
+    title="Noch Fragen?"
+    subtitle="Schreiben Sie mir ganz unverbindlich eine Nachricht und ich werde mich so schnell wie möglich bei Ihnen melden."
+  />
+</Layout>
+
+
+
+<style>
+  .wrapper {
+    max-width: 800px;
+    margin: 0px auto;
+    padding: 0 1rem;
+  }
+
+  .wrapper:nth-child(3) {
+    margin-top: 64px;
+  }
+</style>

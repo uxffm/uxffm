@@ -1,0 +1,100 @@
+---
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import Hero from '~/components/widgets/Hero.astro';
+import Layout from '~/layouts/PageLayout.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+
+const metadata = {
+  title: 'Off-Page Suchmaschinenoptimierung',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero Widget ******************* -->
+
+  <Hero
+    tagline="Off-Page SEO"
+    title="Off-Page Optimierungen für Frankfurt"
+    subtitle="Mit meiner Freelance Off-Page SEO Optimierung, helfe ich Ihnen dabei, Ihre Website in den Suchergebnissen nach oben zu bringen."
+    actions={[{ variant:"primary", target: '_blank', text: 'Jetzt anfragen!', href: '/kontakt' }]}
+    image={{
+      src: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80',
+      alt: 'AstroWind Hero Image',
+    }}
+  />
+
+
+<div class="wrapper">
+  <h2 class="leading-tighter text-heading text-4xl md:text-4xl font-bold leading-tighter tracking-tighter mb-4 font-heading">Off-Page Optimierungen für Frankfurt</h2>
+
+  <p>Mit Off-Page SEO ist die Zusammenarbeit mit anderen Webseiten gemeint. Mit meinem Freelance Off-Page SEO Service, führe
+    ich eine Backlink-Analyse durch und daneben, kümmere ich mich um Kollaborationen mit verschiedenen <a href="https://de.wikipedia.org/wiki/Influencer">Influencer</a> aus all den bekannten
+    sozialen Netzwerken. Das funktioniert oft Automatisch und ist ein wichtiger Bestandteil meiner gesamten Optimierungs-Strategie als 
+    <a href="/">SEO Frankfurt</a>.
+    </p>
+  <br><br>
+  <h2 class="leading-tighter text-heading text-4xl md:text-4xl font-bold leading-tighter tracking-tighter mb-4 font-heading">Backlinks</h2>
+
+  <p><a href="https://de.wikipedia.org/wiki/R%C3%BCckverweis">Backlinks</a> (auch Rückverweise genannt) von autoritären Webseiten zeigen Google, dass Besucher Ihrer Homepage Ihnen vertrauen können. Backlinks sind meiner Meinung nach nicht mehr
+    so essentiell für eine erfolgreiche SEO-Optimierung, trotzdem gehören sie auch 2018 zu den Werkzeugen einer jeden erfolgreichen
+    SEO Kampagne. Backlinks müssen auch nicht immer von Forbes oder anderen weltbekannten Webseiten kommen. Ist man lokal Unterwegs, hilft
+    es z.B. sehr, viele verschiedene Backlinks von lokalen Zeitschriften oder Bloggern zu erhalten.
+    <br><br>
+    Was man zu 100% vermeiden sollte sind sog. Blackhat-Methoden um an Backlinks zu kommen.
+    Das einzige was man dadurch auf lange Sicht gesehen erhält,ist ein Penaltiy. Backlinks sollten also auf eine natürlich Art und Weise verdient werden,
+    nur dann kann man auch auf Lange Sicht einen SEO Erfolg erhalten.</p>
+  <br><br>
+  <h2 class="leading-tighter text-heading text-4xl md:text-4xl font-bold leading-tighter tracking-tighter mb-4 font-heading">Citations</h2>
+
+  <p>Citations werden auch als die neuen Branchenbucheinträge bezeichnet. Mit Citations ist nämlich gemeint, dass die
+    eigene Website in verschienden <a href="https://de.wikipedia.org/wiki/Branchenverzeichnis">Verzeichnissen</a> eingetragen wird. Alle Einträge in diesen Verzeichnissen,
+    sollten eine konsistente Erwähnung der sog. NAP Daten erhalten. NAP ist kurz für: Name - Adress - Phone.
+    Der Name also, die Adresse als auch die Telefonnummer ihrer Webseite sollte in all diesen Verzeichnissen die gleiche sein. Das ist besonders
+    für Local SEO sehr wichtig. Welche Verzeichnisse für Ihre Websete eine Rolle spielen und welche nicht wichtig sind, zeige ich Ihnen.</p>
+    <br><br>
+    <h2 class="leading-tighter text-heading text-4xl md:text-4xl font-bold leading-tighter tracking-tighter mb-4 font-heading">Social Media</h2>
+
+    <p>Social Media Kanäle haben zwar keinen direkten Einfluss auf das SEO Ranking, indirekt können sie aber sehr wohl einen
+        Unterschied ausmachen. Ich kümmere mich deshalb sowohl grafisch als auch technisch um einen einheitlichen Social Media Auftritt
+        Ihrer Marke. Ich konnt beispielsweise sehr oft beobachten, dass das Teilen eines Artikels bei GooglePlus eine schnellere Indexierung ermöglichen.</p>
+  <br><br>
+
+
+ 
+</div>
+
+
+
+
+  <!-- CallToAction Widget *********** -->
+
+  <CallToAction
+    actions={[{
+      variant: "primary",
+      text: 'Jetzt unverbindlich anfragen!',
+      href: '/kontakt',
+    }]}
+    title="Noch Fragen?"
+    subtitle="Schreiben Sie mir ganz unverbindlich eine Nachricht und ich werde mich so schnell wie möglich bei Ihnen melden."
+  />
+</Layout>
+
+
+
+<style>
+  .wrapper {
+    max-width: 800px;
+    margin: 0px auto;
+    padding: 0 1rem;
+  }
+
+  .wrapper:nth-child(3) {
+    margin-top: 64px;
+  }
+
+  .ul-list {
+    list-style: disc;
+    padding-left: 20px;
+    margin-top: 8px;
+  }
+</style>

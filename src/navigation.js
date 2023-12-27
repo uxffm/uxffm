@@ -1,0 +1,101 @@
+import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
+
+export const headerData = {
+  links: [
+    {
+      text: 'Home',
+      href: getPermalink('/'),
+    },
+    {
+      text: 'Service',
+      href: getPermalink('/service'),
+      links: [
+        {
+          text: 'Webdesign Frankfurt',
+          href: getPermalink('/service/webdesign-frankfurt'),
+        },
+        {
+          text: 'On-Page SEO',
+          href: getPermalink('/service/on-page-seo-frankfurt'),
+        },
+        {
+          text: 'Off-Page SEO',
+          href: getPermalink('/service/off-page-seo-frankfurt'),
+        },
+        {
+          text: 'SEO Audit Frankfurt',
+          href: getPermalink('/service/seo-audit-frankfurt'),
+        },
+        {
+          text: 'KI Service',
+          href: getPermalink('/service/ki-service'),
+        },
+        {
+          text: 'Conversion Optimierung',
+          href: getPermalink('/service/conversion-optimierung-frankfurt'),
+        },
+        {
+          text: 'SEM Marketing',
+          href: getPermalink('/service/google-ads'),
+        },
+        {
+          text: 'WordPress Frankfurt',
+          href: getPermalink('/service/wordpress-frankfurt'),
+        },
+        {
+          text: 'Webentwicklung',
+          href: getPermalink('/service/web-entwicklung-frankfurt'),
+        },
+      ],
+    },
+    {
+      text: 'Blog',
+      href: '/blog',
+    },
+  ],
+  actions: [{ text: 'Kontakt', href: '/kontakt', target: '' }],
+};
+
+export const footerData = {
+  links: [
+    {
+      title: 'Aktuelle Google Bewertung',
+      links: [
+        { text: '"Tolle Arbeit von Lukasz. Unkomplizierte Kommunikation und fairer Preis. Danke!"', href: '#' },
+      ],
+    },
+    {
+      title: 'Links',
+      links: [
+        { text: 'Impressum', href: '#' },
+        { text: 'Datenschutz', href: '/datenschutz' },
+        { text: 'Über Mich', href: '/about-us' },
+        { text: 'kontakt@uxffm.com', href: 'mail' },
+      ],
+    },
+    {
+      title: 'Blog',
+      links: [
+        { text: 'Do Follow Backlinks finden', href: '#' },
+        { text: 'SEO Manipulation', href: '#' },
+      ],
+    },
+    {
+      title: 'Service',
+      links: [
+        { text: 'Webdesign Frankfurt', href: '#' },
+        { text: 'WordPress Frankfurt', href: '#' },
+        { text: 'KI Services', href: '#' },
+      ],
+    },
+ 
+  ],
+  secondaryLinks: [
+  ],
+  socialLinks: [
+    { ariaLabel: 'Tiktok', icon: 'tabler:brand-tiktok', href: 'https://www.tiktok.com/@uxffm.com' },
+  ],
+  footNote: `
+  © 2024 Freelancer Frankfurt - All Rights Reserved. By SEO Lukasz
+  `,
+};

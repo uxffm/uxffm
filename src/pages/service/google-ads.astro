@@ -1,0 +1,133 @@
+---
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import Hero from '~/components/widgets/Hero.astro';
+import Layout from '~/layouts/PageLayout.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+
+const metadata = {
+  title: 'Google Ads Frankfurt',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero Widget ******************* -->
+
+  <Hero
+    tagline="Service"
+    title="Google Ads Freelancer Frankfurt"
+    subtitle="Google Ads ist ein mächtiges Tool, um Ihre Kunden zu erreichen. Ich helfe Ihnen dabei, Ihre Google Ads Kampagnen zu optimieren und Ihre Kunden zu erreichen."
+    actions={[{ variant:"primary", target: '_blank', text: 'Jetzt anfragen!', href: '/kontakt' }]}
+    image={{
+      src: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80',
+      alt: 'AstroWind Hero Image',
+    }}
+  />
+
+
+<div class="wrapper">
+  <h2 class="leading-tighter text-heading text-4xl md:text-4xl font-bold leading-tighter tracking-tighter mb-4 font-heading">Google Ads Frankfurt</h2>
+
+
+    
+    <p>Suchmaschinenoptimierung geht Hand in Hand mit der Suchmaschinenwerbung. 
+    Vor allem für diejenige, die sehr schnelle Ergebnisse benötigen, eignen sich 
+    <a href="https://ads.google.com/intl/en_DE/home/">Goodle Ads Kampagnen</a> oft besser als z.b. 
+    die <a href="on-page-seo-frankfurt">On-Page Suchmaschinenoptimierung</a>. SEO braucht nämlich vor 
+    allem Zeit und bei vielen Unternehmen, muss es so schnell wie nur möglich gehen.
+    </p>
+
+    <br><br>
+    <h2 class="leading-tighter text-heading text-4xl md:text-4xl font-bold leading-tighter tracking-tighter mb-4 font-heading">PPC Kampagnen</h2>
+    <p>Als SEM Freelancer, helfe ich Ihnen ebenfalls bei Ihren 
+    <a href="https://de.wikipedia.org/wiki/Affiliate-Marketing#Pay_per_Click">PPC Kampagnen.</a>
+    Mit mehreren Jahren Erfahrung im Google Ads Bereich, weiß ich 
+    auf was es bei einer erfolgreichen AdWords Kampagne ankommt. 
+    Neben lokalen Frankfurter Unternehmen und E-commerce stores,  
+    habe ich auch mit Bloggern, Fotografen und Designern 
+    zusammengearbeitet.</p>
+
+    <br><br>
+    <h2 class="leading-tighter text-heading text-4xl md:text-4xl font-bold leading-tighter tracking-tighter mb-4 font-heading">Optimierung der Conversion Rate</h2>
+    <p>
+    Bei der Suchmaschinenwerbung, ist es erst einmal wichtig zu verstehen, 
+    was die Ziele des Unternehmens sind und was die Kunden von einem verlangen. 
+    Durch die nutzung der richtigen Keyword-Analyse, prüfe ich welche Keywords am 
+    Besten zu Ihren Kunden passen und ob wir mit Long Tail Keywords arbeiten 
+    können oder nicht. Oberstes Ziel ist natürlich die Conversion Rate und 
+    nicht die Click Trough Rate. Mit anderen Worten, mir ist es nicht wichtig, 
+    dass so viele Besucher wie Möglich auf ihrer Seite landen sondern, dass 
+    so viele Besucher wie nur Möglich in Kunden umgewandelt werden.</p>
+
+    <br><br>
+    <h2 class="leading-tighter text-heading text-4xl md:text-4xl font-bold leading-tighter tracking-tighter mb-4 font-heading">Google Ads Frankfurt - Landingpage</h2>
+
+    <p>Damit Ihre Besucher auch auf der richtigen Seite landen, kann ich als <a href="webdesign-frankfurt">Webdesigner in Frankfurt</a> ebenfalls 
+        Ihre Landingpage anpassen bzw. erstellen. Die richtige Wahl der Landingpage trägt viel dazu bei, ob 
+        eine Kampagne erfolg hat oder nicht. Schließlich möchten wir unsere Besucher ohne Umwege ans Ziel bringen.
+        Damit diese Ziel URL also auch zum Erfolg beiträgt, prüfe ich diese im Vorfeld genau und mache gegenbenfalls
+        Verbesserungsvorschläge.
+    </p>
+
+    <br><br>
+    <h2 class="leading-tighter text-heading text-4xl md:text-4xl font-bold leading-tighter tracking-tighter mb-4 font-heading">Mein Ads (SEM) Service für Frankfurt</h2>
+
+    <ul class="ul-list">
+        <li>Die Erstellung von Such &amp; Display Kampagnen</li>
+        <li> Analyse der richtigen Keywords</li>
+        <li> Die Erstellung eines umfassenden Google Ads Reports</li>
+        <li> A/B Ads Test</li>
+        <li> Nutzung der Ads Erweitungen (Telefon und Sitelinkmöglichkeiten)</li>
+        <li> Persönlicher Werbetext herauszustechen</li>
+        <li> Nutzung negativer Keywords</li>
+        <li> Conversion-Rate Optimierung</li>
+    </ul>
+    <br><br>
+
+        <p>
+        Anders als manch anderer Werbetraffic, ist es Möglich PPC Kampagnen perfekt zu zu 
+        analysieren und umfassende Reports zu erstellen. 
+        Mit den richtigen Zieldefinition, ist es sehr leicht einen Return on Investment zu kalkulieren. 
+
+        </p>
+
+
+
+
+ 
+</div>
+
+
+
+
+  <!-- CallToAction Widget *********** -->
+
+  <CallToAction
+    actions={[{
+      variant: "primary",
+      text: 'Jetzt unverbindlich anfragen!',
+      href: '/kontakt',
+    }]}
+    title="Noch Fragen?"
+    subtitle="Schreiben Sie mir ganz unverbindlich eine Nachricht und ich werde mich so schnell wie möglich bei Ihnen melden."
+  />
+</Layout>
+
+
+
+<style>
+  .wrapper {
+    max-width: 800px;
+    margin: 0px auto;
+    padding: 0 1rem;
+  }
+
+  .wrapper:nth-child(3) {
+    margin-top: 64px;
+  }
+
+  .ul-list {
+    list-style: disc;
+    padding-left: 20px;
+    margin-top: 8px;
+  }
+</style>

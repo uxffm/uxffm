@@ -1,0 +1,253 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+import Hero from '~/components/widgets/Hero.astro';
+import Features from '~/components/widgets/Features.astro';
+import Content from '~/components/widgets/Content.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import Features2 from '~/components/widgets/Features2.astro';
+
+const metadata = {
+  title: 'SEO Freelancer Frankfurt',
+  ignoreTitleTemplate: true,
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero Widget ******************* -->
+
+  <Hero
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Schreiben',
+        href: '/kontakt',
+        target: '_blank',
+        icon: 'tabler:download',
+      },
+      { text: 'Anrufen', href: 'tel:+49-162-7519335' },
+    ]}
+    image={{ src: '~/assets/images/hero.png', alt: 'AstroWind Hero Image' }}
+  >
+    <Fragment slot="title">
+      SEO Freelancer Frankfurt <span class="hidden xl:inline"></span>
+      <span class="text-accent dark:text-white highlight"> - Ihr SEO in</span> Frankfurt am Main 
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      <span class="hidden sm:inline">
+        <span class="font-semibold">Willkommen!</span></span
+      >
+      <span class="block mb-1 sm:hidden font-bold text-blue-600">Einfach anrufen.</span>
+      Mein SEO Service inkl. User Experience & User Interface Design.
+      Einfach anrufen: 0162 751 9335 oder schreiben: kontakt@uxffm.com
+    </Fragment>
+  </Hero>
+
+  <!-- Note Widget ******************* -->
+
+
+  <!-- Features Widget *************** -->
+
+  <Features
+    id="features"
+    tagline="FÜR FRANKFURT & UMGEBUNG"
+    title="SEO Freelancer für Frankfurt am Main"
+    subtitle="Hallo Frankfurt. Mein Name ist Lukasz und ich bin Suchmaschinenoptimierer (SEO), Webentwickler & Designer."
+    items={[
+      {
+        title: 'On-Page & Off-Page Optimierung',
+        description:
+          'Als SEO Freelancer für Frankfurt, kümmere ich mich um moderne Suchmaschinenoptimierung. Dazu gehört die On-Page als auch die Off-Page Optimierung.',
+        icon: 'tabler:brand-tailwind',
+      },
+      {
+        title: 'Local SEO',
+        description:
+          'Ich kümmere mich um das local SEO, die Programmierung Ihrer Website, das User Inteface Design und ebenfalls um die Verbesserung der User Experience.',
+        icon: 'tabler:components',
+      },
+      {
+        title: 'Für ganz Frankfurt',
+        description:
+          'Diesen Service, biete ich für das ganze Stadtgebiet Frankfurt am Main an inkl. (Stadtmitte, Bockenheim, Bornheim, Dornbusch, Westend, Griesheim, Nied, Höchst, Niederrad usw.)',
+        icon: 'tabler:list-check',
+      },
+      {
+        title: 'Einfach kontaktieren',
+        description:
+          'Wenn ich Sie also unterstützen kann, schreiben Sie mir gerne eine Nachricht. Ganz unverbindlich, finden wir gemeinsam eine schnelle Lösung.',
+        icon: 'tabler:rocket',
+      },
+      {
+        title: 'Mehr als nur einfache SEO',
+        description:
+          "Mein Ziel als SEO Freelancer ist es, Frankfurt mit individuellen Lösungen rund um das Thema Suchmaschinenoptimierung zu versorgen. Um das zu schaffen, geht mein Service über einfache Keyword-Analysen hinaus.",
+        icon: 'tabler:arrows-right-left',
+      },
+      {
+        title: 'SEO Audits',
+        description:
+          'Meistens fange ich mit einem SEO Audit für ihr Frankfurter Unternehmen an. In Zusammenarbeit mit Ihnen, verbessere ich Ihre Website so, dass nicht nur Suchmaschinen begeistert sind sondern vor allem Ihre Nutzer.',
+        icon: 'tabler:bulb',
+      },
+    ]}
+  />
+
+  <!-- Content Widget **************** -->
+
+  <Content
+    isReversed
+    tagline="Ihre Online-Marketing Strategie"
+    title="Individuelle Marketing Lösungen für Sie"
+    items={[
+      {
+        title: 'Viele Wege führen auf die #1',
+        description:
+          'Ich helfe Ihnen durch die SEO-Welt indem ich Landingpages gestalte, Content für Suchmaschinen optimiere, Ihren E-Commerce Store mit einer geeigenen Online-Marketing Strategie auffrische oder indem ich einfach das On-Page SEO verbessere.',
+      },
+      {
+        title: 'Effektive SEO Optimierung',
+        description:
+          ' Bei meinem Service geht es nicht um die SEO Manipulation, sondern die effektive Optimierung Ihrer Webseite.',
+      },
+      {
+        title: 'Benutzerfreundlichkeit',
+        description:
+          'Benutzerfreundlichkeit, also die (User Experience) gehört 2023 zu den wichtigsten SEO Faktoren. Ihre Homepage sollte das Internet zu einem besseren Ort machen und damit das auch gelingt, müssen Ihre Besucher zufrieden sein. Nur so schaffen Sie es Ihre Conversion Rate zu steigern und Ihre Besucher zu Ihren Kunden zu machen.',
+      },
+    ]}
+    image={{
+      src: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      alt: 'Colorful Image',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">SEO für jeden!</h3>
+      Es spielt keine Rolle, ob Sie ein Entrepreneur, ein Personal-Trainer oder ein leidenschaftlicher Blogger sind. 
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+  <!-- Content Widget **************** -->
+
+  <Content
+    isAfterContent
+    items={[
+      {
+        title: 'Internationale SEO',
+        description: `Ich habe das Vergnügen, mit einer Vielzahl von Menschen aus unterschiedlichen Branchen zusammenzuarbeiten, einschließlich Einzelunternehmern, Freelancern, Start-ups, Bloggern, lokalen Geschäften, Entwicklern, Restaurants sowie Menschen aus anderen Geschäftsbereichen.`,
+      },
+      {
+        title: 'Langjährige Erfahrung',
+        description:
+          'Da ich viel international arbeite, biete ich jede meiner SEO Dienstleistungen, zusammen mit den neusten und modernsten Methoden an. Jede von mir optimierte Webseite verfügt am Ende über maßgeschneiderte On-Page Meta-Daten, die auf die individuellen Keywords Ihres Unternehmens abgestimmt sind.',
+      },
+      {
+        title: 'Keine versteckten Kosten',
+        description:
+          "Transparente Kosten ohne langjährige Vertragsbindung. Ich biete Ihnen eine monatliche Abrechnung an, die Sie jederzeit kündigen können. Ich bin mir sicher, dass Sie mit meiner Arbeit zufrieden sein werden, aber ich möchte, dass Sie sich wohl fühlen, wenn Sie sich für mich entscheiden.",
+      },
+    ]}
+    image={{
+      src: 'https://images.unsplash.com/photo-1600132806370-bf17e65e942f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2194&q=80',
+      alt: 'Blueprint Image',
+    }}
+  >
+    <Fragment slot="content">Ihr Suchmaschinenoptimierer für die Stadt Frankfurt. </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+   <!-- Features2 Widget ************** -->
+
+   <Features2
+   title="Wie ich helfen kann?"
+   subtitle="Ein paar Beispiele"
+   columns={3}
+   items={[
+     {
+       title: 'On-Page SEO',
+       description:
+         'On-Page SEO (Inhaltserstellung, Interne Verlinkungen, Seitentitel, Wolkenkratzer-Technik, Title Tags).',
+       icon: 'tabler:school',
+     },
+     {
+       title: 'Off-Page SEO ',
+       description:
+         '(Citations, Social-Media Kanäle, Backlink Tipps.)',
+       icon: 'tabler:home-star',
+     },
+     {
+       title: 'Photography',
+       description: `Empowering photographers, our templates facilitate captivating storytelling. With a keen focus on layout, galleries, and typography, they cater to both professionals and enthusiasts.`,
+       icon: 'tabler:photo',
+     },
+     {
+       title: 'E-commerce',
+       description:
+         'Developing engaging online stores, our E-commerce templates ensure a dynamic presence to effectively showcase products. Ideal for startups or revamps.',
+       icon: 'tabler:shopping-cart',
+     },
+     {
+       title: 'Blog',
+       description:
+         'With attention to typography, these templates empower effective content presentation for writers at any stage, ensuring visually engaging and user-friendly blogs.',
+       icon: 'tabler:article',
+     },
+     {
+       title: 'Business',
+       description:
+         'Providing polished options for effective visual communication, these templates empower both startups and established companies for a professional brand presence.',
+       icon: 'tabler:building-store',
+     },
+     {
+       title: 'Branding',
+       description:
+         'Offering pre-designed elements for a consistent brand identity, including logos and marketing materials. Ideal for new ventures or revamps.',
+       icon: 'tabler:arrow-big-up-lines',
+     },
+     {
+       title: 'Medical',
+       description: `From presentations to patient forms, these tools enhance communication effectiveness for healthcare professionals. Ideal for medical practices and research pursuits.`,
+       icon: 'tabler:vaccine',
+     },
+     {
+       title: 'Fashion Design',
+       description:
+         'With attention to detail, customization, and contemporary design, they empower designers to showcase ideas cohesively. Ideal for all levels of designers.',
+       icon: 'tabler:tie',
+     },
+   ]}
+ />
+
+
+
+  <!-- CallToAction Widget *********** -->
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Kostenlose Erstberatung',
+        href: '/kontakt',
+        target: '',
+        icon: 'tabler:download',
+      },
+    ]}
+  >
+    <Fragment slot="title">
+      Noch Fragen?<br class="block sm:hidden" /> <span class="sm:whitespace-nowrap">Einfach schreiben ;)</span>
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      Be very surprised by these huge fake numbers you are seeing on this page. <br class="hidden md:inline" />Don't
+      waste more time! :P
+    </Fragment>
+  </CallToAction>
+</Layout>

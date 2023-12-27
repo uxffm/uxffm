@@ -1,0 +1,66 @@
+---
+import Features2 from '~/components/widgets/Features2.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+import Hero from '~/components/widgets/Hero.astro';
+import Stats from '~/components/widgets/Stats.astro';
+import Steps2 from '~/components/widgets/Steps2.astro';
+import Layout from '~/layouts/PageLayout.astro';
+
+const metadata = {
+  title: 'Über Mich SEO Lukasz',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero Widget ******************* -->
+
+  <Hero
+    tagline="Über Mich"
+    image={{
+      src: '/images/foto-von-mir.jpg',
+      alt: 'Caos Image',
+    }}
+  >
+    <Fragment slot="title">
+      Bringen Sie Ihre Website auf  <br />
+      <span class="text-accent dark:text-white highlight">das nächste Level!</span>
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      Ich heiße Lukasz und ich optimiere, programmiere und erstelle Webseiten und erhöhe Traffic mit Hilfe von SEO Marketing. Mein Studium als Bachelor of Science schloss ich in Wiesbaden ab und nun versorge ich Frankfurt am Main mit der SEO, also der Suchmaschinenoptimierung.
+    </Fragment>
+  </Hero>
+
+  <div class="wrapper">
+    <h2 class="leading-tighter text-heading text-4xl md:text-4xl font-bold leading-tighter tracking-tighter mb-4 font-heading">SEO, WordPress & mehr</h2>
+  
+    <p>Ich liebe es Probleme in der effektivsten Art und Weise zu lösen und ich liebe es anderen dabei zu helfen, ihre Visionen Online umzusetzen. Sei es mit einer eigenen Webseite, dem Design einer Benutzeroberfläche oder Hilfe bei Problemen mit Online Marketing, WordPress oder der Webentwicklung. Ich bin sicher, ich werde in der Lage sein, auch für Sie die Beste Lösung für Ihr Problem zu finden.</p>
+    <br><br>
+    <p>Ich liebe es außerdem neue Sprachen zu lernen und neue Dinge zu entdecken. Deshalb arbeite ich viel mit Menschen aus der ganzen Welt zusammen. Ich liebe es Menschen zu treffen die mich inspirieren und ich liebe es andersherum auch, andere Menschen zu inspirieren. Wenn Sie mehr über mich erfahren möchten, schreiben Sie mir gerne eine Mail oder nutzen Sie mein Kontaktformular.</p>
+    
+  </div>
+  
+
+
+
+
+</Layout>
+
+
+<style>
+  .wrapper {
+    max-width: 800px;
+    margin: 64px auto;
+    padding: 0 1rem;
+  }
+
+  .wrapper:nth-child(3) {
+    margin-top: 64px;
+  }
+
+  .ul-list {
+    list-style: disc;
+    padding-left: 20px;
+    margin-top: 8px;
+  }
+</style>
