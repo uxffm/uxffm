@@ -70,7 +70,7 @@ export const footerData = {
         { text: 'Impressum', href: '#' },
         { text: 'Datenschutz', href: '/datenschutz' },
         { text: 'Über Mich', href: '/about-us' },
-        { text: 'kontakt@uxffm.com', href: 'mail' },
+        { text: 'kontakt@uxffm.com', href: 'mailto:kontakt@uxffm.com">' },
       ],
     },
     {

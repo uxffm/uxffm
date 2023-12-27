@@ -1,0 +1,39 @@
+---
+import Hero from '~/components/widgets/Hero.astro';
+import Layout from '~/layouts/PageLayout.astro';
+
+const metadata = {
+  title: 'Über Mich SEO Lukasz',
+};
+---
+
+
+
+<Layout metadata={metadata}>
+  <!-- Hero Widget ******************* -->
+
+  <Hero
+    tagline="Nachricht gesendet!"
+    image={{
+
+      alt: 'seo freelancer foto',
+    }}
+  >
+  
+    <Fragment slot="title">
+      Danke für Ihre  <br />
+      <span class="text-accent dark:text-white highlight">Nachricht!</span>
+      
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      Ich habe Ihre Nachricht erhalten und melde mich umgehend zurück. Bei dringenden Fragen können Sie mich ebenfalls telefonisch kontaktieren: 0162 751 9335.
+    </Fragment>
+  </Hero>
+
+
+
+
+
+</Layout>
+
