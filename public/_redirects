@@ -1,0 +1,5 @@
+# Redirect default Netlify subdomain to primary domain
+
+https://affectionate-meitner-2547ea.netlify.app/*  https://uxffm.com/:splat 301!
+
+/service/responsive-web-design-frankfurt            /service/wordpress-frankfurt
