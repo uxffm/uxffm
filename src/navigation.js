@@ -11,7 +11,7 @@ export const headerData = {
       href: getPermalink('/service'),
       links: [
         {
-          text: 'Webdesign Frankfurt',
+          text: 'Webseite Erstellen Lassen',
           href: getPermalink('/service/webdesign-frankfurt'),
         },
         {

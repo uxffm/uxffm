@@ -3,9 +3,10 @@ import CallToAction from '~/components/widgets/CallToAction.astro';
 import Hero from '~/components/widgets/Hero.astro';
 import Layout from '~/layouts/PageLayout.astro';
 import Features3 from '~/components/widgets/Features3.astro';
+import Content from '~/components/widgets/Content.astro';
 
 const metadata = {
-  title: 'Freelance Webdesigner Frankfurt',
+  title: 'Webseite erstellen lassen Frankfurt',
 };
 ---
 
@@ -13,36 +14,84 @@ const metadata = {
   <!-- Hero Widget ******************* -->
 
   <Hero
-    tagline="Service"
-    title="Freelance Webdesigner aus Frankfurt"
-    subtitle="Als Freelance Web Designer in Frankfurt gehört zu meinen Aufgaben, nicht nur SEO zu betreiben, sondern auch einfache und schöne Webseiten zu erstellen."
+    tagline="Homepage erstellen lassen"
+    title="Webseite erstellen lassen Frankfurt"
+    subtitle="Als Freelance Webdesigner in Frankfurt gehört nicht nur die SEO zu meinen Aufgaben. Ich helfe Ihnen ebenfalls mit der Erstellung Ihrer Frankfurter Website."
     actions={[{ variant:"primary", target: '_blank', text: 'Jetzt anfragen!', href: '/kontakt' }]}
     image={{
       src: '/images/gestaltung-einer-website.webp',
-      alt: 'design einer website mit mock-up',
+      alt: 'erstellung einer webseite für frankfurter unternehmen',
     }}
   />
 
 
-<div class="wrapper">
-  <h2 class="leading-tighter text-heading text-4xl md:text-4xl font-bold leading-tighter tracking-tighter mb-4 font-heading">Webdesign aus Frankfurt</h2>
+  <!-- Content Widget **************** -->
 
-  <p>Zu meinem Service in der Main-Metropole Frankfurt, gehört die Freelance Webentwicklung und die Erstellung einer Homepage.
-    <br><br>
-    Angefangen mit der Benutzeroberfläche, glaube ich daran, dass jede Website ihren primären Fokus auf die Benutzerfreundlichkeit legen sollte. Die Nutzbarkeit sollte so einfach wie möglich sein, da es sonst keine Rolle spielt, wie schön die Webseite ist. Ohne zufriedene Besucher wird man seine Conversion Rate und seine Ziele nur sehr schwer erreichen können.
-    <br><br>
-    Als Freelance Web Designer biete ich modernes Webdesign und helfe Ihnen dabei Ihre Ziele zu erreichen. Schon alleine deshalb, sollten dem Nutzer keine Steine in den Weg gelegt werden. Sei es eine Newsletter-Anmeldung, eine einfache Informationen oder ein spannender Blog-Artikel, alles sollte problems mit wenigen Klicks erreichbar sein. All die visuellen Elemente müssen im Zusammenspiel miteinander funktionieren. Alleine die Typographie kann beispielsweise dazu beitragen, ob ein Design erfolgreich wird oder nicht. Die Wahl der richtigen Schriftart, der richtigen Schriftgröße und der richtigen visuellen Elemente, können jeder Homepage eine Persönlichkeit verleihen.</p>
-</div>
+  <Content
+  isAfterContent
+    items={[
+      {
+        title: 'Professionelle Webseitengestaltung in Frankfurt',
+        description:
+          'Suchen Sie einen frankfuter Freelancer, der Ihre Webseite zum Leben erweckt? Das bin ich! Ich erstelle Webseiten, die genau das sind, was Sie sich vorstellen – einfach zu nutzen und toll anzusehen. Passgenau für Ihre Marke. Also, lassen Sie Ihre Webseite erstellen erzählen Sie mir mehr von Ihrem Projekt - ich freue mich auf Sie!',
+        icon: 'tabler:wand',
+      },
+      {
+        title: 'Maßgeschneiderte Lösungen',
+        description:
+          'Jedes Unternehmen ist einzigartig, und das sollte auch Ihre Webseite sein. Ich biete maßgeschneiderte Lösungen bei der Erstellung Ihrer Webseite an.',
+        icon: 'tabler:settings',
+      },
+      {
+        title: 'Mehr als nur Webseiten erstellen',
+        description:
+          'Ihre Webseite ist fertig und bereit, die Welt zu erobern! Aber wie sorgen Sie dafür, dass sie von Ihren Zielkunden gefunden wird? Hier kommt mein SEO Service für Frankfurt ins Spiel. Als erfahrener SEO-Freelancer integriere ich wichtige SEO-Elemente bereits während der Entwicklung Ihrer Webseite.',
+        icon: 'tabler:presentation',
+      },
+    ]}
+    image={{
+      src: '/images/frankfurt-niederrad.avif',
+      alt: 'website erstellen in frankfurt am main, hessen',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">In Frankfurt zu Hause - Webseitenerstellung aus der Mainmetropole</h3>
+    </Fragment>
+  </Content>
 
-<div class="wrapper">
-  <h2 class="leading-tighter text-heading text-4xl md:text-4xl font-bold leading-tighter tracking-tighter mb-4 font-heading">Vom Seitenlayout bis zum Design</h2>
 
-  <p>Ich übernehme als Freelance Webdesigner die gesamte Entwicklung und Gestaltung. Daneben kümmere ich mich ebenfalls um die Webentwicklung, das WordPress Webdesign oder die Suchmaschinenoptimierung. Ich stelle sicher, dass Ihr Seitenlayout zu Ihrer Idee passt und Ihnen bei der Erreichung Ihrer Ziele zur Seite steht. Eine Website sollte Ihre Vision an Ihre Kunden kommunizieren können. Besuchern sollte es sofort klar sein, warum sie ausgerechnet Ihren Service buchen oder Ihr Produkt kaufen sollten.
-    <br><br>
-    Für jede meiner Gestaltungen, nutze ich sogenannte Gestaltungsraster. Solche Rastersysteme, helfen mir mit dem Aufbau einer Webseite und gehören zu dem täglichen Werkzeug eines jeden Webdesigners. Jedes meiner Design-Muster wird an Smartphones und Table (oder Phablet) Geräte angepasst. Es spielt daher keine Rolle, ob man Ihre Seite mit einem iPhone 10, mit einem Android Smartphone oder mit einem iPad abruft, die Elemente werden automatisch an jede Bildschirmauflösung angepasst.
-    <br><br>
-    Ich erstelle jedes Design meiner Webseiten, mit der App Sketch. Sketch ist ein digitales Design Tool, welches es Webdesignern vereinfacht Raster zu nutzen, iOS Bildschirmsynchronisation zu nutzen oder Grafiken in Codes umzuwandeln. Nachdem das Design erstellt worden ist, schreibe ich das Markup mit HTML, CSS und programmiere mit Javascript und PHP. Das gehört allerdings mehr in die Webentwicklung.</p>
-</div>
+  <Content
+  isReversed
+    items={[
+      {
+        title: 'Komplette Webseite erstellen lassen',
+        description:
+          'Vom ersten Entwurf bis zum letzten Klick, alles kommt von mir. So leicht ist es sich eine Website erstellen zu lassen. ',
+        icon: 'tabler:wand',
+      },
+      {
+        title: 'Responsive Design',
+        description:
+          'Ich verstehe die Wichtigkeit eines professionellen Webdesigns und arbeite mit modernsten CMS-Systemen wie WordPress, um Ihnen eine benutzerfreundliche Website zu bieten. Dabei achte ich besonders auf Responsive Design, um sicherzustellen, dass Ihre Webseite auf allen Geräten perfekt dargestellt wird.',
+        icon: 'tabler:settings',
+      },
+      {
+        title: 'Sie haben alles in der Hand',
+        description:
+          'Wenn ich Ihre Webseite erstelle, haben Sie das Ruder in der Hand. Sie erhalten eine benutzerfreundliche Oberfläche, mit der Sie jederzeit ganz einfach Inhalte aktualisieren und anpassen können. Vollständige Kontrolle und Unabhängigkeit – so bleibt Ihre Webseite immer genau so, wie Sie es möchten.',
+        icon: 'tabler:presentation',
+      },
+    ]}
+    image={{
+      src: '/images/Katharinenkirche.avif',
+      alt: 'Katharinenkirche in frankfurt am main, hessen',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Vom Design zur Programmierung - alles aus einer Hand</h3>
+    </Fragment>
+  </Content>
+
 
   <!-- Features3 Widget ************** -->
 
@@ -52,13 +101,13 @@ const metadata = {
     columns={2}
     items={[
       {
-        title: 'Gestaltung & Design von One-Pagern',
-        description: 'Gestaltung & Design von One-Pagern mit einem modernen und zeitgemäßen Design.',
+        title: 'Erstellen kompletter Webseiten',
+        description: 'Gestaltung & Design von One-Pagern, also mehrseitigen Webseiten. Modernen und zeitgemäßen Design.',
         icon: 'tabler:stairs',
       },
       {
         title: 'Erstellung individueller Illustrationen',
-        description: 'Erstellung individueller Illustrationen für Ihre Webseite oder für Ihre Social Media Kanäle.',
+        description: 'Erstellung individueller Illustrationen für Ihre Webseite. Das verlieht Ihrer Webseite einen persönlichen Touch.',
         icon: 'tabler:flip-vertical',
       },
       {
@@ -67,13 +116,13 @@ const metadata = {
         icon: 'tabler:shield-lock',
       },
       {
-        title: 'Das Design einer kompletten Webseite',
-        description: `Das Design einer kompletten Webseite mit mehreren Unterseiten.`,
+        title: 'Erstellung einer lokalen Webseite',
+        description: `Für den lokalen frankfuter Bäcker, oder den Unternehmer im Bankenviertel. Mein Fokus liegt auf Frankfurt.`,
         icon: 'tabler:accessible',
       },
       {
         title: 'Einzelne Felder wie “Newsletter"',
-        description: 'Einzelne Felder wie “Newsletter" oder “Kontaktformular" können ebenfalls erstellt werden.',
+        description: 'Einzelne Felder wie “Newsletter" oder “Kontaktformular" können ebenfalls designed & programmiert werden.',
         icon: 'tabler:headset',
       },
       {
