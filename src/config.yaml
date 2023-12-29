@@ -11,7 +11,7 @@ metadata:
   title:
     default: SEO Freelancer Frankfurt
     template: '%s — SEO Freelancer Frankfurt'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+  description: "SEO Freelancer aus Frankfurt am Main."
   robots:
     index: true
     follow: true
