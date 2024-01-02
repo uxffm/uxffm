@@ -61,7 +61,7 @@ export const footerData = {
     {
       title: 'Aktuelle Google Bewertung',
       links: [
-        { text: '"Tolle Arbeit von Lukasz. Unkomplizierte Kommunikation und fairer Preis. Danke!"', href: '#' },
+        { text: '"hab mit lukasz zusammen eine wordpress seite erstellt mit der dazugehörigen SEO, lief alles super und die Rankings sind spitze."', href: 'https://maps.app.goo.gl/NiUB61wjztmvGcSr9' },
       ],
     },
     {
