@@ -190,14 +190,21 @@ declare module 'astro:content' {
   slug: "dofollow-backlinks-finden";
   body: string;
   collection: "post";
-  data: InferEntrySchema<"post">
+  data: any
 } & { render(): Render[".mdx"] };
+"low-hanging-fruits.md": {
+	id: "low-hanging-fruits.md";
+  slug: "low-hanging-fruits";
+  body: string;
+  collection: "post";
+  data: any
+} & { render(): Render[".md"] };
 "seo-manipulation.md": {
 	id: "seo-manipulation.md";
   slug: "seo-manipulation";
   body: string;
   collection: "post";
-  data: InferEntrySchema<"post">
+  data: any
 } & { render(): Render[".md"] };
 };
 
@@ -209,5 +216,5 @@ declare module 'astro:content' {
 
 	type AnyEntryMap = ContentEntryMap & DataEntryMap;
 
-	type ContentConfig = typeof import("../src/content/config");
+	type ContentConfig = never;
 }

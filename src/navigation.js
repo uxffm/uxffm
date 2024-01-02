@@ -76,8 +76,10 @@ export const footerData = {
     {
       title: 'Blog',
       links: [
-        { text: 'Do Follow Backlinks finden', href: '/dofollow-backlinks-finden' },
         { text: 'SEO Manipulation', href: '/seo-manipulation' },
+        { text: 'Low Hanging Fruits', href: '/low-hangign-fruits' },
+        { text: 'Do Follow Backlinks finden', href: '/dofollow-backlinks-finden' },
+
       ],
     },
     {
