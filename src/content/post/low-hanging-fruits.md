@@ -90,3 +90,57 @@ Du kannst relativ einfach den Einfluss der Keyword-Änderung auf dein Ranking un
 
 Beachte jedoch, dass das Ändern von Keywords mit Bedacht und unter Berücksichtigung der Gesamtstrategie deiner Webseite erfolgen sollte. Es ist wichtig, dass das neue Keyword immer noch im Einklang mit dem Gesamtinhalt und Ziel deiner Seite steht.
 
+<img src="/images/low-haning-fruits-thin-content.webp" alt="thin content als low hanging fruits">
+
+## Low Hanging Fruits - Thin Content deindexieren
+
+Nicht jeder Inhalt gehört in den Index, vor allem bei "Thin Content" Seiten sollten de-indexiert werden. Das de-indexieren dieser Seiten gilt als besondere Low Hanging Fruit im Bereich der SEO.
+
+Aber von vorne, was sind diese sogenannten Thin Pages?
+
+Thin Pages sind Webseiten mit sehr wenig oder minderwertigem Inhalt, die weder für Nutzer noch für Suchmaschinen von großem Nutzen sind.
+
+Das De-Indexieren von sogenannten "Thin Pages" kann eine besonders vorteilhafte und als "Low Hanging Fruit" anzusehende SEO-Maßnahme sein. Wenn eine Webseite viele Seiten mit geringwertigem oder sehr wenig Inhalt hat, können diese das Gesamtranking der Webseite negativ beeinflussen. Indem du solche Seiten vom Index der Suchmaschinen entfernst, kannst du die Qualität deiner Webseite in den Augen der Suchalgorithmen verbessern.
+
+### Wie gehe ich vor?
+
+Das Erkennen von Inhalten mit geringem Mehrwert, bekannt als "Thin Content", ist entscheidend für die Suchmaschinenoptimierung. Hier sind einige Methoden, um Thin Content zu identifizieren:
+
+<img src="/images/thin-content-seite-loswerden.webp" alt="thin content als low hanging fruits loswerden">
+
+## Analyse der Inhaltslänge und -qualität
+- Seiten mit **sehr wenig Text oder Inhalten** können als Thin Content angesehen werden.
+- Überprüfe, ob die Inhalte auf der Seite **substantiell und informativ** sind.
+
+## Überprüfung auf Duplizierten Inhalt
+- Nutze Tools wie **Copyscape** oder die **Google Search Console**, um duplizierten Inhalt zu finden.
+- Seiten mit überwiegend **kopiertem Inhalt** gelten oft als Thin Content.
+
+## Betrachtung der Nutzerinteraktion
+- Analysiere das Nutzerverhalten mit Tools wie **Google Analytics**.
+- Seiten mit **hoher Absprungrate** und **kurzer Verweildauer** können auf Thin Content hinweisen.
+
+## Prüfung des Mehrwerts für den Nutzer
+- Stelle fest, ob die Seite einen **klaren Mehrwert für den Nutzer** bietet.
+- Seiten ohne klaren Nutzen oder Mehrwert können als Thin Content angesehen werden.
+
+## SEO-Tools zur Analyse
+- Verwende SEO-Tools wie **Ahrefs**, **SEMrush** oder **Moz**.
+- Diese Tools können Hinweise auf Seiten mit **geringer Performance** geben.
+
+## Manuelle Überprüfung
+- Eine **manuelle Überprüfung der Seiten** kann ebenfalls hilfreich sein.
+- Überlege, ob die Seite aus der Perspektive eines Nutzers **informativ und wertvoll** ist.
+
+
+### Warum die Low Hanging Fruit so gut funktioniert
+
+Diese Strategie funktioniert, weil Suchmaschinen wie Google Webseiten als Ganzes bewerten. Wenn eine beträchtliche Anzahl von Seiten deiner Webseite als minderwertig eingestuft wird, kann dies das Ranking deiner hochwertigen Inhalte beeinträchtigen. Durch das Entfernen oder De-Indexieren dieser Thin Pages verhinderst du, dass sie das Gesamtbild deiner Webseite trüben.
+
+Das De-Indexieren kann entweder durch das Entfernen der Seiten selbst oder durch das Verwenden von Meta-Tags erfolgen, die Suchmaschinen anweisen, die Seite nicht zu indexieren. Alternativ kannst du auch die robots.txt-Datei deiner Webseite nutzen, um Suchmaschinen davon abzuhalten, bestimmte Seiten zu crawlen.
+
+Diese Maßnahme ist relativ einfach umzusetzen und kann schnell positive Auswirkungen auf das SEO deiner Webseite haben. Sie sorgt dafür, dass Suchmaschinen sich auf deine qualitativ hochwertigen Inhalte konzentrieren können, was wiederum zu einer Verbesserung des Rankings und der Sichtbarkeit deiner Webseite führen kann.
+
+## Low Hanging Fruits - Nutze Sie
+
+Insgesamt bieten "Low Hanging Fruits" im SEO eine großartige Möglichkeit, mit begrenzten Ressourcen maximale Ergebnisse zu erzielen. Sie sollten als Teil einer umfassenderen SEO-Strategie betrachtet werden, um eine dauerhafte und nachhaltige Verbesserung der Online-Präsenz zu gewährleisten. Ich hoffe trotzdem diese Tipps haben dir gefallen!
