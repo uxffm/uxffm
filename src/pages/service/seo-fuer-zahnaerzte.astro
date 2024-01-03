@@ -1,0 +1,155 @@
+---
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import Hero from '~/components/widgets/Hero.astro';
+import Layout from '~/layouts/PageLayout.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+import Content from '~/components/widgets/Content.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
+
+const metadata = {
+  title: 'SEO für Zahnärzte (SEO Freelancer)',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero Widget ******************* -->
+
+  <Hero
+    tagline="Für Zahnärzte"
+    title="SEO für Zahnärzte"
+    subtitle= "Hallo! Sind Sie Zahnarzt und möchten Sie, dass mehr Patienten Sie online finden? Ich bin hier, um Ihnen zu helfen. Mein Fokus liegt auf SEO speziell für Zahnärzte."
+    actions={[{ variant:"primary", target: '_blank', text: 'Jetzt anfragen!', href: '/kontakt' }]}
+    image={{
+      src: '/images/seo-fuer-zahnaerzte.webp',
+      alt: 'ein zahnarzt der nach einem seo sucht',
+    }}
+  />
+
+
+  <!-- Content Widget **************** -->
+
+  <Content
+  isAfterContent
+    items={[
+      {
+        title: 'Ihre Zahnarzt Praxis ganz oben bei Google finden',
+        description:
+          'Stellen Sie sich vor, Ihre Praxis erscheint ganz oben in den Suchergebnissen, wenn jemand in Ihrer Nähe nach einem Zahnarzt sucht. Das ist kein Zauberwerk, sondern gezieltes SEO. Ich unterstütze Sie dabei, Ihre Online-Sichtbarkeit zu verbessern, damit mehr Patienten den Weg zu Ihnen finden. Lassen Sie uns gemeinsam Ihre Praxis zum Strahlen bringen – im Internet und darüber hinaus!',
+        icon: 'tabler:wand',
+      },
+      {
+        title: 'Keywords für deine Patienten',
+        description:
+          'Sie fragen sich, wie Patienten Sie finden? Hier kommt die Antwort: die richtigen Keywords. Und genau das ist mein Spezialgebiet. Ich grabe tief, um die Keywords zu finden, nach denen Ihre potenziellen Patienten wirklich suchen. Ob es „Zahnarzt in [Ihrer Stadt]“, „schmerzfreie Zahnbehandlung“, „beste Zahnreinigung in der Nähe“ oder „Zahnaufhellung und Bleaching“ ist, ich finde heraus, was in Ihrer Region gefragt ist.',
+        icon: 'tabler:settings',
+      },
+    ]}
+    image={{
+      src: '/images/zahnarzt-beim-seo.webp',
+      alt: 'website erstellen in frankfurt am main, hessen',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">SEO speziell für Zahnärzte</h3>
+    </Fragment>
+  </Content>
+
+
+  <Content
+  isReversed
+    items={[
+      {
+        title: 'Wie funktioniert SEO für Zahnärzte?',
+        description:
+          'Wie mach ich das? Mit einer Kombination aus fortschrittlichen SEO-Tools und Marktanalysen. Ich schaue nicht nur auf das Offensichtliche, sondern entdecke auch Nischen-Keywords, die Ihre Konkurrenten vielleicht übersehen haben. Das Ziel? Ihre Praxis ganz oben in den Suchergebnissen zu platzieren, damit mehr Patienten den Weg zu Ihnen finden.',
+        icon: 'tabler:wand',
+      },
+      {
+        title: 'Technische SEO für Zahnärzte',
+        description:
+          'Wenn es um SEO für Ihre Zahnarztpraxis geht, dann reicht es nicht aus, sich nur auf Keywords zu konzentrieren. Mein Service deckt das gesamte Spektrum des technischen SEOs ab. Ich beginne mit der Optimierung der Ladezeiten Ihrer Website, denn eine schnelle Seite ist entscheidend für ein gutes Nutzererlebnis und wichtig für Suchmaschinenrankings. Heutzutage nutzen immer mehr Menschen ihre Handys für die Internetsuche, deshalb ist es unerlässlich, dass Ihre Website auf allen Geräten perfekt funktioniert. Dafür sorge ich mit einer gründlichen mobilen Optimierung.',
+        icon: 'tabler:settings',
+      },
+    ]}
+    image={{
+      src: '/images/zahnarzt-freut-sich-seo.webp',
+      alt: 'zahnarzt freut sich für seo rankings',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Mehr Sichtbarkeit durch bessere Rankings</h3>
+    </Fragment>
+  </Content>
+
+
+  <!-- Features3 Widget ************** -->
+
+  <Features3
+    title="Service für Zahnärzte"
+    subtitle="Ob Bleaching, Kronen oder Löcher. Ich decke alle Keywords ab."
+    columns={2}
+    items={[
+      {
+        title: 'Lokales SEO',
+        description: 'Google My Business ist für Zahnärzte unerlässlich, um lokal sichtbar zu sein und das Vertrauen potenzieller Patienten zu gewinnen. Ich kümmere mich um die Optimierung Ihres Google My Business-Profils, um sicherzustellen, dass Ihre Praxis prominent und ansprechend präsentiert wird.',
+        icon: 'tabler:stairs',
+      },
+      {
+        title: 'Content Marketing',
+        description: 'Ich erstelle Texte, die nicht nur für Patienten informativ und ansprechend sind, sondern auch so optimiert sind, dass sie in Suchmaschinen hervorragend ranken, um Ihre Zahnarztpraxis optimal online zu präsentieren.',
+        icon: 'tabler:flip-vertical',
+      },
+      {
+        title: 'Benutzerfreundlichkeit der Website',
+        description: 'Sicherstellen, dass die Website nicht nur für Suchmaschinen, sondern auch für Benutzer optimiert ist, mit einer klaren Struktur, ansprechendem Design und einfacher Navigation.',
+        icon: 'tabler:shield-lock',
+      },
+      {
+        title: 'Soziale Medien',
+        description: `Integration sozialer Medien in die SEO-Strategie, um die Online-Präsenz zu verstärken und eine stärkere Verbindung mit der Gemeinschaft aufzubauen.`,
+        icon: 'tabler:accessible',
+      },
+      {
+        title: 'Reputation Management',
+        description: ' Hilfe bei der Verwaltung von Online-Bewertungen und beim Aufbau eines positiven Online-Rufs, was für das Vertrauen und die Entscheidungsfindung potenzieller Patienten entscheidend ist.',
+        icon: 'tabler:headset',
+      },
+      {
+        title: 'Fachspezifische Keyword-Strategie',
+        description: 'Entwicklung einer maßgeschneiderten Keyword-Strategie, die speziell auf zahnmedizinische Fachbegriffe und Behandlungsverfahren ausgerichtet ist.',
+        icon: 'tabler:headset',
+      },
+    ]}
+    classes={{ container: 'max-w-5xl' }}
+  />
+
+
+
+
+
+  <!-- CallToAction Widget *********** -->
+
+  <CallToAction
+    actions={[{
+      variant: "primary",
+      text: 'Jetzt unverbindlich anfragen!',
+      href: '/kontakt',
+    }]}
+    title="Noch Fragen?"
+    subtitle="Schreiben Sie mir ganz unverbindlich eine Nachricht und ich werde mich so schnell wie möglich bei Ihnen melden."
+  />
+</Layout>
+
+
+
+<style>
+  .wrapper {
+    max-width: 800px;
+    margin: 0px auto;
+    padding: 0 1rem;
+  }
+
+  .wrapper:nth-child(3) {
+    margin-top: 64px;
+  }
+</style>

@@ -1,0 +1,120 @@
+---
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import Hero from '~/components/widgets/Hero.astro';
+import Layout from '~/layouts/PageLayout.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+import Content from '~/components/widgets/Content.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
+
+const metadata = {
+  title: 'Webdesign für Handwerker (Webdesign Freelancer)',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero Widget ******************* -->
+
+  <Hero
+    tagline="Für Handwerker"
+    title="Webdesign für Handwerker"
+    subtitle= "Hallo! Sind Sie Handwerker und möchten eine professionelle, ansprechende Online-Präsenz? Ich bin hier, um Ihnen zu helfen. Mein Fokus liegt auf maßgeschneidertem Webdesign speziell für Handwerksbetriebe."
+    actions={[{ variant:"primary", target: '_blank', text: 'Jetzt anfragen!', href: '/kontakt' }]}
+    image={{
+      src: '/images/webdesign-fuer-handwerker.webp',
+      alt: 'ein Handwerker der nach Webdesign sucht',
+    }}
+  />
+
+  <!-- Content Widget **************** -->
+
+  <Content
+  isAfterContent
+    items={[
+      {
+        title: 'Einzigartige Online-Präsenz für Ihr Handwerk',
+        description:
+          'Stellen Sie sich vor, Ihre Webseite spiegelt die Qualität und Professionalität Ihrer Handwerkskunst wider. Ich erstelle einzigartige, benutzerfreundliche Websites, die nicht nur gut aussehen, sondern auch Ihre Dienstleistungen optimal präsentieren und neue Kunden anziehen.',
+        icon: 'tabler:tools',
+      },
+      {
+        title: 'Responsive Design für alle Geräte',
+        description:
+          'Eine Webseite, die auf allen Geräten perfekt aussieht und funktioniert, ist heute unverzichtbar. Ich sorge dafür, dass Ihre Website auf Smartphones, Tablets und Desktop-Computern gleichermaßen beeindruckend und leicht zu navigieren ist.',
+        icon: 'tabler:device-mobile',
+      },
+    ]}
+    image={{
+      src: '/images/handwerker-website.webp',
+      alt: 'moderne Webseite für Handwerker',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Professionelles Webdesign für Handwerker</h3>
+    </Fragment>
+  </Content>
+
+  <!-- Features3 Widget ************** -->
+
+  <Features3
+    title="Webdesign-Service für Handwerker"
+    subtitle="Von der Baustelle bis zum digitalen Schaufenster. Ich bringe Ihr Handwerk online."
+    columns={2}
+    items={[
+      {
+        title: 'Suchmaschinenoptimierung',
+        description: 'Ich optimiere Ihre Website für Suchmaschinen, um sicherzustellen, dass Ihre Dienstleistungen online gefunden werden und Sie mehr Kunden erreichen.',
+        icon: 'tabler:search',
+      },
+      {
+        title: 'Benutzerfreundliche Navigation',
+        description: 'Eine klare, intuitive Navigation ist der Schlüssel zu einer erfolgreichen Website. Ich gestalte Ihre Seite so, dass Besucher schnell und einfach finden, was sie suchen.',
+        icon: 'tabler:map-2',
+      },
+      {
+        title: 'Visuelle Attraktivität',
+        description: 'Ein ansprechendes Design, das Ihre Markenidentität widerspiegelt, zieht Besucher an und hinterlässt einen starken Eindruck.',
+        icon: 'tabler:palette',
+      },
+      {
+        title: 'Content Management Systeme',
+        description: `Ich implementiere benutzerfreundliche Content Management Systeme, die es Ihnen ermöglichen, Ihre Website-Inhalte einfach zu verwalten und zu aktualisieren.`,
+        icon: 'tabler:layout',
+      },
+      {
+        title: 'Social Media Integration',
+        description: 'Integration Ihrer Social Media-Kanäle in Ihre Website, um die Interaktion mit Ihren Kunden zu erhöhen und Ihre Online-Präsenz zu stärken.',
+        icon: 'tabler:brand-facebook',
+      },
+      {
+        title: 'Wartung und Support',
+        description: 'Ich biete kontinuierliche Wartung und Support, um sicherzustellen, dass Ihre Website immer aktuell und funktionsfähig bleibt.',
+        icon: 'tabler:tools',
+      },
+    ]}
+    classes={{ container: 'max-w-5xl' }}
+  />
+
+  <!-- CallToAction Widget *********** -->
+
+  <CallToAction
+    actions={[{
+      variant: "primary",
+      text: 'Jetzt unverbindlich anfragen!',
+      href: '/kontakt',
+    }]}
+    title="Bereit für eine moderne Handwerker-Webseite?"
+    subtitle="Kontaktieren Sie mich für eine unverbindliche Beratung und erfahren Sie, wie ich Ihrem Handwerksbetrieb zu einer herausragenden Online-Präsenz verhelfen kann."
+  />
+</Layout>
+
+<style>
+  .wrapper {
+    max-width: 800px;
+    margin: 0px auto;
+    padding: 0 1rem;
+  }
+
+  .wrapper:nth-child(3) {
+    margin-top: 64px;
+  }
+</style>

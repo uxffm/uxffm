@@ -46,6 +46,14 @@ export const headerData = {
           text: 'Webentwicklung',
           href: getPermalink('/service/web-entwicklung-frankfurt'),
         },
+        {
+          text: 'SEO für Zahnärzte',
+          href: getPermalink('/service/seo-fuer-zahnaerzte'),
+        },
+        {
+          text: 'Webdesign für Handwerker',
+          href: getPermalink('/service/webdesign-fuer-handwerker'),
+        },
       ],
     },
     {
@@ -88,6 +96,7 @@ export const footerData = {
         { text: 'Webseite Erstellen Lassen Frankfurt', href: '/service/webdesign-frankfurt' },
         { text: 'WordPress Frankfurt', href: '/service/wordpress-frankfurt' },
         { text: 'KI Services', href: '/service/ki-service' },
+        { text: 'SEO für Zahnärzte', href: '/service/seo-fuer-zahnaerzte' }, 
       ],
     },
  
