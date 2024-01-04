@@ -129,3 +129,8 @@ Die einfach Antwort: Es ist möglich, dass es Anfangs vielleicht funktioniert. A
 
 ### Was ist die beste Alternative zur SEO Manipulation
 Die beste Alternative zur SEO Manipulation nennt sich White-Hat SEO. Also mit Googles Empfehlungen zu arbeiten und ganz besonders wichtig, den Nutzer im Fokus zu haben, statt zu versuchen Suchmaschinen bewusst zu täuschen.
+
+## Hilfreiche Links
+
+ * [WordPress Webseite Frankfurt](/service/wordpress-frankfurt)
+ * [SEO Freelancer](/)
