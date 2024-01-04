@@ -39,7 +39,7 @@ export const headerData = {
           href: getPermalink('/service/google-ads'),
         },
         {
-          text: 'WordPress Frankfurt',
+          text: 'WordPress Webseite Frankfurt',
           href: getPermalink('/service/wordpress-frankfurt'),
         },
         {

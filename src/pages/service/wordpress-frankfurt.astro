@@ -2,6 +2,10 @@
 import CallToAction from '~/components/widgets/CallToAction.astro';
 import Hero from '~/components/widgets/Hero.astro';
 import Layout from '~/layouts/PageLayout.astro';
+import Content from '~/components/widgets/Content.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
+
 
 
 const metadata = {
@@ -15,7 +19,7 @@ const metadata = {
   <Hero
     tagline="Ihr WordPress Freelancer"
     title="WordPress Webseite Frankfurt"
-    subtitle="WordPress Webseiten inkl. Installation & Konfigurierung. Ich helfe Ihnen bei der Erstellung, Wartung & Bearbeitung Ihrer WordPress Seite - Ihre WordPress Webseite direkt aus Frankfurt am Main."
+    subtitle="WordPress Webseiten inkl. Installation & Konfigurierung. Ich helfe Ihnen bei der Erstellung, Wartung & Bearbeitung Ihrer WordPress Webseite - Ihre WordPress Webseite direkt vom Freelancer aus Frankfurt am Main."
     actions={[{ variant:"primary", target: '_blank', text: 'Jetzt anfragen!', href: '/kontakt' }]}
     image={{
       src: '/images/wordpress-frankfurt.svg',
@@ -24,32 +28,130 @@ const metadata = {
   />
 
 
+    <!-- Content Widget **************** -->
+
+    <Content
+    isAfterContent
+      items={[
+        {
+          title: 'Professionelle Webseitengestaltung in Frankfurt',
+          description:
+            'Mit meinem WordPress Service für Frankfurt erstelle ich Ihre Webseite. Als WordPress Freelancer biete ich außerdem Komplettlösungen für Ihre <a href="https://de.wordpress.com/">WordPress</a> Website an.',
+          icon: 'tabler:wand',
+        },
+        {
+          title: 'Mehr als nur eine WordPress Webseite',
+          description:
+            'In der heutigen digitalen Welt ist eine Online-Präsenz unerlässlich. Eine WordPress-Webseite ermöglicht es Ihrem Unternehmen in Frankfurt, sichtbar und erreichbar zu sein.',
+          icon: 'tabler:settings',
+        },
+        {
+          title: 'Benutzerfreundlichkes WordPress',
+          description:
+            'WordPress ist bekannt für seine Benutzerfreundlichkeit. Sie können Ihre Webseite leicht aktualisieren und verwalten, ohne tiefgehende technische Kenntnisse zu benötigen.',
+          icon: 'tabler:settings',
+        },
+
+      ]}
+      image={{
+        src: '/images/wordpress-webseite-frankfurt.webp',
+        alt: 'wordpress webseite mit laptop in frankfurt am main Freßgass, hessen',
+      }}
+    >
+      <Fragment slot="content">
+        <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Ihre WordPress Webseite aus der Mainmetropole Frankfurt</h3>
+      </Fragment>
+    </Content>
+
+
+
+    <!-- Content Widget **************** -->
+
+    <Content
+        isReversed
+          items={[
+            {
+              title: 'Passen Sie Ihre WordPress Seite an',
+              description:
+                'Mit <a style="text-decoration: underline" href="https://wordpress.org/" target="_blank">WordPress</a> können Sie eine Webseite erstellen, die genau auf die Bedürfnisse und die Marke Ihres Unternehmens zugeschnitten ist. Es gibt Tausende von Themes und Plugins, die Ihnen helfen, das Aussehen und die Funktionalität Ihrer Webseite anzupassen.',
+              icon: 'tabler:wand',
+            },
+            {
+              title: 'WordPress für jeden',
+              description:
+                'In der heutigen digitalen Welt ist eine Online-Präsenz unerlässlich. Eine WordPress-Webseite ermöglicht es Ihrem Unternehmen in Frankfurt, sichtbar und erreichbar zu sein. Als WordPress Freelancer helfe ich Ihnen genau damit.',
+              icon: 'tabler:settings',
+            },
+            {
+              title: 'Kosteneffizienz vom Freelancer',
+              description:
+                ' WordPress bietet eine kostengünstige Lösung für die Erstellung einer professionellen Webseite. Dies ist besonders vorteilhaft für kleinere Unternehmen oder Start-ups in Frankfurt, die möglicherweise über ein begrenztes Budget verfügen. Als WordPress Freelance stelle ich Ihnen Ihr persönliches Angebot zusammen.',
+              icon: 'tabler:settings',
+            },
+    
+          ]}
+          image={{
+            src: '/images/wordpress-webseite-frankfurter-blogger.webp',
+            alt: 'wordpress webseite mit laptop in frankfurt für blogger',
+          }}
+        >
+          <Fragment slot="content">
+            <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">WordPress Freelancer - Direkt aus Frankfurt</h3>
+          </Fragment>
+    </Content>
+
+
+
+
+
+  <!-- Features3 Widget ************** -->
+
+  <Features3
+    title="WordPress Webseite Frankfurt vom WordPress Freelancer"
+    subtitle="Als Freelancer kümmere ich mich um folgende WordPress Punkte."
+    columns={2}
+    items={[
+      {
+        title: 'Transfer zu WordPress',
+        description: 'Transfer Ihrer alten Webseite zu einer neuen WordPress Homepage inkl. einer neuen und frischen WordPress Installation',
+        icon: 'tabler:stairs',
+      },
+      {
+        title: 'WordPress Fehler beheben',
+        description: 'Das Lösen von bekannten & unbekannten WordPress Fehlern, das Debugging der Programmierung',
+        icon: 'tabler:flip-vertical',
+      },
+      {
+        title: 'WordPress Webseite Anpassung',
+        description: 'eine WordPress Anpassung an Ihre Wünsche (z.B. einen Instagram Feed in den Blog einbauen, ein WordPress Shop einrichten). Egal ob Designänderungen, Funktionalitätserweiterungen oder Performance-Optimierungen',
+        icon: 'tabler:shield-lock',
+      },
+      {
+        title: 'Hilfe & Aktualisierung bei WordPress Plugins',
+        description: `Installation und Aktualisierung von WordPress Plugins, um die Sicherheit und Effizienz Ihrer Websites zu gewährleisten. Besonders nützlich für diejenigen, die Zeit sparen möchten, die sie sonst für die Website-Wartung aufwenden müssten.`,
+        icon: 'tabler:accessible',
+      },
+      {
+        title: 'Hilfe mit WordPress Themes',
+        description: 'Als WordPress Freelancer biete ich kompetente Hilfe bei der Auswahl und Anpassung von WordPress Themes an. Diese Unterstützung ist ideal für diejenigen, die ihre WordPress-Seite mit einem passenden, professionellen Look ausstatten möchten.',
+        icon: 'tabler:headset',
+      },
+      {
+        title: 'WordPress Websetie erneuern',
+        description: 'Ich biete einen professionellen Freelance Service für das Redesign bestehender WordPress-Seiten an. Ziel ist es diese optisch und funktional zu modernisieren und an die neuesten Webstandards anzupassen',
+        icon: 'tabler:headset',
+      },
+    ]}
+    classes={{ container: 'max-w-5xl' }}
+  />
+
+
+
+
+  
 
 <div class="wrapper">
-  <h2 class="leading-tighter text-heading text-4xl md:text-4xl font-bold leading-tighter tracking-tighter mb-4 font-heading">WordPress Freelancer Frankfurt (WordPress Entwickler, Programmierer)</h2>
-  <p>Mit meinem WordPress Service für Frankfurt, biete ich als Freelancer Frankfurt Komplettlösungen für Ihre <a href="https://de.wordpress.com/">WordPress</a> Website an.
-Diese <strong>Dienstleistung</strong> beinhaltet unter anderem den Transfer Ihrer alten Webseite zu einer neuen WordPress Homepage inkl. einer
-neuen und frischen <strong>WordPress Installation</strong>, das Lösen von bekannten & unbekannten WordPress Fehlern, das <strong>Debugging</strong> der
-Programmierung oder einfach nur eine WordPress Anpassung an Ihre Wünsche (z.B. einen Instagram Feed in den Blog einbauen). Das alles spielt
-nämlich bei der Suchmaschinenoptimierung eine große Rolle.
 
-Daneben kann ich <strong>Benutzeroberflächen</strong> für Ihre WordPress Homepage erstellen oder Ihnen mit den vielen verschiedenen WordPress Plugins helfen.
-  Sollten Sie noch keine Website besitzen, helfe ich Ihnen gerne mit meinem <a href="webdesign-frankfurt">Webdesign Service weiter.</a></p>
-<br>
-  <img src="/images/wordpress-programmierung-frankfurt.jpg" alt="wordpress programmierer frankfurt">
-
-  <br>
-  <h2 class="leading-tighter text-heading text-4xl md:text-4xl font-bold leading-tighter tracking-tighter mb-4 font-heading">Das beliebteste Content-Management-System</h2>
-
-  <p>
-  WordPress ist ein sehr beliebtes <a href="https://de.wikipedia.org/wiki/Content-Management-System">Content Management System</a>. Es funktioniert Open-Source und die <strong>WordPress Gemeinschaft</strong>, unterstützt ihre Nutzer und Mitglieder mit vielen hilfreichen Tipps & Tricks, beispielsweise, wie man neue Funktionen einbaut oder das richtige Plugin findet.
-  <br><br>
-  Mit einer einfachen <strong>grafischen Oberfläche</strong>, können Funktionen dann vom Webseiten Betreiber selbst eingefügt werden.
-Für solch einen Job bräuchte man normalerweise die Hilfe eines <strong>Webentwicklers</strong>. Mit WordPress ist das ganze nicht
-mehr nötig. Hinzu kommt noch, dass man auch den Inhalt selbst verändern kann und das alles ohne Programmierkenntnisse.
-  </p>
-
-  <br><br>
   <h2 class="leading-tighter text-heading text-4xl md:text-4xl font-bold leading-tighter tracking-tighter mb-4 font-heading">Häufige WordPress Fehler:</h2>
 
   <ul class="ul-list">
@@ -64,41 +166,39 @@ mehr nötig. Hinzu kommt noch, dass man auch den Inhalt selbst verändern kann u
   <li>BackUp Probleme</li>
   </ul>
 
-
+  <br><br>
   <p>Solche Fehler kann man problemlos beheben, ich helfe Ihnen dabei die richtige Lösung zu finden und erstelle oder bearbeite ihre WordPress Seite zum Festpreis.</p>
 
-  <br><br>
-  <h2 class="leading-tighter text-heading text-4xl md:text-4xl font-bold leading-tighter tracking-tighter mb-4 font-heading">WordPress Seite für das Smartphone</h2>
 
-  <p>Mit meinem Freelance <a href="https://de.wikipedia.org/wiki/Responsive_Webdesign">Responsive WordPress</a> Service, passe ich jeden
-  grafischen Inhalt an die verschiedenen Endgeräte an. Vor zwei Jahren hat Google seinen <strong>Mobile Only Index</strong> ausgerollt,
-  bedeutet mit anderen Worten: Die <strong>mobile Seite</strong> Ihrer Homepage, wird stärker gewichtet als die Desktop Version. Das beudetet also, dass Ihr Frankfurter Business mit Ihrer Website, perfekt auf mobile Endgeräte angepasst werden sollte.</p>
-
-  <p>
-      Es spielt keine Rolle ob Sie ein iPhone 14, ein Xiaomi, ein Samsung Galaxy S23 oder 
-      ein iPad (oder sogar ein Phablet nutzen). 
-      Der Inhalt sollte sich auf jedem <strong>Viewport</strong> anpassen, er sollte 
-      fließen wie Wasser. 
-      Was ich damit meine ist, es spielt keine Rolle wie die <strong>Bildschirmauflösung</strong> 
-      und die <strong>Bildschirmbreite</strong> aussieht, die Schrift, die Bilder und der gesamte 
-      Inhalt sollte so angepasst werden, dass die Bedienung auf dem <strong>Touchscreen</strong> 
-      genau so einfach ist, wie die Bedienung mit Tastatur und Maus.
-      <br><br>
-      Damit das funktioniert, nutze ich bei meinem Frankfurter Responsive WordPress Service 
-      sogenannte <a href="https://de.wikipedia.org/wiki/Cascading_Style_Sheets#Eigenschaftsspezifische_Stylesheets_(Media_Queries)">CSS Media Queries</a>, auch @ Media genannt. Das ist bei der Programmierung sehr wichtig, damit auch alles auf jedem Browser glänzt.
-      </p>
-
-      <br><br>
-      <h2 class="leading-tighter text-heading text-4xl md:text-4xl font-bold leading-tighter tracking-tighter mb-4 font-heading">Mein Responsive Web Design Service beinhaltet:</h2>
-
-      <ul class="ul-list">
-      <li>Anpassung bestehender Seiten.</li>
-      <li>Neuerstellung einer mobilen Webseite.</li>
-      <li>Fehler für verschiedene Geräte oder Browser beheben.</li>
-      <li>Alles an den Mobile First Index anpassen.</li>
-      </ul>
 </div>
 
+
+
+
+  <!-- FAQs Widget ******************* -->
+
+  <FAQs
+    title="WordPress Webseite FAQs"
+    subtitle="Falls Sie weitere Fragen zu Ihrer WordPress-Webseite haben, hoffe ich, die wichtigsten hier beantwortet zu haben. Andernfalls zögern Sie bitte nicht, mir eine Nachricht zu schreiben."
+    columns={1}
+    items={[
+      {
+        title: 'Für wen ist eine WordPress Webseite interessant?',
+        description:
+          'In <a style="text-decoration: underline" href="https://de.wikipedia.org/wiki/Frankfurt_am_Main" target="_blank">Frankfurt</a> könnten verschiedene Arten von Unternehmen, Freelancern und Influencern von einer WordPress-Webseite profitieren. Zum Beispiel könnten kleine und mittelständische Unternehmen wie lokale Restaurants oder Cafés ihre Speisekarte und Öffnungszeiten online präsentieren, was ihnen helfen würde, mehr Kunden zu erreichen.',
+      },
+      {
+        title: 'Welche Möglichkeiten bietet WordPress?',
+        description:
+          "Handwerksbetriebe, etwa Schreiner oder Installateure, könnten ihre Dienstleistungen und Referenzprojekte auf einer WordPress-Seite darstellen, um ihre Fachkenntnisse und Erfolge zu zeigen. Freelancer, beispielsweise Fotografen, Designer oder Marketingexperten, könnten WordPress nutzen, um ein professionelles Portfolio ihrer Arbeit zu erstellen und um neue Aufträge zu generieren. Influencer aus dem Bereich Mode, Lifestyle oder Reisen aus Frankfurt könnten eine WordPress-Webseite nutzen, um ihre Inhalte zu veröffentlichen, mit ihrer Community zu interagieren und ihre Reichweite zu erhöhen. Diese Vielseitigkeit macht WordPress zu einer idealen Plattform für unterschiedlichste Akteure in der dynamischen Geschäftswelt Frankfurts.",
+      },
+      {
+        title: 'Warum ist WordPress so beliebt?',
+        description:
+          "WordPress ist ein sehr beliebtes Content Management System. Es funktioniert Open-Source und die WordPress Gemeinschaft, unterstützt ihre Nutzer und Mitglieder mit vielen hilfreichen Tipps & Tricks, beispielsweise, wie man neue Funktionen einbaut oder das richtige Plugin findet. Mit einer einfachen grafischen Oberfläche, können Funktionen dann vom Webseiten Betreiber selbst eingefügt werden. Für solch einen Job bräuchte man normalerweise die Hilfe eines Webentwicklers. Mit WordPress ist das ganze nicht mehr nötig. Hinzu kommt noch, dass man auch den Inhalt selbst verändern kann und das alles ohne Programmierkenntnisse.",
+      },
+    ]}
+  />
 
 
 
@@ -110,8 +210,8 @@ mehr nötig. Hinzu kommt noch, dass man auch den Inhalt selbst verändern kann u
       text: 'Jetzt unverbindlich anfragen!',
       href: '/kontakt',
     }]}
-    title="Noch Fragen?"
-    subtitle="Schreiben Sie mir ganz unverbindlich eine Nachricht und ich werde mich so schnell wie möglich bei Ihnen melden."
+    title="Bereit für ihre WordPress Webseite direkt aus Frankfurt?"
+    subtitle="Schreiben Sie mir ganz unverbindlich eine Nachricht und ich werde mich so schnell wie möglich bei Ihnen melden - Ihr WordPres Freelancer Lukasz."
   />
 </Layout>
 
@@ -132,5 +232,11 @@ mehr nötig. Hinzu kommt noch, dass man auch den Inhalt selbst verändern kann u
     list-style: disc;
     padding-left: 20px;
     margin-top: 8px;
+  }
+
+
+  a {
+    text-decoration: underline;
+    color: white;
   }
 </style>

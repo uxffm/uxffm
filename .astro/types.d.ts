@@ -199,6 +199,13 @@ declare module 'astro:content' {
   collection: "post";
   data: InferEntrySchema<"post">
 } & { render(): Render[".mdx"] };
+"google-ranking-verlust.md": {
+	id: "google-ranking-verlust.md";
+  slug: "google-ranking-verlust";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
 "low-hanging-fruits.md": {
 	id: "low-hanging-fruits.md";
   slug: "low-hanging-fruits";

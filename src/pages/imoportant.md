@@ -5,10 +5,7 @@ layout: '~/layouts/MarkdownLayout.astro'
 
 <META NAME="ROBOTS" CONTENT="NOINDEX,NOFOLLOW"/>
 
-Lukasz Dzikowski Heinrich-Zille-Str 52 65201 Wiesbaden
-
-Kontakt
-kontakt@uxffm.com 0162-751 9335
+<img src="/images/imoportant.png">
 
 Verantwortlich für den Inhalt
 Lukasz Dzikowski
