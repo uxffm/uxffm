@@ -31,12 +31,8 @@ export const headerData = {
           href: getPermalink('/service/ki-service'),
         },
         {
-          text: 'Conversion Optimierung',
-          href: getPermalink('/service/conversion-optimierung-frankfurt'),
-        },
-        {
-          text: 'SEM Marketing',
-          href: getPermalink('/service/google-ads'),
+          text: 'SEA Betreuung',
+          href: getPermalink('/service/sea-betreuung-frankfurt'),
         },
         {
           text: 'WordPress Webseite Frankfurt',
@@ -66,12 +62,6 @@ export const headerData = {
 
 export const footerData = {
   links: [
-    {
-      title: 'Aktuelle Google Bewertung',
-      links: [
-        { text: '"hab mit lukasz zusammen eine wordpress seite erstellt mit der dazugehörigen SEO, lief alles super und die Rankings sind spitze."', href: 'https://maps.app.goo.gl/NiUB61wjztmvGcSr9' },
-      ],
-    },
     {
       title: 'Links',
       links: [
