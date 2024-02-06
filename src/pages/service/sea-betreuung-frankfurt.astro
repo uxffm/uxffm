@@ -2,10 +2,13 @@
 import CallToAction from '~/components/widgets/CallToAction.astro';
 import Hero from '~/components/widgets/Hero.astro';
 import Layout from '~/layouts/PageLayout.astro';
-
+import Features2 from '~/components/widgets/Features2.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
 
 const metadata = {
   title: 'SEA Betreuung - SEA Betreuung Frankfurt am Main',
+  description: 'Willkommen zu meiner SEA Betreung für Frankfurt am Main. Mit meinem SEA Service biete ich Ihnen Conversions vom SEA Profi zu einem fairen Preis. Erfahren Sie mehr!'
 };
 ---
 
@@ -15,7 +18,7 @@ const metadata = {
   <Hero
     tagline="Service"
     title="SEA Betreuung vom Freelancer aus Frankfurt"
-    subtitle="Google Ads ist ein mächtiges Tool, um Ihre Kunden zu erreichen. Ich helfe Ihnen dabei, Ihre Google Ads Kampagnen zu optimieren und Ihre Kunden zu erreichen."
+    subtitle="Google Ads ist ein mächtiges Tool, um Ihre Kunden zu erreichen. Ich helfe Ihnen dabei, Ihre Google Ads Kampagnen zu optimieren und Ihre Kunden zu erreichen. Professionelle SEA Betreuung vom Freelancer aus Frankfurt am Main."
     actions={[{ variant:"primary", target: '_blank', text: 'Jetzt anfragen!', href: '/kontakt' }]}
     image={{
       src: '/images/adwords-sem-bild.jpg',
@@ -24,77 +27,117 @@ const metadata = {
   />
 
 
+  <Features2
+  title="Wie sieht meine SEA Betreuung aus?"
+  subtitle="Mit meinem Frankfurter SEA Service stehe ich Ihnen als Freelancer zur Seite, um maßgeschneiderte Lösungen für Ihre Suchmaschinenwerbung zu entwickeln, die nicht nur Ihre Sichtbarkeit erhöhen, sondern auch signifikant zu Ihrem Geschäftserfolg beitragen."
+  items={[
+    {
+      title: '01 Ziele definieren',
+      description:
+        'Zuerst definiere ich gemeinsam mit Ihnen, was Sie mit Ihrer SEA-Kampagne erreichen möchten. Ob Sie die Markenbekanntheit steigern, Leads generieren oder direkt verkaufen möchten, ich entwickle eine maßgeschneiderte Strategie.',
+      icon: 'flat-color-icons:document',
+    },
+    {
+      title: '02 Kampagnen-Einrichtung und -Optimierung',
+      description:
+        'Mit der festgelegten Strategie richte ich Ihre SEA-Kampagne ein. Dazu gehört die Auswahl der richtigen Keywords, das Erstellen überzeugender Anzeigentexte und das Festlegen des Budgets.',
+      icon: 'flat-color-icons:template',
+    },
+    {
+      title: '03 Analyse und Reporting',
+      description:
+        'Ich lege großen Wert auf die Analyse der Kampagnendaten, um genau zu verstehen, was funktioniert und was nicht. Diese Erkenntnisse teile ich in regelmäßigen Reports mit Ihnen. Aber dabei bleibt es nicht: Ich überwache die Performance Ihrer Anzeigen kontinuierlich. ',
+      icon: 'flat-color-icons:voice-presentation',
+    },
+  ]}
+>
+  <Fragment slot="bg">
+    <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+  </Fragment>
+</Features2>
+
 <div class="wrapper">
-  <h2 class="leading-tighter text-heading text-4xl md:text-4xl font-bold leading-tighter tracking-tighter mb-4 font-heading">Google Ads Frankfurt</h2>
-
-
-    
-    <p>Suchmaschinenoptimierung geht Hand in Hand mit der Suchmaschinenwerbung, kurz SEA. 
-    Vor allem für diejenigen, die sehr schnelle Ergebnisse benötigen, eignen sich 
-    <a href="https://ads.google.com/intl/en_DE/home/">Goodle Ads Kampagnen</a> oft besser als z.b. 
-    die <a href="on-page-seo-frankfurt">On-Page Suchmaschinenoptimierung</a>. SEO braucht nämlich vor 
-    allem Zeit und bei vielen Unternehmen, muss es so schnell wie nur möglich gehen. Hier helfe ich mit meiner SEA Betreuung für Frankfurt am Main.
-    </p>
-
-    <br><br>
-    <h2 class="leading-tighter text-heading text-4xl md:text-4xl font-bold leading-tighter tracking-tighter mb-4 font-heading">PPC Kampagnen</h2>
-    <p>Als SEA Betreuer, helfe ich Ihnen ebenfalls bei Ihren 
-    <a href="https://de.wikipedia.org/wiki/Affiliate-Marketing#Pay_per_Click">PPC Kampagnen.</a>
-    Mit mehreren Jahren Erfahrung im Google Ads Bereich, weiß ich 
-    auf was es bei einer erfolgreichen AdWords Kampagne ankommt. 
-    Neben lokalen Frankfurter Unternehmen und E-commerce stores,  
-    habe ich auch mit Bloggern, Fotografen und Designern 
-    zusammengearbeitet.</p>
-
-    <br><br>
-    <h2 class="leading-tighter text-heading text-4xl md:text-4xl font-bold leading-tighter tracking-tighter mb-4 font-heading">Optimierung der Conversion Rate</h2>
-    <p>
-    Bei der Suchmaschinenwerbung, ist es erst einmal wichtig zu verstehen, 
-    was die Ziele des Unternehmens sind und was die Kunden von einem verlangen. 
-    Durch die nutzung der richtigen Keyword-Analyse, prüfe ich welche Keywords am 
-    Besten zu Ihren Kunden passen und ob wir mit Long Tail Keywords arbeiten 
-    können oder nicht. Oberstes Ziel ist natürlich die Conversion Rate und 
-    nicht die Click Trough Rate. Mit anderen Worten, mir ist es nicht wichtig, 
-    dass so viele Besucher wie Möglich auf ihrer Seite landen sondern, dass 
-    so viele Besucher wie nur Möglich in Kunden umgewandelt werden.</p>
-
-    <br><br>
-    <h2 class="leading-tighter text-heading text-4xl md:text-4xl font-bold leading-tighter tracking-tighter mb-4 font-heading">Google Ads Frankfurt - Landingpage</h2>
-
-    <p>Damit Ihre Besucher auch auf der richtigen Seite landen, kann ich als <a href="webdesign-frankfurt">Webdesigner in Frankfurt</a> ebenfalls 
-        Ihre Landingpage anpassen bzw. erstellen. Die richtige Wahl der Landingpage trägt viel dazu bei, ob 
-        eine Kampagne erfolg hat oder nicht. Schließlich möchten wir unsere Besucher ohne Umwege ans Ziel bringen.
-        Damit diese Ziel URL also auch zum Erfolg beiträgt, prüfe ich diese im Vorfeld genau und mache gegenbenfalls
-        Verbesserungsvorschläge.
-    </p>
-
-    <br><br>
-    <h2 class="leading-tighter text-heading text-4xl md:text-4xl font-bold leading-tighter tracking-tighter mb-4 font-heading">Mein Ads (SEM) Service für Frankfurt</h2>
-
-    <ul class="ul-list">
-        <li>Die Erstellung von Such &amp; Display Kampagnen</li>
-        <li> Analyse der richtigen Keywords</li>
-        <li> Die Erstellung eines umfassenden Google Ads Reports</li>
-        <li> A/B Ads Test</li>
-        <li> Nutzung der Ads Erweitungen (Telefon und Sitelinkmöglichkeiten)</li>
-        <li> Persönlicher Werbetext herauszustechen</li>
-        <li> Nutzung negativer Keywords</li>
-        <li> Conversion-Rate Optimierung</li>
-    </ul>
-    <br><br>
-
-        <p>
-        Anders als manch anderer Werbetraffic, ist es Möglich PPC Kampagnen perfekt zu zu 
-        analysieren und umfassende Reports zu erstellen. 
-        Mit den richtigen Zieldefinition, ist es sehr leicht einen Return on Investment zu kalkulieren. 
-
-        </p>
-
-
-
-
- 
+  <img src="/images/sea-betreuung-frankfurt.webp" alt="sea betreuung">
 </div>
+
+  <!-- Features3 Widget ************** -->
+
+  <Features3
+    title="Was ich der SEA Betreeung beachte"
+    subtitle="Mit meinem SEA Service aus Frankfurt versuche ich, Ihre Online-Werbung nicht nur effektiver, sondern auch effizienter zu gestalten, sodass Sie maximale Ergebnisse bei minimalen Kosten erzielen."
+    columns={3}
+    defaultIcon="tabler:point-filled"
+    items={[
+      {
+        title: 'Google Analytics: Ihr Werkzeug für detailliertes Performance Tracking',
+        description: 'Ich integriere Google Analytics tiefgehend in Ihre SEA-Strategien, um präzise Daten über die Leistung Ihrer Kampagnen zu sammeln. Diese Insights ermöglichen es uns, Optimierungen gezielt durchzuführen und den ROI zu maximieren.',
+      },
+      {
+        title: 'Synergien zwischen SEA und SEO: Doppelter Erfolg für Ihre Website',
+        description: 'Ich zeige Ihnen, wie SEA und SEO Hand in Hand gehen können, um Ihre Online-Präsenz zu stärken. Durch die Kombination beider Strategien erhöhen wir nicht nur die Sichtbarkeit, sondern auch die Glaubwürdigkeit Ihrer Website.',
+      },
+      {
+        title: 'Dynamische Suchanzeigen: Perfekt für umfangreiche Websites',
+        description: 'Für Websites mit einem breiten Produktangebot sind dynamische Suchanzeigen eine effiziente Lösung. Sie ermöglichen es, Anzeigen automatisch an den Content Ihrer Seiten anzupassen, was die Relevanz und Performance Ihrer Kampagnen steigert.',
+      },
+      {
+        title: 'Negative Keywords: Vermeiden Sie unnötige Ausgaben in SEA-Kampagnen',
+        description: 'Durch den Einsatz von negativen Keywords sorge ich dafür, dass Ihre Anzeigen nicht bei irrelevanten Suchanfragen erscheinen. Dies verbessert die Kampagneneffizienz und stellt sicher, dass Ihr Budget für die richtigen Klicks verwendet wird.',
+      },
+      {
+        title: 'Ad Scheduling: Schalten Sie Ihre Anzeigen zum optimalen Zeitpunkt',
+        description: 'Ich optimiere Ihre Anzeigenzeiten, um sicherzustellen, dass wir Ihr Publikum erreichen, wenn es am empfänglichsten ist. Durch Ad Scheduling maximieren wir die Effektivität Ihrer Kampagnen und steigern den ROI.',
+      },
+      {
+        title: 'Automatisierte Gebotsstrategien: Nutzen Sie KI für Ihre Kampagnen',
+        description: 'Setzen Sie auf automatisierte Gebotsstrategien, die künstliche Intelligenz nutzen, um die Platzierung Ihrer Anzeigen in Frankfurt zu optimieren. Diese Technologie ermöglicht es, Gebote in Echtzeit anzupassen, um die besten Ergebnisse zu erzielen.',
+      },
+      {
+        title: 'Performance Max (PMAX): Die nächste Stufe der Google Ads',
+        description: 'Mit Performance Max Kampagnen setzen wir auf Googles neueste Innovation im Bereich automatisierter Kampagnen, um Ihre Ziele über alle Google-Plattformen hinweg zu erreichen. PMAX nutzt maschinelles Lernen, um Ihre Anzeigen dort zu platzieren, wo sie die höchste Performance erzielen.',
+      },
+      {
+        title: 'SEA für WordPress: Maßgeschneiderte Anzeigenlösungen für Ihre Website',
+        description: 'Nutzen Sie das volle Potenzial <a class="underline" href="/service/wordpress-frankfurt">Ihrer WordPress-Webseite</a> mit speziell darauf abgestimmten SEA-Kampagnen. Ich sorge dafür, dass Ihre Google Ads perfekt mit Ihrer Frankfurter WordPress-Seite harmonieren, um gezielt Besucher anzuziehen und die Konversionsraten zu erhöhen.',
+      },
+      {
+        title: 'Überzeugende Anzeigentexte: Der Schlüssel zu erfolgreichen SEA-Kampagnen',
+        description: 'Ein herausragender Anzeigentext ist entscheidend, um aus einem einfachen Klick eine Konversion zu machen. Durch die Kombination von kreativem Schreibstil und tiefem Verständnis Ihrer Zielgruppe entwickle ich Botschaften, die Ihre potenziellen Kunden in Frankfurt und darüber hinaus ansprechen und überzeugen.',
+      },
+    ]}
+  />
+
+
+
+
+
+<FAQs
+title="SEA Betreuung Frankfurt am Main - FAQs"
+subtitle="Fragen und Antworten zum Thema SEA Marketing. Sollten Sie weitere Fragen haben, schreiben Sie mir jederzeit eine Nachricht."
+columns={1}
+items={[
+  {
+    title: 'Ist SEA Marketing auch vorteilhaft für SEO Marketing?',
+    description:
+      'Suchmaschinenoptimierung geht Hand in Hand mit der Suchmaschinenwerbung, kurz SEA. Vor allem für diejenigen, die sehr schnelle Ergebnisse benötigen, eignen sich <a style="text-decoration: underline" href="https://ads.google.com/intl/en_DE/home/">Goodle Ads Kampagnen</a> oft besser als z.b. die <a href="on-page-seo-frankfurt" style="text-decoration: underline">On-Page Suchmaschinenoptimierung</a>. SEO braucht nämlich vor allem Zeit und bei vielen Unternehmen, muss es so schnell wie nur möglich gehen. Hier helfe ich mit meiner SEA Betreuung für Frankfurt am Main.',
+  },
+  {
+    title: 'Was sind PPC Kampagnen?',
+    description:
+      "PPC steht für 'Pay-Per-Click'. Es ist ein wichtiges Werkzeug im digitalen Marketing. Werbetreibende in Frankfurt zahlen für jeden Klick auf ihre Anzeigen. Nehmen wir ein lokales Café in Frankfurt als Beispiel. Das Café möchte mehr Kunden anziehen. Es nutzt PPC, um Werbung in Suchergebnissen zu platzieren. Die Anzeigen zielen auf Kaffeeliebhaber in Frankfurt. So erreicht das Café gezielt Interessierte. PPC erhöht die Sichtbarkeit des Cafés schnell. Das Café kontrolliert das Budget und die Zielgruppe. Die Werbung erscheint genau dann, wenn jemand nach Cafés in Frankfurt sucht. PPC ist ein Schlüsselwerkzeug, um online sichtbar zu werden. Es hilft, relevante Besucher auf die Webseite des Cafés zu lenken.",
+  },
+  {
+    title: 'Benötige ich eine Landing Page für die SEA Betreuung?',
+    description:
+      "Damit Ihre Besucher auch auf der richtigen Seite landen, kann ich als Webdesigner in Frankfurt ebenfalls Ihre Landingpage anpassen bzw. erstellen. Die richtige Wahl der Landingpage trägt viel dazu bei, ob eine Kampagne erfolg hat oder nicht. Schließlich möchten wir unsere Besucher ohne Umwege ans Ziel bringen. Damit diese Ziel URL also auch zum Erfolg beiträgt, prüfe ich diese im Vorfeld genau und mache gegenbenfalls Verbesserungsvorschläge.",
+  },
+  {
+    title: 'Was ist wichtiger, die Conversion Rate oder die Click-trough Rate?',
+    description:
+      "Bei der Suchmaschinenwerbung, ist es erst einmal wichtig zu verstehen, was die Ziele des Unternehmens sind und was die Kunden von einem verlangen. Durch die nutzung der richtigen Keyword-Analyse, prüfe ich welche Keywords am Besten zu Ihren Kunden passen und ob wir mit Long Tail Keywords arbeiten können oder nicht. Oberstes Ziel ist natürlich die Conversion Rate und nicht die Click Trough Rate. Mit anderen Worten, mir ist es nicht wichtig, dass so viele Besucher wie Möglich auf ihrer Seite landen sondern, dass so viele Besucher wie nur Möglich in Kunden umgewandelt werden.",
+  },
+]}
+/>
 
 
 
@@ -104,7 +147,7 @@ const metadata = {
   <CallToAction
     actions={[{
       variant: "primary",
-      text: 'Jetzt unverbindlich anfragen!',
+      text: 'Jetzt unverbindlich SEA Betreung anfragen!',
       href: '/kontakt',
     }]}
     title="Noch Fragen?"
@@ -130,4 +173,11 @@ const metadata = {
     padding-left: 20px;
     margin-top: 8px;
   }
+
+  a  {
+    text-decoration: underline;
+  }
+
+
+
 </style>

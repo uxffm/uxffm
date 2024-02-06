@@ -15,6 +15,14 @@ export const headerData = {
           href: getPermalink('/service/webdesign-frankfurt'),
         },
         {
+          text: 'WordPress Webseite Frankfurt',
+          href: getPermalink('/service/wordpress-frankfurt'),
+        },
+        {
+          text: 'SEA Betreuung',
+          href: getPermalink('/service/sea-betreuung-frankfurt'),
+        },
+        {
           text: 'On-Page SEO',
           href: getPermalink('/service/on-page-seo-frankfurt'),
         },
@@ -29,14 +37,6 @@ export const headerData = {
         {
           text: 'KI Service',
           href: getPermalink('/service/ki-service'),
-        },
-        {
-          text: 'SEA Betreuung',
-          href: getPermalink('/service/sea-betreuung-frankfurt'),
-        },
-        {
-          text: 'WordPress Webseite Frankfurt',
-          href: getPermalink('/service/wordpress-frankfurt'),
         },
         {
           text: 'Webentwicklung',
@@ -86,7 +86,6 @@ export const footerData = {
         { text: 'Webseite Erstellen Lassen Frankfurt', href: '/service/webdesign-frankfurt' },
         { text: 'WordPress Frankfurt', href: '/service/wordpress-frankfurt' },
         { text: 'KI Services', href: '/service/ki-service' },
-        { text: 'SEO für Zahnärzte', href: '/service/seo-fuer-zahnaerzte' }, 
       ],
     },
  
