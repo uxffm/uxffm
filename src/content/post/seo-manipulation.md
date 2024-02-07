@@ -67,7 +67,30 @@ Kurz gesagt: Keyword-Stuffing ist eine riskante und nicht empfehlenswerte SEO-Ma
 
 <img src="/images/backlinks-kaufen-seo-manipulation.webp" alt="bilder über links kaufen also seo manipulation">
 
-### Links kaufen
+## Doorway Pages - Eine trickige SEO Manipulation
+
+Doorway Pages sind speziell für Suchmaschinen optimierte Seiten. Diese SEO Manipulation ziel darauf ab für bestimmte Suchbegriffe ein hohes Ranking zu erzielen. 
+
+Der Mehrwert für Nutzer?
+
+Gleich Null.
+
+Sie leiten den Traffic oft einfach nur auf eine andere, relevantere Seite um. Diese Praxis wird von Suchmaschinen als manipulativ angesehen und kann zu Strafen führen, da sie das Nutzererlebnis beeinträchtigt und gegen die <a href="https://developers.google.com/search/docs/essentials?hl=de" target="_blank">Webmaster-Richtlinien</a> verstößt.
+
+### Wie funktionieren Doorway Pages
+
+Doorway Pages sind so konzipiert, dass sie bei spezifischen Suchanfragen hoch ranken, um Traffic auf eine Zielseite zu leiten. Sie enthalten oft viele Schlüsselwörter und wenig nützlichen Inhalt. Wenn Nutzer auf eine Doorway Page gelangen, werden sie meist durch Weiterleitungen oder Links schnell auf die eigentliche Zielseite gebracht. 
+
+Eine pure SEO Manipulation also.
+
+Diese Praxis kann das Nutzererlebnis verschlechtern und wird von Suchmaschinen als manipulativ eingestuft, was zu Strafen führen kann.
+
+### Können Doorway Pages aus SEO Sicht funktionieren?
+
+Theoretisch können Doorway Pages kurzfristig die Sichtbarkeit in Suchmaschinen erhöhen, da sie darauf ausgelegt sind, für spezifische Suchanfragen hoch zu ranken. Allerdings erkennen Suchmaschinen wie Google diese Praktiken zunehmend und werten sie als Manipulationsversuche, was zu Strafen führen kann. Langfristig schaden Doorway Pages somit der SEO-Performance und dem Ruf der Website. Es ist effektiver, sich auf ethische SEO-Strategien zu konzentrieren, die echten Mehrwert für Nutzer bieten.
+
+
+## Links kaufen
 
 Link-Farmen sind ein klassisches Beispiel für SEO-Manipulation. Bei Link-Farmen geht es darum, ein Netzwerk von Webseiten zu erstellen, die alle aufeinander verlinken. Das Ziel dieser SEO-Manipulation ist es, die Anzahl der eingehenden Links (Backlinks) zu einer bestimmten Webseite künstlich zu erhöhen. Warum? Weil Suchmaschinen wie Google die Anzahl und Qualität der Backlinks als einen Faktor für das Ranking einer Webseite sehen.
 
@@ -86,7 +109,7 @@ Beispielsweise könnte ein Unternehmen, das Sportartikel verkauft, eine Agentur 
 
 <img src="/images/cloaking-als-seo-manipulation.webp" alt="cloaking als seo manipulation">
 
-### Cloaking
+## Cloaking
 
 Cloaking ist die Praxis, Suchmaschinen andere Inhalte zu präsentieren als den Nutzern. Diese Technik kann verwendet werden, um Suchmaschinen zu täuschen, damit sie eine Website für bestimmte Schlüsselwörter höher einstufen. Diese Taktik kann jedoch zu Strafen führen und den Ruf einer Website schädigen.
 
@@ -109,12 +132,22 @@ Hier ist, wie Cloaking typischerweise funktioniert:
 - Anstatt auf Cloaking zurückzugreifen, ist es empfehlenswert, sich auf ethische SEO-Praktiken zu konzentrieren, die sowohl für Nutzer als auch für Suchmaschinen von Wert sind.
 
 
-### Versteckter Text
+## Versteckter Text
 Das ist ein Thema, auf das ich als Freelancer <a href="/service/webdesign-frankfurt">beim erstellen von Webseiten</a> immer wieder angehen muss. 
 
 Bei verstecktem Text werden Techniken wie weißer Text auf weißem Hintergrund oder das Verstecken von Text hinter Bildern eingesetzt, um die Platzierung in Suchmaschinen zu manipulieren. Mit dieser Technik können Schlüsselwörter in eine Website gestopft werden, ohne dass sie für die Benutzer sichtbar sind. Diese Taktik kann jedoch zu Abstrafungen führen und die Glaubwürdigkeit einer Website beeinträchtigen.
 
 Insgesamt ist SEO-Manipulation schlecht, weil sie unethisch ist und negative Folgen für den Ruf einer Website und die Platzierung in Suchmaschinen haben kann. Stattdessen sollten sich Website-Besitzer und Content-Ersteller darauf konzentrieren, hochwertige Inhalte zu erstellen, die den Nutzern einen Mehrwert bieten und auf natürliche und ethische Weise für Suchmaschinen optimiert sind. Indem sie sich an bewährte Verfahren halten und manipulative Taktiken vermeiden, können Websites eine starke Online-Präsenz aufbauen und langfristig mehr Besucher anziehen.
+
+## Click-Through Rate Manipulieren
+
+Click Through Raten manipulieren auch "Real User Manipulated Click-Through Rate (CTR)" genannt ist eine weitere SEO Manipulation. 
+
+Sie bezieht sich auf Techniken, die darauf abzielen, die Klickrate (CTR) einer Webseite durch tatsächliche Nutzeraktionen künstlich zu erhöhen. Dies geschieht, um Suchmaschinen zu signalisieren, dass ein Inhalt oder eine Webseite besonders relevant und wertvoll für bestimmte Suchanfragen ist, was theoretisch das Ranking der Seite verbessern könnte. Solche Manipulationen können durch bezahlte Dienste erfolgen, die echte Nutzer dazu anregen, auf spezifische Links in den Suchergebnissen zu klicken, ohne ein echtes Interesse an dem Inhalt zu haben.
+
+Diese Praxis gilt als unethisch und wird von Suchmaschinen wie Google als Manipulationsversuch gewertet. Suchmaschinen setzen fortgeschrittene Algorithmen und Verfahren ein, um solche Manipulationen zu erkennen und zu bestrafen. Die Verwendung von Techniken, die den Real User Manipulated CTR betreffen, kann zu langfristigen Nachteilen für die Sichtbarkeit und Glaubwürdigkeit einer Webseite führen.
+
+
 
 ## Warum qualitativ hochwertiger Inhalt so wichtig ist
 Wenn Sie die Suchanfragen der Nutzer mit Ihrer Website beantworten können, und die Suchabsicht treffen, stellen Sie einen Mehrwert für den Nutzer dar. Das weiß auch Google zu schätzen.
