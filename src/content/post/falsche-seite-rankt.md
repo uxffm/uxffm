@@ -1,7 +1,7 @@
 ---
 publishDate: 2024-02-07T00:00:00Z
 title: Falsche Seite Rankt
-excerpt: 
+excerpt: Falsche Seite rankt
 image: /images/falsche-seite-rankt.webp
 category: seo
 tags:
