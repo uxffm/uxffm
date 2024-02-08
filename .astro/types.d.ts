@@ -227,6 +227,13 @@ declare module 'astro:content' {
   collection: "post";
   data: InferEntrySchema<"post">
 } & { render(): Render[".md"] };
+"wp-cache-leeren-ohne-plugin.md": {
+	id: "wp-cache-leeren-ohne-plugin.md";
+  slug: "wp-cache-leeren-ohne-plugin";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
 };
 
 	};
