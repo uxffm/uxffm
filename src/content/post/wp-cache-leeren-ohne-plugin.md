@@ -23,7 +23,7 @@ Das ist die erste und einfachste Methode. Fast jeder moderne Browser bietet die 
 Wenn du einen Server-Cache hast, den du manuell leeren möchtest, hängt das Vorgehen von deinem Hosting-Provider ab. Einige Hosting-Provider bieten eine Option im Hosting-Dashboard, um den Cache zu leeren. Schaue also dort nach einer entsprechenden Option.
 
 ### Änderungen an der .htaccess-Datei
-Für fortgeschrittene Nutzer: Du kannst auch die .htaccess-Datei deiner WordPress-Installation bearbeiten, um Anweisungen für das Caching zu ändern oder zu entfernen. Dies sollte jedoch nur gemacht werden, wenn du dich mit den Einstellungen auskennst, da falsche Änderungen deine Webseite unzugänglich machen können.
+Für fortgeschrittene Nutzer: Du kannst auch die .htaccess-Datei deiner <a href="/service/wordpress-frankfurt">WordPress-Installation</a> bearbeiten, um Anweisungen für das Caching zu ändern oder zu entfernen. Dies sollte jedoch nur gemacht werden, wenn du dich mit den Einstellungen auskennst, da falsche Änderungen deine Webseite unzugänglich machen können.
 
 ### FTP- oder File-Manager-Methode
 Wenn dein Hosting-Provider keinen einfachen Weg bietet, den Cache zu leeren, und du dich mit der Verwaltung von Dateien auf deinem Server auskennst, kannst du dich per FTP oder über den File-Manager deines Hosts einloggen und nach spezifischen Cache-Dateien oder Ordnern suchen, die zu deinem Caching-System gehören. Diese kannst du dann manuell löschen. Achte darauf, nur Cache-Dateien zu löschen und keine wichtigen System- oder Content-Dateien.
