@@ -32,25 +32,27 @@ Soweit so gut. Aber was ist nun SEO Manipulation?
 
 SEO-Manipulation bezieht sich auf Praktiken, die darauf abzielen, die Suchmaschinenrankings auf unfaire oder unethische Weise zu verbessern. Das ist nicht das Gleiche wie normales SEO. SEO-Manipulation wird auch oft als <a href="https://de.wikipedia.org/wiki/Blackhat-SEO" target="_blank">"Black-Hat-SEO"</a> bezeichnet.
 
-Während SEO ein effektiver Weg sein kann, um die Online-Sichtbarkeit zu verbessern und mehr Besucher auf eine Website zu leiten, wird SEO-Manipulation als unethisch angesehen und kann negative Folgen haben. Spätestens beim nächsten Google Update.
+Während die SEO ein effektiver Weg ist die Online-Sichtbarkeit zu verbessern und mehr Besucher auf eine Website zu leiten, wird SEO-Manipulation als unethisch angesehen und kann negative Folgen haben. Spätestens beim nächsten Google Update.
 
 <img src="/images/google-update.webp" alt="Google Update">
 
 ## Warum SEO Manipulation immer noch Thema ist?
 
-Bei der SEO-Manipulation werden Taktiken angewandt, die darauf abzielen, Suchmaschinen zu täuschen, damit eine Website oder ein Inhalt höher eingestuft wird, als sie es verdient. Einige gängige Beispiele für SEO-Manipulation sind Keyword-Stuffing, Link-Schemata, Cloaking und versteckter Text. 
+Weil es hin und wieder für kurze Zeit funktioniert.
 
-Als <a href="/">SEO Freelancer</a> merke ich dies selber, da Kunden mich oft darauf ansprechen. Diese Taktiken mögen zwar kurzfristige Vorteile bringen, können aber langfristig zu Strafen führen. 
+SEO-Manipulation wendet Taktiken an die Suchmaschinen täuschen. Ziel ist es, eine Website oder einen Inhalt höher einzustufen. Obowohl diese Website es aus SEO Sicht gar nicht verdient. Einige gängige Beispiele für SEO-Manipulation sind Keyword-Stuffing, Link-Schemata, Cloaking und versteckter Text. 
 
-Das schlimme daran?
+Als <a href="/">SEO Freelancer</a> merke ich das selber, da Kunden mich oft darauf ansprechen. 
+
+SEO-Manipulation klingt auch verlockend. So ein bisschen wie ein geheimer Trick, um deine Seite blitzschnell nach oben zu katapultieren. Aber langfristig könnte dieser "Trick" mehr schaden als nützen.
+
+Das schlimmste daran?
 
 Die ganze vorige SEO Arbeit war umsonst, und das ist nicht nur frustrierend, sondern auch kostspielig.
 
 <img src="/images/seo-manipulation-strafe.webp" alt="abgestrafter SEO durch Google Update">
 
-Es ist leider auch 2024 immer noch ein Thema, da es am Anfang funktioniert und deswegen nutzen es so viele. 
-
-Auf langfristige Sicht verpielt man allerdings den Wert der eigenen Website. Spätestens nach einem Google Update, fragen sich deshalb viele die SEO Manipulation betreiben ob sie noch sicher sind.
+Auf langfristige Sicht verpielt man den Wert der eigenen Website. Spätestens nach einem Google Update, fragen sich deshalb viele die SEO Manipulation betreiben ob sie noch sicher sind.
 
 Falls Google oder eine andere Suchmaschine eine Strafe verhängt, ist es ein langer und steiniger Weg zurück. 
 
