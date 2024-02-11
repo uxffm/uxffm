@@ -1,7 +1,7 @@
 ---
 publishDate: 2024-01-03T00:00:00Z
 title: Google Ranking Verlust
-excerpt: Ein unerwarteter Verlust im Google Ranking kann frustrierend sein und Ihre Online-Präsenz erheblich beeinträchtigen. In diesem Artikel erläutern wir die häufigsten Gründe für Ranking-Verluste und wie Sie als SEO-Profi darauf reagieren können.
+excerpt: Ein unerwarteter Verlust im Google Ranking kann frustrierend sein und deine Online-Präsenz erheblich beeinträchtigen. In diesem Artikel erläutern wir die häufigsten Gründe für Ranking-Verluste und wie du als SEO-Profi darauf reagieren kannst.
 image: /images/google-ranking-verlust.webp
 category: seo
 tags:
