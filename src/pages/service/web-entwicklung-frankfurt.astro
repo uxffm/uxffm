@@ -2,6 +2,8 @@
 import CallToAction from '~/components/widgets/CallToAction.astro';
 import Hero from '~/components/widgets/Hero.astro';
 import Layout from '~/layouts/PageLayout.astro';
+import Content from '~/components/widgets/Content.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
 
 const metadata = {
   title: 'Freelance Webentwickler Frankfurt',
@@ -22,47 +24,114 @@ const metadata = {
     }}
   />
 
+    <!-- Content Widget **************** -->
 
-<div class="wrapper">
-  <h2 class="leading-tighter text-heading text-4xl md:text-4xl font-bold leading-tighter tracking-tighter mb-4 font-heading">Webdesign aus Frankfurt</h2>
+    <Content
+    isAfterContent
+      items={[
+        {
+          title: 'Easy Webentwicklung',
+          description:
+            'Ich biete Ihnen einen persönlichen und engagierten Service, der sich durch Flexibilität, Transparenz und direkte Kommunikation auszeichnet. Ich bin nur einen Anruf oder eine E-Mail entfernt, um Ihre Fragen zu beantworten oder Anpassungen vorzunehmen.',
+          icon: 'tabler:wand',
+        },
+        {
+          title: 'Mehr als nur ein Freelancer',
+          description:
+            'Ich bin nicht nur in Frankfurt ansässig, sondern bringe auch weltweite Trends und Technologien der Webentwicklung in die lokale Szene. Sie profitieren von einer Website die nicht Ihre Kunden anspricht, sondern mit den neusten technischen Standards kommt.',
+          icon: 'tabler:settings',
+        },
+        {
+          title: 'Modernsten Webtechnologien',
+          description:
+            ' Mit meinem umfassenden Fachwissen in modernsten Webtechnologien wie <a style="text-decoration:underline" href="https://de.wikipedia.org/wiki/HTML5">HTML5</a>, CSS, <a href="https://de.wikipedia.org/wiki/JavaScript" style="text-decoration:underline">Javascript</a>, React, Astro JS und PHP stelle ich sicher, dass Ihre Website nicht nur heute beeindruckt, sondern auch zukunftssicher ist. ',
+          icon: 'tabler:settings',
+        },
 
-  <p>
-    Als SEO Frankfurt, biete ich für das gesamte Frankfurt am Main Gebiet schnelle, professionelle und saubere <strong>Webentwicklung</strong> an.
-Ich schreibe mein Markup mit <a href="https://de.wikipedia.org/wiki/HTML5">HTML5</a>, CSS3 und programmiere mit meiner lieblings
-Programmiersprache <a href="https://de.wikipedia.org/wiki/JavaScript">Javascript</a>, genau genommen ES6 &amp; PHP.
-PHP ist eine <strong>Serverseitige Programmiersprache</strong> die meistens für dynamische Webseiten, welche mit Datenbanken arbeiten, genutzt wird.
-Eine saubere Programmierung ist das A und O einer jeden SEO Strategie.
-    <br><br>
-    Es gibt nichts was ich outsource und ich arbeite nicht mit <strong>WYSIWYG</strong>Software. Als <strong>Frontend-Entwickler</strong>, kann ich eine Website mit einem Content-Management-System wie WordPress einrichten oder sie zusammen mit Jekyll und den <strong>GitHub Pages</strong> als statische Website aufbauen. Falls Sie Hilfe mit WordPress benötigen, schauen Sie unter meinem <a href="wordpress-frankfurt">WordPress Service</a> nach.
-    </p>
+      ]}
+      image={{
+        src: '/images/freelance-web-entwickler-fankfurt.webp',
+        alt: 'webentwickler in einem büro in frankfurt',
+      }}
+    >
+      <Fragment slot="content">
+        <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Ihr Freelance Webentwickler aus Frankfurt</h3>
+      </Fragment>
+    </Content>
 
-    <br><br>
-    <h2 class="leading-tighter text-heading text-4xl md:text-4xl font-bold leading-tighter tracking-tighter mb-4 font-heading">vom Frameworks bis E-Commerce</h2>
 
-    <p>Ich stelle sicher, dass jede Seite mit allen üblichen Browsern funktioniert. Es spielt also keine Rolle ob Ihre Kunden Safari, den Internet Explorer, Chrome oder <strong>Firefox Quantum</strong> benutzen.
-		<br><br>
-		Ich arbeite mit dem Text Editor Sublime und halte mich an alle wichtigen Regeln des Internationalen <a href="https://de.wikipedia.org/wiki/World_Wide_Web_Consortium">World Wide Web Consortiums</a>. Eine sauber <strong>programmierte Homepage</strong> ist das A und O, wenn es um den Erfolg einer Website geht. Es gibt sehr viele Gestaltungsvorlagen wie das <strong>Bootstrap Framework</strong>, für alle die das Rad nicht neu erfinden möchten. Allerdings arbeite ich die meiste Zeit ohne solche Frameworks.
-		<br><br>
-		Ich programmiere gerne individuell angepasst an meine Lösungen. Für mein Cascading-Style-Sheet Markup nutze ich SASS als sog. <strong>Präprozessor</strong>.
-		<br><br>
-		Wenn Sie eine <strong>E-Commerce</strong> Lösung benötigen, programmiere ich das Front-End zusammen mit WordPress und WooCommerce. <strong>WordPress</strong> eignet sich hervorragend für dynamischen Webseiten.
-		<br><br>
-		Wenn Sie eine <strong>statische Seite</strong> benötigen, also eine Website die ohne Datenbanken arbeitet, helfe ich Ihnen dabei ein <strong>GitHub Konto</strong> zu erstellen, damit Sie zusammen mit <strong>Jekyll Ihre Seite kostenlos auf dem GitHub Server parken können. Damit hätten Sie keine monatlichen Hosting-Kosten und der Server von GitHub gehört zu den sichersten und <strong>zuverlässigsten</strong> der Welt.
-		</strong></p>
 
-        <br><br>
-        <h2 class="leading-tighter text-heading text-4xl md:text-4xl font-bold leading-tighter tracking-tighter mb-4 font-heading">Vorteile von statischen Webseiten:</h2>
 
-        <ul class="ul-list">
-			<li>kostenloses Premium Hosting mit GitHub Pages.</li>
-			<li>keine Datenbanken.</li>
-			<li>da man ohne Datenbanken arbeitet -&gt; sehr hohe Sicherheit.</li>
-			<li>Sehr schnell Webseiten weil -&gt; keine Datenbanken.</li>
-			<li>Die Mehrheit der Webseiten funktioniert als statische Webseite.</li>
-		</ul>
 
-</div>
+    <Content
+        isReversed
+          items={[
+            {
+              title: 'Stellen Sie sich vor',
+              description:
+                'Sie haben einen Webentwickler, der nicht nur HTML, CSS und JavaScript fließend beherrscht, sondern auch mit fortschrittlichen Frameworks wie React und Astro JS Wunder vollbringen kann. Das bin ich. Egal, ob es um das Grundgerüst Ihrer Website geht, um ansprechendes Design oder interaktive Elemente – ich beherrsche die Sprachen, die Ihr Projekt benötigt.',
+              icon: 'tabler:wand',
+            },
+            {
+              title: 'Was bedeutet das für Sie?',
+              description:
+                ' Ganz einfach: Sie bekommen eine Website, die technisch und optisch auf dem neuesten Stand ist. Dank meiner umfassenden Kenntnisse in HTML, CSS, JS, React, Astro JS und PHP kann ich eine breite Palette an Projekten realisieren. Von statischen Websites bis hin zu dynamischen Webanwendungen – Ihr Vorhaben ist bei mir in besten Händen.',
+              icon: 'tabler:settings',
+            },
+            {
+              title: 'Full-Stack-Kompetenz, die überzeugt',
+              description:
+                '  Meine Fähigkeiten beschränken sich nicht nur auf das Frontend. Dank meiner Erfahrung mit PHP und serverseitigen Technologien habe ich alles im Griff, von der Benutzeroberfläche bis zur Datenbank. Das bedeutet für Sie: Sie erhalten eine vollständige, von Grund auf entwickelte Lösung, die genau auf Ihre Bedürfnisse zugeschnitten ist.',
+              icon: 'tabler:settings',
+            },
+    
+          ]}
+          image={{
+              src: '/images/freelance-web-entwickler-fankfurt-2.webp',
+              alt: 'webentwickler',
+          }}
+        >
+          <Fragment slot="content">
+            <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Schnelle Webentwicklung</h3>
+          </Fragment>
+    </Content>
 
+
+      <!-- FAQs Widget ******************* -->
+
+  <FAQs
+  title="Webentwicklugn Frankfurt FAQs"
+  subtitle="Die häufigsten Fragen zum Thema Webentwicklung in Frankfurt."
+  columns={1}
+  items={[
+    {
+      title: 'Werden die Webseiten nach World Wide Web Consortiums programmiert?',
+      description:
+        'Als engagierter Webentwickler lege ich großen Wert darauf, dass meine Projekte nicht nur technisch und visuell auf dem neuesten Stand sind, sondern auch den höchsten Standards für Webentwicklung entsprechen. Daher orientiere ich mich stets an den Empfehlungen des <a style="text-decoration:underline" href="https://de.wikipedia.org/wiki/World_Wide_Web_Consortium">World Wide Web Consortiums</a> (W3C), der maßgeblichen Organisation für Webstandards.<br><br>Indem ich die W3C-Standards befolge, stelle ich sicher, dass die Websites, die ich entwickle, ein Höchstmaß an Kompatibilität, Zugänglichkeit und Benutzerfreundlichkeit bieten. Dies bedeutet, dass Ihre Website nicht nur auf aktuellen Browsern und Geräten hervorragend funktioniert, sondern auch zukunftssicher ist und den sich wandelnden Technologien standhält.',
+    },
+    {
+      title: 'Was sind statische Webseiten?',
+      description:
+        'Statische Webseiten sind im Grunde genommen die einfachste Form von Webseiten. Sie bestehen aus festen Inhalten, die für jeden Besucher gleich sind. Das heißt, die Informationen auf der Seite ändern sich nicht, es sei denn, der Entwickler aktualisiert die Dateien auf dem Server manuell. Statische Seiten werden in der Regel mit HTML (HyperText Markup Language) und CSS (Cascading Style Sheets) erstellt.',
+    },
+    {
+      title: 'Was sind die Vorteile von statischen Webseiten?',
+      description:
+        'Sie sind blitzschnell. Weil sie aus einfachen Dateien bestehen, die direkt vom Server geliefert werden, gibt es keine Verzögerungen durch Datenbankabfragen oder komplexe Berechnungen. Das bedeutet, dass sie oft in einem Bruchteil der Zeit laden, die dynamische Seiten benötigen.<br><br>Außerdem sind sie super einfach zu handhaben. Ohne die Notwendigkeit, sich mit Datenbanken oder serverseitiger Logik zu beschäftigen, ist die Wartung ein Kinderspiel. Das macht sie zu einer tollen Wahl für Websites, bei denen sich Inhalte nicht ständig ändern oder für kleinere Projekte, wo Einfachheit und Geschwindigkeit im Vordergrund stehen.<br><br>Und dann ist da noch die Sicherheit. Ohne die Interaktion mit Datenbanken oder die Ausführung von serverseitigem Code haben es potenzielle Angreifer viel schwerer, Sicherheitslücken zu finden und auszunutzen. Das macht statische Seiten zu einer sicheren Festung im Vergleich zu den oft anfälligeren dynamischen Seiten.',
+    },
+    {
+      title: 'Was ist React JS?',
+      description:
+        'React ist eine populäre JavaScript-Bibliothek, die von Facebook entwickelt wurde. Sie ist speziell dafür gedacht, Entwicklern das Erstellen von interaktiven und reaktiven Benutzeroberflächen für Webanwendungen zu erleichtern. Aber warum genau greifen so viele Entwickler auf React zurück? Stell dir vor, du baust ein Haus. Jedes Mal, wenn du ein Zimmer hinzufügst oder veränderst, müsstest du das ganze Haus von Grund auf neu bauen. Das klingt ziemlich ineffizient, oder? Genau hier kommt React ins Spiel. React erlaubt es, Webanwendungen so zu konstruieren, dass nur die Teile der Benutzeroberfläche aktualisiert werden, die sich ändern müssen. Das macht den Prozess viel schneller und effizienter.',
+    },
+
+  ]}
+/>
+
+
+
+
+    
 
 
 
