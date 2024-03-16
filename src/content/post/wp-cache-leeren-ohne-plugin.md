@@ -3,9 +3,9 @@ publishDate: 2024-02-08T00:00:00Z
 title: WordPress Cache leeren ohne Plugin [Aktuell 2024]
 excerpt: Warum Cache leeren manchmal wichtig ist und wie man es ganz ohne Plugin schafft.
 image: /images/wp-cache-leeren-ohne-plugin.webp
-category: seo
+category: WordPress
 tags:
-  - seo
+  - WordPress
 metadata:
   canonical: https://uxffm.com/wp-cache-leeren-ohne-plugin
 
