@@ -192,6 +192,13 @@ declare module 'astro:content' {
   collection: "post";
   data: InferEntrySchema<"post">
 } & { render(): Render[".md"] };
+"besten-wordpress-plugins.md": {
+	id: "besten-wordpress-plugins.md";
+  slug: "besten-wordpress-plugins";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
 "dofollow-backlinks-finden.mdx": {
 	id: "dofollow-backlinks-finden.mdx";
   slug: "dofollow-backlinks-finden";

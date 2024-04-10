@@ -42,14 +42,6 @@ export const headerData = {
           text: 'Webentwicklung',
           href: getPermalink('/service/web-entwicklung-frankfurt'),
         },
-        {
-          text: 'SEO für Zahnärzte',
-          href: getPermalink('/service/seo-fuer-zahnaerzte'),
-        },
-        {
-          text: 'Webdesign für Handwerker',
-          href: getPermalink('/service/webdesign-fuer-handwerker'),
-        },
       ],
     },
     {
