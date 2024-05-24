@@ -35,7 +35,7 @@ export const headerData = {
           href: getPermalink('/service/seo-audit-frankfurt'),
         },
         {
-          text: 'KI Service',
+          text: 'KI Künstler',
           href: getPermalink('/service/ki-service'),
         },
         {
