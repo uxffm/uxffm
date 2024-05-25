@@ -1,5 +1,5 @@
 ---
-publishDate: 2023-12-23T00:00:00Z
+publishDate: 2024-05-25T00:00:00Z
 title: Domain für WordPress kaufen (2024)
 excerpt: Möchten Sie eine Domain für Ihr WordPress-Projekt kaufen? Hier erfahren Sie, wie Sie ganz einfach eine passende Domain auswählen und registrieren. Lernen Sie, warum eine gute Domain wichtig ist und wie sie Ihren Erfolg im Web beeinflussen kann. 
 image: /images/wordpress-domain.webp
