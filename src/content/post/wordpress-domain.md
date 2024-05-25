@@ -53,3 +53,13 @@ Zusätzlich sollten Sie regelmäßig Backups Ihrer Website machen. Das schützt 
 Auch die Aktualisierung von WordPress und Ihren Plugins ist wichtig. Dadurch bleibt Ihre Website sicher und läuft reibungslos. Wenn Updates verfügbar sind, sollten Sie diese so schnell wie möglich installieren.
 
 Die wichtigsten Punkte sind also: Eine Domain kaufen, ein Hosting kaufen, WordPress installieren, die Domain zum Hosting hinzufügen, die Nameserver ändern, ein SSL-Zertifikat einrichten, regelmäßige Backups machen und WordPress sowie Plugins aktuell halten. Es klingt nach vielen Schritten, aber es ist eigentlich ganz einfach, wenn man es Schritt für Schritt macht. So haben Sie schnell Ihre eigene WordPress-Seite mit Ihrer eigenen Domain.
+
+## WordPress Domain & SEO
+
+Macht es eigentlich einen Unterschied welche Domain Sie kaufen, wenn es um die SEO geht? Kurzgesagt, nein.
+
+Die WordPress Domain hat keinen Einfluss auf Ihre Rankings. Allerdings haben interne Links bzw. Backlinks Einfluss. Bedeutet also wenn jemand oft zu Ihnen verlinkt, sei es Sie selbst, wird meistens der Domain Name genutzt. Das stärlt wiederrum die Rankings für diesen Domainnamen. 
+
+Also indirekt hilft es schon.
+
+Bei weiteren Fragen zur <a href="/">SEO</a> helfe ich Ihnen gerne weiter.
