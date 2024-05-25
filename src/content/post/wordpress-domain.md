@@ -3,16 +3,16 @@ publishDate: 2024-05-25T00:00:00Z
 title: Domain für WordPress kaufen (2024)
 excerpt: Möchten Sie eine Domain für Ihr WordPress-Projekt kaufen? Hier erfahren Sie, wie Sie ganz einfach eine passende Domain auswählen und registrieren. Lernen Sie, warum eine gute Domain wichtig ist und wie sie Ihren Erfolg im Web beeinflussen kann. 
 image: /images/wordpress-domain.png
-category: SEO
+category: WordPress
 tags:
-  - seo
+  - WordPress
 metadata:
   canonical: https://uxffm.com/wordpress-domain
 ---
 
 Um eine WordPress Domain für seine Website zu erhalten, sollte man die von einem seriösen Anbieter kaufen. Namecheap und Porkbun gehören hier z.B. zu den bekanntesten. Auch laut Reddit, der berühmten Internetplattform, gehören diese beiden Anbieter zu den beliebtesten Domainproviders. Aber wie verbinde ich jetzt nun eine Domain, wenn ich sie dort gekauft habe? Das geht ganz einfach. Jede WordPress Seite benötigt Hosting. Man muss also nicht wirklich WordPress mit der Domain verbinden sondern einfach das Hosting.
 
-Heute zeige ich Ihnen wie man eine Domain für WordPress kauft und sie einstellt. Da mich viele Kunden darüber fragen, wenn ich <a href="/service/wordpress-frankfurt">WordPress Websites</a> programmiere, dachte ich mir einen kleinen Leitfaden zu schreiben.
+Heute zeige ich Ihnen wie man eine Domain für WordPress kauft und sie einstellt. Da mich viele Kunden darüber fragen, wenn ich eine <a href="/service/wordpress-frankfurt">WordPress Website</a> für sie erstelle, dachte ich mir einen kleinen Leitfaden zu schreiben.
 
 ## Hosting für WordPress
 
