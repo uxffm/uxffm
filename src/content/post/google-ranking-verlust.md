@@ -54,7 +54,19 @@ Das liegt daran, dass Suchmaschinen wie Google Wert auf frische, relevante und q
 
 Um diese Ranking Verluste von Google zu vermeiden, ist es wichtig, deine Inhalte regelmäßig zu überprüfen und zu aktualisieren. Stelle sicher, dass sie gut strukturiert sind und relevante Keywords enthalten die deine Zielgruppe ansprechen. Dadurch kannst du die Sichtbarkeit und das Ranking deiner Webseite verbessern.
 
+## Google Ranking Verluste durch manuelle Maßnahmen
+Manchmal fällt dein Ranking, weil Google eine manuelle Maßnahme gegen deine Seite ergriffen hat. Das passiert, wenn deine Webseite gegen bestimmte Google-Richtlinien verstößt. Zum Beispiel, wenn du unnatürliche Links aufgebaut hast oder Keyword-Stuffing betrieben wurde, kann Google deine Seite bestrafen. Du wirst dann oft über die Google Search Console informiert.
 
+Was tun? Du musst das Problem beheben und danach eine Anfrage auf erneute Überprüfung (Reconsideration Request) stellen, damit Google deine Seite neu bewertet. Das kann dauern, aber es gibt keinen schnellen Weg zurück, wenn Google einmal eingegriffen hat.
+
+## Google Ranking Verluste durch schlechte User Experience
+Google will, dass Nutzer zufrieden sind. Wenn deine Webseite langsam lädt, schlecht auf mobilen Geräten aussieht oder die Leute schnell wieder abspringen, verliert deine Seite an Wert in den Augen von Google. Die User Experience (also das Nutzererlebnis) ist ein wichtiger Faktor für das Ranking. Achte darauf, dass alles schnell und flüssig läuft, besonders auf Smartphones.
+
+## Google Ranking Verluste durch geänderte Suchintention
+
+Die Art und Weise, wie Menschen nach Informationen suchen, ändert sich ständig. Google passt seine Algorithmen an, um sicherzustellen, dass die besten Antworten ganz oben stehen. Vielleicht hat deine Seite früher gut gerankt, aber jetzt passt sie nicht mehr zur aktuellen Suchintention. Deshalb musst du deine Inhalte regelmäßig anpassen, um weiterhin relevant zu bleiben.
+
+Durch diese Punkte kannst du schnell feststellen, warum dein Ranking gefallen ist und was du tun kannst, um wieder nach oben zu kommen. Am Ende zählt, dass du dranbleibst und deine Webseite immer im Blick behältst.
 
 
 ## Hilfreiche Links
