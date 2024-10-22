@@ -234,6 +234,20 @@ declare module 'astro:content' {
   collection: "post";
   data: InferEntrySchema<"post">
 } & { render(): Render[".md"] };
+"wordpress-domain.md": {
+	id: "wordpress-domain.md";
+  slug: "wordpress-domain";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
+"wordpress-hosting-reddit.md": {
+	id: "wordpress-hosting-reddit.md";
+  slug: "wordpress-hosting-reddit";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
 "wp-cache-leeren-ohne-plugin.md": {
 	id: "wp-cache-leeren-ohne-plugin.md";
   slug: "wp-cache-leeren-ohne-plugin";
