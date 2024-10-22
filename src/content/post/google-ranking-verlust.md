@@ -66,11 +66,11 @@ Google will, dass Nutzer zufrieden sind. Wenn deine Webseite langsam lädt, schl
 
 Die Art und Weise, wie Menschen nach Informationen suchen, ändert sich ständig. Google passt seine Algorithmen an, um sicherzustellen, dass die besten Antworten ganz oben stehen. Vielleicht hat deine Seite früher gut gerankt, aber jetzt passt sie nicht mehr zur aktuellen Suchintention. Deshalb musst du deine Inhalte regelmäßig anpassen, um weiterhin relevant zu bleiben.
 
-Durch diese Punkte kannst du schnell feststellen, warum dein Ranking gefallen ist und was du tun kannst, um wieder nach oben zu kommen. Am Ende zählt, dass du dranbleibst und deine Webseite immer im Blick behältst.
+Durch diese Punkte kannst du schnell feststellen, warum dein Ranking gefallen ist und was du tun kannst, um wieder nach oben zu kommen. Am Ende zählt, dass du dranbleibst und deine Webseite immer im Blick behältst. Solltest du Fragen haben kannst du mir gerne eine Nachricht schicken.
 
 
 ## Hilfreiche Links
 
- * [WordPress Webseite Frankfurt](/service/wordpress-frankfurt)
+ * [WordPress Website Frankfurt](/service/wordpress-frankfurt)
  * [SEO Freelancer](/)
  * [SEO Manipulation](/seo-manipulation)
