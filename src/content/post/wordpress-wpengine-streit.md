@@ -1,8 +1,8 @@
 ---
 publishDate: 2024-10-23T00:00:00Z
-title: WordPress Cache leeren ohne Plugin [Aktuell 2024]
+title: WordPress Streit mit WPEngine 2014
 excerpt: .
-image: /images/wordpress-wpengine-streit.webp
+image: /images/wordpress-wpengine-streit.png
 category: WordPress
 tags:
   - WordPress
