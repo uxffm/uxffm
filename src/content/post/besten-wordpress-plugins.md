@@ -51,3 +51,19 @@ Die Flexibilität ist beeindruckend. Egal, ob du einfache Kontaktformulare oder 
 Für jemanden, der professionelle WordPress-Websites erstellt, ist Gravity Forms ein Geschenk des Himmels. Es spart dir nicht nur eine Menge Zeit und Nerven bei der Erstellung von Formularen, sondern du bietest deinen Kunden auch eine Lösung, die sowohl funktional als auch ästhetisch ansprechend ist.
 
 Kurz gesagt, Gravity Forms ist das Schweizer Taschenmesser unter den WordPress-Formular-Plugins. Es ist so mächtig und flexibel, dass du dich fragst, wie du je ohne es ausgekommen bist. Ein absolutes Muss für jeden, der mehr mit seinen WordPress-Formularen machen möchte als nur das Nötigste.
+
+## Yoast SEO
+
+Als <a href="/">SEO Freelancer für die Stadt Frankfurt</a> darf dieses Plugin bei mir natürlich nicht fehlen. 
+
+Yoast SEO ist eines der bekanntesten Plugins für WordPress wenn es um Suchmaschinenoptimierung (SEO) geht. Es unterstützt dich, deine Website so zu optimieren, dass sie besser bei Google und anderen Suchmaschinen gefunden wird. Mit Yoast SEO kannst du Meta-Titel und Beschreibungen anpassen, die Struktur deiner Inhalte verbessern und sicherstellen, dass wichtige SEO-Grundlagen abgedeckt sind.
+
+Ein großer Vorteil von Yoast SEO ist, dass es dir in Echtzeit Feedback gibt. Du bekommst z.B. sofortige Hinweise ob deine Texte gut für Suchmaschinen optimiert sind oder wo du nachbessern kannst. Es zeigt dir zum Beispiel, ob dein Fokus-Keyword oft genug im Text vorkommt, ob deine Absätze zu lang sind oder ob du interne Links einbauen solltest. Mir selbst hat es schon oft geholfen. 
+
+Zudem hilft dir das Plugin, eine lesbare Struktur in deinen Texten zu schaffen. Es prüft, ob deine Sätze leicht verständlich sind. So kannst du sicherstellen, dass nicht nur Suchmaschinen sondern auch deine Leser Freude an deinen Inhalten haben.
+
+Auch die Verwaltung der technischen Aspekte wie Sitemap oder Bread-Crumbs macht Yoast SEO einfach. Es ist eine Art All-in-one-Lösung, die sowohl für Anfänger als auch für erfahrene Nutzer gut geeignet ist. Du kannst die meisten Funktionen auch in der kostenlosen Version nutze. Solltest du gerade erst anfangen mit deiiner Website, schau dir Yoast SEO aufjedenfall an.
+
+## Fazit
+
+Habe ich auf der Liste etwas vergessen? Falls ja, schreib mir gerne eine Mail.
