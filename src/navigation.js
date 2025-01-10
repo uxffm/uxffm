@@ -19,14 +19,6 @@ export const headerData = {
           href: getPermalink('/service/wordpress-frankfurt'),
         },
         {
-          text: 'SEA Betreuung',
-          href: getPermalink('/service/sea-betreuung-frankfurt'),
-        },
-        {
-          text: 'On-Page SEO',
-          href: getPermalink('/service/on-page-seo-frankfurt'),
-        },
-        {
           text: 'Off-Page SEO',
           href: getPermalink('/service/off-page-seo-frankfurt'),
         },
