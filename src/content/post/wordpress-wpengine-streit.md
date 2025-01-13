@@ -1,6 +1,6 @@
 ---
 publishDate: 2024-03-14T00:00:00Z
-lastmod: 2025-01-13T00:00:00Z
+updated: 2025-01-13T00:00:00Z
 title: WordPress Streit mit WPEngine 2024
 excerpt: Das WordPress-Ökosystem steht zwischen den Idealen der Open-Source-Community und dem wachsenden Einfluss kommerzieller Unternehmen wie WP Engine. Matt Mullenweg, Mitgründer von WordPress, betont die Bedeutung der Gemeinschaft.
 image: /images/wordpress-wpengine-streit.png
