@@ -18,6 +18,11 @@ const metadata = {
 <Layout metadata={metadata}>
   <!-- Hero Widget ******************* -->
 
+
+  <div class="hero-image">
+    <img src="/images/seo-freelancer.webp" alt="seo freelancer frankfurt">
+  </div>
+
   <Hero
     actions={[
       {
@@ -264,7 +269,46 @@ const metadata = {
 
 <style>
 
+@media (max-width: 768px) {
+  .hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    margin-bottom: 20px;
+  }
+
+  .hero-image img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+
   .colorful {
     color: #71fffd;
   }
+
+}
+
+@media (min-width: 768px) {
+.hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image img {
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: top;
+}}
+
+
+
+
+
+
 </style>
