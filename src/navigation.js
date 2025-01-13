@@ -76,6 +76,6 @@ export const footerData = {
     { ariaLabel: 'Tiktok', icon: 'tabler:brand-tiktok', href: 'https://www.tiktok.com/@uxffm.com' },
   ],
   footNote: `
-  © 2024 Freelancer Frankfurt - All Rights Reserved. By SEO Lukasz
+    © ${new Date().getFullYear()}/${(new Date().getMonth() + 1).toString().padStart(2, '0')} Freelancer Frankfurt - All Rights Reserved. By SEO Lukasz
   `,
 };
