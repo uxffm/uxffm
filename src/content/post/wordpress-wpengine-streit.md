@@ -1,5 +1,6 @@
 ---
-publishDate: 2024-10-23T00:00:00Z
+publishDate: 2024-03-14T00:00:00Z
+lastmod: 2025-01-13T00:00:00Z
 title: WordPress Streit mit WPEngine 2024
 excerpt: Das WordPress-Ökosystem steht zwischen den Idealen der Open-Source-Community und dem wachsenden Einfluss kommerzieller Unternehmen wie WP Engine. Matt Mullenweg, Mitgründer von WordPress, betont die Bedeutung der Gemeinschaft.
 image: /images/wordpress-wpengine-streit.png
@@ -9,7 +10,6 @@ tags:
 metadata:
   canonical: https://uxffm.com/wordpress-wpengine-streit
 
-
 ---
 
 Als <a href="/service/wordpress-frankfurt">WordPress Frankfurt</a> Freelancer, höre ich oft wie meine Kunden verunsichert sind.
@@ -18,7 +18,7 @@ Der Grund?
 
 Irgendwas mit WordPress und einem Hostinganbieter namens WPEngine. Ja, und der Name "Matt" fällt auch gnaz oft.
 
-Gibt es Grund zu besorgnis?
+Gibt es Grund zu Besorgnis?
 
 Fangen wir mal von vorne an.
 
@@ -38,7 +38,7 @@ Obwohl WP Engine ein großer Player im WordPress-Bereich ist, gibt es also gewis
 
 Nein, das bedeutet nicht, dass du das WordPress-Ökosystem meiden solltest. Im Gegenteil, das WordPress-Ökosystem ist sehr lebendig und bietet viele Vorteile. Die Spannungen, die zwischen Matt Mullenweg und einigen Hosting-Anbietern wie WP Engine bestehen, betreffen eher die langfristige Ausrichtung und Philosophie, wie die Plattform weiterentwickelt werden soll.
 
-Für dich als Nutzer ändert das nichts an der Stabilität oder dem Nutzen von WordPress. Die Software bleibt leistungsfähig, flexibel und wird ständig weiterentwickelt. Die Meinungsverschiedenheiten betreffen eher die internen Diskussionen, wie viel Einfluss große kommerzielle Unternehmen in der Open-Source-Community haben sollten. Es geht um das Gleichgewicht zwischen der offenen Natur von WordPress und den Geschäftsinteressen einiger großer Unternehmen.
+Für Dich als Nutzer ändert das nichts an der Stabilität oder dem Nutzen von WordPress. Die Software bleibt leistungsfähig, flexibel und wird ständig weiterentwickelt. Die Meinungsverschiedenheiten betreffen eher die internen Diskussionen, wie viel Einfluss große kommerzielle Unternehmen in der Open-Source-Community haben sollten. Es geht um das Gleichgewicht zwischen der offenen Natur von WordPress und den Geschäftsinteressen einiger großer Unternehmen.
 
 Solche Diskussionen sind in Open-Source-Projekten ganz normal. Du kannst WordPress also problemlos weiterhin nutzen, egal ob du es auf WP Engine, einem anderen Hosting-Anbieter oder selbst hostest. Solche internen Differenzen haben keinen direkten Einfluss auf deine tägliche Nutzung.
 
@@ -49,3 +49,11 @@ Die WordPress-Community ist riesig und vielfältig, daher gibt es unterschiedlic
 Auf der anderen Seite gibt es aber auch viele Nutzer und Entwickler, die die Rolle von Unternehmen wie WP Engine schätzen. Diese Anbieter machen es für viele Menschen einfacher, WordPress zu nutzen, indem sie guten Support und Hosting-Lösungen anbieten. Für diese Gruppe sind solche Unternehmen ein wichtiger Teil des WordPress-Ökosystems, weil sie zur Verbreitung und Professionalisierung der Plattform beitragen.
 
 Insgesamt scheint die Mehrheit der Community pragmatisch zu sein. Sie nutzen sowohl die Vorteile der Open-Source-Software als auch die von kommerziellen Angeboten wie WP Engine oder anderen Anbietern. Die meisten kümmern sich weniger um die internen Diskussionen und fokussieren sich darauf, wie sie WordPress für ihre eigenen Projekte am besten einsetzen können.
+
+## Fazit
+
+Der Streit zwischen WordPress und WP Engine zeigt die typischen Spannungen in der Open-Source-Welt zwischen freier Software und kommerziellen Interessen. Für Dich als Nutzer ist aber wichtig zu wissen, dass WordPress stabil und zuverlässig bleibt. Die Diskussionen im Hintergrund haben keinen negativen Einfluss auf die Qualität oder Nutzbarkeit der Software.
+
+Mein Rat als WordPress-Experte ist, Dich auf Deine Projekte zu konzentrieren. Wähle den Hosting-Anbieter, der am besten zu Deinen Bedürfnissen passt. Die Community-Diskussionen sind interessant zu verfolgen, aber sie sollten Dich nicht von der Nutzung dieser leistungsstarken Plattform abhalten.
+
+Hast Du noch Fragen zu WordPress oder brauchst Du Unterstützung bei Deinem WordPress-Projekt? Als WordPress Freelancer in Frankfurt helfe ich Dir gerne weiter.
