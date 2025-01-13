@@ -185,13 +185,6 @@ declare module 'astro:content' {
 
 	type ContentEntryMap = {
 		"post": {
-"beispiel-affiliate-marketing.md": {
-	id: "beispiel-affiliate-marketing.md";
-  slug: "beispiel-affiliate-marketing";
-  body: string;
-  collection: "post";
-  data: InferEntrySchema<"post">
-} & { render(): Render[".md"] };
 "besten-wordpress-plugins.md": {
 	id: "besten-wordpress-plugins.md";
   slug: "besten-wordpress-plugins";
