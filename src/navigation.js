@@ -23,10 +23,6 @@ export const headerData = {
           href: getPermalink('/service/off-page-seo-frankfurt'),
         },
         {
-          text: 'SEO Audit Frankfurt',
-          href: getPermalink('/service/seo-audit-frankfurt'),
-        },
-        {
           text: 'Webentwicklung',
           href: getPermalink('/service/web-entwicklung-frankfurt'),
         },
