@@ -1,6 +1,6 @@
 ---
 publishDate: 2023-12-23T00:00:00Z
-title: SEO Manipulation [Was bedeutet das?] Aktuell 2024
+title: SEO Manipulation [Was bedeutet das?] Aktuell 2025
 excerpt: Bei der Suchmaschinenoptimierung (SEO) wird eine Website so optimiert, dass sie auf den Ergebnisseiten der Suchmaschine (auch SERPS genannt) weiter oben erscheint. Aber was macht man bei der SEO Manipulation?
 image: /images/seo-manipulation.webp
 category: seo
