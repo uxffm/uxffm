@@ -5,14 +5,12 @@ import Button from '~/components/ui/Button.astro';
 import Image from '~/components/common/Image.astro';
 import type { Testimonials } from '~/types';
 
-
 const {
   title = '',
   subtitle = '',
   tagline = '',
   testimonials = [],
   callToAction,
-
   id,
   isDark = false,
   classes = {},
@@ -26,7 +24,7 @@ const {
   <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
     {
       testimonials &&
-        testimonials.map(({ title, testimonial, name, job, image }) => (
+        testimonials.map(({ title, testimonial, name, job, image, link }) => (
           <div class="flex h-auto">
             <div class="flex flex-col p-4 md:p-6 rounded-md shadow-xl dark:shadow-none dark:border dark:border-slate-600">
               {title && <h2 class="text-lg font-medium leading-6 pb-4">{title}</h2>}
@@ -61,6 +59,19 @@ const {
                   {job && <p class="text-xs text-muted">{job}</p>}
                 </div>
               </div>
+
+              {link && (
+                <div class="mt-4">
+                  <a
+                    href={link.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="text-primary-600 dark:text-primary-400 font-medium underline"
+                  >
+                    {link.text}
+                  </a>
+                </div>
+              )}
             </div>
           </div>
         ))

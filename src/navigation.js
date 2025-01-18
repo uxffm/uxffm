@@ -11,16 +11,20 @@ export const headerData = {
       href: getPermalink('/service'),
       links: [
         {
-          text: 'Webseite Erstellen Lassen',
+          text: 'Webseite erstellen',
           href: getPermalink('/service/webdesign-frankfurt'),
         },
         {
-          text: 'WordPress Webseite Frankfurt',
+          text: 'WordPress Frankfurt',
           href: getPermalink('/service/wordpress-frankfurt'),
         },
         {
           text: 'Off-Page SEO',
           href: getPermalink('/service/off-page-seo-frankfurt'),
+        },
+        {
+          text: 'SEO für Therapeuten',
+          href: getPermalink('/service/seo-fuer-therapeuten'),
         },
         {
           text: 'Webentwicklung',

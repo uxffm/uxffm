@@ -1,0 +1,221 @@
+---
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import Hero from '~/components/widgets/Hero.astro';
+import Layout from '~/layouts/PageLayout.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+import Content from '~/components/widgets/Content.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
+import Testimonials from '~/components/widgets/Testimonials.astro';
+
+const metadata = {
+  title: 'SEO für Therapeuten',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero Widget ******************* -->
+
+  <Hero
+    tagline="SEO für Therapeuten"
+    title="SEO für Therapeuten"
+    subtitle="Als Freelance SEO-Experte helfe ich Therapeuten, ihre Praxis online sichtbarer zu machen und mehr Klienten zu erreichen."
+    actions={[{ variant:"primary", target: '_blank', text: 'Jetzt anfragen!', href: '/kontakt' }]}
+    image={{
+      src: '/images/seo-therapeuten.jpg',
+      alt: 'SEO Optimierung für Therapeuten',
+    }}
+  />
+
+
+  <!-- Content Widget **************** -->
+
+  <Content
+  isAfterContent
+    items={[
+      {
+        title: 'Professionelle SEO-Optimierung für Therapeuten',
+        description: 'Möchtest du, dass deine Praxis online besser gefunden wird? Ich unterstütze dich dabei, mit gezielter SEO die Sichtbarkeit deiner Website zu erhöhen. Lass uns gemeinsam an deiner Online-Präsenz arbeiten und mehr Klienten für dich gewinnen.',
+        icon: 'tabler:wand',
+      },
+      {
+        title: 'Maßgeschneiderte SEO-Strategien',
+        description: 'Jede Praxis ist einzigartig, genauso wie meine SEO-Ansätze. Ich entwickle maßgeschneiderte Strategien, um deine Zielgruppe effektiv anzusprechen.',
+        icon: 'tabler:settings',
+      },
+      {
+        title: 'Mehr als nur Keywords',
+        description: 'SEO ist mehr als nur Keywords einfügen. Ich optimiere deine gesamte Website – von der Ladegeschwindigkeit bis zur mobilen Benutzerfreundlichkeit – um ein ganzheitliches Ranking zu gewährleisten.',
+        icon: 'tabler:presentation',
+      },
+    ]}
+    image={{
+      src: '/images/therapeuten.webp',
+      alt: 'SEO für Therapeuten in Deutschland',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Gezielte SEO für Therapeuten - Deine Praxis sichtbar machen</h3>
+    </Fragment>
+  </Content>
+
+
+  <Content
+  isReversed
+    items={[
+      {
+        title: 'Deine Praxis in den Google-Top-Rankings',
+        description: 'Durch gezielte SEO-Maßnahmen sorge ich dafür, dass deine Praxis auf den ersten Plätzen der Suchmaschinen erscheint.',
+        icon: 'tabler:wand',
+      },
+      {
+        title: 'Lokale SEO-Optimierung',
+        description: 'Für Therapeuten ist es besonders wichtig, lokal gefunden zu werden. Mit gezielter lokaler SEO sorge ich dafür, dass deine Praxis von Menschen in deiner Umgebung gefunden wird.',
+        icon: 'tabler:settings',
+      },
+      {
+        title: 'Individuelle Kontrolle',
+        description: 'Ich optimiere nicht nur, sondern gebe dir auch die Werkzeuge, um selbst Änderungen an deiner Website vorzunehmen und so langfristig unabhängig zu bleiben.',
+        icon: 'tabler:presentation',
+      },
+    ]}
+    image={{
+      src: '/images/therapeuten-2.webp',
+      alt: 'Therapeuten SEO Optimierung',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Lokale und umfassende SEO-Optimierung für Therapeuten</h3>
+    </Fragment>
+  </Content>
+
+
+  <!-- Features3 Widget ************** -->
+
+  <Features3
+    title="Zu meinem SEO-Service für Therapeuten gehört:"
+    subtitle="Individuelle Strategien, transparente Prozesse und messbare Ergebnisse."
+    columns={2}
+    items={[
+      {
+        title: 'Keyword-Recherche',
+        description: 'Gezielte Analyse der Begriffe, die potenzielle Klienten verwenden, wenn sie nach psychologischer Hilfe, Beratung oder Therapie suchen. Dabei berücksichtige ich spezifische Begriffe wie "Traumatherapie in [Stadt]" oder "Paartherapie online", um deine Praxis gezielt sichtbar zu machen.',
+        icon: 'tabler:stairs',
+      },
+      {
+        title: 'Content-Optimierung',
+        description: 'Erstellung von Inhalten, die für Klienten relevant sind – wie FAQs zu Therapieverfahren, Blogartikel über mentale Gesundheit oder spezifische Themen wie Burnout oder Stressbewältigung. So wird deine Website nicht nur informativ, sondern auch vertrauenswürdig.',
+        icon: 'tabler:flip-vertical',
+      },
+      {
+        title: 'On-Page-SEO',
+        description: 'Optimierung aller wichtigen Elemente auf deiner Website: Angefangen bei Seitenbeschreibungen und Schlagwörtern bis hin zu Inhalten, die speziell auf Therapieformen wie Verhaltenstherapie oder Hypnose abgestimmt sind.',
+        icon: 'tabler:shield-lock',
+      },
+      {
+        title: 'Lokale SEO-Strategien',
+        description: 'Besondere Betonung auf den Standort deiner Praxis. Ich sorge dafür, dass deine Praxis in relevanten lokalen Verzeichnissen auftaucht und optimiere dein Google-Profil, sodass Klienten dich in ihrer Nähe finden.',
+        icon: 'tabler:accessible',
+      },
+      {
+        title: 'Technisches SEO',
+        description: 'Optimierung der technischen Details deiner Website wie Ladegeschwindigkeit, mobile Nutzung und sichere SSL-Verbindungen, die besonders bei Klientenvertrauen eine Rolle spielen.',
+        icon: 'tabler:headset',
+      },
+      {
+        title: 'Monitoring und Analyse',
+        description: 'Kontinuierliches Tracking der Performance deiner Website, um zu sehen, welche Therapieangebote die meisten Klicks und Anfragen generieren. Detaillierte Berichte helfen dir, den Erfolg deines Online-Auftritts nachzuvollziehen.',
+        icon: 'tabler:headset',
+      },
+      {
+        title: 'Wettbewerbsanalyse',
+        description: 'Analyse deiner Mitbewerber in der Therapiebranche, um herauszufinden, welche Strategien erfolgreich sind und wie du dich mit deinem Angebot abheben kannst.',
+        icon: 'tabler:graph',
+      },
+      {
+        title: 'Langfristige Betreuung',
+        description: 'Ich unterstütze dich fortlaufend, um sicherzustellen, dass deine Website den sich ständig ändernden Anforderungen der Suchmaschinen gerecht wird und dauerhaft sichtbar bleibt.',
+        icon: 'tabler:refresh',
+      },
+    ]}
+    classes={{ container: 'max-w-5xl' }}
+  />
+
+
+
+
+  <!-- FAQs Widget ******************* -->
+
+  <FAQs
+    title="SEO für Therapeuten FAQs"
+    subtitle="Hier sind einige häufig gestellte Fragen (FAQs) zum Thema SEO für Therapeuten. Solltest du weitere Informationen benötigen oder sollte eine deiner Fragen nicht beantwortet sein, zögere bitte nicht, uns zu kontaktieren."
+    columns={1}
+    items={[
+      {
+        title: 'Wie funktioniert SEO für Therapeuten?',
+        description: 'SEO für Therapeuten umfasst die Optimierung deiner Website, damit potenzielle Klienten dich leichter online finden können. Dazu gehören Maßnahmen wie Keyword-Recherche, Content-Erstellung und technische Anpassungen.',
+      },
+      {
+        title: 'Warum ist lokale SEO wichtig?',
+        description: 'Die meisten Klienten suchen nach Therapeuten in ihrer Nähe. Mit lokaler SEO stelle ich sicher, dass deine Praxis in lokalen Suchergebnissen ganz oben erscheint.',
+      },
+      {
+        title: 'Wie lange dauert es, bis SEO-Ergebnisse sichtbar werden?',
+        description: 'SEO ist ein langfristiger Prozess, der in der Regel mehrere Wochen bis Monate benötigt, um Ergebnisse zu zeigen. Ich arbeite jedoch daran, schnelle Fortschritte zu erzielen, während wir auf nachhaltige Erfolge hinarbeiten.',
+      },
+      {
+        title: 'Für welche Arten von Therapie bringt SEO etwas?',
+        description: 'SEO hilft Therapeuten aller Fachrichtungen, ihre Zielgruppe zu erreichen. Dazu zählen unter anderem Verhaltenstherapie, Traumatherapie, Paartherapie, Kinder- und Jugendtherapie, Hypnosetherapie, Kunsttherapie, Gestalttherapie, Reinkarnationstherapie und viele weitere. Durch gezielte Keywords und Inhalte können Klienten spezifische Therapieangebote schnell und einfach finden.',
+      },
+    ]}
+  />
+
+  <Testimonials
+    title="Erfahrungsberichte von Klienten"
+    subtitle="Erfahre, wie Klienten von meiner Unterstützung profitiert haben und welche Erfahrungen sie gemacht haben."
+    testimonials={[
+      {
+        testimonial: `Durch die Zusammenarbeit mit Lukasz konnte ich meine Praxis für Reinkarnationstherapie in Frankfurt stark bekannter machen. Dank ihrer gezielten SEO-Maßnahmen und optimierter WordPress Website habe ich viele neue Klienten gewonnen, die speziell nach meiner Therapieform suchten.`,
+        name: 'Enginiktir',
+        job: 'Reinkarnationstherapeut - Frankfurt am Main',
+        image: {
+          src: '/images/engin-reinkarnationstherapie.jpg',
+          alt: 'Enginiktir Image',
+        },
+        link: {
+          href: 'https://enginiktir.de/',
+          text: 'Mehr über Enginiktir erfahren',
+        },
+      },
+    ]}
+/>
+
+
+  <!-- CallToAction Widget *********** -->
+
+
+  <!-- CallToAction Widget *********** -->
+
+  <CallToAction
+    actions={[{
+      variant: "primary",
+      text: 'Jetzt unverbindlich anfragen!',
+      href: '/kontakt',
+    }]}
+    title="Noch Fragen?"
+    subtitle="Schreib mir ganz unverbindlich eine Nachricht und ich werde mich so schnell wie möglich bei dir melden."
+  />
+</Layout>
+
+
+
+<style>
+  .wrapper {
+    max-width: 800px;
+    margin: 0px auto;
+    padding: 0 1rem;
+  }
+
+  .wrapper:nth-child(3) {
+    margin-top: 64px;
+  }
+</style>
