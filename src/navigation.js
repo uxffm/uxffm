@@ -63,8 +63,8 @@ export const footerData = {
     {
       title: 'Service',
       links: [
-        { text: 'Webseite Erstellen Lassen Frankfurt', href: '/service/webdesign-frankfurt' },
-        { text: 'WordPress Frankfurt', href: '/service/wordpress-frankfurt' },
+        { text: 'Webseite Erstellen Lassen', href: '/service/webdesign-frankfurt' },
+        { text: 'WordPress Service Frankfurt', href: '/service/wordpress-frankfurt' },
 
       ],
     },
