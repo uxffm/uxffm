@@ -70,11 +70,11 @@ Vergiss nicht, Deine WordPress-Installation sowie alle Themes und Plugins immer 
 
 ## Wie teste ich die Geschwindigkeit meiner Seite?
 
-Es gibt Tools, mit denen Du die Geschwindigkeit Deiner Website prüfen kannst. Beliebt sind Google PageSpeed Insights und GTmetrix. Sie zeigen Dir, wie schnell Deine Seite lädt und was Du verbessern kannst. Nutze diese Tools regelmäßig, um Probleme frühzeitig zu erkennen.
+Es gibt wie schon beschrieben Tools, mit denen Du die Geschwindigkeit Deiner Website prüfen kannst. Beliebt sind Google PageSpeed Insights und GTmetrix. Sie zeigen Dir, wie schnell Deine Seite lädt und was Du verbessern kannst. Nutze diese Tools regelmäßig. So erkennst Du Probleme frühzeitig.
 
 Oft merkt man allerdings von selbst, wenn die WordPress Seite langsamer wird.
 
-Ein wichtiger Punkt, den viele vergessen ist, dass die Geschwindigkeit auch von Deiner Internetverbindung abhängen kann. Teste Deine Website von verschiedenen Geräten und Orten aus. So gehst du sicher, dass das Problem nicht an Deiner Verbindung liegt.
+Ein wichtiger Punkt den auch viele vergessen ist, dass die Geschwindigkeit auch von Deiner Internetverbindung abhängen kann. Teste Deine Website von verschiedenen Geräten und Orten aus. So gehst du sicher, dass das Problem nicht an Deiner Verbindung liegt.
 
 ## Warum ist eine schnelle Website wichtig?
 
