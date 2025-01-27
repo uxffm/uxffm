@@ -241,6 +241,13 @@ declare module 'astro:content' {
   collection: "post";
   data: InferEntrySchema<"post">
 } & { render(): Render[".md"] };
+"wordpress-langsamer.md": {
+	id: "wordpress-langsamer.md";
+  slug: "wordpress-langsamer";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
 "wordpress-wpengine-streit.md": {
 	id: "wordpress-wpengine-streit.md";
   slug: "wordpress-wpengine-streit";
