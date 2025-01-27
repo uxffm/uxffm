@@ -1,5 +1,6 @@
 ---
 publishDate: 2025-01-26T00:00:00Z
+updateDate: 2025-01-27T00:00:00Z
 title: WordPress Seite wird langsamer (2025)
 excerpt: Wird Deine WordPress-Seite langsamer? Erfahre hier, warum das passiert und wie Du die Geschwindigkeit wieder verbessern kannst. Schnelle Webseiten sind wichtig für User und SEO.
 image: /images/wordpress-speed.jpg
