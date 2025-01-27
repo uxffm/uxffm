@@ -45,6 +45,12 @@ Prüfe auch, wie viele Ressourcen dein Hosting bietet, wie RAM, CPU oder Speiche
 
 Wenn du unsicher bist, frag deinen Hosting-Anbieter. Die können oft sagen, ob dein Tarif genug Leistung für deine Website bietet. Wenn nicht, könnte ein Upgrade oder ein Wechsel zu einem besseren Hosting helfen.
 
+## Hosting Beispiel meiner Kunden
+
+Ein weiteres häufiges Problem sehe ich bei Hosting-Anbietern wie Bluehost. Ein Kunde von mir bemerkte, dass seine Website immer langsamer wurde, obwohl er bei der Anmeldung unbegrenzte Ressourcen versprochen bekam. 
+
+Der Grund war, dass die Datenbank mit der Zeit gewachsen war und die geteilten Server von Bluehost stark überfüllt waren. Die Leistung sank rapide. Wir haben dann auf einen Anbieter wie Kinsta umgestellt, der zwar teurer ist, aber eine viel bessere Performance bietet. Direkt nach dem Wechsel verbesserte sich die Ladezeit spürbar. Mein Kunde war begeistert, dass die Seite endlich wieder schnell und zuverlässig lief.
+
 
 ### Bilder
 
