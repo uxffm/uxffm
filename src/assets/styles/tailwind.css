@@ -95,3 +95,13 @@ body, html {
   overflow-x: hidden;
 }
 
+ a {
+  text-decoration: underline;
+}
+
+footer a,
+h3 a,
+header a,
+nav a {
+  text-decoration: none;
+}
