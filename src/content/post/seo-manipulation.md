@@ -1,5 +1,6 @@
 ---
 publishDate: 2023-12-23T00:00:00Z
+updateDate: 2025-01-27T00:00:00Z
 title: SEO Manipulation [Was bedeutet das?] Aktuell 2025
 excerpt: Bei der Suchmaschinenoptimierung (SEO) wird eine Website so optimiert, dass sie auf den Ergebnisseiten der Suchmaschine (auch SERPS genannt) weiter oben erscheint. Aber was macht man bei der SEO Manipulation?
 image: /images/seo-manipulation.webp
@@ -40,13 +41,13 @@ Während die SEO ein effektiver Weg ist die Online-Sichtbarkeit zu verbessern un
 
 Weil es hin und wieder für kurze Zeit funktioniert.
 
-SEO-Manipulation wendet Taktiken an die Suchmaschinen täuschen. Ziel ist es, eine Website oder einen Inhalt höher einzustufen. Obowohl diese Website es aus SEO Sicht gar nicht verdient. Einige gängige Beispiele für SEO-Manipulation sind Keyword-Stuffing, Link-Schemata, Cloaking und versteckter Text. 
+SEO-Manipulation wendet Taktiken an die Suchmaschinen täuschen. Ziel ist es, eine Website oder einen Inhalt höher einzustufen. Obwohl diese Website es aus SEO Sicht gar nicht verdient. Einige gängige Beispiele für SEO-Manipulation sind Keyword-Stuffing, Link-Schemata, Cloaking und versteckter Text. 
 
 Als <a href="/">SEO Freelancer</a> merke ich das selber, da Kunden mich oft darauf ansprechen. 
 
 SEO-Manipulation klingt auch verlockend. So ein bisschen wie ein geheimer Trick, um deine Seite blitzschnell nach oben zu katapultieren. Aber langfristig könnte dieser "Trick" mehr schaden als nützen.
 
-Das schlimmste daran?
+Das Schlimmste daran?
 
 Die ganze vorige SEO Arbeit war umsonst, und das ist nicht nur frustrierend, sondern auch kostspielig.
 
@@ -115,9 +116,9 @@ Doorway Pages sind so konzipiert, dass sie bei spezifischen Suchanfragen hoch ra
 
 Eine pure SEO Manipulation also.
 
-Diese Praxis kann das Nutzererlebnis verschlechtern und wird von Suchmaschinen als manipulativ eingestuft, was zu Strafen führen kann.
 
-<img src="/images/doorway-pages-eine-art-seo-manipulation.webp" alt="soorway pages beispiel">
+
+<img src="/images/doorway-pages-eine-art-seo-manipulation.webp" alt="Doorway pages beispiel">
 
 ### Können Doorway Pages aus SEO Sicht funktionieren?
 

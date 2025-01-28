@@ -151,4 +151,3 @@ Insgesamt bieten "Low Hanging Fruits" im SEO eine großartige Möglichkeit, mit 
  * [SEO Manipulation und warum es noch ein Thema ist?](/seo-manipulation)
  * [SEO Freelancer](/)
  * Webseite erstellen lassen [Hier geht's zur Webseiten Erstellung](/service/webdesign-frankfurt)
- * WordPress Service [Hier erfahren Sie mehr](/service/wordpress-frankfurt)
