@@ -1,0 +1,100 @@
+---
+import Hero from '~/components/widgets/Hero.astro';
+import Layout from '~/layouts/PageLayout.astro';
+
+const metadata = {
+  title: 'WordPress Glossar - Alle Begriffe erklärt',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero Widget ******************* -->
+
+  <Hero
+    tagline="WordPress Glossar"
+    image={{
+      src: 'images/wordpress-glossar.png',
+      alt: 'WordPress Glossar',
+    }}
+  >
+    <Fragment slot="title">
+      Alle WordPress-Begriffe <br />
+      <span class="text-accent dark:text-white highlight">einfach erklärt!</span>
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      In diesem Glossar findest du eine umfassende Liste von WordPress-Begriffen – sowohl die bekannten als auch die weniger geläufigen. Perfekt für Einsteiger und Profis!
+    </Fragment>
+  </Hero>
+
+  <div class="wrapper">
+    <h2 class="leading-tighter text-heading text-4xl md:text-4xl font-bold leading-tighter tracking-tighter mb-4 font-heading">WordPress Glossar</h2>
+  
+    <p>
+      Hier findest du eine Übersicht über alle wichtigen WordPress-Begriffe. Ob Basics wie "Themes" oder seltene Begriffe wie "Custom Post Types" – dieses Glossar deckt alles ab.
+    </p>
+  
+    <br>
+
+    <h3 class="text-2xl font-bold">A</h3>
+    <p><strong>Admin Dashboard</strong> – Die zentrale Verwaltungsoberfläche von WordPress, in der Inhalte verwaltet, Einstellungen vorgenommen und Plugins installiert werden können.</p>
+    <p><strong>API</strong> – Eine Schnittstelle, die es ermöglicht, externe Anwendungen mit WordPress zu verbinden, beispielsweise über die REST API.</p>
+    <br>
+
+    <h3 class="text-2xl font-bold">B</h3>
+    <p><strong>Backup</strong> – Eine Sicherungskopie der WordPress-Website, die regelmäßig erstellt werden sollte, um Datenverluste zu vermeiden.</p>
+    <p><strong>Block-Editor</strong> – Auch als Gutenberg bekannt, ein moderner Editor in WordPress, mit dem Inhalte durch Blöcke strukturiert werden können.</p>
+    <br>
+
+    <h3 class="text-2xl font-bold">C</h3>
+    <p><strong>Cache</strong> – Eine Technik, die gespeicherte Versionen einer Seite ausliefert, um die Ladezeiten zu verbessern.</p>
+    <p><strong>Child Theme</strong> – Ein Theme, das von einem Haupt-Theme (Parent Theme) abgeleitet ist und Anpassungen ermöglicht, ohne das Haupt-Theme zu verändern.</p>
+    <br>
+
+    <h3 class="text-2xl font-bold">D</h3>
+    <p><strong>Dashboard</strong> – Die Benutzeroberfläche für die Verwaltung von WordPress, erreichbar unter /wp-admin.</p>
+    <p><strong>Domain Mapping</strong> – Eine Technik, um eine bestimmte Domain einer WordPress-Multisite-Installation zuzuweisen.</p>
+    <br>
+
+    <h3 class="text-2xl font-bold">P</h3>
+    <p><strong>Permalink</strong> – Die dauerhafte URL einer Seite oder eines Beitrags in WordPress, die für SEO optimiert werden kann.</p>
+    <p><strong>Plugin</strong> – Eine Erweiterung für WordPress, mit der neue Funktionen hinzugefügt werden können, ohne den Kern-Code zu verändern.</p>
+    <br>
+
+    <h3 class="text-2xl font-bold">S</h3>
+    <p><strong>Shortcode</strong> – Ein spezieller Code, der eine komplexe Funktion mit nur wenigen Zeichen einfügt, z. B. für Formulare oder Galerien.</p>
+    <p><strong>SSL-Zertifikat</strong> – Eine Sicherheitsmaßnahme, die die Verbindung zwischen Nutzern und der WordPress-Website verschlüsselt.</p>
+    <br>
+
+    <h3 class="text-2xl font-bold">T</h3>
+    <p><strong>Theme</strong> – Eine Designvorlage, die das Erscheinungsbild einer WordPress-Seite steuert.</p>
+    <p><strong>Trackback</strong> – Eine Benachrichtigung zwischen Blogs, die anzeigt, dass auf einen Beitrag verwiesen wurde.</p>
+    <br>
+
+    <h3 class="text-2xl font-bold">X</h3>
+    <p><strong>XML Sitemap</strong> – Eine Datei, die Suchmaschinen hilft, den Inhalt einer WordPress-Website effizient zu indexieren.</p>
+    <br>
+
+    <h2 class="leading-tighter text-heading text-4xl md:text-4xl font-bold leading-tighter tracking-tighter mb-4 font-heading">WordPress in der Praxis</h2>
+
+    <p>
+      WordPress ist ein vielseitiges CMS mit unzähligen Möglichkeiten. Ob für Blogs, Online-Shops oder Unternehmenswebsites. 
+      Mit den richtigen Tools und Plugins kann jede Idee umgesetzt werden. Falls du Fragen hast oder Unterstützung benötigst, melde dich einfach!
+      Mit meinem WordPress Service bei dem ich <a href="service/wordpress-frankfurt">WordPress Webseiten für</a> Frankfurter Unternehmen erstelle, helfe ich dir gerne weiter.
+    </p>
+
+  </div>
+  
+</Layout>
+
+<style>
+  a {
+    text-decoration: underline;
+  }
+
+  .wrapper {
+    max-width: 800px;
+    margin: 64px auto;
+    padding: 0 1rem;
+  }
+</style>
