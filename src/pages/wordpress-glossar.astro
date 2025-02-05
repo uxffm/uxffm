@@ -48,12 +48,17 @@ const metadata = {
 
     <h3 class="text-2xl font-bold">C</h3>
     <p><strong>Cache</strong> – Eine Technik, die gespeicherte Versionen einer Seite ausliefert, um die Ladezeiten zu verbessern.</p>
+    <p><strong>Customizer</strong> – Ein integriertes WordPress-Tool, mit dem Nutzer Design- und Funktionseinstellungen einer Website in Echtzeit anpassen können. Der Customizer ermöglicht Änderungen an Farben, Schriftarten, Widgets, Menüs und anderen Layout-Elementen, ohne den Code direkt zu bearbeiten. Er bietet eine Vorschau-Funktion, sodass Anpassungen sofort sichtbar sind, bevor sie gespeichert werden. Viele Themes und Plugins erweitern den Customizer um zusätzliche Optionen, um individuelle Anpassungen noch einfacher zu machen.</p>
     <p><strong>Child Theme</strong> – Ein Theme, das von einem Haupt-Theme (Parent Theme) abgeleitet ist und Anpassungen ermöglicht, ohne das Haupt-Theme zu verändern.</p>
     <br>
 
     <h3 class="text-2xl font-bold">D</h3>
     <p><strong>Dashboard</strong> – Die Benutzeroberfläche für die Verwaltung von WordPress, erreichbar unter /wp-admin.</p>
-    <p><strong>Domain Mapping</strong> – Eine Technik, um eine bestimmte Domain einer WordPress-Multisite-Installation zuzuweisen.</p>
+    <p><strong>Domain Mapping</strong> – Eine Technik, um eine bestimmte Domain einer WordPress-Multisite-Installation zuzuweisen. Damit können verschiedene Websites innerhalb eines Multisite-Netzwerks ihre eigenen individuellen Domains haben, anstatt nur Unterverzeichnisse oder Subdomains zu nutzen. Diese Methode ist besonders nützlich für Agenturen, die mehrere Kunden-Websites verwalten, oder für Unternehmen mit mehreren Marken. Domain Mapping erfordert oft zusätzliche Konfigurationen im Hosting-Panel und kann durch Plugins oder manuelle Anpassungen in der wp-config.php und der Datenbank gesteuert werden.</p>
+    <br>
+
+    <h3 class="text-2xl font-bold">F</h3>
+    <p><strong>functions.php</strong> – Eine zentrale Datei innerhalb eines WordPress-Themes, die benutzerdefinierte Funktionen und Anpassungen enthält. Mit der functions.php können neue Features hinzugefügt, Standardfunktionen überschrieben und Hooks sowie Filter genutzt werden, um das Verhalten von WordPress zu verändern. Typische Anpassungen sind das Registrieren neuer Menüs, das Aktivieren von Widgets oder das Einfügen von benutzerdefinierten Shortcodes. Jede Theme-Installation hat ihre eigene functions.php, die bei Theme-Updates überschrieben werden kann. Deshalb empfiehlt es sich, Anpassungen in einem Child Theme vorzunehmen, um zukünftige Änderungen beizubehalten.</p>
     <br>
 
     <h3 class="text-2xl font-bold">P</h3>
@@ -75,6 +80,14 @@ const metadata = {
     <p><strong>XML Sitemap</strong> – Eine Datei, die Suchmaschinen hilft, den Inhalt einer WordPress-Website effizient zu indexieren.</p>
     <br>
 
+    <h3 class="text-2xl font-bold">Y</h3>
+    <p><strong>Yoast</strong> – Eines der beliebtesten WordPress-Plugins zur <a href="/">Suchmaschinenoptimierung (SEO)</a>. Mit Yoast können Nutzer Meta-Titel, Meta-Beschreibungen, XML-Sitemaps und Breadcrumbs verwalten. Das Plugin analysiert Inhalte in Echtzeit und gibt Optimierungstipps zur Verbesserung der Keyword-Dichte, Lesbarkeit und internen Verlinkung. Yoast hilft auch dabei, Social-Media-Vorschauen und Schema-Markup für eine bessere Sichtbarkeit in den Suchergebnissen einzurichten. Es ist sowohl für Anfänger als auch für erfahrene SEOs ein unverzichtbares Werkzeug.</p>
+    <br>
+
+    <h3 class="text-2xl font-bold">W</h3>
+    <p><strong>wp-config.php</strong> – Die zentrale Konfigurationsdatei von WordPress, die essenzielle Einstellungen der Website steuert. In dieser Datei werden unter anderem die Datenbankverbindung, Sicherheitsschlüssel, Debugging-Optionen und erweiterte Funktionen definiert. Änderungen an der wp-config.php ermöglichen es, wichtige Funktionen zu aktivieren, etwa das Deaktivieren von automatischen Updates oder das Festlegen einer benutzerdefinierten Speichergrenze. Diese Datei befindet sich im Root-Verzeichnis der WordPress-Installation und sollte mit Vorsicht bearbeitet werden, da falsche Anpassungen die gesamte Website unzugänglich machen können.</p>
+    <br>
+
     <h2 class="leading-tighter text-heading text-4xl md:text-4xl font-bold leading-tighter tracking-tighter mb-4 font-heading">WordPress in der Praxis</h2>
 
     <p>
@@ -90,6 +103,11 @@ const metadata = {
 <style>
   a {
     text-decoration: underline;
+  }
+
+
+  p {
+    margin-bottom: 20px;
   }
 
   .wrapper {
