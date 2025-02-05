@@ -57,7 +57,7 @@ export const footerData = {
         { text: 'SEO Manipulation', href: '/seo-manipulation' },
         { text: 'Low Hanging Fruits', href: '/low-hanging-fruits' },
         { text: 'Do Follow Backlinks finden', href: '/dofollow-backlinks-finden' },
-
+        { text: 'SEO Glossar', href: '/seo-glossar' },
       ],
     },
     {
