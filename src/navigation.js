@@ -11,10 +11,6 @@ export const headerData = {
       href: getPermalink('/service'),
       links: [
         {
-          text: 'Webseite erstellen',
-          href: getPermalink('/service/webdesign-frankfurt'),
-        },
-        {
           text: 'WordPress Frankfurt',
           href: getPermalink('/service/wordpress-frankfurt'),
         },
@@ -25,10 +21,6 @@ export const headerData = {
         {
           text: 'SEO für Therapeuten',
           href: getPermalink('/service/seo-fuer-therapeuten'),
-        },
-        {
-          text: 'Webentwicklung',
-          href: getPermalink('/service/web-entwicklung-frankfurt'),
         },
       ],
     },
@@ -63,9 +55,7 @@ export const footerData = {
     {
       title: 'Service',
       links: [
-        { text: 'Webseite Erstellen Lassen', href: '/service/webdesign-frankfurt' },
         { text: 'WordPress Service Frankfurt', href: '/service/wordpress-frankfurt' },
-        { text: 'WordPress Glossar', href: '/wordpress-glossar' },
       ],
     },
  
