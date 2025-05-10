@@ -185,13 +185,6 @@ declare module 'astro:content' {
 
 	type ContentEntryMap = {
 		"post": {
-"besten-wordpress-plugins.md": {
-	id: "besten-wordpress-plugins.md";
-  slug: "besten-wordpress-plugins";
-  body: string;
-  collection: "post";
-  data: InferEntrySchema<"post">
-} & { render(): Render[".md"] };
 "dofollow-backlinks-finden.mdx": {
 	id: "dofollow-backlinks-finden.mdx";
   slug: "dofollow-backlinks-finden";
@@ -223,41 +216,6 @@ declare module 'astro:content' {
 "seo-manipulation.md": {
 	id: "seo-manipulation.md";
   slug: "seo-manipulation";
-  body: string;
-  collection: "post";
-  data: InferEntrySchema<"post">
-} & { render(): Render[".md"] };
-"wordpress-domain.md": {
-	id: "wordpress-domain.md";
-  slug: "wordpress-domain";
-  body: string;
-  collection: "post";
-  data: InferEntrySchema<"post">
-} & { render(): Render[".md"] };
-"wordpress-hosting-reddit.md": {
-	id: "wordpress-hosting-reddit.md";
-  slug: "wordpress-hosting-reddit";
-  body: string;
-  collection: "post";
-  data: InferEntrySchema<"post">
-} & { render(): Render[".md"] };
-"wordpress-langsamer.md": {
-	id: "wordpress-langsamer.md";
-  slug: "wordpress-langsamer";
-  body: string;
-  collection: "post";
-  data: InferEntrySchema<"post">
-} & { render(): Render[".md"] };
-"wordpress-wpengine-streit.md": {
-	id: "wordpress-wpengine-streit.md";
-  slug: "wordpress-wpengine-streit";
-  body: string;
-  collection: "post";
-  data: InferEntrySchema<"post">
-} & { render(): Render[".md"] };
-"wp-cache-leeren-ohne-plugin.md": {
-	id: "wp-cache-leeren-ohne-plugin.md";
-  slug: "wp-cache-leeren-ohne-plugin";
   body: string;
   collection: "post";
   data: InferEntrySchema<"post">
