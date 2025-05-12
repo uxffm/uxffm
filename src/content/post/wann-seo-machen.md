@@ -70,6 +70,8 @@ Also ganz klar:
 Onpage – wenn du schon ein bisschen Wellen machst.
 Offpage – wenn du noch gar nicht im Wasser bist.
 
+<img src="/images/beispiel-aus-frankfurt.png" alt="ein beispiel aus frankfurt">
+
 ## Wann SEO - Ein Beispiel aus Frankfurt
 
 Ich hab mal mit einem Kunden aus Frankfurt gearbeitet. Er hatte alles, was man für gutes SEO braucht. Eine klare Website, ein Angebot, das Leute wirklich gesucht haben, und er war bereit, Zeit zu investieren. Es ging um einen Service im Bereich Innenarchitektur – sehr lokal, sehr gefragt. Und in Frankfurt ist der Markt dafür stark. Viele suchen nach sowas, aber die Konkurrenz ist auch da.
