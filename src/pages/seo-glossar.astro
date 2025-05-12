@@ -1,0 +1,145 @@
+---
+import Hero from '~/components/widgets/Hero.astro';
+import Layout from '~/layouts/PageLayout.astro';
+
+const metadata = {
+  title: 'SEO Glossar - Alle Begriffe erklärt',
+};
+---
+
+<Layout metadata={metadata}>
+    <!-- Hero Widget ******************* -->
+  
+    <Hero
+      tagline="SEO Glossar"
+      image={{
+        src: 'images/seo-glossar.png',
+        alt: 'SEO Glossar',
+      }}
+    >
+      <Fragment slot="title">
+        Alle SEO-Begriffe <br />
+        <span class="text-accent dark:text-white highlight">einfach erklärt!</span>
+      </Fragment>
+  
+      <Fragment slot="subtitle">
+        In diesem Glossar findest du eine umfassende Liste von SEO-Begriffen – sowohl die bekannten als auch die weniger bekannten. Perfekt für Einsteiger und Profis! Die Liste wird von mir immer mal wieder upgedated, also schau gern immer mal wieder rein.
+      </Fragment>
+    </Hero>
+  
+    <div class="wrapper">
+      <h2 class="leading-tighter text-heading text-4xl md:text-4xl font-bold leading-tighter tracking-tighter mb-4 font-heading">SEO Glossar</h2>
+    
+      <p>
+        Hier findest du eine Übersicht über alle wichtigen SEO-Begriffe. Ob Basics wie "Backlinks" oder seltene Begriffe wie "Hilltop Algorithmus". Ich versuche in diesem Glossar alles abzudecken.
+      </p>
+    
+      <br>
+  
+      <h3 class="text-2xl font-bold">A</h3>
+      <p><strong>ALT-Tag</strong> – Eine Beschreibung für Bilder. Hilft Suchmaschinen den Inhalt besser zu verstehen. ALT-Tags sind essenziell für Barrierefreiheit und SEO, da sie Suchmaschinen helfen, Bilder zu indexieren und die Relevanz einer Seite zu bestimmen. Nutzer mit Sehbehinderungen profitieren ebenfalls, da Screenreader den ALT-Text vorlesen können. Ein gut gewählter ALT-Tag sollte das Bild präzise beschreiben, aber nicht mit Keywords überladen sein. So verbessert er sowohl die Nutzererfahrung als auch das Ranking in den Suchmaschinen.</p>
+      <p><strong>Ahrefs</strong> – Ein umfassendes SEO-Tool zur Analyse von Backlinks, Keywords und Wettbewerbern. Ahrefs bietet detaillierte Einblicke in die Linkstruktur einer Website, zeigt verlorene und gewonnene Backlinks und hilft, hochwertige Linkbuilding-Strategien zu entwickeln. Mit der Keyword-Analyse lassen sich Suchvolumen, Konkurrenz und Ranking-Chancen ermitteln. Zudem bietet Ahrefs eine Site-Audit-Funktion, die technische SEO-Probleme erkennt und Optimierungspotenziale aufzeigt. Es ist eines der meistgenutzten Tools für professionelle Suchmaschinenoptimierung.</p>
+
+      <p><strong>Authority</strong> – Die Vertrauenswürdigkeit einer Website, beeinflusst das Ranking. Sie wird durch Faktoren wie Backlinks, Nutzerinteraktionen, Inhaltsqualität und technische Optimierung bestimmt. Je höher die Authority, desto größer die Wahrscheinlichkeit, dass eine Seite in den Suchergebnissen gut platziert wird.</p>
+      <br>
+  
+      <h3 class="text-2xl font-bold">B</h3>
+      <p><strong>Backlink</strong> – Ein eingehender Link von einer anderen Website. Hochwertige Backlinks von vertrauenswürdigen Quellen können das Ranking einer Website verbessern, da sie als Vertrauenssignal für Suchmaschinen dienen.</p>
+      <p><strong>Breadcrumbs</strong> – Navigationshilfe, die Nutzern und Suchmaschinen den Pfad zeigt. Sie helfen dabei, die Benutzerfreundlichkeit zu verbessern und erleichtern Suchmaschinen die Indexierung der Seitenstruktur. Breadcrumbs zeigen die Hierarchie einer Website und ermöglichen es Nutzern, schnell zu einer vorherigen Seite zurückzukehren. Für SEO sind sie wichtig, weil sie die Struktur klar darstellen und interne Verlinkungen stärken, was die Sichtbarkeit in den Suchergebnissen verbessern kann.</p>
+
+      <br>
+  
+      <h3 class="text-2xl font-bold">C</h3>
+      <p><strong>Canonical Tag</strong> – Verhindert Duplicate Content-Probleme. Dieses Tag gibt Suchmaschinen an, welche URL die bevorzugte Version einer Seite ist, um Doppelungen zu vermeiden und Rankingverluste zu verhindern.</p>
+      <p><strong>CTR (Click-Through-Rate)</strong> – Die Klickrate einer Seite in den Suchergebnissen. Eine höhere CTR zeigt, dass der Inhalt und das Snippet relevant sind und kann sich positiv auf das Ranking auswirken.</p>
+      <p><strong>Core Web Vitals</strong> – Google-Metriken zur Messung der Ladegeschwindigkeit, Interaktivität und visuellen Stabilität einer Seite. Sie beeinflussen das Ranking und sind entscheidend für eine gute Nutzererfahrung.</p>
+      <br>
+  
+      <h3 class="text-2xl font-bold">D</h3>
+      <p><strong>Domain Authority</strong> – Eine Bewertung, wie stark eine Domain ist. Sie wird anhand verschiedener Faktoren wie Alter der Domain, Anzahl und Qualität der Backlinks sowie allgemeine SEO-Optimierungen berechnet.</p>
+      <p><strong>Deep Linking</strong> – Verlinkung auf tiefere Seiten einer Website. Dies verbessert die Benutzererfahrung, stärkt die interne Verlinkungsstruktur und hilft Suchmaschinen, relevante Inhalte zu identifizieren.</p>
+      <p><strong>Duplicate Content</strong> – Inhalte, die auf mehreren URLs identisch oder sehr ähnlich sind. Dies kann zu Ranking-Problemen führen, da Google nicht weiß, welche Seite priorisiert werden soll.</p>
+      <p><strong>Dofollow Backlinks</strong> – Links, die von Suchmaschinen verfolgt werden und Linkjuice weitergeben. Sie helfen dabei, die Autorität einer Website zu stärken und das Ranking zu verbessern. Hochwertige Dofollow-Backlinks von vertrauenswürdigen Seiten sind besonders wertvoll für die SEO. Allerdings sollte der Linkaufbau natürlich erfolgen, da unnatürlich viele Dofollow-Links von minderwertigen Seiten zu Abstrafungen durch Suchmaschinen führen können. Mehr erfährst du <a href="https://uxffm.com/dofollow-backlinks-finden">hier</a></p>
+      <br>
+
+      <h3 class="text-2xl font-bold">E</h3>
+      <p><strong>E-A-T (Expertise, Authority, Trustworthiness)</strong> – Ein Bewertungsfaktor von Google zur Beurteilung der Qualität von Webseiten, besonders für YMYL-Seiten (Your Money, Your Life). Websites mit hoher Expertise, Autorität und Vertrauenswürdigkeit haben bessere Chancen, in den Suchergebnissen zu ranken.</p>
+  
+      <h3 class="text-2xl font-bold">H</h3>
+      <p><strong>Hilltop Algorithmus</strong> – Ein Google-Algorithmus zur Bewertung von Autoritätsseiten. Dieser Algorithmus analysiert, welche Seiten als Expertenquellen für bestimmte Themen gelten und bevorzugt diese in den Suchergebnissen.</p>
+      <p><strong>hreflang</strong> – Kennzeichnet Sprachversionen einer Website. Dieses Attribut hilft Suchmaschinen, die richtige Sprach- oder Länderversion einer Seite für Nutzer anzuzeigen, was besonders wichtig für internationale SEO-Strategien ist.</p>
+      <br>
+
+      <h3 class="text-2xl font-bold">I</h3>
+      <p><strong>Indexierung vs. Crawling</strong> – Crawling ist der Prozess, bei dem Suchmaschinen Websites durchsuchen. Indexierung bedeutet, dass eine Seite in den Suchergebnissen gespeichert wird. Nicht jede gecrawlte Seite wird automatisch indexiert.</p>
+  
+      <h3 class="text-2xl font-bold">L</h3>
+      <p><strong>Latent Semantic Indexing (LSI)</strong> – Google erkennt semantisch verwandte Begriffe. LSI hilft dabei, den Kontext von Inhalten besser zu verstehen und verbessert die Relevanz einer Seite für bestimmte Suchanfragen.</p>
+      <p><strong>Long-Tail-Keyword</strong> – Lange, spezifische Suchbegriffe mit weniger Konkurrenz. Diese Keywords haben oft eine höhere Conversion-Rate, da sie gezieltere Suchintentionen widerspiegeln.</p>
+      <p><strong>Low Hanging Fruits</strong> – Einfache SEO-Optimierungen mit schnellem Erfolgspotenzial. Dazu gehören schnelle Anpassungen wie die Optimierung von Meta-Tags, die Verbesserung der internen Verlinkung oder die Behebung technischer Fehler. Solche Maßnahmen erfordern wenig Aufwand, können aber das Ranking und die Sichtbarkeit einer Website schnell verbessern. Erfahre <a href="https://uxffm.com/low-hanging-fruits">hier mehr.</a></p>
+      <br>
+      <br>
+  
+      <h3 class="text-2xl font-bold">M</h3>
+      <p><strong>Meta Description</strong> – Die Beschreibung einer Seite in den Suchergebnissen. Eine gut formulierte Meta Description kann die Klickrate (CTR) verbessern, da sie Nutzern eine klare Vorschau auf den Seiteninhalt bietet.</p>
+      <p><strong>Mobile-First Indexing</strong> – Google indexiert zuerst die mobile Version einer Website. Da immer mehr Nutzer mobil suchen, priorisiert Google mobile Inhalte für das Ranking.</p>
+      <br>
+  
+      <h3 class="text-2xl font-bold">P</h3>
+        <p><strong>Pagerank</strong> – Googles ursprünglicher Algorithmus zur Bewertung von Websites. Er analysiert die Qualität und Anzahl eingehender Links, um die Relevanz einer Seite zu bestimmen. Trotz späterer Updates bleibt er ein Kernprinzip der Suchmaschinenoptimierung.</p>
+        <p><strong>Pogo Sticking</strong> – Wenn Nutzer schnell zwischen Suchergebnissen wechseln. Dies kann ein negatives Signal für Suchmaschinen sein, da es darauf hindeutet, dass die Nutzer nicht das gefunden haben, wonach sie gesucht haben.</p>
+        <br>
+
+    
+  
+      <h3 class="text-2xl font-bold">R</h3>
+      <p><strong><a href="https://uxffm.com/google-ranking-verlust">Ranking Verlust</a></strong> – Wenn eine Website Positionen in den Suchergebnissen verliert. Ursachen können Algorithmus-Updates, technische Fehler, schlechte Backlinks oder minderwertiger Content sein. Auch eine fehlerhafte SEO-Strategie oder ein Serverausfall können das Ranking negativ beeinflussen. Um einen Ranking-Verlust zu vermeiden, sollte eine Website regelmäßig optimiert, technisch einwandfrei gehalten und mit hochwertigen Inhalten gefüllt werden.</p>
+
+      <br>
+
+      <h3 class="text-2xl font-bold">S</h3>
+      <p><strong>Schema Markup</strong> – Strukturierte Daten zur Verbesserung der Darstellung in Suchergebnissen. Diese Markups helfen Suchmaschinen, den Inhalt einer Seite besser zu verstehen und können zu Rich Snippets führen, die mehr Aufmerksamkeit in den SERPs erzeugen.</p>
+      <p><strong>SEO Silos</strong> – Strukturierung von Inhalten zur besseren Indexierung. Durch die Gruppierung thematisch verwandter Seiten wird die interne Verlinkung optimiert und Suchmaschinen erkennen besser die Relevanz einzelner Seiten für bestimmte Themen.</p>
+      <p><strong><a href="https://uxffm.com/seo-manipulation">SEO Manipulation</a></strong> – Methoden, die das Ranking künstlich beeinflussen können. Dazu gehören Techniken wie Keyword-Stuffing, versteckte Texte oder Linkkauf. Suchmaschinen wie Google erkennen solche Manipulationen zunehmend besser und bestrafen Websites, die gegen Richtlinien verstoßen. Nachhaltige SEO setzt stattdessen auf hochwertigen Content, technische Optimierung und eine natürliche Linkstruktur.</p>
+      <p><strong>Screaming Frog</strong> – Ein leistungsstarkes SEO-Tool zur Analyse von Websites. Es crawlt Seiten wie eine Suchmaschine und liefert detaillierte Informationen zu technischen SEO-Faktoren. Mit Screaming Frog lassen sich Fehler wie fehlende Meta-Tags, defekte Links, Duplicate Content, fehlende ALT-Tags und Probleme mit der Indexierung schnell erkennen. Das Tool ist besonders hilfreich für große Websites, um technische Optimierungen effizient durchzuführen und das Crawl-Budget von Suchmaschinen optimal zu nutzen.</p>
+
+      <br>
+
+      <h3 class="text-2xl font-bold">T</h3>
+      <p><strong>TF-IDF (Term Frequency – Inverse Document Frequency)</strong> – Eine Methode zur Analyse der Relevanz von Begriffen in SEO-Texten. Sie hilft dabei, Inhalte besser auf bestimmte Suchbegriffe auszurichten. TF-IDF berechnet, wie oft ein Wort in einem Text vorkommt (Term Frequency) und stellt es in Relation dazu, wie oft dieses Wort in anderen Dokumenten erscheint (Inverse Document Frequency). Dadurch können wichtige Begriffe identifiziert werden, die für das Ranking relevant sind. Eine gezielte Optimierung auf TF-IDF kann helfen, Inhalte semantisch besser an Suchanfragen anzupassen, ohne auf übermäßiges Keyword-Stuffing zurückzugreifen.</p>
+      <p><strong>Topical Authority</strong> – Die thematische Autorität einer Website in einem bestimmten Bereich. Je umfassender und hochwertiger die Inhalte zu einem Thema sind, desto stärker stuft Google die Website als Expertenquelle ein. Eine hohe Topical Authority entsteht durch tiefgehende Artikel, strategische interne Verlinkung und eine klare Content-Struktur. Websites mit hoher thematischer Autorität haben bessere Chancen, für relevante Suchanfragen weit oben zu ranken, da Google sie als vertrauenswürdige Quelle betrachtet.</p>
+      <img src="/images/topical-authority-seo.webp" alt="topical authority">
+
+      <br>
+  
+   
+      <h3 class="text-2xl font-bold">X</h3>
+      <p><strong>X-Robots-Tag</strong> – Eine Möglichkeit, Suchmaschinen zu steuern, was gecrawlt wird.  Dieses Tag kann auf Server-Ebene gesetzt werden, um beispielsweise bestimmte Dateien oder Seiten von der Indexierung auszuschließen.</p>
+      <br>
+  
+      <h2 class="leading-tighter text-heading text-4xl md:text-4xl font-bold leading-tighter tracking-tighter mb-4 font-heading">SEO in der Praxis</h2>
+  
+      <p>
+        SEO ist ein dynamisches Feld. Wenn du tiefer einsteigen willst, kannst du dein Wissen mit aktuellen Trends und Best Practices erweitern. 
+        Wenn du Fragen hast oder Hilfe brauchst, kontaktiere mich einfach! Als <a href="/">SEO Freelancer</a> helfe ich dir gerne weiter.
+      </p>
+  
+    </div>
+    
+  </Layout>
+
+<style>
+  a {
+    text-decoration: underline;
+  }
+
+  p {
+    margin-bottom: 20px;
+  }
+
+  .wrapper {
+    max-width: 800px;
+    margin: 64px auto;
+    padding: 0 1rem;
+  }
+</style>

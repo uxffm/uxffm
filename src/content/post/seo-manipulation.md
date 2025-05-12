@@ -1,6 +1,6 @@
 ---
 publishDate: 2023-12-23T00:00:00Z
-updateDate: 2025-01-27T00:00:00Z
+updateDate: 2025-05-12T00:00:00Z
 title: SEO Manipulation [Was bedeutet das?] Aktuell 2025
 excerpt: Bei der Suchmaschinenoptimierung (SEO) wird eine Website so optimiert, dass sie auf den Ergebnisseiten der Suchmaschine (auch SERPS genannt) weiter oben erscheint. Aber was macht man bei der SEO Manipulation?
 image: /images/seo-manipulation.webp
@@ -43,7 +43,7 @@ Weil es hin und wieder für kurze Zeit funktioniert.
 
 SEO-Manipulation wendet Taktiken an die Suchmaschinen täuschen. Ziel ist es, eine Website oder einen Inhalt höher einzustufen. Obwohl diese Website es aus SEO Sicht gar nicht verdient. Einige gängige Beispiele für SEO-Manipulation sind Keyword-Stuffing, Link-Schemata, Cloaking und versteckter Text. 
 
-Als <a href="/">SEO Freelancer</a> merke ich das selber, da Kunden mich oft darauf ansprechen. 
+Als  SEO Freelancer merke ich das selber, da Kunden mich oft darauf ansprechen. 
 
 SEO-Manipulation klingt auch verlockend. So ein bisschen wie ein geheimer Trick, um deine Seite blitzschnell nach oben zu katapultieren. Aber langfristig könnte dieser "Trick" mehr schaden als nützen.
 
