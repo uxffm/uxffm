@@ -1,6 +1,6 @@
 ---
 publishDate: 2025-05-12T00:00:00Z
-updateDate: 2025-05-12T00:00:00Z
+updateDate: 2025-06-16T00:00:00Z
 title: Wann sollte man SEO machen? (Was benötigt man)
 excerpt: Wann lohnt sich SEO wirklich? Finde heraus was du dafür brauchst und starte mit klarer Richtung statt planloser Optimierung.
 image: /images/wann-seo.png
@@ -13,14 +13,26 @@ metadata:
 
 ## Was ist das Minimum um SEO zu betreiben?
 
-Das Minimum, was du brauchst, um SEO zu machen? Eine Website. Und Zeit. Klingt einfach, ist aber ziemlich ernst gemeint. Ohne das brauchst du gar nicht erst anfangen.
+Das Minimum was du brauchst um SEO zu machen? Eine Website und Zeit. Klingt einfach, ist aber wirklich das A und O der SEO Welt. Ohne das brauchst du gar nicht erst anfangen. Jetzt fragen sich viele wahrscheinlich, wer fängt mit der SEO ohne eigene Website an? Aber als SEO Freelancer habe ich schon so manches erlebt. 
 
-Fangen wir mit der Website an. Eine Website ist die Basis. Dein digitales Zuhause. Wenn du keine hast kannst du auch nichts optimieren. Du brauchst Seiten, auf denen du Texte ändern kannst. Strukturen, die du anpassen kannst. Orte an denen Google überhaupt was zum Lesen hat. Theoretisch kannst du bei lokalem SEO mit einem Google-Eintrag oder Maps-Eintrag anfangen – klar. Aber wo sollen die Leute hin, wenn sie mehr wissen wollen? Wenn du keine Website hast, verlierst du sie. Du baust Sichtbarkeit auf aber behältst sie nicht. Und das ist verschenktes Potenzial.
+Theoretisch kannst du bei lokalem SEO mit einem Google-Eintrag oder Maps-Eintrag anfangen – klar. Aber wo sollen die Leute hin, wenn sie mehr wissen wollen? Wenn du keine Website hast, verlierst du sie. Du baust Sichtbarkeit auf aber behältst sie nicht. Und das ist verschenktes Potenzial.
 
-Dann brauchst du Zeit. SEO ist kein Trick, kein Knopf, kein einmaliger Einsatz. Du brauchst Runway. Einen langen Atem. SEO braucht Wochen, manchmal Monate bis du merkst, dass sich was tut. Und dann musst du dranbleiben. Beobachten. Reagieren. Anpassen. Es passiert nicht sofort. SEO braucht Zeit und muss regelmäßig gepflegt werden.
+Deshalb fangen wir mit der Website an. Eine Website ist die Basis, dein digitales Geschäft. Wenn du keine hast kannst du auch nichts optimieren. Du musst auch vollen Zugriff und alle Rechte auf deiner Seite haben. Du brauchst Seiten, auf denen du Texte ändern kannst. Strukturen, die du anpassen kannst und Orte an denen Google überhaupt was zum Lesen hat. 
+
+Dann brauchst du Zeit. SEO ist keine Magie, kein Knopf den du schnell mal drückst und der dann funktioniert. Das ist eher SEA. Also Suchmaschinenmarkeing. Bei der SEO brauchst du einen langen Atem. SEO braucht Wochen, manchmal Monate bis du merkst, dass sich was tut. Und dann musst du dranbleiben. Beobachten. Reagieren. Anpassen. Es passiert nicht sofort. SEO braucht Zeit und muss regelmäßig gepflegt werden. Stell dir einen Garten vor den du regelmäßig pflegen musst. Das veranschaulicht SEO ganz gut. 
+
+### Ein kleines Beispiel aus der Praxis
+
+Ich hatte mal ein Projekt für eine kleine Praxis. Die hatten gerade ihre neue Website online gestellt – ganz frisch, kaum Inhalte drauf, keine Reichweite, niemand hat sie bei Google gefunden. Am Anfang ist da natürlich erstmal nichts passiert. Aber wir haben trotzdem direkt mit der Suchmaschinenoptimierung losgelegt. 
+
+![SEO für kleine Praxis](/images/wann-seo-fallbeispiel.png)
 
 
-Und du brauchst Kontrolle. Du musst an deiner Website was machen dürfen. Es bringt nichts, wenn du zwar eine Website hast, aber nichts daran verändern kannst. Keine Texte, keine Struktur, keine Technik. Dann ist die Website da, aber du kannst nichts damit machen. Für SEO musst du Dinge ändern und anpassen können.
+Texte geschrieben, technische Grundlagen sauber gemacht, lokale Einträge gepflegt. Nach etwa drei Monaten hat man dann zum ersten Mal gesehen, dass es anfängt zu wirken. Die ersten echten Besucher kamen über Google auf die Seite. Und nach etwa einem halben Jahr war die Praxis dann bei drei wichtigen Suchbegriffen ganz oben. Nicht, weil wir einmal irgendwas Großes gemacht hätten. Sondern weil wir regelmäßig drangeblieben sind, immer wieder geschaut haben, was funktioniert, was nicht, und dann eben angepasst, verbessert, nachgelegt haben.
+
+### Was benötigst du noch für die SEO?
+
+Du brauchst Kontrolle. Du musst an deiner Website was machen dürfen. Es bringt nichts, wenn du zwar eine Website hast, aber nichts daran verändern kannst. Keine Texte, keine Struktur, keine Technik. Dann ist die Website da, aber du kannst nichts damit machen. Für SEO musst du Dinge ändern und anpassen können.
 
 Was ist also das Minimum?
 
