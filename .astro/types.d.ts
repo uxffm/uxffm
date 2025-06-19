@@ -227,6 +227,13 @@ declare module 'astro:content' {
   collection: "post";
   data: InferEntrySchema<"post">
 } & { render(): Render[".md"] };
+"warum-seo-in-frankfurt.md": {
+	id: "warum-seo-in-frankfurt.md";
+  slug: "lokale-seo-frankfurt-wichtig";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
 };
 
 	};
