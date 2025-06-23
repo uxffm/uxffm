@@ -213,6 +213,13 @@ declare module 'astro:content' {
   collection: "post";
   data: InferEntrySchema<"post">
 } & { render(): Render[".md"] };
+"seo-fehler-frankfurt.md": {
+	id: "seo-fehler-frankfurt.md";
+  slug: "seo-fehler-frankfurt-vermeiden";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
 "seo-manipulation.md": {
 	id: "seo-manipulation.md";
   slug: "seo-manipulation";
