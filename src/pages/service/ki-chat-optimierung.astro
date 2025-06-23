@@ -1,0 +1,118 @@
+---
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import Hero from '~/components/widgets/Hero.astro';
+import Layout from '~/layouts/PageLayout.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+import Content from '~/components/widgets/Content.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
+
+const metadata = {
+  title: 'SEO für ChatGPT & Co.',
+  description: 'Ich optimiere deine Inhalte für ChatGPT, Claude, Perplexity, Bing Chat & Google SGE – damit du in KI-Antworten sichtbar wirst und neue Kunden erreichst.'
+};
+---
+
+<Layout metadata={metadata}>
+  <Hero
+    tagline="KI-Suchoptimierung leicht gemacht"
+    title="SEO für ChatGPT & KI-Suche"
+    subtitle="Ich mache deine Inhalte sichtbar – nicht nur in Google, sondern direkt in KI-Antworten von ChatGPT, Claude, Perplexity oder Bing Chat."
+    actions={[{ variant: "primary", target: '_blank', text: 'Jetzt anfragen!', href: '/kontakt' }]}
+    image={{
+      src: '/images/seo-chatgpt.png',
+      alt: 'KI-Suchoptimierung für moderne Chatbots'
+    }}
+  />
+
+  <Content
+    isAfterContent
+    items={[
+      {
+        title: 'Warum normale SEO nicht mehr reicht',
+        description: 'Viele Menschen googeln nicht mehr – sie fragen direkt ChatGPT oder Perplexity. Wenn du willst, dass deine Inhalte dort auftauchen, brauchst du KI-Suchoptimierung.',
+        icon: 'tabler:alert-circle'
+      },
+      {
+        title: 'KI-Suchsysteme ticken anders',
+        description: 'Chatbots arbeiten anders als Google. Sie wollen strukturierte Infos, direkte Antworten und klare Sprache. Genau das liefere ich.',
+        icon: 'tabler:settings-cog'
+      },
+      {
+        title: 'Vorsprung sichern',
+        description: 'Noch optimieren wenige für KI. Wer jetzt einsteigt, landet ganz vorne – ohne viel Konkurrenz. Ich helfe dir, diesen Vorsprung zu nutzen.',
+        icon: 'tabler:trending-up'
+      }
+    ]}
+    image={{
+      src: '/images/seo-fuer-chatgpt.png',
+      alt: 'Content Optimierung für Chatbots'
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Mehr Sichtbarkeit durch KI-Antworten</h3>
+    </Fragment>
+  </Content>
+
+  <Features3
+    title="Mein Service für KI-Suchoptimierung umfasst:"
+    subtitle="Gezielte Anpassung deiner Website, damit Chatbots dich verstehen und empfehlen."
+    columns={2}
+    items={[
+      {
+        title: 'Inhalt strukturieren',
+        description: 'Ich bringe klare Überschriften, FAQs und saubere Textlogik in deine Seite – damit KI weiß, was du anbietest.',
+        icon: 'tabler:layout'
+      },
+      {
+        title: 'Antworten formulieren',
+        description: 'Ich schreibe deine Inhalte so, dass sie wie Antworten wirken – damit Chatbots sie gerne übernehmen.',
+        icon: 'tabler:message-chatbot'
+      },
+      {
+        title: 'Semantik & Kontext',
+        description: 'Ich optimiere deine Inhalte so, dass sie thematisch passen – und von Systemen wie Claude oder Gemini erkannt werden.',
+        icon: 'tabler:brain'
+      },
+      {
+        title: 'Monitoring & Anpassung',
+        description: 'Ich prüfe regelmäßig, ob und wo du in KI-Systemen sichtbar wirst – und passe bei Bedarf alles an.',
+        icon: 'tabler:chart-line'
+      }
+    ]}
+    classes={{ container: 'max-w-5xl' }}
+  />
+
+  <FAQs
+    title="Fragen zur KI-Suchoptimierung"
+    subtitle="Noch unsicher? Hier ein paar schnelle Antworten."
+    columns={1}
+    items={[
+      {
+        title: 'Was bringt mir KI-Suchoptimierung?',
+        description: 'Mehr Reichweite über neue Kanäle. Du wirst nicht nur in Google sichtbar, sondern auch direkt in den Antworten moderner KI-Tools. Das bringt dir neue Kunden, die dich sonst nie finden würden.'
+      },
+      {
+        title: 'Für wen lohnt sich das?',
+        description: 'Für alle, die im Netz gefunden werden wollen – Coaches, Shops, Berater, Agenturen oder lokale Anbieter. Wer sichtbar ist, gewinnt.'
+      },
+      {
+        title: 'Ist das aufwendig?',
+        description: 'Für dich nicht. Ich übernehme alles – von der Analyse bis zur fertigen Umsetzung.'
+      },
+      {
+        title: 'Was kostet das?',
+        description: 'Das hängt vom Umfang deiner Seite ab. Aber keine Sorge – du bekommst vorher ein klares Angebot ohne versteckte Kosten.'
+      }
+    ]}
+  />
+
+  <CallToAction
+    actions={[{
+      variant: "primary",
+      text: 'Jetzt unverbindlich anfragen!',
+      href: '/kontakt'
+    }]}
+    title="Lass uns starten"
+    subtitle="Ich mache deine Inhalte fit für die KI-Zukunft – schnell, klar und messbar."
+  />
+</Layout>

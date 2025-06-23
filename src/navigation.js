@@ -22,6 +22,10 @@ export const headerData = {
           text: 'SEO für Therapeuten',
           href: getPermalink('/service/seo-fuer-therapeuten'),
         },
+                {
+          text: 'SEO für ChatGPT',
+          href: getPermalink('/service/ki-chat-optimierung'),
+        },
       ],
     },
     {
