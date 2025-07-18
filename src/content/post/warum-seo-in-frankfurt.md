@@ -1,7 +1,7 @@
 ---
 title: "Warum lokale SEO in Frankfurt so entscheidend ist – und wie man es richtig macht"
 description: "Erfahre, warum lokale SEO für Unternehmen, Selbstständige und Dienstleister in Frankfurt unerlässlich ist und welche Schritte wirklich zu besserer lokaler Sichtbarkeit führen."
-pubDate: "2025-06-17"
+publishDate: 2025-06-17T00:00:00Z
 slug: "lokale-seo-frankfurt-wichtig"
 tags: ['SEO', 'Frankfurt', 'Online-Marketing', 'Lokale-SEO']
 image: /images/warum-seo-in-frankfurt.png
