@@ -227,6 +227,13 @@ declare module 'astro:content' {
   collection: "post";
   data: InferEntrySchema<"post">
 } & { render(): Render[".md"] };
+"seo-vs-sea-therapeuten.md": {
+	id: "seo-vs-sea-therapeuten.md";
+  slug: "seo-vs-sea-therapeuten";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
 "wann-seo-machen.md": {
 	id: "wann-seo-machen.md";
   slug: "wann-seo-machen";
