@@ -18,6 +18,10 @@ export const headerData = {
           text: 'Off-Page SEO',
           href: getPermalink('/service/off-page-seo-frankfurt'),
         },
+                {
+          text: 'SEO Schulungen',
+          href: getPermalink('/service/seo-schulungen'),
+        },
         {
           text: 'SEO für Therapeuten',
           href: getPermalink('/service/seo-fuer-therapeuten'),
