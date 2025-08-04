@@ -64,6 +64,7 @@ export const footerData = {
       title: 'Service',
       links: [
         { text: 'WordPress Service Frankfurt', href: '/service/wordpress-frankfurt' },
+        { text: 'SEO für Therapeuten', href: '/service/seo-fuer-therapeuten' },
       ],
     },
  
