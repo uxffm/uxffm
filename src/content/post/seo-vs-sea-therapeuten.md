@@ -4,7 +4,7 @@ excerpt: "Wenn du online neue Patienten gewinnen willst, brauchst du Sichtbarkei
 pubDate: "2025-07-18"
 slug: "seo-vs-sea-therapeuten"
 tags: ['SEO', 'Frankfurt', 'therapeuten']
-image: /images/sea-vs-seo-therapeuten.png
+image: /images/sea-vs-seo-therapeuten.webp
 ---
 
 # SEO oder SEA – Welche Strategie eignet sich besser für Therapeuten?

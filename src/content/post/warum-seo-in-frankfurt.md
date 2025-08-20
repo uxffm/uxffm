@@ -4,7 +4,7 @@ description: "Erfahre, warum lokale SEO für Unternehmen, Selbstständige und Di
 publishDate: 2025-06-17T00:00:00Z
 slug: "lokale-seo-frankfurt-wichtig"
 tags: ['SEO', 'Frankfurt', 'Online-Marketing', 'Lokale-SEO']
-image: /images/warum-seo-in-frankfurt.png
+image: /images/warum-seo-in-frankfurt.webp
 excerpt: "Ein lokaler Fokus macht den Unterschied: Suchmaschinenoptimierung (SEO) ist mittlerweile jedem ein Begriff. Aber gerade lokale SEO – also Maßnahmen, die dafür sorgen, dass du vor Ort in Frankfurt gefunden wirst – ist für dich als lokales Unternehmen, Selbstständiger oder Dienstleister in Frankfurt entscheidend. Warum?"
 ---
 
