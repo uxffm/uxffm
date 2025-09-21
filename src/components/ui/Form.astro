@@ -5,7 +5,9 @@ import Button from '~/components/ui/Button.astro';
 const { inputs, textarea, disclaimer, button = 'Contact us', description = '' } = Astro.props as Form;
 ---
 
-<form netlify action="/danke">
+<form name="kontakt" method="POST" action="/danke" data-netlify="true" netlify-honeypot="website" accept-charset="utf-8">
+  <input type="hidden" name="form-name" value="kontakt" />
+  <input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px;opacity:0;" aria-hidden="true" />
   {
     inputs &&
       inputs.map(
@@ -24,6 +26,7 @@ const { inputs, textarea, disclaimer, button = 'Contact us', description = '' } 
                 autocomplete={autocomplete}
                 placeholder={placeholder}
                 class="py-3 px-4 block w-full text-md rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-900"
+                required={['name', 'email'].includes(name)}
               />
             </div>
           )
@@ -42,6 +45,7 @@ const { inputs, textarea, disclaimer, button = 'Contact us', description = '' } 
           rows={textarea.rows ? textarea.rows : 4}
           placeholder={textarea.placeholder}
           class="py-3 px-4 block w-full text-md rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-900"
+          required
         />
       </div>
     )
@@ -56,6 +60,7 @@ const { inputs, textarea, disclaimer, button = 'Contact us', description = '' } 
             name="disclaimer"
             type="checkbox"
             class="cursor-pointer mt-1 py-3 px-4 block w-full text-md rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-900"
+            required
           />
         </div>
         <div class="ml-3">

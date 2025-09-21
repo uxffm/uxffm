@@ -1,0 +1,6 @@
+# Redirect default Netlify subdomain to primary domain
+
+https://stellar-tarsier-0cd178.netlify.app/*        https://uxffm.com/:splat 301!
+
+/service/responsive-web-design-frankfurt            /service/wordpress-frankfurt
+/service/google-ads                                 /service/sea-betreuung-frankfurt

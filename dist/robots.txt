@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /imoportant
+Disallow: /datenschutz
+Disallow: /danke
+
+Sitemap: https://uxffm.com/sitemap-index.xml
