@@ -220,13 +220,6 @@ declare module 'astro:content' {
   collection: "post";
   data: InferEntrySchema<"post">
 } & { render(): Render[".md"] };
-"seo-fuer-therapeuten-guide.md": {
-	id: "seo-fuer-therapeuten-guide.md";
-  slug: "seo-fuer-therapeuten-guide";
-  body: string;
-  collection: "post";
-  data: InferEntrySchema<"post">
-} & { render(): Render[".md"] };
 "seo-manipulation.md": {
 	id: "seo-manipulation.md";
   slug: "seo-manipulation";
