@@ -8,7 +8,7 @@ category: seo
 tags:
   - seo
 metadata:
-  canonical: https://uxffm.com/seo-manipulation
+  canonical: https://frankfurtmarketingstudio.de/seo-manipulation
 
 
 ---

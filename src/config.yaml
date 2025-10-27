@@ -92,12 +92,12 @@ ui:
       fonts: {}
       colors:
         default: rgb(247, 248, 248)
-        heading: rgb(247, 248, 248)
+        heading: rgb(255, 255, 255)
         muted: rgb(200, 188, 208)
-        bgPage: rgb(3 6 32)
-        primary: rgb(29 78 216)
-        secondary: rgb(30 58 138)
-        accent: rgb(135 77 2267)
+        bgPage: rgb(46, 34, 61)
+        primary: rgb(233, 89, 180)
+        secondary: rgb(138, 89, 233)
+        accent: rgb(233, 89, 180)
         info: rgb(58 191 248)
         success: rgb(54 211 153)
         warning: rgb(251 189 35)

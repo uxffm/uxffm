@@ -8,7 +8,7 @@ category: SEO
 tags:
   - SEO
 metadata:
-  canonical: https://uxffm.com/wannn-seo
+  canonical: https://frankfurtmarketingstudio.de/wannn-seo
 ---
 
 ## Was ist das Minimum um SEO zu betreiben?

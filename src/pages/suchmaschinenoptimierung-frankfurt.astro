@@ -1,0 +1,244 @@
+---
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import Hero from '~/components/widgets/Hero.astro';
+import Layout from '~/layouts/PageLayout.astro';
+import Content from '~/components/widgets/Content.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
+
+
+
+const metadata = {
+  title: 'SEO Frankfurt - Suchmaschinenoptimierung für mehr Sichtbarkeit',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero Widget ******************* -->
+
+  <Hero
+    tagline="Deine SEO Agentur"
+    title="Suchmaschinenoptimierung Frankfurt"
+    subtitle="Bei Google auf Seite 1 – und dort bleiben. Wir sind deine SEO-Agentur für nachhaltigen Erfolg in den Suchergebnissen. Professionelle Suchmaschinenoptimierung für Frankfurt und darüber hinaus."
+    actions={[{ variant:"primary", target: '_blank', text: 'Jetzt anfragen!', href: '/kontakt' }]}
+    image={{
+      src: '/images/seo-frankfurt.jpg',
+      alt: 'SEO Frankfurt',
+    }}
+  />
+
+
+    <!-- Content Widget **************** -->
+
+    <Content
+    isAfterContent
+      items={[
+        {
+          title: 'Du bist bei Google nicht zu finden?',
+          description:
+            'Dann verschenkst du täglich potenzielle Kunden. Deine Konkurrenz rankt auf Seite 1, während deine Website in den Tiefen von Google verschwindet. Ohne Sichtbarkeit keine Besucher. Ohne Besucher keine Anfragen. Ohne Anfragen kein Wachstum. SEO ist kein Nice-to-have mehr – es ist essentiell.',
+          icon: 'tabler:search',
+        },
+        {
+          title: 'Deine Rankings brechen ein?',
+          description:
+            'Gestern noch auf Seite 1, heute nicht mehr auffindbar? Google-Updates, technische Probleme oder stärkere Konkurrenz können deine Rankings schnell abstürzen lassen. Das bedeutet: weniger Traffic, weniger Leads, weniger Umsatz. Ohne kontinuierliche SEO-Betreuung verlierst du den Anschluss.',
+          icon: 'tabler:chart-line',
+        },
+        {
+          title: 'Du willst mehr organischen Traffic?',
+          description:
+            'Bezahlte Anzeigen kosten dauerhaft Geld. SEO bringt dir langfristigen, kostenlosen Traffic. Einmal oben, bleibst du oben – wenn du es richtig machst. Deine Website wird zur Traffic-Maschine, die rund um die Uhr für dich arbeitet. Genau das erreichen wir mit professioneller Suchmaschinenoptimierung.',
+          icon: 'tabler:trending-up',
+        },
+
+      ]}
+      image={{
+        src: '/images/seo-frankfurt.jpg',
+        alt: 'Suchmaschinenoptimierung Frankfurt',
+      }}
+    >
+      <Fragment slot="content">
+        <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">SEO Frankfurt – Rankings, die sich auszahlen</h3>
+      </Fragment>
+    </Content>
+
+
+
+    <!-- Content Widget **************** -->
+
+    <Content
+        isReversed
+          items={[
+            {
+              title: 'On-Page & Off-Page SEO',
+              description:
+                'Wir optimieren deine Website von innen (Content, Technik, Struktur) und außen (Backlinks, Authority, Trust). Beides ist wichtig. Beides machen wir für dich. Das Ergebnis: bessere Rankings, mehr Sichtbarkeit, mehr Traffic.',
+              icon: 'tabler:settings',
+            },
+            {
+              title: 'Local SEO für Frankfurt',
+              description:
+                'Du willst in Frankfurt gefunden werden? Wir optimieren deine Präsenz in Google Maps, lokalen Verzeichnissen und bei regionalen Suchanfragen. Perfekt für Restaurants, Dienstleister, Handwerker oder lokale Geschäfte.',
+              icon: 'tabler:map-pin',
+            },
+            {
+              title: 'Nachhaltige SEO-Strategien',
+              description:
+                'Keine Tricks, keine Spielchen. Wir arbeiten nach den Google-Richtlinien und setzen auf langfristigen Erfolg. Deine Rankings bleiben stabil, auch nach Updates. SEO, die funktioniert – heute und morgen.',
+              icon: 'tabler:rocket',
+            },
+
+          ]}
+          image={{
+            src: '/images/frankfurt-am-main-commerzbank.webp',
+            alt: 'SEO Agentur Frankfurt',
+          }}
+        >
+          <Fragment slot="content">
+            <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Wir bringen dich nach vorne</h3>
+          </Fragment>
+    </Content>
+
+
+
+
+
+  <!-- Features3 Widget ************** -->
+
+  <Features3
+    title="Unsere SEO-Leistungen für Frankfurt"
+    subtitle="Was wir für deine Rankings tun"
+    columns={2}
+    items={[
+      {
+        title: 'SEO-Audit & Analyse',
+        description: 'Wir analysieren deine Website von Grund auf. Technik, Content, Backlinks, Konkurrenz. Du bekommst einen klaren Fahrplan: Was läuft gut, wo besteht Handlungsbedarf und wie wir dich nach vorne bringen.',
+        icon: 'tabler:clipboard-check',
+      },
+      {
+        title: 'Keyword-Recherche',
+        description: 'Die richtigen Keywords sind der Schlüssel. Wir finden heraus, wonach deine Zielgruppe sucht und wie viel Potenzial in jedem Keyword steckt. So rankst du für Begriffe, die wirklich Traffic und Kunden bringen.',
+        icon: 'tabler:key',
+      },
+      {
+        title: 'On-Page Optimierung',
+        description: 'Title-Tags, Meta-Descriptions, Überschriften, interne Verlinkung, Content-Struktur. Wir optimieren jede Seite deiner Website für bessere Rankings und höhere Klickraten in den Suchergebnissen.',
+        icon: 'tabler:file-text',
+      },
+      {
+        title: 'Technisches SEO',
+        description: `Ladezeiten, mobile Optimierung, strukturierte Daten, Crawlbarkeit, Indexierung. Wir sorgen dafür, dass Google deine Seite problemlos versteht und rankt. Technisch saubere Websites ranken besser.`,
+        icon: 'tabler:settings',
+      },
+      {
+        title: 'Content-Erstellung',
+        description: 'Hochwertiger, SEO-optimierter Content, der Nutzer und Suchmaschinen überzeugt. Wir erstellen Texte, die ranken und konvertieren – nicht nur Fließtext, sondern strategischer Content mit Mehrwert.',
+        icon: 'tabler:writing',
+      },
+      {
+        title: 'Linkaufbau',
+        description: 'Backlinks von starken, relevanten Websites. Wir bauen deine Autorität auf und sorgen dafür, dass Google dir vertraut. Natürlicher Linkaufbau ohne Risiko – für langfristige Rankings.',
+        icon: 'tabler:link',
+      },
+      {
+        title: 'Local SEO',
+        description: 'Google Business Profil, lokale Citations, standortbezogene Keywords. Wir bringen dich in den Local Pack und auf die Karte. Perfekt für alle, die Kunden in Frankfurt und Umgebung gewinnen wollen.',
+        icon: 'tabler:map-pin',
+      },
+      {
+        title: 'Ladezeit-Optimierung',
+        description: 'Schnelle Websites ranken besser und verkaufen mehr. Wir optimieren Bilder, Code, Server-Performance – alles für maximale Geschwindigkeit und beste User Experience.',
+        icon: 'tabler:speedboat',
+      },
+      {
+        title: 'SEO-Monitoring & Reporting',
+        description: 'Du willst sehen, was passiert. Wir liefern dir regelmäßige Reports mit Rankings, Traffic, Conversions. Volle Transparenz über deine SEO-Performance.',
+        icon: 'tabler:chart-dots',
+      },
+      {
+        title: 'Konkurrenzanalyse',
+        description: 'Was machen deine Konkurrenten besser? Wir analysieren ihre Strategien und zeigen dir, wie du sie überholst. Wir finden Lücken, die du nutzen kannst.',
+        icon: 'tabler:target',
+      },
+    ]}
+    classes={{ container: 'max-w-5xl' }}
+  />
+
+
+
+  <!-- FAQs Widget ******************* -->
+
+  <FAQs
+    title="Häufige Fragen zur Suchmaschinenoptimierung"
+    subtitle="Die wichtigsten Antworten rund um SEO für Frankfurt"
+    columns={1}
+    items={[
+      {
+        title: 'Was kostet SEO in Frankfurt?',
+        description:
+          'Das kommt auf dein Projekt an. Für kleine lokale Unternehmen starten SEO-Pakete oft ab 800-1.500 Euro pro Monat. Größere Projekte oder E-Commerce können 2.000-5.000 Euro und mehr kosten. SEO ist eine Investition, die sich langfristig auszahlt – organischer Traffic kostet dich später nichts mehr.',
+      },
+      {
+        title: 'Wie lange dauert es, bis SEO Ergebnisse zeigt?',
+        description:
+          'Erste Verbesserungen siehst du meist nach 3-6 Monaten. Für signifikante Ranking-Sprünge solltest du 6-12 Monate einplanen. SEO ist ein Marathon, kein Sprint. Aber: Einmal erreichte Rankings bleiben stabil – im Gegensatz zu bezahlten Anzeigen.',
+      },
+      {
+        title: 'Brauche ich als lokales Geschäft in Frankfurt wirklich SEO?',
+        description:
+          "Absolut. Gerade lokale Unternehmen profitieren enorm von Local SEO. Wenn jemand nach 'Restaurant Frankfurt' oder 'Friseur in meiner Nähe' sucht, willst du gefunden werden. Google Maps, lokale Rankings und dein Google Business Profil sind entscheidend für lokale Sichtbarkeit.",
+      },
+      {
+        title: 'Was ist der Unterschied zwischen SEO und SEA?',
+        description:
+          "SEO (organische Suche) bringt langfristigen, kostenlosen Traffic. SEA (Google Ads) liefert sofortige Sichtbarkeit, kostet aber laufend Geld. Am besten funktioniert eine Kombination: SEA für schnelle Ergebnisse, SEO für langfristige Sichtbarkeit.",
+      },
+      {
+        title: 'Kann ich SEO selbst machen?',
+        description:
+          "Grundlagen ja, aber für echte Ergebnisse brauchst du Erfahrung, Tools und Zeit. Professionelle SEO-Agenturen wissen, was funktioniert, haben die richtigen Tools und sparen dir teure Fehler. Gerade bei Wettbewerb lohnt sich professionelle Unterstützung.",
+      },
+    ]}
+  />
+
+
+
+  <!-- CallToAction Widget *********** -->
+
+  <CallToAction
+    actions={[{
+      variant: "primary",
+      text: 'Kostenlose SEO-Analyse',
+      href: '/kontakt',
+    }]}
+    title="Bereit für bessere Rankings?"
+    subtitle="Kontaktiere uns für eine unverbindliche Erstberatung. Wir analysieren deine Website und zeigen dir, wie wir dich bei Google nach vorne bringen."
+  />
+</Layout>
+
+
+
+<style>
+  .wrapper {
+    max-width: 800px;
+    margin: 0px auto;
+    padding: 0 1rem;
+  }
+
+  .wrapper:nth-child(3) {
+    margin-top: 64px;
+  }
+
+  .ul-list {
+    list-style: disc;
+    padding-left: 20px;
+    margin-top: 8px;
+  }
+
+
+  a {
+    text-decoration: underline;
+    color: white;
+  }
+</style>

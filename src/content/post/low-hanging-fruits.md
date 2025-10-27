@@ -7,7 +7,7 @@ category: SEO
 tags:
   - seo
 metadata:
-  canonical: https://uxffm.com/low-hanging-fruits
+  canonical: https://frankfurtmarketingstudio.de/low-hanging-fruits
 ---
 
 "Low Hanging Fruits" was ist das eigentlich?

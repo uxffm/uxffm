@@ -11,24 +11,12 @@ export const headerData = {
       href: getPermalink('/service'),
       links: [
         {
+          text: 'SEO Frankfurt',
+          href: getPermalink('/suchmaschinenoptimierung-frankfurt'),
+        },
+        {
           text: 'WordPress Frankfurt',
           href: getPermalink('/service/wordpress-frankfurt'),
-        },
-        {
-          text: 'Off-Page SEO',
-          href: getPermalink('/service/off-page-seo-frankfurt'),
-        },
-                {
-          text: 'SEO Coaching',
-          href: getPermalink('/service/seo-schulungen'),
-        },
-        {
-          text: 'SEO für Therapeuten',
-          href: getPermalink('/service/seo-fuer-therapeuten'),
-        },
-                {
-          text: 'SEO für ChatGPT',
-          href: getPermalink('/service/ki-chat-optimierung'),
         },
       ],
     },
@@ -48,7 +36,6 @@ export const footerData = {
         { text: 'Impressum', href: '/imoportant' },
         { text: 'Datenschutz', href: '/datenschutz' },
         { text: 'Über Mich', href: '/about-us' },
-        { text: 'kontakt@uxffm.com', href: 'mailto:kontakt@uxffm.com">' },
       ],
     },
     {
@@ -63,8 +50,8 @@ export const footerData = {
     {
       title: 'Service',
       links: [
+        { text: 'SEO Frankfurt', href: '/suchmaschinenoptimierung-frankfurt' },
         { text: 'WordPress Service Frankfurt', href: '/service/wordpress-frankfurt' },
-        { text: 'SEO für Therapeuten', href: '/service/seo-fuer-therapeuten' },
       ],
     },
  
@@ -72,7 +59,7 @@ export const footerData = {
   secondaryLinks: [
   ],
   socialLinks: [
-    { ariaLabel: 'Tiktok', icon: 'tabler:brand-tiktok', href: 'https://www.tiktok.com/@uxffm.com' },
+    { ariaLabel: 'Tiktok', icon: 'tabler:brand-tiktok', href: 'https://www.tiktok.com/@frankfurtmarketingstudio.de' },
   ],
   footNote: `
     © ${new Date().getFullYear()}/${(new Date().getMonth() + 1).toString().padStart(2, '0')} SEO Freelancer Frankfurt - All Rights Reserved. By SEO Lukasz

@@ -8,7 +8,7 @@ category: seo
 tags:
   - seo
 metadata:
-  canonical: https://uxffm.com/falsche-seite-rankt
+  canonical: https://frankfurtmarketingstudio.de/falsche-seite-rankt
 ---
 
 Als <a href="/service/wordpress-frankfurt">WordPress Freelancer für die Stadt Frankfurt</a>, begegne ich oft dem Problem, dass Kunden zwar feststellen, dass ihre Seiten ranken, aber leider für das falsche Keyword. 
