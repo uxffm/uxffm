@@ -1,0 +1,244 @@
+---
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import Hero from '~/components/widgets/Hero.astro';
+import Layout from '~/layouts/PageLayout.astro';
+import Content from '~/components/widgets/Content.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
+
+
+
+const metadata = {
+  title: 'App Entwicklung Frankfurt - Deine professionelle App Agentur - FrankfurtMarketingStudio',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero Widget ******************* -->
+
+  <Hero
+    tagline="Dein App Entwickler"
+    title="App Entwicklung Frankfurt"
+    subtitle="Von der Idee zur fertigen App – ich entwickle moderne, benutzerfreundliche Apps für iOS und Android. Als dein App-Entwickler aus Frankfurt biete ich individuelle Lösungen, die genau zu deinem Unternehmen passen. Fair, transparent und mit direktem Ansprechpartner."
+    actions={[{ variant:"primary", target: '_blank', text: 'Jetzt anfragen!', href: '/kontakt' }]}
+    image={{
+      src: '/images/app-entwicklung-frankfurt.svg',
+      alt: 'App Entwicklung Frankfurt',
+    }}
+  />
+
+
+    <!-- Content Widget **************** -->
+
+    <Content
+    isAfterContent
+      items={[
+        {
+          title: 'Du hast keine App für dein Unternehmen?',
+          description:
+            'Dann verschenkst du enormes Potenzial. Eine App macht dein Angebot mobil verfügbar – jederzeit und überall. Ohne App verlierst du den direkten Draht zu deinen Kunden. Sie können nicht auf Knopfdruck auf deine Services zugreifen, Benachrichtigungen erhalten oder bequem mit dir interagieren. In einer zunehmend mobilen Welt wirkst du ohne App schnell veraltet und weniger erreichbar. So gehen dir täglich Chancen verloren, deine Kunden langfristig zu binden.',
+          icon: 'tabler:device-mobile',
+        },
+        {
+          title: 'Du hast eine App – aber sie läuft nicht rund?',
+          description:
+            'Abstürze, lange Ladezeiten, fehlerhafte Funktionen oder ein veraltetes Design. Eine App, die nicht richtig funktioniert, schadet deinem Image mehr, als dass sie hilft. Nutzer werden ungeduldig, frustriert und löschen die App schnell wieder. Schlechte Bewertungen im App Store tun ihr Übriges. Während du versuchst, die Probleme selbst zu beheben, verlierst du User, Vertrauen und am Ende auch Umsatz.',
+          icon: 'tabler:bug',
+        },
+        {
+          title: 'Du willst eine neue App entwickeln – aber weißt nicht, wo du anfangen sollst?',
+          description:
+            'Die Technik ist komplex, die Auswahl an Plattformen überwältigend. Soll es eine native App sein oder crossplatform? iOS, Android oder beides? Welche Features brauchst du wirklich? Wie sieht die Architektur aus? Ohne klaren Plan und technisches Know-how wird aus der Idee schnell ein teures Chaos. Genau hier brauchst du jemanden, der dich von Anfang an begleitet und deine Vision professionell umsetzt.',
+          icon: 'tabler:code',
+        },
+
+      ]}
+      image={{
+        src: '/images/app-entwicklung-smartphone-frankfurt.webp',
+        alt: 'App Entwicklung mit Smartphone in Frankfurt am Main',
+      }}
+    >
+      <Fragment slot="content">
+        <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Deine professionelle App direkt aus Frankfurt</h3>
+      </Fragment>
+    </Content>
+
+
+
+    <!-- Content Widget **************** -->
+
+    <Content
+        isReversed
+          items={[
+            {
+              title: 'App-Entwicklung direkt vom Profi',
+              description:
+                'Egal, ob du noch keine App hast, deine bestehende App Probleme macht oder du eine komplett neue Lösung brauchst: Ich entwickle deine App von Grund auf. Von der ersten Konzeption bis zur Veröffentlichung im App Store und Google Play. Schnell, zuverlässig und genau auf deine Anforderungen zugeschnitten. Du bekommst eine moderne App, die funktioniert, gut aussieht und deine User begeistert.',
+              icon: 'tabler:rocket',
+            },
+            {
+              title: 'Apps für jede Branche',
+              description:
+                'Das Besondere an App-Entwicklung ist ihre Vielseitigkeit. Egal ob du im E-Commerce tätig bist, ein Handwerksbetrieb, eine Praxis, ein Restaurant oder Startup: Apps funktionieren in jeder Branche. Sie helfen dir, näher an deinen Kunden zu sein, Prozesse zu optimieren und neue Services anzubieten.',
+              icon: 'tabler:devices',
+            },
+            {
+              title: 'Kosteneffizienz durch moderne Technologie',
+              description:
+                'Moderne App-Entwicklung muss nicht teuer sein. Mit Frameworks wie React Native oder Flutter entwickle ich crossplatform – eine Codebasis für iOS und Android. Das spart Kosten und Entwicklungszeit. Besonders für kleinere Unternehmen und Startups in Frankfurt, die mit Budget arbeiten, ist das die ideale Lösung. Als Freelancer stelle ich dir dein persönliches Angebot zusammen.',
+              icon: 'tabler:coin',
+            },
+
+          ]}
+          image={{
+            src: '/images/app-entwickler-frankfurt-mobile.webp',
+            alt: 'App Entwicklung für mobile Geräte in Frankfurt',
+          }}
+        >
+          <Fragment slot="content">
+            <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Die Lösung ist ganz einfach – ich entwickle deine App.</h3>
+          </Fragment>
+    </Content>
+
+
+
+
+
+  <!-- Features3 Widget ************** -->
+
+  <Features3
+    title="App Entwicklung Frankfurt – deine Services"
+    subtitle="Als Freelancer kümmere ich mich um alle Aspekte deiner App-Entwicklung."
+    columns={2}
+    items={[
+      {
+        title: 'Native App Entwicklung (iOS & Android)',
+        description: 'Entwicklung nativer Apps für iOS (Swift) und Android (Kotlin/Java), die perfekt auf die jeweilige Plattform abgestimmt sind. Höchste Performance, optimale User Experience und volle Nutzung aller Gerätefunktionen. Ideal für anspruchsvolle Projekte mit hohen Anforderungen an Geschwindigkeit und Funktionalität.',
+        icon: 'tabler:brand-apple',
+      },
+      {
+        title: 'Cross-Platform App Entwicklung',
+        description: 'Mit React Native oder Flutter entwickle ich Apps, die auf iOS und Android laufen – aus einer einzigen Codebasis. Das spart Zeit, reduziert Kosten und beschleunigt deine Time-to-Market. Perfekt für Startups und KMUs, die schnell und kostengünstig starten wollen.',
+        icon: 'tabler:layers-intersect',
+      },
+      {
+        title: 'App Design & UX/UI',
+        description: 'Eine App muss nicht nur funktionieren, sie muss auch gut aussehen und intuitiv bedienbar sein. Ich entwickle moderne Designs, die zu deiner Marke passen und deine User begeistern. Von Wireframes über Prototypen bis zum finalen Design – alles aus einer Hand.',
+        icon: 'tabler:palette',
+      },
+      {
+        title: 'Backend & API Integration',
+        description: 'Deine App braucht ein stabiles Backend? Ich entwickle performante Server-Architekturen, RESTful APIs oder GraphQL-Schnittstellen. Integration mit bestehenden Systemen, Datenbanken, Payment-Anbietern oder Drittdiensten – alles reibungslos und sicher umgesetzt.',
+        icon: 'tabler:server',
+      },
+      {
+        title: 'App Store Optimierung (ASO)',
+        description: 'Damit deine App gefunden wird, optimiere ich sie für den App Store und Google Play. Von der Keyword-Recherche über überzeugende Screenshots bis hin zur perfekten Beschreibung. Mehr Sichtbarkeit bedeutet mehr Downloads und mehr Erfolg.',
+        icon: 'tabler:chart-line',
+      },
+      {
+        title: 'App Wartung & Updates',
+        description: 'Eine App ist nie "fertig". Ich kümmere mich um regelmäßige Updates, Bugfixes, Performance-Optimierungen und neue Features. So bleibt deine App aktuell, sicher und läuft auf allen neuen Geräten und Betriebssystem-Versionen.',
+        icon: 'tabler:refresh',
+      },
+      {
+        title: 'Progressive Web Apps (PWA)',
+        description: 'Eine Alternative zur nativen App: PWAs laufen im Browser, funktionieren aber wie eine App – mit Offline-Modus, Push-Benachrichtigungen und Home-Screen-Icon. Schneller und günstiger in der Entwicklung, trotzdem hochwertig und modern.',
+        icon: 'tabler:browser',
+      },
+      {
+        title: 'App Migration & Modernisierung',
+        description: 'Deine bestehende App ist veraltet oder läuft nicht mehr rund? Ich migriere sie auf moderne Technologien, optimiere die Performance und bringe sie auf den neuesten Stand. Von Legacy-Code zu sauberem, wartbarem Code.',
+        icon: 'tabler:arrows-right-left',
+      },
+      {
+        title: 'Push-Benachrichtigungen & Analytics',
+        description: 'Halte deine User mit Push-Benachrichtigungen up to date. Ich integriere Firebase, OneSignal oder andere Dienste und richte Analytics ein (Google Analytics, Mixpanel, etc.), damit du genau siehst, wie deine App genutzt wird und wo Optimierungspotenzial liegt.',
+        icon: 'tabler:bell',
+      },
+      {
+        title: 'In-App Käufe & Monetarisierung',
+        description: 'Du möchtest mit deiner App Geld verdienen? Ich integriere In-App-Käufe, Abonnements oder Werbeanzeigen. Sauber implementiert, rechtlich sicher und optimal für dein Business-Modell.',
+        icon: 'tabler:shopping-cart',
+      },
+    ]}
+    classes={{ container: 'max-w-5xl' }}
+  />
+
+
+
+  <!-- FAQs Widget ******************* -->
+
+  <FAQs
+    title="App Entwicklung Frankfurt – FAQs"
+    subtitle="Falls du weitere Fragen zur App-Entwicklung hast, hoffe ich, die wichtigsten hier beantwortet zu haben. Andernfalls zögere bitte nicht, mir eine Nachricht zu schreiben."
+    columns={1}
+    items={[
+      {
+        title: 'Für wen lohnt sich eine eigene App?',
+        description:
+          'In <a style="text-decoration: underline" href="https://de.wikipedia.org/wiki/Frankfurt_am_Main" target="_blank">Frankfurt</a> profitieren verschiedenste Unternehmen von einer eigenen App. Restaurants und Cafés können Reservierungen, Bestellungen und Treueprogramme direkt in die App integrieren. Einzelhändler bieten mobile Shopping-Erlebnisse. Dienstleister wie Friseure, Ärzte oder Fitnessstudios ermöglichen Online-Terminbuchungen. Auch Handwerksbetriebe, Startups und Freelancer nutzen Apps, um ihre Services zugänglicher zu machen und Kundenbindung zu stärken.',
+      },
+      {
+        title: 'Native App oder Cross-Platform – was ist besser?',
+        description:
+          'Das hängt von deinen Anforderungen ab. Native Apps (Swift für iOS, Kotlin für Android) bieten maximale Performance und vollen Zugriff auf alle Gerätefunktionen – sind aber teurer und aufwendiger. Cross-Platform-Apps (React Native, Flutter) sind günstiger, schneller entwickelt und laufen auf beiden Plattformen. Für die meisten Projekte ist Cross-Platform die beste Wahl. Ich berate dich gerne, welche Lösung für dich passt.',
+      },
+      {
+        title: 'Wie lange dauert die Entwicklung einer App?',
+        description:
+          'Das hängt vom Umfang ab. Eine einfache App mit Basis-Funktionen kann in 4–8 Wochen fertig sein. Komplexere Apps mit Backend, API-Integration, User-Accounts und erweiterten Features brauchen 3–6 Monate. Ich erstelle dir nach einem ersten Gespräch einen realistischen Zeitplan.',
+      },
+      {
+        title: 'Was kostet eine App-Entwicklung?',
+        description:
+          'Die Kosten variieren je nach Funktionsumfang, Design-Aufwand und Plattform. Einfache Apps starten ab ca. 5.000–10.000 €. Umfangreichere Projekte liegen zwischen 15.000–50.000 € oder mehr. Als Freelancer arbeite ich transparent und stelle dir ein individuelles Angebot zusammen, das zu deinem Budget passt.',
+      },
+      {
+        title: 'Kann ich die App später selbst anpassen?',
+        description:
+          'Ja! Wenn du ein Content-Management-System oder Admin-Backend möchtest, baue ich das ein. So kannst du Inhalte, Bilder oder Texte selbst ändern, ohne mich jedes Mal kontaktieren zu müssen. Für technische Updates stehe ich dir natürlich weiterhin zur Seite.',
+      },
+    ]}
+  />
+
+
+
+  <!-- CallToAction Widget *********** -->
+
+  <CallToAction
+    actions={[{
+      variant: "primary",
+      text: 'Jetzt unverbindlich anfragen!',
+      href: '/kontakt',
+    }]}
+    title="Bereit für deine eigene App direkt aus Frankfurt?"
+    subtitle="Schreib mir ganz unverbindlich eine Nachricht und ich werde mich so schnell wie möglich bei dir melden – Dein App-Entwickler Lukasz."
+  />
+</Layout>
+
+
+
+<style>
+  .wrapper {
+    max-width: 800px;
+    margin: 0px auto;
+    padding: 0 1rem;
+  }
+
+  .wrapper:nth-child(3) {
+    margin-top: 64px;
+  }
+
+  .ul-list {
+    list-style: disc;
+    padding-left: 20px;
+    margin-top: 8px;
+  }
+
+
+  a {
+    text-decoration: underline;
+    color: white;
+  }
+</style>
