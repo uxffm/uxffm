@@ -18,6 +18,10 @@ export const headerData = {
           text: 'WordPress Frankfurt',
           href: getPermalink('/service/wordpress-frankfurt'),
         },
+        {
+          text: 'App Entwicklung Frankfurt',
+          href: getPermalink('/app-entwicklung-frankfurt'),
+        },
       ],
     },
     {
@@ -52,6 +56,7 @@ export const footerData = {
       links: [
         { text: 'SEO Frankfurt', href: '/suchmaschinenoptimierung-frankfurt' },
         { text: 'WordPress Service Frankfurt', href: '/service/wordpress-frankfurt' },
+        { text: 'App Entwicklung Frankfurt', href: '/app-entwicklung-frankfurt' },
       ],
     },
  
@@ -62,6 +67,6 @@ export const footerData = {
     { ariaLabel: 'Tiktok', icon: 'tabler:brand-tiktok', href: 'https://www.tiktok.com/@frankfurtmarketingstudio.de' },
   ],
   footNote: `
-    © ${new Date().getFullYear()}/${(new Date().getMonth() + 1).toString().padStart(2, '0')} SEO Freelancer Frankfurt - All Rights Reserved. By SEO Lukasz
+    © ${new Date().getFullYear()}/${(new Date().getMonth() + 1).toString().padStart(2, '0')} Online Marketing Frankfurt - All Rights Reserved. By SEO Lukasz
   `,
 };

@@ -1,22 +1,22 @@
 site:
-  name: SEO Freelancer Frankfurt
+  name: Online Marketing Frankfurt
   site: 'https://frankfurtmarketingstudio.de'
   base: '/'
   trailingSlash: false
 
-  googleSiteVerificationId: 
+  googleSiteVerificationId:
 
 # Default SEO metadata
 metadata:
   title:
-    default: SEO Freelancer Frankfurt
-    template: '%s — SEO Freelancer Frankfurt'
-  description: "SEO Freelancer aus Frankfurt am Main."
+    default: Online Marketing Frankfurt
+    template: '%s — Online Marketing Frankfurt'
+  description: "Online Marketing Freelancer aus Frankfurt am Main."
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: SEO Freelancer Frankfurt
+    site_name: Online Marketing Frankfurt
     images:
       - url: '~/assets/images/default.png'
         width: 1200
