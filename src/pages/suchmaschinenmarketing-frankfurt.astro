@@ -1,0 +1,249 @@
+---
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import Hero from '~/components/widgets/Hero.astro';
+import Layout from '~/layouts/PageLayout.astro';
+import Content from '~/components/widgets/Content.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
+
+
+
+const metadata = {
+  title: 'Suchmaschinenmarketing Frankfurt (SEM) - SEO & SEA vom Experten - FrankfurtMarketingStudio',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero Widget ******************* -->
+
+  <Hero
+    tagline="Dein SEM Experte"
+    title="Suchmaschinenmarketing Frankfurt"
+    subtitle="Mit professionellem Suchmaschinenmarketing (SEM) erreichst du mehr Kunden in Frankfurt und Umgebung. Ich kombiniere SEO und SEA für maximale Sichtbarkeit bei Google – messbar, transparent und zielorientiert."
+    actions={[{ variant:"primary", target: '_blank', text: 'Jetzt anfragen!', href: '/kontakt' }]}
+    image={{
+      src: '/images/suchmaschinenmarketing-frankfurt.svg',
+      alt: 'Suchmaschinenmarketing Frankfurt',
+    }}
+  />
+
+
+    <!-- Content Widget **************** -->
+
+    <Content
+    isAfterContent
+      items={[
+        {
+          title: 'Deine Konkurrenz ist in Google sichtbar – du nicht?',
+          description:
+            'Während andere Unternehmen in Frankfurt bei Google auf der ersten Seite stehen, bist du nirgends zu finden. Potenzielle Kunden suchen nach deinen Dienstleistungen, finden aber nur deine Mitbewerber. Jeden Tag verlierst du Anfragen, Leads und Umsatz an die Konkurrenz. Ohne strategisches Suchmaschinenmarketing bleibst du unsichtbar – und das kostet dich bares Geld.',
+          icon: 'tabler:eye-off',
+        },
+        {
+          title: 'Du investierst in Online-Marketing, siehst aber keine Ergebnisse?',
+          description:
+            'Vielleicht hast du schon in SEO oder Google Ads investiert, aber die Resultate lassen auf sich warten. Deine Rankings stagnieren, die Anzeigen bringen keine qualifizierten Leads, und das Budget rinnt dir durch die Finger. Ohne die richtige Strategie und Expertise verschwendest du nur Zeit und Geld. Du brauchst jemanden, der weiß, wie Suchmaschinenmarketing wirklich funktioniert.',
+          icon: 'tabler:chart-line-down',
+        },
+        {
+          title: 'Du weißt nicht, wo du anfangen sollst?',
+          description:
+            'SEO, SEA, Google Ads, Keywords, Landingpages, Conversion-Optimierung – die Liste ist lang und komplex. Du willst endlich in Google gefunden werden, aber du weißt nicht, welche Maßnahmen wirklich Sinn machen. Soll ich erst SEO machen oder direkt Anzeigen schalten? Welche Keywords sind die richtigen? Wie messe ich den Erfolg? Genau hier brauchst du einen Experten, der dir den Weg zeigt.',
+          icon: 'tabler:question-mark',
+        },
+
+      ]}
+      image={{
+        src: '/images/sem-frankfurt-sichtbarkeit.webp',
+        alt: 'Suchmaschinenmarketing für mehr Sichtbarkeit in Frankfurt',
+      }}
+    >
+      <Fragment slot="content">
+        <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Mehr Sichtbarkeit, mehr Kunden – mit SEM aus Frankfurt</h3>
+      </Fragment>
+    </Content>
+
+
+
+    <!-- Content Widget **************** -->
+
+    <Content
+        isReversed
+          items={[
+            {
+              title: 'Ganzheitliches Suchmaschinenmarketing',
+              description:
+                'Ich kombiniere SEO (Suchmaschinenoptimierung) und SEA (Suchmaschinenwerbung) zu einer effektiven Strategie. Langfristig baue ich deine organischen Rankings aus, kurzfristig bringe ich dir mit Google Ads sofort Traffic. So deckst du beide Bereiche ab und holst das Maximum aus deinem Budget heraus. Messbar, transparent und auf deine Ziele ausgerichtet.',
+              icon: 'tabler:target',
+            },
+            {
+              title: 'Lokale Ausrichtung auf Frankfurt',
+              description:
+                'Als SEM-Freelancer aus Frankfurt kenne ich den lokalen Markt genau. Ich weiß, wie Frankfurter suchen, welche Keywords funktionieren und wie du dich von der lokalen Konkurrenz abhebst. Ob Sachsenhausen, Nordend, Bockenheim oder Innenstadt – ich optimiere deine Kampagnen gezielt für deine Zielgruppe in Frankfurt und Umgebung.',
+              icon: 'tabler:map-pin',
+            },
+            {
+              title: 'Transparente Erfolgsmessung',
+              description:
+                'Bei mir gibt es keine Black Box. Du siehst genau, was passiert: Wie entwickeln sich deine Rankings? Wie performen deine Anzeigen? Wie viele Anfragen generierst du? Ich liefere dir regelmäßige Reports und zeige dir schwarz auf weiß, was dein Investment bringt. So hast du die volle Kontrolle über deine Marketing-Ausgaben.',
+              icon: 'tabler:chart-bar',
+            },
+
+          ]}
+          image={{
+            src: '/images/sem-strategie-frankfurt.webp',
+            alt: 'Suchmaschinenmarketing Strategie für Frankfurt',
+          }}
+        >
+          <Fragment slot="content">
+            <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Mein Ansatz: SEO + SEA = Erfolg</h3>
+          </Fragment>
+    </Content>
+
+
+
+
+
+  <!-- Features3 Widget ************** -->
+
+  <Features3
+    title="Suchmaschinenmarketing Frankfurt – Meine Leistungen"
+    subtitle="Alles, was du brauchst, um bei Google erfolgreich zu sein"
+    columns={2}
+    items={[
+      {
+        title: 'Keyword-Recherche & Analyse',
+        description: 'Die Basis jeder SEM-Strategie: Ich finde heraus, welche Keywords deine Zielgruppe in Frankfurt wirklich nutzt. Nicht die generischen Begriffe mit Millionen Suchvolumen, sondern die relevanten, kaufbereiten Keywords, die dir qualifizierte Leads bringen. Mit professionellen Tools und lokalem Know-how.',
+        icon: 'tabler:search',
+      },
+      {
+        title: 'Suchmaschinenoptimierung (SEO)',
+        description: 'Langfristig organisch gefunden werden – das ist das Ziel von SEO. Ich optimiere deine Website technisch und inhaltlich, baue hochwertige Backlinks auf und sorge dafür, dass Google dich liebt. On-Page, Off-Page, Local SEO – alles aus einer Hand. Nachhaltig und messbar.',
+        icon: 'tabler:seo',
+      },
+      {
+        title: 'Google Ads (SEA)',
+        description: 'Du brauchst schnelle Ergebnisse? Mit Google Ads schalte ich zielgerichtete Anzeigen, die genau dann erscheinen, wenn potenzielle Kunden nach deinen Leistungen suchen. Ich manage deine Kampagnen, optimiere Gebote, texte Anzeigen und sorge für maximale Conversions bei minimalem Budget-Verschleiß.',
+        icon: 'tabler:ad',
+      },
+      {
+        title: 'Local SEO für Frankfurt',
+        description: 'Für lokale Unternehmen ist Local SEO entscheidend. Ich optimiere dein Google-Unternehmensprofil, baue lokale Citations auf und sorge dafür, dass du bei „[Branche] Frankfurt" ganz oben stehst. Perfekt für Dienstleister, Praxen, Restaurants und Läden mit lokalem Kundenstamm.',
+        icon: 'tabler:map-pin-filled',
+      },
+      {
+        title: 'Conversion-Optimierung (CRO)',
+        description: 'Traffic allein bringt nichts – er muss auch konvertieren. Ich analysiere deine Website und Landingpages, identifiziere Schwachstellen und optimiere sie für maximale Conversions. Bessere Texte, klarere Call-to-Actions, optimierte Formulare – damit aus Besuchern Kunden werden.',
+        icon: 'tabler:click',
+      },
+      {
+        title: 'Content-Marketing',
+        description: 'Content ist King – besonders für SEO. Ich erstelle oder optimiere Inhalte, die deine Zielgruppe wirklich interessieren und gleichzeitig bei Google ranken. Blog-Artikel, Landingpages, Produktbeschreibungen – alles SEO-optimiert, authentisch und verkaufsstark.',
+        icon: 'tabler:writing',
+      },
+      {
+        title: 'Technisches SEO',
+        description: 'Eine Website muss technisch einwandfrei sein, damit Google sie liebt. Ich prüfe Ladezeiten, Mobile-Optimierung, strukturierte Daten, XML-Sitemaps und behebe technische Fehler. Schnell, sauber, crawlbar – so wie Google es mag.',
+        icon: 'tabler:tool',
+      },
+      {
+        title: 'Linkaufbau & Backlinks',
+        description: 'Hochwertige Backlinks sind nach wie vor ein wichtiger Ranking-Faktor. Ich baue für dich saubere, relevante Links auf – keine dubiosen Linkfarmen, sondern echte, wertvolle Verlinkungen von themenrelevanten Websites. Nachhaltig und sicher.',
+        icon: 'tabler:link',
+      },
+      {
+        title: 'Reporting & Analyse',
+        description: 'Du bekommst regelmäßige Reports mit allen wichtigen KPIs: Rankings, Traffic, Conversions, Kosten pro Lead und mehr. Ich zeige dir transparent, was funktioniert und wo wir nachjustieren müssen. Datenbasiertes Marketing, kein Bauchgefühl.',
+        icon: 'tabler:report',
+      },
+      {
+        title: 'Wettbewerbsanalyse',
+        description: 'Was macht deine Konkurrenz in Frankfurt? Welche Keywords ranken bei ihnen? Welche Anzeigen schalten sie? Ich analysiere deine Mitbewerber und finde heraus, wo deine Chancen liegen. So bist du der Konkurrenz immer einen Schritt voraus.',
+        icon: 'tabler:users',
+      },
+    ]}
+    classes={{ container: 'max-w-5xl' }}
+  />
+
+
+
+  <!-- FAQs Widget ******************* -->
+
+  <FAQs
+    title="Suchmaschinenmarketing Frankfurt – FAQs"
+    subtitle="Falls du weitere Fragen zu SEM hast, hoffe ich, die wichtigsten hier beantwortet zu haben. Andernfalls schreib mir gerne eine Nachricht."
+    columns={1}
+    items={[
+      {
+        title: 'Was ist der Unterschied zwischen SEO und SEA?',
+        description:
+          'SEO (Search Engine Optimization) ist die organische Suchmaschinenoptimierung – du verbesserst deine Website, um langfristig in den unbezahlten Suchergebnissen aufzutauchen. SEA (Search Engine Advertising) sind bezahlte Anzeigen, z.B. Google Ads – du zahlst pro Klick und erscheinst sofort in den Suchergebnissen. Beide Ansätze haben Vor- und Nachteile. Ideal ist eine Kombination aus beidem: SEO für langfristigen Erfolg, SEA für schnelle Ergebnisse.',
+      },
+      {
+        title: 'Wie lange dauert es, bis ich Ergebnisse sehe?',
+        description:
+          'Bei SEA (Google Ads) siehst du erste Ergebnisse innerhalb weniger Tage – sobald die Kampagnen live sind. Bei SEO dauert es länger, typischerweise 3–6 Monate, bis deutliche Ranking-Verbesserungen sichtbar werden. SEO ist ein Marathon, keine Sprint. Dafür sind die Ergebnisse nachhaltig und kosten dich langfristig weniger als ständig neue Anzeigen zu schalten.',
+      },
+      {
+        title: 'Was kostet Suchmaschinenmarketing?',
+        description:
+          'Die Kosten hängen stark vom Umfang ab. SEO-Betreuung startet ab ca. 500–1.000 € pro Monat, je nach Wettbewerb und Zielen. Google Ads-Budget ist variabel – du legst fest, wie viel du ausgeben möchtest (z.B. 500–2.000 € pro Monat). Dazu kommt ggf. meine Management-Gebühr. Ich erstelle dir gerne ein individuelles Angebot basierend auf deinen Zielen und deinem Budget.',
+      },
+      {
+        title: 'Lohnt sich SEM für kleine Unternehmen in Frankfurt?',
+        description:
+          'Absolut! Gerade für kleine und mittelständische Unternehmen ist lokales Suchmaschinenmarketing extrem effektiv. Wenn jemand nach „Steuerberater Frankfurt Sachsenhausen" oder „Friseur Nordend" sucht, ist das ein hochqualifizierter Lead. Mit der richtigen Strategie kannst du auch mit kleinem Budget viel erreichen – besonders mit Local SEO und gezielten Google Ads Kampagnen.',
+      },
+      {
+        title: 'Brauche ich SEO oder Google Ads – oder beides?',
+        description:
+          'Idealerweise beides. Google Ads bringt dir sofort Traffic und Anfragen – perfekt, wenn du schnell starten willst. SEO braucht länger, zahlt sich aber langfristig aus und kostet dich keine Klickpreise mehr. Meine Empfehlung: Starte mit Google Ads für Quick Wins und baue parallel dein SEO auf. So deckst du kurz- und langfristig ab.',
+      },
+      {
+        title: 'Kann ich SEM selbst machen oder brauche ich einen Experten?',
+        description:
+          'Grundlagen kannst du dir selbst aneignen, aber professionelles SEM erfordert viel Erfahrung, Zeit und Know-how. Von der Keyword-Recherche über technisches SEO bis hin zur Optimierung von Anzeigen-Geboten – jeder Schritt will gelernt sein. Ein Experte spart dir Zeit, vermeidet teure Fehler und holt mehr aus deinem Budget heraus. Du konzentrierst dich auf dein Business, ich auf deine Sichtbarkeit.',
+      },
+    ]}
+  />
+
+
+
+  <!-- CallToAction Widget *********** -->
+
+  <CallToAction
+    actions={[{
+      variant: "primary",
+      text: 'Jetzt unverbindlich anfragen!',
+      href: '/kontakt',
+    }]}
+    title="Bereit für mehr Sichtbarkeit in Frankfurt?"
+    subtitle="Schreib mir ganz unverbindlich eine Nachricht und lass uns über deine SEM-Strategie sprechen – Dein Online-Marketing Experte Lukasz aus Frankfurt."
+  />
+</Layout>
+
+
+
+<style>
+  .wrapper {
+    max-width: 800px;
+    margin: 0px auto;
+    padding: 0 1rem;
+  }
+
+  .wrapper:nth-child(3) {
+    margin-top: 64px;
+  }
+
+  .ul-list {
+    list-style: disc;
+    padding-left: 20px;
+    margin-top: 8px;
+  }
+
+
+  a {
+    text-decoration: underline;
+    color: white;
+  }
+</style>

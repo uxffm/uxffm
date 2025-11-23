@@ -1,0 +1,249 @@
+---
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import Hero from '~/components/widgets/Hero.astro';
+import Layout from '~/layouts/PageLayout.astro';
+import Content from '~/components/widgets/Content.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
+
+
+
+const metadata = {
+  title: 'Website monatlich bezahlen - Flexible Webseiten ohne hohe Anfangskosten - FrankfurtMarketingStudio',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero Widget ******************* -->
+
+  <Hero
+    tagline="Deine Website auf Raten"
+    title="Website monatlich bezahlen"
+    subtitle="Eine professionelle Website ohne hohe Anfangsinvestition – mit monatlicher Zahlung kommst du schnell und flexibel zu deiner Online-Präsenz. Ideal für Selbstständige, kleine Unternehmen und Startups in Frankfurt, die ihr Budget schonen möchten."
+    actions={[{ variant:"primary", target: '_blank', text: 'Jetzt anfragen!', href: '/kontakt' }]}
+    image={{
+      src: '/images/website-monatlich-bezahlen.svg',
+      alt: 'Website monatlich bezahlen Frankfurt',
+    }}
+  />
+
+
+    <!-- Content Widget **************** -->
+
+    <Content
+    isAfterContent
+      items={[
+        {
+          title: 'Hohe Anfangskosten schrecken dich ab?',
+          description:
+            'Eine professionelle Website kostet oft mehrere tausend Euro auf einmal. Gerade für Gründer, Selbstständige oder kleine Unternehmen ist diese Investition eine große finanzielle Belastung. Du zögerst, weil du das Geld im Moment nicht flüssig hast – obwohl du weißt, dass eine Website wichtig für dein Business ist. Ohne Online-Präsenz verlierst du aber täglich potenzielle Kunden an deine Konkurrenz.',
+          icon: 'tabler:coin-off',
+        },
+        {
+          title: 'Du brauchst Planungssicherheit?',
+          description:
+            'Mit festen monatlichen Kosten behältst du die volle Kontrolle über deine Ausgaben. Keine bösen Überraschungen, keine versteckten Zusatzkosten. Du weißt genau, was jeden Monat auf dich zukommt und kannst dein Budget entsprechend planen. Das gibt dir die Sicherheit, die du für dein Business brauchst.',
+          icon: 'tabler:calendar-check',
+        },
+        {
+          title: 'Du willst schnell starten?',
+          description:
+            'Warum Monate sparen, wenn du sofort loslegen kannst? Mit monatlicher Zahlung bekommst du deine professionelle Website jetzt – ohne lange zu warten. Dein Online-Auftritt steht in wenigen Wochen, und du kannst sofort anfangen, Kunden zu gewinnen. Zeit ist Geld, besonders im Business.',
+          icon: 'tabler:rocket',
+        },
+
+      ]}
+      image={{
+        src: '/images/website-ratenzahlung-frankfurt.webp',
+        alt: 'Website monatlich bezahlen in Frankfurt am Main',
+      }}
+    >
+      <Fragment slot="content">
+        <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Professionelle Website – bezahlbar für jeden</h3>
+      </Fragment>
+    </Content>
+
+
+
+    <!-- Content Widget **************** -->
+
+    <Content
+        isReversed
+          items={[
+            {
+              title: 'Flexibles Zahlungsmodell',
+              description:
+                'Statt einer großen Einmalzahlung verteilst du die Kosten auf monatliche Raten. Das schont deine Liquidität und ermöglicht dir, sofort mit deiner Website durchzustarten. Du zahlst einen festen monatlichen Betrag und bekommst dafür eine vollwertige, professionelle Website – inklusive Hosting, Wartung und Support.',
+              icon: 'tabler:credit-card',
+            },
+            {
+              title: 'Alles inklusive – keine versteckten Kosten',
+              description:
+                'In deiner monatlichen Rate ist bereits alles enthalten: Design, Entwicklung, Hosting, SSL-Zertifikat, regelmäßige Updates und technischer Support. Du musst dich um nichts kümmern – ich übernehme die komplette Betreuung deiner Website. So kannst du dich voll auf dein Geschäft konzentrieren.',
+              icon: 'tabler:package',
+            },
+            {
+              title: 'Keine Bindung, volle Flexibilität',
+              description:
+                'Die meisten Ratenzahlungsmodelle laufen über 12, 24 oder 36 Monate – je nachdem, was zu dir passt. Danach gehört die Website dir, oder du verlängerst einfach den Service-Vertrag für laufende Betreuung. Keine ewige Bindung, keine komplizierten Verträge – nur faire, transparente Konditionen.',
+              icon: 'tabler:lock-open',
+            },
+
+          ]}
+          image={{
+            src: '/images/website-raten-frankfurt-flexibel.webp',
+            alt: 'Website auf Raten in Frankfurt – flexibel und günstig',
+          }}
+        >
+          <Fragment slot="content">
+            <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">So funktioniert die monatliche Zahlung</h3>
+          </Fragment>
+    </Content>
+
+
+
+
+
+  <!-- Features3 Widget ************** -->
+
+  <Features3
+    title="Website monatlich bezahlen – Was ist enthalten?"
+    subtitle="Dein All-in-One-Paket für eine professionelle Online-Präsenz"
+    columns={2}
+    items={[
+      {
+        title: 'Individuelles Webdesign',
+        description: 'Keine 08/15-Vorlage, sondern ein maßgeschneidertes Design, das zu deiner Marke passt. Modern, responsive und benutzerfreundlich – auf allen Geräten perfekt dargestellt. Deine Website hebt sich von der Masse ab und hinterlässt einen bleibenden Eindruck bei deinen Besuchern.',
+        icon: 'tabler:palette',
+      },
+      {
+        title: 'Professionelle Entwicklung',
+        description: 'Technisch sauber programmiert, schnell ladend und suchmaschinenoptimiert. Ich setze auf moderne Technologien und Best Practices, damit deine Website nicht nur gut aussieht, sondern auch performant und sicher läuft. Perfekt für Google und deine Nutzer.',
+        icon: 'tabler:code',
+      },
+      {
+        title: 'Hosting & Domain inklusive',
+        description: 'Du brauchst dich um nichts zu kümmern. Hosting, Domain-Einrichtung, SSL-Zertifikat – alles ist in deiner monatlichen Rate enthalten. Deine Website läuft auf schnellen, sicheren Servern und ist rund um die Uhr erreichbar.',
+        icon: 'tabler:server',
+      },
+      {
+        title: 'Regelmäßige Updates & Wartung',
+        description: 'Software-Updates, Sicherheits-Patches, Backups – ich halte deine Website immer auf dem neuesten Stand. Du musst dich um keine technischen Details kümmern. Deine Website bleibt sicher, schnell und aktuell.',
+        icon: 'tabler:refresh',
+      },
+      {
+        title: 'Content Management System (CMS)',
+        description: 'Mit einem benutzerfreundlichen CMS wie WordPress kannst du Texte und Bilder später selbst anpassen – ganz ohne Programmierkenntnisse. Ich richte alles für dich ein und zeige dir, wie es funktioniert. So bleibst du flexibel und unabhängig.',
+        icon: 'tabler:edit',
+      },
+      {
+        title: 'SEO-Optimierung',
+        description: 'Deine Website wird von Anfang an für Suchmaschinen optimiert. Schnelle Ladezeiten, sauberer Code, Meta-Tags und strukturierte Daten – alles, was Google liebt. So hast du die besten Chancen, bei lokalen Suchanfragen in Frankfurt gefunden zu werden.',
+        icon: 'tabler:chart-line',
+      },
+      {
+        title: 'Mobile Optimierung',
+        description: 'Über 60% der Nutzer surfen heute mobil. Deine Website ist responsive und sieht auf Smartphone, Tablet und Desktop perfekt aus. Egal, wo deine Kunden dich finden – sie bekommen immer das beste Erlebnis.',
+        icon: 'tabler:device-mobile',
+      },
+      {
+        title: 'Kontaktformulare & Funktionen',
+        description: 'Ich integriere alle Funktionen, die du brauchst: Kontaktformulare, Google Maps, Social-Media-Links, Newsletter-Anmeldung und mehr. Deine Website ist nicht nur schön, sondern auch funktional und hilft dir, Leads zu generieren.',
+        icon: 'tabler:mail',
+      },
+      {
+        title: 'Technischer Support',
+        description: 'Bei Fragen oder Problemen bin ich für dich da. Schneller, persönlicher Support – kein Callcenter, sondern direkter Draht zum Entwickler. Ich helfe dir, wenn du etwas brauchst oder Anpassungen möchtest.',
+        icon: 'tabler:headset',
+      },
+      {
+        title: 'Google Analytics & Tracking',
+        description: 'Ich richte Google Analytics und andere Tracking-Tools für dich ein, damit du genau siehst, wie deine Website performt. Wie viele Besucher kommen? Woher? Was machen sie? Diese Daten helfen dir, deine Online-Strategie zu optimieren.',
+        icon: 'tabler:chart-dots',
+      },
+    ]}
+    classes={{ container: 'max-w-5xl' }}
+  />
+
+
+
+  <!-- FAQs Widget ******************* -->
+
+  <FAQs
+    title="Website monatlich bezahlen – Häufige Fragen"
+    subtitle="Falls du weitere Fragen zur monatlichen Zahlung hast, hoffe ich, die wichtigsten hier beantwortet zu haben. Andernfalls schreib mir gerne eine Nachricht."
+    columns={1}
+    items={[
+      {
+        title: 'Wie hoch sind die monatlichen Kosten?',
+        description:
+          'Die monatlichen Kosten hängen vom Umfang deiner Website ab. Eine einfache Business-Website mit 5–10 Seiten startet ab ca. 99–199 € pro Monat. Umfangreichere Projekte mit mehr Features kosten entsprechend mehr. Ich erstelle dir gerne ein individuelles Angebot, das genau zu deinen Anforderungen und deinem Budget passt.',
+      },
+      {
+        title: 'Wie lange läuft der Vertrag?',
+        description:
+          'Typischerweise läuft der Vertrag über 12, 24 oder 36 Monate – je nachdem, was für dich am besten passt. Je länger die Laufzeit, desto niedriger die monatliche Rate. Nach Ablauf der Vertragslaufzeit gehört die Website dir, oder wir verlängern den Service-Vertrag für laufende Betreuung.',
+      },
+      {
+        title: 'Was passiert nach der Vertragslaufzeit?',
+        description:
+          'Nach Ablauf der vereinbarten Laufzeit hast du mehrere Optionen: Du kannst die Website komplett übernehmen (sie gehört dann dir), du verlängerst den Wartungsvertrag zu reduzierten Kosten, oder du beendest die Zusammenarbeit. Du bist völlig frei in deiner Entscheidung.',
+      },
+      {
+        title: 'Gehört mir die Website am Ende?',
+        description:
+          'Ja! Nach vollständiger Zahlung aller Raten gehört die Website dir – inklusive aller Rechte. Du kannst sie dann selbst weiterführen, zu einem anderen Anbieter umziehen oder weiterhin meinen Support in Anspruch nehmen. Volle Transparenz, keine versteckten Klauseln.',
+      },
+      {
+        title: 'Kann ich Änderungen an der Website vornehmen?',
+        description:
+          'Ja, auf jeden Fall! Kleinere Anpassungen (Texte, Bilder austauschen) kannst du über das CMS selbst vornehmen. Für größere Änderungen oder neue Features unterstütze ich dich gerne – entweder im Rahmen des Service-Pakets oder gegen Aufpreis, je nach Umfang.',
+      },
+      {
+        title: 'Ist monatliche Zahlung teurer als eine Einmalzahlung?',
+        description:
+          'In der Summe kann die monatliche Zahlung etwas teurer sein als eine Einmalzahlung – dafür bekommst du aber auch laufenden Service, Wartung und Support inklusive. Du zahlst also nicht nur für die Website selbst, sondern auch für die Betreuung über die gesamte Laufzeit. Das spart dir Zeit, Nerven und gibt dir Sicherheit.',
+      },
+    ]}
+  />
+
+
+
+  <!-- CallToAction Widget *********** -->
+
+  <CallToAction
+    actions={[{
+      variant: "primary",
+      text: 'Jetzt unverbindlich anfragen!',
+      href: '/kontakt',
+    }]}
+    title="Bereit für deine Website mit monatlicher Zahlung?"
+    subtitle="Schreib mir ganz unverbindlich eine Nachricht und ich erstelle dir ein individuelles Angebot – Dein Webdesigner Lukasz aus Frankfurt."
+  />
+</Layout>
+
+
+
+<style>
+  .wrapper {
+    max-width: 800px;
+    margin: 0px auto;
+    padding: 0 1rem;
+  }
+
+  .wrapper:nth-child(3) {
+    margin-top: 64px;
+  }
+
+  .ul-list {
+    list-style: disc;
+    padding-left: 20px;
+    margin-top: 8px;
+  }
+
+
+  a {
+    text-decoration: underline;
+    color: white;
+  }
+</style>
