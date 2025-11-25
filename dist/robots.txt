@@ -3,4 +3,4 @@ Disallow: /imoportant
 Disallow: /datenschutz
 Disallow: /danke
 
-Sitemap: https://uxffm.com/sitemap-index.xml
+Sitemap: https://frankfurtmarketingstudio.de/sitemap-index.xml
