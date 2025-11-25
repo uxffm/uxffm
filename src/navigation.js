@@ -22,6 +22,14 @@ export const headerData = {
           text: 'App Entwicklung Frankfurt',
           href: getPermalink('/app-entwicklung-frankfurt'),
         },
+        {
+          text: 'Website monatlich bezahlen',
+          href: getPermalink('/website-monatlich-bezahlen'),
+        },
+        {
+          text: 'Suchmaschinenmarketing Frankfurt',
+          href: getPermalink('/suchmaschinenmarketing-frankfurt'),
+        },
       ],
     },
     {
@@ -57,6 +65,8 @@ export const footerData = {
         { text: 'SEO Frankfurt', href: '/suchmaschinenoptimierung-frankfurt' },
         { text: 'WordPress Service Frankfurt', href: '/service/wordpress-frankfurt' },
         { text: 'App Entwicklung Frankfurt', href: '/app-entwicklung-frankfurt' },
+        { text: 'Website monatlich bezahlen', href: '/website-monatlich-bezahlen' },
+        { text: 'Suchmaschinenmarketing Frankfurt', href: '/suchmaschinenmarketing-frankfurt' },
       ],
     },
  
