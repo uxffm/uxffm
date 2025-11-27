@@ -14,7 +14,7 @@ image: /gemini.png
 
 Google Gemini 3.0 ist das neueste KI-Sprachmodell von Google und gilt als besonders leistungsfähig in Logik, Multimodalität und Coding. Es wurde entwickelt, um „jede Idee zum Leben zu erwecken" und ist über verschiedene Google-Produkte verfügbar – von der Gemini-App über Google Search (AI Mode) bis hin zu Cloud-Diensten wie Vertex AI. Für Webdesigner:innen und Entwickler:innen ist besonders interessant, wie gut Gemini typische Webdesign-Aufgaben unterstützt. Dazu zählen etwa das Schreiben von HTML/CSS/JS-Code, die Gestaltung von Layouts, die Generierung von Bildern und Texten sowie die Optimierung von Websites.
 
-Im Folgenden untersuchen wir Gemini 3.0's Fähigkeiten in diesen Bereichen, vergleichen es mit etablierten KI-Tools (ChatGPT-4, Claude 2, GitHub Copilot) und zeigen Möglichkeiten auf, Gemini praktisch im Webdesign einzusetzen.
+Im Folgenden untersuchen wir Gemini 3.0's Fähigkeiten in diesen Bereichen, vergleichen es mit etablierten KI-Tools (ChatGPT-4, Claude 2, GitHub Copilot) und zeigen Möglichkeiten auf, Gemini praktisch im <a href="/website-designer-frankfurt">Webdesign</a> einzusetzen.
 
 Gemini kann beim Schreiben, Coden, Visualisieren und Optimieren im Webentwicklungsprozess helfen. Diese Schritte entsprechen Kernaufgaben wie Content-Erstellung, Frontend-Coding, grafische Gestaltung und Performance/SEO-Optimierung einer Website. Wichtig ist aber eine realistische Einschätzung: Gemini 3.0 ist derzeit vor allem ein Assistenzwerkzeug – es kann Arbeitsabläufe erheblich beschleunigen und neue Möglichkeiten bieten, ersetzt aber (noch) keine menschlichen Webdesigner:innen vollständig.
 
