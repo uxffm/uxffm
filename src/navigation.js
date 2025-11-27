@@ -11,6 +11,10 @@ export const headerData = {
       href: getPermalink('/service'),
       links: [
         {
+          text: 'Website Designer Frankfurt',
+          href: getPermalink('/website-designer-frankfurt'),
+        },
+        {
           text: 'SEO Frankfurt',
           href: getPermalink('/suchmaschinenoptimierung-frankfurt'),
         },
@@ -62,6 +66,7 @@ export const footerData = {
     {
       title: 'Service',
       links: [
+        { text: 'Website Designer Frankfurt', href: '/website-designer-frankfurt' },
         { text: 'SEO Frankfurt', href: '/suchmaschinenoptimierung-frankfurt' },
         { text: 'WordPress Service Frankfurt', href: '/service/wordpress-frankfurt' },
         { text: 'App Entwicklung Frankfurt', href: '/app-entwicklung-frankfurt' },

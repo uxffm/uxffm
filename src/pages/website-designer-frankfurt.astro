@@ -1,0 +1,237 @@
+---
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import Hero from '~/components/widgets/Hero.astro';
+import Layout from '~/layouts/PageLayout.astro';
+import Content from '~/components/widgets/Content.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
+
+
+
+const metadata = {
+  title: 'Website Designer Frankfurt - Professionelles Webdesign aus Frankfurt - FrankfurtMarketingStudio',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero Widget ******************* -->
+
+  <Hero
+    tagline="Dein Website Designer"
+    title="Website Designer Frankfurt"
+    subtitle="Professionelles Webdesign, das deine Marke zum Leben erweckt. Als Website Designer aus Frankfurt gestalte ich moderne, benutzerfreundliche Websites, die nicht nur gut aussehen, sondern auch konvertieren. Individuell, kreativ und zielorientiert."
+    actions={[{ variant:"primary", target: '_blank', text: 'Jetzt anfragen!', href: '/kontakt' }]}
+  />
+
+
+    <!-- Content Widget **************** -->
+
+    <Content
+    isAfterContent
+      items={[
+        {
+          title: 'Deine Website sieht veraltet aus?',
+          description:
+            'Ein veraltetes Design schreckt potenzielle Kunden ab, noch bevor sie deinen Text lesen. Wenn deine Website aus den 2000ern aussieht, wirkt auch dein Unternehmen nicht zeitgemäß. Besucher verlieren das Vertrauen und springen ab – direkt zur Konkurrenz. In Frankfurt, wo Professionalität zählt, kann sich niemand eine unmoderne Website leisten. Ein frisches, professionelles Design ist keine Kür, sondern Pflicht.',
+          icon: 'tabler:hourglass',
+        },
+        {
+          title: 'Niemand findet sich auf deiner Website zurecht?',
+          description:
+            'Komplizierte Navigation, unklare Struktur, versteckte Informationen – wenn Besucher nicht innerhalb von Sekunden finden, was sie suchen, sind sie weg. Eine schlecht designte Website frustriert User und kostet dich Conversions. Gutes Webdesign bedeutet nicht nur Ästhetik, sondern vor allem Usability. Deine Website muss intuitiv bedienbar sein, sonst verlierst du Kunden.',
+          icon: 'tabler:route',
+        },
+        {
+          title: 'Deine Website bringt keine Anfragen?',
+          description:
+            'Du hast Traffic, aber keine Conversions? Das liegt oft am Design. Fehlende Call-to-Actions, unklare Botschaften, chaotisches Layout – wenn Besucher nicht wissen, was sie als nächstes tun sollen, tun sie nichts. Ein durchdachtes Webdesign führt User gezielt zur Kontaktaufnahme, zum Kauf oder zur Anmeldung. Design ist nicht Deko – Design ist Verkaufsstrategie.',
+          icon: 'tabler:phone-off',
+        },
+
+      ]}
+    >
+      <Fragment slot="content">
+        <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Webdesign, das verkauft – nicht nur hübsch aussieht</h3>
+      </Fragment>
+    </Content>
+
+
+
+    <!-- Content Widget **************** -->
+
+    <Content
+        isReversed
+          items={[
+            {
+              title: 'Individuelles Design, das zu dir passt',
+              description:
+                'Keine Templates von der Stange. Ich gestalte jede Website individuell – abgestimmt auf deine Marke, deine Zielgruppe und deine Ziele. Ob minimalistisch-elegant, verspielt-kreativ oder business-seriös – dein Design wird einzigartig sein und sich von der Masse abheben. So wie dein Unternehmen.',
+              icon: 'tabler:palette',
+            },
+            {
+              title: 'User Experience (UX) im Fokus',
+              description:
+                'Schönes Design allein reicht nicht. Ich konzipiere Websites so, dass sie intuitiv bedienbar sind, schnell laden und User zur gewünschten Aktion führen. Vom ersten Klick bis zur Conversion – jedes Element ist durchdacht. Gutes UX-Design macht den Unterschied zwischen Besuchern und Kunden.',
+              icon: 'tabler:click',
+            },
+            {
+              title: 'Responsive & Mobile-First',
+              description:
+                'Über 70% der Nutzer surfen mobil. Deine Website muss auf jedem Gerät perfekt aussehen und funktionieren – ob Smartphone, Tablet oder Desktop. Ich designe mobile-first, damit deine Seite überall ein erstklassiges Erlebnis bietet. Responsive Design ist heute Standard, kein Extra.',
+              icon: 'tabler:device-mobile',
+            },
+
+          ]}
+        >
+          <Fragment slot="content">
+            <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Mein Ansatz: Design trifft Strategie</h3>
+          </Fragment>
+    </Content>
+
+
+
+
+
+  <!-- Features3 Widget ************** -->
+
+  <Features3
+    title="Website Designer Frankfurt – Meine Leistungen"
+    subtitle="Von der Idee bis zur fertigen Website – alles aus einer Hand"
+    columns={2}
+    items={[
+      {
+        title: 'Corporate Design & Branding',
+        description: 'Deine Website ist Teil deiner Marke. Ich entwickle oder optimiere dein Corporate Design – Logo, Farbpalette, Typografie, Bildsprache. Alles harmonisch aufeinander abgestimmt. So entsteht ein einheitlicher, professioneller Markenauftritt, der in Erinnerung bleibt.',
+        icon: 'tabler:brand-abstract',
+      },
+      {
+        title: 'UI/UX Design',
+        description: 'User Interface (UI) und User Experience (UX) sind das Herzstück jeder guten Website. Ich gestalte Oberflächen, die nicht nur schön aussehen, sondern auch funktional sind. Klare Hierarchien, intuitive Navigation, ansprechende Interaktionen – Design, das User liebt.',
+        icon: 'tabler:layout',
+      },
+      {
+        title: 'Landing Page Design',
+        description: 'Du brauchst eine hochkonvertierende Landing Page für deine Kampagne? Ich designe fokussierte, überzeugende Landing Pages mit klaren Call-to-Actions. Optimiert für Conversions, nicht für Klicks. Jedes Element zielt darauf ab, Besucher zu Kunden zu machen.',
+        icon: 'tabler:target-arrow',
+      },
+      {
+        title: 'E-Commerce & Shop Design',
+        description: 'Online-Shops brauchen besonderes Design-Know-how. Ich gestalte E-Commerce-Websites, die Vertrauen schaffen und zum Kauf animieren. Produktpräsentation, Warenkorb-Optimierung, Checkout-Flow – alles darauf ausgelegt, deine Conversion-Rate zu maximieren.',
+        icon: 'tabler:shopping-cart',
+      },
+      {
+        title: 'Responsive Webdesign',
+        description: 'Deine Website passt sich automatisch an jedes Gerät an – egal ob Smartphone, Tablet oder Desktop. Ich designe mobile-first, damit die User Experience auf allen Bildschirmgrößen stimmt. Perfekt dargestellt, immer und überall.',
+        icon: 'tabler:devices',
+      },
+      {
+        title: 'Redesign bestehender Websites',
+        description: 'Deine Website ist in die Jahre gekommen? Ich modernisiere sie von Grund auf. Neues Design, bessere Struktur, optimierte User Experience – ohne dass du deine Domain oder Inhalte verlierst. Ein Relaunch, der sich lohnt.',
+        icon: 'tabler:refresh',
+      },
+      {
+        title: 'Barrierefreies Design (Accessibility)',
+        description: 'Inklusive Websites erreichen mehr Menschen. Ich designe barrierefrei nach WCAG-Standards, damit deine Website auch für Menschen mit Einschränkungen zugänglich ist. Das ist nicht nur gesetzlich relevant, sondern auch gut fürs Image und SEO.',
+        icon: 'tabler:accessible',
+      },
+      {
+        title: 'Interaktive Elemente & Animationen',
+        description: 'Subtile Animationen, Hover-Effekte, Parallax-Scrolling – ich bringe deine Website zum Leben. Interaktive Elemente machen das Nutzererlebnis angenehmer und steigern die Verweildauer. Immer mit Maß und Ziel, nie überladen.',
+        icon: 'tabler:sparkles',
+      },
+      {
+        title: 'Prototyping & Wireframing',
+        description: 'Bevor ich ins Detail gehe, erstelle ich Wireframes und klickbare Prototypen. So siehst du frühzeitig, wie deine Website aussehen und funktionieren wird. Feedback einbauen, testen, optimieren – bevor die eigentliche Entwicklung startet.',
+        icon: 'tabler:artboard',
+      },
+      {
+        title: 'Design-System Entwicklung',
+        description: 'Für größere Projekte entwickle ich Design-Systeme mit wiederverwendbaren Komponenten, Styleguides und Dokumentation. Das sorgt für Konsistenz über alle Seiten hinweg und erleichtert zukünftige Erweiterungen.',
+        icon: 'tabler:components',
+      },
+    ]}
+    classes={{ container: 'max-w-5xl' }}
+  />
+
+
+
+  <!-- FAQs Widget ******************* -->
+
+  <FAQs
+    title="Website Designer Frankfurt – FAQs"
+    subtitle="Falls du weitere Fragen zum Webdesign hast, hoffe ich, die wichtigsten hier beantwortet zu haben. Andernfalls schreib mir gerne eine Nachricht."
+    columns={1}
+    items={[
+      {
+        title: 'Was kostet professionelles Webdesign?',
+        description:
+          'Die Kosten hängen vom Umfang ab. Eine einfache Business-Website startet ab ca. 2.000–4.000 €. Umfangreichere Projekte mit Custom-Design, Animationen oder E-Commerce liegen zwischen 5.000–15.000 € oder mehr. Ich erstelle dir gerne ein individuelles Angebot nach einem ersten Gespräch.',
+      },
+      {
+        title: 'Wie lange dauert die Gestaltung einer Website?',
+        description:
+          'Ein durchschnittliches Webdesign-Projekt dauert 4–8 Wochen von der ersten Idee bis zum Launch. Das hängt von der Komplexität, der Anzahl der Seiten und dem Feedback-Prozess ab. Kleinere Landing Pages gehen schneller, umfangreiche Corporate Websites brauchen länger.',
+      },
+      {
+        title: 'Bekomme ich nur das Design oder auch die fertige Website?',
+        description:
+          'Du bekommst die fertige, funktionsfähige Website – nicht nur Mockups. Ich designe UND entwickle, sodass am Ende alles einsatzbereit ist. Hosting, CMS-Einrichtung, responsive Umsetzung – alles inklusive. Du musst dich um nichts kümmern.',
+      },
+      {
+        title: 'Kann ich später selbst Änderungen vornehmen?',
+        description:
+          'Ja! Ich setze auf benutzerfreundliche Content-Management-Systeme wie WordPress, mit denen du Texte, Bilder und Inhalte später selbst anpassen kannst – ganz ohne Programmierkenntnisse. Für größere Design-Änderungen stehe ich natürlich weiterhin zur Verfügung.',
+      },
+      {
+        title: 'Was unterscheidet dich von anderen Website Designern?',
+        description:
+          'Ich kombiniere Design mit Strategie. Meine Websites sehen nicht nur gut aus, sondern sind auch auf Conversions optimiert, SEO-freundlich und technisch sauber umgesetzt. Als Freelancer in Frankfurt bekommst du einen direkten Ansprechpartner, keine anonyme Agentur. Persönlich, flexibel, transparent.',
+      },
+      {
+        title: 'Arbeitest du auch mit bestehenden Websites?',
+        description:
+          'Absolut! Ich übernehme gerne Redesigns, optimiere bestehende Designs oder erweitere deine Website um neue Funktionen. Egal ob WordPress, Shopify oder Custom-Lösung – ich finde mich in bestehenden Systemen zurecht und bringe sie auf Vordermann.',
+      },
+    ]}
+  />
+
+
+
+  <!-- CallToAction Widget *********** -->
+
+  <CallToAction
+    actions={[{
+      variant: "primary",
+      text: 'Jetzt unverbindlich anfragen!',
+      href: '/kontakt',
+    }]}
+    title="Bereit für professionelles Webdesign aus Frankfurt?"
+    subtitle="Schreib mir ganz unverbindlich eine Nachricht und lass uns über deine Website sprechen – Dein Website Designer Lukasz aus Frankfurt."
+  />
+</Layout>
+
+
+
+<style>
+  .wrapper {
+    max-width: 800px;
+    margin: 0px auto;
+    padding: 0 1rem;
+  }
+
+  .wrapper:nth-child(3) {
+    margin-top: 64px;
+  }
+
+  .ul-list {
+    list-style: disc;
+    padding-left: 20px;
+    margin-top: 8px;
+  }
+
+
+  a {
+    text-decoration: underline;
+    color: white;
+  }
+</style>
