@@ -1,0 +1,237 @@
+---
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import Hero from '~/components/widgets/Hero.astro';
+import Layout from '~/layouts/PageLayout.astro';
+import Content from '~/components/widgets/Content.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
+
+
+
+const metadata = {
+  title: 'HTML5 Banner Agentur - Professionelle Display Ads & Werbebanner - FrankfurtMarketingStudio',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero Widget ******************* -->
+
+  <Hero
+    tagline="Deine HTML5 Banner Agentur"
+    title="HTML5 Banner Agentur"
+    subtitle="Professionelle HTML5 Display Ads, die auffallen und konvertieren. Von animierten Werbebannern über responsive Display Ads bis zu interaktiven Rich Media Kampagnen – ich erstelle HTML5 Banner, die deine Zielgruppe erreichen und zu Klicks animieren."
+    actions={[{ variant:"primary", target: '_blank', text: 'Jetzt anfragen!', href: '/kontakt' }]}
+  />
+
+
+    <!-- Content Widget **************** -->
+
+    <Content
+    isAfterContent
+      items={[
+        {
+          title: 'Deine Banner sehen aus wie von 2010?',
+          description:
+            'Statische, langweilige Banner ohne Animation fallen nicht auf. In der heutigen digitalen Welt scrollt man an unattraktiven Werbebannern einfach vorbei. Wenn deine Display Ads nicht modern, animiert und visuell ansprechend sind, verschwendest du Budget. HTML5 Banner mit Animationen, Micro-Interaktionen und smartem Design stechen heraus und generieren Klicks.',
+          icon: 'tabler:photo-off',
+        },
+        {
+          title: 'Deine Banner funktionieren nicht auf allen Geräten?',
+          description:
+            'Mobile macht über 60% des Traffic aus. Wenn deine Banner nicht responsive sind und auf Smartphones schlecht aussehen, verlierst du massenhaft potenzielle Kunden. HTML5 Banner passen sich automatisch an jede Bildschirmgröße an – Desktop, Tablet, Smartphone. Ein Banner-Set für alle Devices.',
+          icon: 'tabler:device-mobile-off',
+        },
+        {
+          title: 'Teure Agentur-Kosten für jede kleine Änderung?',
+          description:
+            'Du brauchst eine neue Kampagne, willst Texte anpassen oder ein neues Produkt bewerben – und jedes Mal kostet es ein Vermögen. Mit dynamischen HTML5 Bannern und Template-Strukturen kannst du Inhalte flexibel anpassen. Ich erstelle dir wiederverwendbare Banner-Templates, die du selbst oder ich schnell aktualisieren kann.',
+          icon: 'tabler:coin',
+        },
+
+      ]}
+    >
+      <Fragment slot="content">
+        <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">HTML5 Banner, die Performance bringen</h3>
+      </Fragment>
+    </Content>
+
+
+
+    <!-- Content Widget **************** -->
+
+    <Content
+        isReversed
+          items={[
+            {
+              title: 'Moderne Animationen, die auffallen',
+              description:
+                'Ich erstelle HTML5 Banner mit flüssigen Animationen, Eye-Catching Effekten und klaren Call-to-Actions. Von subtilen Fade-Ins über dynamische Produktpräsentationen bis zu interaktiven Elementen – deine Banner stechen aus der Masse heraus und sorgen für höhere Click-Through-Rates (CTR).',
+              icon: 'tabler:movie',
+            },
+            {
+              title: 'Alle gängigen Formate & Plattformen',
+              description:
+                'Egal ob Google Ads, Facebook Ads, Programmatic Advertising oder klassische Display-Netzwerke – ich erstelle Banner in allen Standard-Formaten (Leaderboard, Skyscraper, Medium Rectangle, Mobile Banner etc.). Optimiert für Google Ad Manager, DoubleClick, AdRoll und alle gängigen Ad-Plattformen.',
+              icon: 'tabler:apps',
+            },
+            {
+              title: 'Leichte, schnelle Banner für beste Performance',
+              description:
+                'Große Dateien = langsame Ladezeiten = schlechte Performance. Ich optimiere HTML5 Banner auf minimale Dateigröße ohne Qualitätsverlust. Schnell ladend, sauber programmiert und plattformkonform. So sparst du Ladezeiten und verbesserst die User Experience.',
+              icon: 'tabler:bolt',
+            },
+
+          ]}
+        >
+          <Fragment slot="content">
+            <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Warum HTML5 Banner die Zukunft der Display-Werbung sind</h3>
+          </Fragment>
+    </Content>
+
+
+
+
+
+  <!-- Features3 Widget ************** -->
+
+  <Features3
+    title="HTML5 Banner Agentur – Meine Leistungen"
+    subtitle="Von der Konzeption bis zur Kampagne – alles aus einer Hand"
+    columns={2}
+    items={[
+      {
+        title: 'Responsive HTML5 Display Ads',
+        description: 'Banner, die auf allen Geräten perfekt aussehen. Ein responsives Banner-Set passt sich automatisch an Desktop, Tablet und Mobile an. Spart Zeit, Kosten und sorgt für eine konsistente User Experience über alle Devices hinweg.',
+        icon: 'tabler:devices',
+      },
+      {
+        title: 'Animierte Werbebanner',
+        description: 'Statische Banner sind tot. Ich erstelle animierte HTML5 Banner mit flüssigen Übergängen, dynamischen Produktpräsentationen und aufmerksamkeitsstarken Effekten. Von einfachen Fade-Animationen bis zu komplexen Timelines – alles ist möglich.',
+        icon: 'tabler:timeline',
+      },
+      {
+        title: 'Google Ads Display Kampagnen',
+        description: 'Speziell optimierte HTML5 Banner für Google Display Network. Alle Standard-Formate, responsive Ads, Lightbox-Ads und mehr. Ich kenne die Google Ads Richtlinien genau und stelle sicher, dass deine Banner problemlos approved werden.',
+        icon: 'tabler:brand-google',
+      },
+      {
+        title: 'Social Media Display Ads',
+        description: 'HTML5 Banner für Facebook, Instagram, LinkedIn und andere Social-Media-Plattformen. Optimiert für News Feed Ads, Story Ads und Carousel Ads. Perfekt abgestimmt auf die jeweiligen Plattform-Anforderungen.',
+        icon: 'tabler:social',
+      },
+      {
+        title: 'Rich Media & Interaktive Banner',
+        description: 'Über einfache Animationen hinaus: Interaktive Banner mit Hover-Effekten, Video-Integration, Produkt-Konfiguratoren oder Mini-Games. Rich Media Banner steigern Engagement und Conversions massiv – perfekt für Premium-Kampagnen.',
+        icon: 'tabler:click',
+      },
+      {
+        title: 'Retargeting Banner',
+        description: 'Dynamische Retargeting-Banner, die Produkte zeigen, die User bereits angesehen haben. Personalisierte Werbung erhöht die Conversion-Rate enorm. Integration mit Google Remarketing, Facebook Pixel und anderen Tracking-Systemen.',
+        icon: 'tabler:target',
+      },
+      {
+        title: 'A/B Testing & Optimierung',
+        description: 'Ich erstelle mehrere Banner-Varianten für A/B-Tests. Welche Farbe funktioniert besser? Welcher Call-to-Action konvertiert am besten? Mit datenbasierten Tests optimieren wir deine Kampagnen kontinuierlich und steigern die Performance.',
+        icon: 'tabler:chart-line',
+      },
+      {
+        title: 'Banner-Templates & Bulk-Erstellung',
+        description: 'Du brauchst Banner für 20 verschiedene Produkte? Ich erstelle Master-Templates, aus denen ich schnell Varianten generieren kann. Spart enorm Zeit und Kosten, besonders bei großen E-Commerce-Kampagnen oder saisonalen Aktionen.',
+        icon: 'tabler:template',
+      },
+      {
+        title: 'Video-Integration in HTML5 Banner',
+        description: 'Videos performen besser als statische Bilder. Ich integriere Videos in HTML5 Banner – entweder als Hintergrund, Autoplay-Element oder interaktives Video-Ad. Optimiert für schnelle Ladezeiten und maximale Aufmerksamkeit.',
+        icon: 'tabler:video',
+      },
+      {
+        title: 'Banner-Hosting & Ad-Tag-Erstellung',
+        description: 'Ich hoste deine HTML5 Banner auf schnellen CDN-Servern und erstelle die Ad-Tags für deine Kampagne. Egal ob Google Ad Manager, DoubleClick oder andere Plattformen – ich liefere dir alles, was du für den Upload brauchst.',
+        icon: 'tabler:cloud',
+      },
+    ]}
+    classes={{ container: 'max-w-5xl' }}
+  />
+
+
+
+  <!-- FAQs Widget ******************* -->
+
+  <FAQs
+    title="HTML5 Banner Agentur – FAQs"
+    subtitle="Falls du weitere Fragen zu HTML5 Bannern hast, hoffe ich, die wichtigsten hier beantwortet zu haben. Andernfalls schreib mir gerne eine Nachricht."
+    columns={1}
+    items={[
+      {
+        title: 'Warum HTML5 statt Flash oder statische Bilder?',
+        description:
+          'Flash ist tot und wird von modernen Browsern nicht mehr unterstützt. Statische Banner (JPG, PNG) fallen nicht auf und haben schlechte Click-Through-Rates. HTML5 ist der aktuelle Standard: leicht, schnell, animiert, responsive und auf allen Geräten lauffähig. Alle großen Plattformen (Google, Facebook, etc.) setzen auf HTML5.',
+      },
+      {
+        title: 'Was kostet die Erstellung von HTML5 Bannern?',
+        description:
+          'Die Kosten hängen von der Komplexität ab. Einfache animierte Banner starten ab ca. 200–400 € pro Format. Ein komplettes Banner-Set (z.B. 5–10 Formate) liegt zwischen 1.000–3.000 €. Rich Media Banner mit Interaktionen kosten entsprechend mehr. Ich erstelle dir gerne ein individuelles Angebot.',
+      },
+      {
+        title: 'Wie lange dauert die Erstellung?',
+        description:
+          'Einfache Banner-Sets sind in 3–5 Werktagen fertig. Komplexere Kampagnen mit Rich Media, Video-Integration oder interaktiven Elementen brauchen 1–2 Wochen. Bei dringenden Deadlines ist auch Express-Produktion möglich – sprich mich einfach an.',
+      },
+      {
+        title: 'Kann ich die Banner später selbst anpassen?',
+        description:
+          'Das kommt darauf an. Für einfache Text- oder Bildänderungen kann ich dir ein dynamisches Template bauen, das du über ein JSON-File oder Google Sheets anpassen kannst. Für komplexere Änderungen (Animationen, Layout) brauchst du HTML/CSS-Kenntnisse oder meinen Support.',
+      },
+      {
+        title: 'Funktionieren die Banner auf allen Plattformen?',
+        description:
+          'Ja! Ich erstelle HTML5 Banner nach den Standards von Google Ads, Facebook Ads, DoubleClick, AdRoll und allen gängigen Ad-Netzwerken. Jede Plattform hat leicht unterschiedliche Anforderungen (Dateigröße, Animationsdauer etc.) – ich kenne diese Vorgaben und stelle sicher, dass deine Banner überall approved werden.',
+      },
+      {
+        title: 'Was brauche ich, um zu starten?',
+        description:
+          'Idealerweise: Dein Logo, Produktbilder, Texte (Headline, Call-to-Action), Farbschema/Brand Guidelines und die gewünschten Banner-Formate. Wenn du noch keine klare Vorstellung hast, berate ich dich gerne und erstelle Konzepte basierend auf deiner Zielgruppe und Kampagne.',
+      },
+    ]}
+  />
+
+
+
+  <!-- CallToAction Widget *********** -->
+
+  <CallToAction
+    actions={[{
+      variant: "primary",
+      text: 'Jetzt unverbindlich anfragen!',
+      href: '/kontakt',
+    }]}
+    title="Bereit für HTML5 Banner, die konvertieren?"
+    subtitle="Schreib mir ganz unverbindlich eine Nachricht und lass uns über deine Display-Kampagne sprechen – Dein HTML5 Banner Spezialist Lukasz."
+  />
+</Layout>
+
+
+
+<style>
+  .wrapper {
+    max-width: 800px;
+    margin: 0px auto;
+    padding: 0 1rem;
+  }
+
+  .wrapper:nth-child(3) {
+    margin-top: 64px;
+  }
+
+  .ul-list {
+    list-style: disc;
+    padding-left: 20px;
+    margin-top: 8px;
+  }
+
+
+  a {
+    text-decoration: underline;
+    color: white;
+  }
+</style>

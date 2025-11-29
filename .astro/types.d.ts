@@ -199,6 +199,13 @@ declare module 'astro:content' {
   collection: "post";
   data: InferEntrySchema<"post">
 } & { render(): Render[".md"] };
+"google-antigravity.md": {
+	id: "google-antigravity.md";
+  slug: "google-antigravity";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
 "google-gemini-webdesign.md": {
 	id: "google-gemini-webdesign.md";
   slug: "google-gemini-webdesign";
