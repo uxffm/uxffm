@@ -2,7 +2,7 @@
 title: "Google Antigravity für Webdesign – Schwerelos durch die digitale Welt"
 excerpt: "Entdecke die faszinierende Welt von Google Antigravity: Von Easter Eggs über experimentelle Entwicklerplattformen bis hin zu innovativen Webdesign-Trends. Ein umfassender Guide für moderne Webentwicklung."
 publishDate: 2025-11-29T00:00:00Z
-slug: "google-antigravity"
+slug: "google-antigravity-webdesign"
 tags: ['Google', 'Webdesign', 'JavaScript', 'Easter Eggs', 'Webentwicklung']
 image: /antigravity.png
 
