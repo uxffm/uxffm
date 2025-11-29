@@ -10,6 +10,13 @@ const metadata = {
 ---
 
 <Layout metadata={metadata}>
+  <!-- Hidden form for Netlify Forms detection -->
+  <form name="kontakt" data-netlify="true" netlify-honeypot="website" hidden>
+    <input type="text" name="name" />
+    <input type="email" name="email" />
+    <textarea name="textarea"></textarea>
+  </form>
+
   <!-- HeroText Widget ******************* -->
 
   <HeroText tagline="Kontakt" title="Ganz einfach kontaktieren." />
