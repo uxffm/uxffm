@@ -63,15 +63,6 @@ export const footerData = {
       ],
     },
     {
-      title: 'Blog',
-      links: [
-        { text: 'SEO Manipulation', href: '/seo-manipulation' },
-        { text: 'Low Hanging Fruits', href: '/low-hanging-fruits' },
-        { text: 'SEA vs SEO für Therapeuten', href: '/seo-vs-sea-therapeuten' },
-        { text: 'SEO Glossar', href: '/seo-glossar' },
-      ],
-    },
-    {
       title: 'Service',
       links: [
         { text: 'Website Designer Frankfurt', href: '/website-designer-frankfurt' },
@@ -84,7 +75,7 @@ export const footerData = {
         { text: 'Programmierer Frankfurt', href: '/programmierer-frankfurt' },
       ],
     },
- 
+
   ],
   secondaryLinks: [
   ],
