@@ -30,13 +30,14 @@ const metadata = {
 
   <!-- Review Section **************** -->
   <div class="max-w-4xl mx-auto px-4 sm:px-6 py-12">
-    <div class="review-card glass rounded-2xl p-8 md:p-10 shadow-xl border border-purple-300 dark:border-purple-700" itemscope itemtype="https://schema.org/Review">
+    <div class="review-card glass rounded-2xl p-8 md:p-10 shadow-xl border-2" style="border-color: #a649f6;" itemscope itemtype="https://schema.org/Review">
       <div class="flex items-start gap-4">
         <div class="flex-shrink-0">
           <img
             src="/images/wordpress-bewertung.png"
             alt="Daniel Krug - WordPress Kunde"
-            class="w-16 h-16 rounded-full object-cover border-2 border-purple-300 dark:border-purple-700"
+            class="w-16 h-16 rounded-full object-cover border-2"
+            style="border-color: #a649f6;"
             itemprop="image"
           />
         </div>
@@ -84,6 +85,10 @@ const metadata = {
 
     <Content
     isAfterContent
+    isDark={true}
+    classes={{
+      container: 'pt-16 md:pt-20 lg:pt-24'
+    }}
       items={[
         {
           title: 'Du hast keine WordPress-Website?',
@@ -112,6 +117,9 @@ const metadata = {
     >
       <Fragment slot="content">
         <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Deine WordPress Webseite aus der Mainmetropole Frankfurt</h3>
+      </Fragment>
+      <Fragment slot="bg">
+        <div class="absolute inset-0 bg-[#271c2f]"></div>
       </Fragment>
     </Content>
 
