@@ -201,7 +201,7 @@ declare module 'astro:content' {
 } & { render(): Render[".md"] };
 "google-antigravity-webdesign.md": {
 	id: "google-antigravity-webdesign.md";
-  slug: "google-antigravity";
+  slug: "google-antigravity-webdesign";
   body: string;
   collection: "post";
   data: InferEntrySchema<"post">
