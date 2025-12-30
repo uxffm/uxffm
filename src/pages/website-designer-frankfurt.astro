@@ -2,215 +2,226 @@
 import CallToAction from '~/components/widgets/CallToAction.astro';
 import Hero from '~/components/widgets/Hero.astro';
 import Layout from '~/layouts/PageLayout.astro';
-import Content from '~/components/widgets/Content.astro';
 import Features3 from '~/components/widgets/Features3.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 
-
-
 const metadata = {
-  title: 'Website Designer Frankfurt - Professionelles Webdesign aus Frankfurt - FrankfurtMarketingStudio',
+  title: 'Website Designer Frankfurt - Mehr Anfragen durch strategisches Webdesign - FrankfurtMarketingStudio',
 };
 ---
 
 <Layout metadata={metadata}>
-  <!-- Hero Widget ******************* -->
-
   <Hero
-    tagline="Dein Website Designer"
+    tagline="Dein Partner für digitales Wachstum"
     title="Website Designer Frankfurt"
-    subtitle="Professionelles Webdesign, das deine Marke zum Leben erweckt. Als Website Designer aus Frankfurt gestalte ich moderne, benutzerfreundliche Websites, die nicht nur gut aussehen, sondern auch konvertieren. Individuell, kreativ und zielorientiert."
-    actions={[{ variant:"primary", target: '_blank', text: 'Jetzt anfragen!', href: '/kontakt' }]}
+    subtitle="Wir bauen keine digitalen Visitenkarten, sondern Akquise-Maschinen. Als Website Designer aus Frankfurt entwickeln wir moderne Erlebnisse, die Besucher in loyale Kunden verwandeln. Strategisch, verkaufsstark und exakt auf deine Ziele zugeschnitten."
+    actions={[{ variant:"primary", target: '_blank', text: 'Kostenloses Erstgespräch', href: '/kontakt' }]}
+    image={{
+      src: '/images/website-designer-frankfurt.jpg',
+      alt: 'Website Designer Frankfurt',
+    }}
+    layout="split"
   />
 
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 py-12 md:py-16 lg:py-20">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
+      <!-- Left Column -->
+      <div>
+        <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-6">Hör auf, Potenzial zu verschenken – werde digital sichtbar</h3>
 
-    <!-- Content Widget **************** -->
+        <div class="space-y-6">
+          <div>
+            <div class="flex items-start gap-3 mb-2">
+              <svg class="w-6 h-6 text-primary flex-shrink-0 mt-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M12 9v4"></path>
+                <path d="M10.363 3.591l-8.106 13.534a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636 -2.87l-8.106 -13.536a1.914 1.914 0 0 0 -3.274 0z"></path>
+                <path d="M12 16h.01"></path>
+              </svg>
+              <h4 class="text-xl font-semibold">Verlierst du Kunden an die Konkurrenz?</h4>
+            </div>
+            <p class="text-muted">In einer Stadt wie Frankfurt ist der erste Eindruck entscheidend. Wenn deine Website veraltet wirkt, strahlt das auf deine Dienstleistung ab. Wir geben deiner Marke den digitalen Glanz, den sie verdient, damit potenzielle Kunden sofort Vertrauen fassen und nicht zur Konkurrenz abwandern.</p>
+          </div>
 
-    <Content
-    isAfterContent
-      items={[
-        {
-          title: 'Deine Website sieht veraltet aus?',
-          description:
-            'Ein veraltetes Design schreckt potenzielle Kunden ab, noch bevor sie deinen Text lesen. Wenn deine Website aus den 2000ern aussieht, wirkt auch dein Unternehmen nicht zeitgemäß. Besucher verlieren das Vertrauen und springen ab – direkt zur Konkurrenz. In Frankfurt, wo Professionalität zählt, kann sich niemand eine unmoderne Website leisten. Ein frisches, professionelles Design ist keine Kür, sondern Pflicht.',
-          icon: 'tabler:hourglass',
-        },
-        {
-          title: 'Niemand findet sich auf deiner Website zurecht?',
-          description:
-            'Komplizierte Navigation, unklare Struktur, versteckte Informationen – wenn Besucher nicht innerhalb von Sekunden finden, was sie suchen, sind sie weg. Eine schlecht designte Website frustriert User und kostet dich Conversions. Gutes Webdesign bedeutet nicht nur Ästhetik, sondern vor allem Usability. Deine Website muss intuitiv bedienbar sein, sonst verlierst du Kunden.',
-          icon: 'tabler:route',
-        },
-        {
-          title: 'Deine Website bringt keine Anfragen?',
-          description:
-            'Du hast Traffic, aber keine Conversions? Das liegt oft am Design. Fehlende Call-to-Actions, unklare Botschaften, chaotisches Layout – wenn Besucher nicht wissen, was sie als nächstes tun sollen, tun sie nichts. Ein durchdachtes Webdesign führt User gezielt zur Kontaktaufnahme, zum Kauf oder zur Anmeldung. Design ist nicht Deko – Design ist Verkaufsstrategie.',
-          icon: 'tabler:phone-off',
-        },
+          <div>
+            <div class="flex items-start gap-3 mb-2">
+              <svg class="w-6 h-6 text-primary flex-shrink-0 mt-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M11 18l-2 -1l-6 3v-13l6 -3l6 3l6 -3v7.5"></path>
+                <path d="M9 4v13"></path>
+                <path d="M15 7v5"></path>
+                <circle cx="16.5" cy="17.5" r="2.5"></circle>
+                <path d="M18.5 19.5l2.5 2.5"></path>
+              </svg>
+              <h4 class="text-xl font-semibold">Ist deine Website ein Labyrinth?</h4>
+            </div>
+            <p class="text-muted">Nichts frustriert Nutzer mehr als eine komplizierte Suche. Wir strukturieren deine Inhalte so, dass Besucher intuitiv zum Ziel geführt werden. Das Ergebnis? Längere Verweildauer, zufriedenere Nutzer und eine deutlich höhere Wahrscheinlichkeit für eine Kontaktaufnahme.</p>
+          </div>
 
-      ]}
-    >
-      <Fragment slot="content">
-        <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Webdesign, das verkauft – nicht nur hübsch aussieht</h3>
-      </Fragment>
-    </Content>
+          <div>
+            <div class="flex items-start gap-3 mb-2">
+              <svg class="w-6 h-6 text-primary flex-shrink-0 mt-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M3 17l6 -6l4 4l8 -8"></path>
+                <path d="M14 7l7 0l0 7"></path>
+              </svg>
+              <h4 class="text-xl font-semibold">Bleiben die Anfragen aus?</h4>
+            </div>
+            <p class="text-muted">Schönes Design allein zahlt keine Rechnungen. Wir implementieren psychologisch fundierte Call-to-Actions und klare Botschaften. Wir sorgen dafür, dass deine Website aktiv für dich arbeitet und kontinuierlich qualifizierte Leads generiert – 24 Stunden am Tag, 7 Tage die Woche.</p>
+          </div>
+        </div>
+      </div>
 
+      <!-- Right Column -->
+      <div>
+        <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-6">Website Designer aus Frankfurt</h3>
 
+        <div class="space-y-6">
+          <div>
+            <div class="flex items-start gap-3 mb-2">
+              <svg class="w-6 h-6 text-primary flex-shrink-0 mt-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M6 5h12l3 5l-8.5 9.5a.7 .7 0 0 1 -1 0l-8.5 -9.5l3 -5"></path>
+                <path d="M10 12l-2 -2.2l.6 -1"></path>
+              </svg>
+              <h4 class="text-xl font-semibold">Ein Unikat statt Massenware</h4>
+            </div>
+            <p class="text-muted">Deine Marke ist einzigartig – deine Website sollte es auch sein. Wir verzichten auf Standard-Templates und entwickeln ein Design, das deine Persönlichkeit widerspiegelt und dich im Frankfurter Markt klar positioniert. So bleibst du im Gedächtnis deiner Zielgruppe.</p>
+          </div>
 
-    <!-- Content Widget **************** -->
+          <div>
+            <div class="flex items-start gap-3 mb-2">
+              <svg class="w-6 h-6 text-primary flex-shrink-0 mt-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M4 13a8 8 0 0 1 7 7a6 6 0 0 0 3 -5a9 9 0 0 0 6 -8a3 3 0 0 0 -3 -3a9 9 0 0 0 -8 6a6 6 0 0 0 -5 3"></path>
+                <path d="M7 14a6 6 0 0 0 -3 6a6 6 0 0 0 6 -3"></path>
+                <circle cx="15" cy="9" r="1"></circle>
+              </svg>
+              <h4 class="text-xl font-semibold">Technik, die für dich arbeitet</h4>
+            </div>
+            <p class="text-muted">Wir kümmern uns um Performance, Sicherheit und blitzschnelle Ladezeiten. Für deine Kunden bedeutet das ein reibungsloses Erlebnis; für dich bedeutet es ein besseres Google-Ranking und weniger Absprungraten. Technik ist bei uns Mittel zum Zweck: deinem Erfolg.</p>
+          </div>
 
-    <Content
-        isReversed
-          items={[
-            {
-              title: 'Individuelles Design, das zu dir passt',
-              description:
-                'Keine Templates von der Stange. Ich gestalte jede Website individuell – abgestimmt auf deine Marke, deine Zielgruppe und deine Ziele. Ob minimalistisch-elegant, verspielt-kreativ oder business-seriös – dein Design wird einzigartig sein und sich von der Masse abheben. So wie dein Unternehmen.',
-              icon: 'tabler:palette',
-            },
-            {
-              title: 'User Experience (UX) im Fokus',
-              description:
-                'Schönes Design allein reicht nicht. Ich konzipiere Websites so, dass sie intuitiv bedienbar sind, schnell laden und User zur gewünschten Aktion führen. Vom ersten Klick bis zur Conversion – jedes Element ist durchdacht. Gutes UX-Design macht den Unterschied zwischen Besuchern und Kunden.',
-              icon: 'tabler:click',
-            },
-            {
-              title: 'Responsive & Mobile-First',
-              description:
-                'Über 70% der Nutzer surfen mobil. Deine Website muss auf jedem Gerät perfekt aussehen und funktionieren – ob Smartphone, Tablet oder Desktop. Ich designe mobile-first, damit deine Seite überall ein erstklassiges Erlebnis bietet. Responsive Design ist heute Standard, kein Extra.',
-              icon: 'tabler:device-mobile',
-            },
-
-          ]}
-        >
-          <Fragment slot="content">
-            <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Mein Ansatz: Design trifft Strategie</h3>
-          </Fragment>
-    </Content>
-
-
-
-
-
-  <!-- Features3 Widget ************** -->
+          <div>
+            <div class="flex items-start gap-3 mb-2">
+              <svg class="w-6 h-6 text-primary flex-shrink-0 mt-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <rect x="7" y="4" width="10" height="16" rx="1"></rect>
+                <path d="M11 5h2"></path>
+                <path d="M12 17v.01"></path>
+                <path d="M11 14h2"></path>
+              </svg>
+              <h4 class="text-xl font-semibold">Überall perfekt präsentiert</h4>
+            </div>
+            <p class="text-muted">Ob beim Espresso in der Frankfurter Innenstadt am Smartphone oder im Büro am Desktop: Deine Website passt sich jedem Endgerät nahtlos an. Wir sichern dir ein erstklassiges Erscheinungsbild auf allen Screens – ohne Kompromisse.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <Features3
-    title="Website Designer Frankfurt – Meine Leistungen"
-    subtitle="Von der Idee bis zur fertigen Website – alles aus einer Hand"
+    title="Deine Rundum-Sorglos-Lösung in Frankfurt"
+    subtitle="Wir begleiten dich von der ersten Skizze bis zum messbaren Erfolg."
     columns={2}
     items={[
       {
-        title: 'Corporate Design & Branding',
-        description: 'Deine Website ist Teil deiner Marke. Ich entwickle oder optimiere dein Corporate Design – Logo, Farbpalette, Typografie, Bildsprache. Alles harmonisch aufeinander abgestimmt. So entsteht ein einheitlicher, professioneller Markenauftritt, der in Erinnerung bleibt.',
+        title: 'Unverwechselbares Branding',
+        description: 'Wir schaffen ein visuelles Fundament, das Vertrauen aufbaut. Vom Logo bis zur Typografie – wir machen deine Marke zur Autorität in deiner Branche.',
         icon: 'tabler:brand-abstract',
       },
       {
-        title: 'UI/UX Design',
-        description: 'User Interface (UI) und User Experience (UX) sind das Herzstück jeder guten Website. Ich gestalte Oberflächen, die nicht nur schön aussehen, sondern auch funktional sind. Klare Hierarchien, intuitive Navigation, ansprechende Interaktionen – Design, das User liebt.',
-        icon: 'tabler:layout',
+        title: 'Intuitive Nutzerführung',
+        description: 'Wir gestalten Oberflächen, die Nutzer sanft zum Kauf oder zur Anfrage leiten. Design, das versteht, wie Menschen im Netz entscheiden.',
+        icon: 'tabler:user-check',
       },
       {
-        title: 'Landing Page Design',
-        description: 'Du brauchst eine hochkonvertierende Landing Page für deine Kampagne? Ich designe fokussierte, überzeugende Landing Pages mit klaren Call-to-Actions. Optimiert für Conversions, nicht für Klicks. Jedes Element zielt darauf ab, Besucher zu Kunden zu machen.',
+        title: 'Verkaufsstarke Landing Pages',
+        description: 'Ideal für Ads und Kampagnen. Wir fokussieren uns auf ein klares Ziel: Die Maximierung deiner Conversion-Rate für mehr ROI.',
         icon: 'tabler:target-arrow',
       },
       {
-        title: 'E-Commerce & Shop Design',
-        description: 'Online-Shops brauchen besonderes Design-Know-how. Ich gestalte E-Commerce-Websites, die Vertrauen schaffen und zum Kauf animieren. Produktpräsentation, Warenkorb-Optimierung, Checkout-Flow – alles darauf ausgelegt, deine Conversion-Rate zu maximieren.',
+        title: 'E-Commerce Erlebnisse',
+        description: 'Wir bauen Online-Shops, in denen das Einkaufen Spaß macht. Optimierte Prozesse sorgen für gefüllte Warenkörbe und wiederkehrende Kunden.',
         icon: 'tabler:shopping-cart',
       },
       {
-        title: 'Responsive Webdesign',
-        description: 'Deine Website passt sich automatisch an jedes Gerät an – egal ob Smartphone, Tablet oder Desktop. Ich designe mobile-first, damit die User Experience auf allen Bildschirmgrößen stimmt. Perfekt dargestellt, immer und überall.',
-        icon: 'tabler:devices',
-      },
-      {
-        title: 'Redesign bestehender Websites',
-        description: 'Deine Website ist in die Jahre gekommen? Ich modernisiere sie von Grund auf. Neues Design, bessere Struktur, optimierte User Experience – ohne dass du deine Domain oder Inhalte verlierst. Ein Relaunch, der sich lohnt.',
+        title: 'Nahtlose Relaunch-Begleitung',
+        description: 'Wir bringen dein altes System auf das nächste Level, ohne deine Rankings zu gefährden. Ein frischer Look für eine neue Ära deines Business.',
         icon: 'tabler:refresh',
       },
       {
-        title: 'Barrierefreies Design (Accessibility)',
-        description: 'Inklusive Websites erreichen mehr Menschen. Ich designe barrierefrei nach WCAG-Standards, damit deine Website auch für Menschen mit Einschränkungen zugänglich ist. Das ist nicht nur gesetzlich relevant, sondern auch gut fürs Image und SEO.',
+        title: 'Barrierefreiheit & Inklusion',
+        description: 'Wir machen deine Seite für jeden zugänglich. Das erweitert nicht nur deine Zielgruppe, sondern verbessert auch dein Google-Ranking massiv.',
         icon: 'tabler:accessible',
       },
       {
-        title: 'Interaktive Elemente & Animationen',
-        description: 'Subtile Animationen, Hover-Effekte, Parallax-Scrolling – ich bringe deine Website zum Leben. Interaktive Elemente machen das Nutzererlebnis angenehmer und steigern die Verweildauer. Immer mit Maß und Ziel, nie überladen.',
+        title: 'Lebendige Interaktionen',
+        description: 'Mit dezenten Animationen führen wir das Auge des Nutzers und sorgen für Aha-Momente, die deine Marke modern und lebendig wirken lassen.',
         icon: 'tabler:sparkles',
       },
       {
-        title: 'Prototyping & Wireframing',
-        description: 'Bevor ich ins Detail gehe, erstelle ich Wireframes und klickbare Prototypen. So siehst du frühzeitig, wie deine Website aussehen und funktionieren wird. Feedback einbauen, testen, optimieren – bevor die eigentliche Entwicklung startet.',
+        title: 'Sicherheit & Wartung',
+        description: 'Du konzentrierst dich auf dein Kerngeschäft, wir halten dir den Rücken frei. Deine Website bleibt sicher, aktuell und jederzeit erreichbar.',
+        icon: 'tabler:shield-check',
+      },
+      {
+        title: 'Klickbare Prototypen',
+        description: 'Keine Überraschungen am Ende. Du erlebst deine Website bereits vor der Programmierung in einem interaktiven Modell und gibst direkt Feedback.',
         icon: 'tabler:artboard',
       },
       {
-        title: 'Design-System Entwicklung',
-        description: 'Für größere Projekte entwickle ich Design-Systeme mit wiederverwendbaren Komponenten, Styleguides und Dokumentation. Das sorgt für Konsistenz über alle Seiten hinweg und erleichtert zukünftige Erweiterungen.',
+        title: 'Zukunftssichere Systeme',
+        description: 'Wir setzen auf skalierbare Lösungen, die mit deinem Unternehmen mitwachsen. Dein digitales Zuhause bleibt auch in Jahren noch flexibel.',
         icon: 'tabler:components',
       },
     ]}
     classes={{ container: 'max-w-5xl' }}
   />
 
-
-
-  <!-- FAQs Widget ******************* -->
-
   <FAQs
-    title="Website Designer Frankfurt – FAQs"
-    subtitle="Falls du weitere Fragen zum Webdesign hast, hoffe ich, die wichtigsten hier beantwortet zu haben. Andernfalls schreib mir gerne eine Nachricht."
+    title="Häufige Fragen zu deinem Web-Projekt"
+    subtitle="Transparenz ist die Basis für eine gute Zusammenarbeit. Hier findest du Antworten auf die wichtigsten Fragen."
     columns={1}
     items={[
       {
-        title: 'Was kostet professionelles Webdesign?',
+        title: 'Was kostet eine Investition in professionelles Webdesign?',
         description:
-          'Die Kosten hängen vom Umfang ab. Eine einfache Business-Website startet ab ca. 2.000–4.000 €. Umfangreichere Projekte mit Custom-Design, Animationen oder E-Commerce liegen zwischen 5.000–15.000 € oder mehr. Ich erstelle dir gerne ein individuelles Angebot nach einem ersten Gespräch.',
+          'Qualität hat ihren Preis, zahlt sich aber durch mehr Kundenanfragen schnell aus. Einfache Business-Lösungen starten bei ca. 2.000 €, während komplexe, individuelle Strategie-Projekte meist zwischen 5.000 € und 15.000 € liegen. Du erhältst von uns immer ein Festpreis-Angebot ohne versteckte Kosten.',
       },
       {
-        title: 'Wie lange dauert die Gestaltung einer Website?',
+        title: 'Wann ist meine neue Website online?',
         description:
-          'Ein durchschnittliches Webdesign-Projekt dauert 4–8 Wochen von der ersten Idee bis zum Launch. Das hängt von der Komplexität, der Anzahl der Seiten und dem Feedback-Prozess ab. Kleinere Landing Pages gehen schneller, umfangreiche Corporate Websites brauchen länger.',
+          'In der Regel dauert der Prozess von der Strategie bis zum Launch 4 bis 8 Wochen. Wir legen Wert auf Gründlichkeit, halten dich aber durch feste Meilensteine immer auf dem Laufenden.',
       },
       {
-        title: 'Bekomme ich nur das Design oder auch die fertige Website?',
+        title: 'Kann ich meine Inhalte selbst pflegen?',
         description:
-          'Du bekommst die fertige, funktionsfähige Website – nicht nur Mockups. Ich designe UND entwickle, sodass am Ende alles einsatzbereit ist. Hosting, CMS-Einrichtung, responsive Umsetzung – alles inklusive. Du musst dich um nichts kümmern.',
+          'Absolut. Wir schulen dich in der Nutzung eines intuitiven Content-Management-Systems (z.B. WordPress), damit du Texte und Bilder in Sekunden selbst tauschen kannst. Du bleibst völlig unabhängig.',
       },
       {
-        title: 'Kann ich später selbst Änderungen vornehmen?',
+        title: 'Warum sollte ich mich für dich entscheiden?',
         description:
-          'Ja! Ich setze auf benutzerfreundliche Content-Management-Systeme wie WordPress, mit denen du Texte, Bilder und Inhalte später selbst anpassen kannst – ganz ohne Programmierkenntnisse. Für größere Design-Änderungen stehe ich natürlich weiterhin zur Verfügung.',
+          'Weil wir nicht nur Design machen, sondern dein Business verstehen wollen. Wir kombinieren Frankfurter Professionalität mit kreativer Strategie. Bei uns hast du einen festen Ansprechpartner, der für deinen Erfolg brennt.',
       },
       {
-        title: 'Was unterscheidet dich von anderen Website Designern?',
+        title: 'Was passiert nach dem Launch?',
         description:
-          'Wir kombinieren Design mit Strategie. Unsere Websites sehen nicht nur gut aus, sondern sind auch auf Conversions optimiert, SEO-freundlich und technisch sauber umgesetzt. Als Agentur in Frankfurt bekommst du einen direkten Ansprechpartner. Persönlich, flexibel, transparent.',
-      },
-      {
-        title: 'Arbeitest du auch mit bestehenden Websites?',
-        description:
-          'Absolut! Ich übernehme gerne Redesigns, optimiere bestehende Designs oder erweitere deine Website um neue Funktionen. Egal ob WordPress, Shopify oder Custom-Lösung – ich finde mich in bestehenden Systemen zurecht und bringe sie auf Vordermann.',
+          'Wir lassen dich nicht allein. Ob Wartung, Hosting-Support oder spätere Erweiterungen – wir begleiten dich langfristig als digitaler Partner an deiner Seite.',
       },
     ]}
   />
 
-
-
-  <!-- CallToAction Widget *********** -->
-
   <CallToAction
     actions={[{
       variant: "primary",
-      text: 'Jetzt unverbindlich anfragen!',
+      text: 'Jetzt Projekt anfragen',
       href: '/kontakt',
     }]}
-    title="Bereit für professionelles Webdesign aus Frankfurt?"
-    subtitle="Schreib mir ganz unverbindlich eine Nachricht und lass uns über deine Website sprechen – Dein Website Designer Lukasz aus Frankfurt."
+    title="Lass uns deine Erfolgsgeschichte schreiben"
+    subtitle="Bereit für ein Webdesign, das wirklich Ergebnisse liefert? Schreib uns eine Nachricht und wir finden gemeinsam heraus, wie wir dein Business in Frankfurt und darüber hinaus nach vorne bringen."
   />
 </Layout>
-
-
 
 <style>
   .wrapper {
@@ -218,18 +229,14 @@ const metadata = {
     margin: 0px auto;
     padding: 0 1rem;
   }
-
   .wrapper:nth-child(3) {
     margin-top: 64px;
   }
-
   .ul-list {
     list-style: disc;
     padding-left: 20px;
     margin-top: 8px;
   }
-
-
   a {
     text-decoration: underline;
     color: white;
