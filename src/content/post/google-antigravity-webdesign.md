@@ -14,7 +14,7 @@ image: /antigravity.png
 
 Google Antigravity ist eine neue, experimentelle Entwicklungsplattform von Google, die sich auf innovative Webinteraktionen und spielerische Nutzerführung konzentriert. Der Begriff "Antigravity" bezieht sich dabei sowohl auf technische Implementierungen physikbasierter Animationen als auch auf eine kreative Designphilosophie, die Websites von traditionellen, "schwerfälligen" Interaktionen befreit.
 
-Was ursprünglich als Easter Egg begann – die bekannte Google Gravity-Seite, bei der alle Elemente der Suchmaschine durch simulierte Gravitation zu Boden fallen – hat sich zu einem Sammelbegriff für eine ganze Reihe experimenteller Web-Technologien entwickelt. Diese reichen von simplen JavaScript-Tricks über komplexe Physik-Engines bis hin zu völlig neuen Ansätzen im <a href="/website-designer-frankfurt">Webdesign</a>.
+Was ursprünglich als Easter Egg begann – die bekannte Google Gravity-Seite, bei der alle Elemente der Suchmaschine durch simulierte Gravitation zu Boden fallen – hat sich zu einem Sammelbegriff für eine ganze Reihe experimenteller Web-Technologien entwickelt. Diese reichen von simplen JavaScript-Tricks über komplexe Physik-Engines bis hin zu völlig neuen Ansätzen im <a href="/">Webdesign</a>.
 
 ## Was ist Google Antigravity?
 
@@ -551,7 +551,7 @@ Dieses simple Beispiel zeigt die Kernprinzipien:
 
 Google Antigravity – von einem Easter Egg zu einer ganzen Design-Philosophie – hat das moderne Webdesign nachhaltig geprägt. Die Kombination aus spielerischen Interaktionen, physikbasierten Animationen und innovativen Technologien ermöglicht Websites, die nicht nur informieren, sondern begeistern.
 
-Für <a href="/website-designer-frankfurt">Webdesigner*innen</a> und <a href="/programmierer-frankfurt">Entwickler*innen</a> eröffnet Antigravity neue kreative Möglichkeiten: Von subtilen Hover-Effekten über immersive Scroll-Experiences bis hin zu vollständig interaktiven 3D-Welten. Die technologische Grundlage – JavaScript Physics Engines, WebGL, moderne CSS – ist ausgereift und performant einsetzbar.
+Für <a href="/">Webdesigner*innen</a> und Entwickler*innen eröffnet Antigravity neue kreative Möglichkeiten: Von subtilen Hover-Effekten über immersive Scroll-Experiences bis hin zu vollständig interaktiven 3D-Welten. Die technologische Grundlage – JavaScript Physics Engines, WebGL, moderne CSS – ist ausgereift und performant einsetzbar.
 
 Wichtig bleibt jedoch: Effekte um der Effekte willen sind kontraproduktiv. Antigravity-Techniken sollten gezielt eingesetzt werden, um die User Experience zu verbessern, nicht zu behindern. Performance, Accessibility und SEO müssen immer mitgedacht werden.
 

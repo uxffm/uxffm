@@ -7,10 +7,13 @@ import Content from '~/components/widgets/Content.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
+import WordPressReview from '~/components/widgets/WordPressReview.astro';
 
 const metadata = {
-  title: 'Online Marketing Agentur Frankfurt am Main',
-  description: 'SEO muss nicht schwer sein – als Dein SEO in Frankfurt zeige ich Dir, wie einfach Du Dein Ranking verbessern kannst. Lass uns starten! Ruf jetzt an: 0162 751 9335.',
+  title: 'WordPress Agentur Frankfurt | Webseiten, SEO & Support',
+  description:
+    'WordPress Agentur Frankfurt fuer schnelle, moderne und suchmaschinenoptimierte Webseiten. WordPress Webdesign, Relaunch, Wartung, SEO und Support aus einer Hand.',
   ignoreTitleTemplate: true,
 };
 ---
@@ -21,7 +24,7 @@ const metadata = {
 
   <div class="hero-image-wrapper">
     <div class="hero-image">
-      <img src="/images/seo-freelancer.webp" alt="online marketing frankfurt">
+      <img src="/images/wordpress-webseite-frankfurt.webp" alt="WordPress Agentur Frankfurt">
     </div>
   </div>
 
@@ -41,64 +44,65 @@ const metadata = {
     ]}
   >
     <Fragment slot="title">
-      Online Marketing Agentur <span class="hidden xl:inline"></span>
-      <span class="text-accent dark:text-white highlight"> Frankfurt am Main </span>
+      WordPress Agentur <span class="hidden xl:inline"></span>
+      <span class="text-accent dark:text-white highlight"> Frankfurt </span>
     </Fragment>
 
     <Fragment slot="subtitle">
-      <span class="block mb-1 sm:hidden font-bold text-blue-600">Digital Marketing, das wirkt.</span>
-      <span class="colorful">Deine Full-Service Marketing Agentur in Frankfurt.</span>
-      Wir machen dein Business online unübersehbar. Von SEO bis hin zu smarter KI-Strategie: Wir bauen keine Kampagnen, sondern messbare Erfolge. Für mehr Reichweite, die zu echten Leads führt und dein Wachstum in Frankfurt vorantreibt.
+      <span class="block mb-1 sm:hidden font-bold text-blue-600">WordPress, das sauber laeuft.</span>
+      <span class="colorful">Deine WordPress Agentur in Frankfurt am Main.</span>
+      Wir erstellen, optimieren und betreuen WordPress-Webseiten, die schnell laden, bei Google gefunden werden und Anfragen bringen. Direkt aus Frankfurt, mit klarer Beratung, sauberer Umsetzung und Support, der nicht nach dem Launch verschwindet.
     </Fragment>
   </Hero>
 
+  <WordPressReview />
 
   <!-- Features Widget *************** -->
 
   <Features
     id="features"
-    tagline="UNSERE SERVICES"
-    title="Online Marketing aus einer Hand"
-    subtitle="Dein Business verdient mehr als nur Standard-Marketing. Wir liefern dir das volle digitale Paket direkt aus Frankfurt – maßgeschneidert für dein Wachstum. Lass uns gemeinsam loslegen!."
+    tagline="WORDPRESS SERVICES"
+    title="WordPress Leistungen fuer Unternehmen in Frankfurt"
+    subtitle="Ob neue Website, Relaunch oder laufende Betreuung: Wir verbinden WordPress Webdesign, Technik, SEO und Wartung zu einer Website, die im Alltag funktioniert."
     classes={{
       wrapper: 'bg-slate-100/50 dark:bg-purple-900/20'
     }}
     items={[
       {
-        title: 'SEO – Suchmaschinenoptimierung',
+        title: 'WordPress Webseite erstellen',
         description:
-          'Wir bringen dich bei Google nach oben. Mit technischer Optimierung, Content-Strategie und Backlink-Aufbau sorgen wir dafür, dass deine Website langfristig organisch gefunden wird – in Frankfurt und überregional.',
+          'Wir planen und bauen moderne WordPress-Webseiten fuer Selbststaendige, Praxen, lokale Dienstleister und Unternehmen in Frankfurt. Klar strukturiert, mobiloptimiert und einfach pflegbar.',
+        icon: 'tabler:world-www',
+      },
+      {
+        title: 'WordPress Relaunch',
+        description:
+          'Deine bestehende Seite ist langsam, unuebersichtlich oder technisch veraltet? Wir erneuern Design, Struktur und Technik, ohne wichtige Inhalte und SEO-Signale aus den Augen zu verlieren.',
+        icon: 'tabler:refresh',
+      },
+      {
+        title: 'WordPress SEO Frankfurt',
+        description:
+          'Wir optimieren Seitenstruktur, Ladezeit, Inhalte, Meta-Daten und lokale Signale, damit deine WordPress-Seite fuer relevante Suchanfragen in Frankfurt besser gefunden wird.',
         icon: 'tabler:search',
       },
       {
-        title: 'SEA – Google Ads & Suchmaschinenwerbung',
+        title: 'Wartung & Sicherheit',
         description:
-          'Schnelle Ergebnisse durch gezielte Anzeigen. Wir erstellen und optimieren deine Google Ads Kampagnen für maximale Reichweite, niedrige Kosten pro Klick und bessere Conversions.',
-        icon: 'tabler:ad',
+          'Updates, Backups, Security-Checks und Monitoring sorgen dafuer, dass deine Website stabil bleibt. Wir kuemmern uns um die Technik, bevor kleine Fehler gross werden.',
+        icon: 'tabler:shield-lock',
       },
       {
-        title: 'Webdesign & WordPress Entwicklung',
+        title: 'Performance Optimierung',
         description:
-          'Deine Website ist dein digitales Schaufenster. Wir gestalten moderne, schnelle und mobiloptimierte Websites auf WordPress – designed für Nutzer und optimiert für Suchmaschinen.',
-        icon: 'tabler:device-laptop',
+          'Schnelle WordPress-Webseiten ranken besser und fuehlen sich professioneller an. Wir optimieren Bilder, Caching, Theme, Plugins und Core Web Vitals.',
+        icon: 'tabler:speedboat',
       },
       {
-        title: 'KI-gestützte Marketing-Strategien',
+        title: 'WooCommerce & Erweiterungen',
         description:
-          'Wir setzen künstliche Intelligenz ein, um deine Marketing-Maßnahmen zu automatisieren, Content zu erstellen und deine Kampagnen datenbasiert zu optimieren. So bleibst du der Konkurrenz voraus.',
-        icon: 'tabler:robot',
-      },
-      {
-        title: 'Lokales Marketing für Frankfurt',
-        description:
-          'Du willst in Frankfurt gefunden werden? Wir optimieren deine Präsenz in Google Maps, lokalen Verzeichnissen und sorgen dafür, dass Kunden aus deiner Region dich schnell finden.',
-        icon: 'tabler:map-pin',
-      },
-      {
-        title: 'Conversion-Optimierung & Analytics',
-        description:
-          'Mehr Traffic ist gut – mehr Kunden ist besser. Wir analysieren das Nutzerverhalten auf deiner Website und optimieren gezielt, damit Besucher zu zahlenden Kunden werden.',
-        icon: 'tabler:chart-line',
+          'Von Kontaktformularen bis WooCommerce: Wir erweitern WordPress gezielt um Funktionen, die dein Geschaeft wirklich braucht, statt die Seite mit Plugins zu ueberladen.',
+        icon: 'tabler:shopping-cart',
       },
     ]}
   />
@@ -107,33 +111,33 @@ const metadata = {
 
   <Content
     isReversed
-    tagline="Warum mit uns arbeiten?"
-    title="Deine Vorteile mit unserer Marketing Agentur"
+    tagline="Warum WordPress?"
+    title="Eine Website, die du wirklich nutzen kannst"
     items={[
     {
-      title: 'Messbare Ergebnisse',
+      title: 'Einfach zu pflegen',
       description:
-        'Wir setzen auf datengetriebenes Marketing. Jede Kampagne wird analysiert, optimiert und transparent dokumentiert. Du siehst genau, was funktioniert und wo dein Budget hingeht.',
+        'Du kannst Texte, Bilder, Blogbeitraege und wichtige Inhalte selbst bearbeiten. Wir richten WordPress so ein, dass du nicht fuer jede kleine Aenderung technische Hilfe brauchst.',
     },
     {
-      title: 'Individuelle Strategien',
+      title: 'Technisch sauber umgesetzt',
       description:
-        'Keine Standardlösungen. Wir entwickeln für jedes Unternehmen eine maßgeschneiderte Online-Marketing-Strategie – basierend auf deinen Zielen, deiner Branche und deiner Zielgruppe.',
+        'Wir achten auf Ladezeit, Sicherheit, saubere Struktur, mobile Darstellung und nachhaltige Erweiterbarkeit. Die Website soll nicht nur beim Launch gut aussehen.',
     },
     {
-      title: 'Expertise in SEO, SEA, Webdesign & KI',
+      title: 'Auf Sichtbarkeit ausgelegt',
       description:
-        'Du bekommst alles aus einer Hand. Unser Team vereint Know-how in Suchmaschinenoptimierung, bezahlter Werbung, modernem Webdesign und KI-gestützten Tools – für maximale Effizienz.',
+        'SEO fliesst von Anfang an ein: Seitenarchitektur, lokale Keywords, interne Verlinkung, strukturierte Inhalte und schnelle Ladezeiten arbeiten zusammen.',
     },
     ]}
     image={{
-      src: '/images/seo-frankfurt.jpg',
-      alt: 'Online Marketing Agentur Frankfurt',
+      src: '/images/wordpress-webseite-erstellen-frankfurt.webp',
+      alt: 'WordPress Webseite erstellen Frankfurt',
     }}
   >
     <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Marketing, das wirkt</h3>
-      Egal ob Start-up, lokales Geschäft oder etabliertes Unternehmen – wir helfen dir, online sichtbar zu werden und mehr Kunden zu gewinnen.
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">WordPress fuer Frankfurt, nicht fuer die Schublade</h3>
+      Eine gute Website ist mehr als ein schoenes Layout. Sie erklaert dein Angebot, schafft Vertrauen und macht es Besuchern leicht, Kontakt aufzunehmen.
     </Fragment>
 
     <Fragment slot="bg">
@@ -147,26 +151,26 @@ const metadata = {
     isAfterContent
     items={[
       {
-        title: 'Full-Service für alle Branchen',
-        description: `Wir arbeiten mit Unternehmen aus verschiedensten Bereichen – von lokalen Geschäften über E-Commerce bis hin zu B2B-Dienstleistern. Unsere Expertise passt sich deiner Branche an.`,
+        title: 'Klarer Prozess',
+        description: `Wir starten mit Zielen, Zielgruppen und Suchintentionen. Danach entstehen Struktur, Design, Inhalte und technische Umsetzung in einem nachvollziehbaren Ablauf.`,
       },
       {
-        title: 'Moderne Tools & KI-Integration',
+        title: 'Direkter Ansprechpartner',
         description:
-          'Wir nutzen die neuesten Marketing-Tools, Analytics-Plattformen und KI-gestützte Software, um deine Kampagnen zu optimieren und dir echten Wettbewerbsvorteil zu verschaffen.',
+          'Du sprichst direkt mit jemandem, der Strategie, WordPress und SEO versteht. Kurze Wege machen Entscheidungen einfacher und Projekte schneller.',
       },
       {
-        title: 'Transparente Zusammenarbeit',
+        title: 'Betreuung nach dem Launch',
         description:
-          "Keine versteckten Kosten, keine Vertragsfallen. Wir arbeiten auf monatlicher Basis mit klaren Reportings. Du behältst jederzeit die Kontrolle über dein Budget und deine Strategie.",
+          "Nach dem Go-live lassen wir dich nicht allein. Wir bieten Wartung, Updates, SEO-Optimierung, neue Landingpages und laufende Verbesserungen.",
       },
     ]}
     image={{
       src: 'images/frankfurt-am-main-commerzbank.webp',
-      alt: 'Online Marketing Agentur Frankfurt',
+      alt: 'WordPress Agentur Frankfurt am Main',
     }}
   >
-    <Fragment slot="content">Deine Online Marketing Agentur für Frankfurt am Main und darüber hinaus.</Fragment>
+    <Fragment slot="content">Deine WordPress Agentur fuer Frankfurt am Main, Offenbach, Wiesbaden und das Rhein-Main-Gebiet.</Fragment>
 
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
@@ -176,69 +180,97 @@ const metadata = {
    <!-- Features2 Widget ************** -->
 
    <Features2
-   title="Was wir für dich tun können"
-   subtitle="Unsere Kern-Leistungen im Detail"
+   title="Was deine WordPress Website bekommt"
+   subtitle="Die wichtigsten Bausteine fuer einen professionellen Auftritt"
    columns={3}
    items={[
      {
-       title: 'SEO Audit & Strategie',
+       title: 'Strategie & Seitenstruktur',
        description:
-         'Wir analysieren deine Website von Grund auf, identifizieren Potenziale und entwickeln eine maßgeschneiderte SEO-Strategie für nachhaltiges Wachstum.',
-       icon: 'tabler:search',
-     },
-     {
-       title: 'Google Ads Management',
-       description:
-         'Wir erstellen, optimieren und verwalten deine Google Ads Kampagnen. Maximale Reichweite bei minimalem Budget – mit kontinuierlicher Performance-Analyse.',
-       icon: 'tabler:ad',
+         'Wir klaeren, welche Seiten du brauchst, welche Suchbegriffe wichtig sind und wie Besucher schnell zur Anfrage kommen.',
+       icon: 'tabler:sitemap',
      },
      {
        title: 'WordPress Webdesign',
-       description: `Wir entwickeln moderne, schnelle und SEO-optimierte Websites auf WordPress. Responsive, benutzerfreundlich und perfekt auf deine Marke zugeschnitten.`,
+       description:
+         'Modernes Design mit klarer Nutzerfuehrung, responsiven Layouts und einem Look, der zu deinem Unternehmen passt.',
        icon: 'tabler:device-laptop',
      },
      {
-       title: 'Content Marketing & SEO-Texte',
+       title: 'Technisches SEO',
+       description: `Saubere URLs, Meta-Daten, strukturierte Ueberschriften, interne Verlinkung und technische Grundlagen fuer bessere Indexierung.`,
+       icon: 'tabler:settings-search',
+     },
+     {
+       title: 'SEO-Texte & Inhalte',
        description:
-         'Wir erstellen hochwertige Inhalte, die nicht nur für Google, sondern auch für KI-Systeme wie ChatGPT optimiert sind. Mehr Sichtbarkeit durch strategischen Content.',
+         'Wir schreiben oder ueberarbeiten Inhalte, die dein Angebot verstaendlich machen und auf lokale Suchanfragen in Frankfurt einzahlen.',
        icon: 'tabler:writing',
      },
      {
-       title: 'KI-Automatisierung im Marketing',
+       title: 'Schnelles WordPress',
        description:
-         'Wir integrieren KI-Tools in deine Marketing-Prozesse – von automatisierter Content-Erstellung bis hin zu intelligenten Chatbots und Personalisierung.',
-       icon: 'tabler:robot',
+         'Optimierte Bilder, schlankes Setup, Caching und reduzierte Plugin-Last fuer bessere Ladezeiten und eine bessere Nutzererfahrung.',
+       icon: 'tabler:gauge',
      },
      {
-       title: 'E-Commerce SEO & Shop-Optimierung',
+       title: 'WooCommerce Shops',
        description:
-         'Wir optimieren deinen Online-Shop für Suchmaschinen und Nutzer. Produktseiten, Kategoriestruktur, Technik – alles für mehr Umsatz über Google.',
+         'Produktseiten, Kategorien, Checkout, Zahlungsarten und Shop-SEO fuer lokale oder ueberregionale WooCommerce-Projekte.',
        icon: 'tabler:shopping-cart',
      },
      {
-       title: 'Local SEO für Frankfurt',
+       title: 'Local SEO Frankfurt',
        description:
-         'Wir bringen dein Unternehmen in Google Maps, lokalen Verzeichnissen und regionalen Suchergebnissen nach vorne – perfekt für lokale Kunden in Frankfurt.',
+         'Optimierung fuer lokale Suchanfragen, Standortsignale und Seiten, die Interessenten aus Frankfurt gezielt abholen.',
        icon: 'tabler:map-pin',
      },
      {
-       title: 'Performance & Ladezeit-Optimierung',
-       description: `Schnelle Websites ranken besser und verkaufen mehr. Wir optimieren die Ladezeiten deiner Seite für bessere Rankings und höhere Conversion-Raten.`,
-       icon: 'tabler:speedboat',
+       title: 'Wartung & Updates',
+       description: `Regelmaessige Updates, Backups, Sicherheitspruefungen und technische Betreuung, damit deine WordPress-Seite stabil bleibt.`,
+       icon: 'tabler:tool',
      },
      {
-       title: 'Social Media Marketing',
+       title: 'Conversion Optimierung',
        description:
-         'Wir entwickeln Strategien für deine Social-Media-Präsenz und setzen sie um – von Content-Planung über Community-Management bis hin zu bezahlten Kampagnen.',
-       icon: 'tabler:brand-instagram',
+         'Kontaktwege, Formulare, Call-to-Actions und Vertrauenselemente werden so platziert, dass aus Besuchern eher Anfragen werden.',
+       icon: 'tabler:chart-line',
      },
    ]}
  />
 
+  <FAQs
+    title="WordPress Agentur Frankfurt – haeufige Fragen"
+    subtitle="Kurz beantwortet, damit du schneller einschaetzen kannst, ob WordPress fuer dein Projekt passt."
+    columns={1}
+    items={[
+      {
+        title: 'Was macht eine WordPress Agentur in Frankfurt?',
+        description:
+          'Wir planen, gestalten, erstellen und betreuen WordPress-Webseiten fuer Unternehmen in Frankfurt. Dazu gehoeren Webdesign, technische Umsetzung, SEO, Ladezeitoptimierung, Wartung und Support.',
+      },
+      {
+        title: 'Ist WordPress fuer lokale Unternehmen geeignet?',
+        description:
+          'Ja. WordPress eignet sich sehr gut fuer Praxen, Kanzleien, Handwerker, Berater, lokale Dienstleister und B2B-Unternehmen, weil Inhalte flexibel gepflegt und fuer lokale Google-Suchen optimiert werden koennen.',
+      },
+      {
+        title: 'Koennt ihr eine bestehende WordPress-Seite ueberarbeiten?',
+        description:
+          'Ja. Wir koennen eine bestehende Seite technisch pruefen, Ladezeiten verbessern, Inhalte neu strukturieren, das Design modernisieren und SEO-Probleme beheben.',
+      },
+      {
+        title: 'Bietet ihr auch WordPress Wartung an?',
+        description:
+          'Ja. Auf Wunsch uebernehmen wir Updates, Backups, Sicherheitspruefungen, Fehlerbehebung und laufende Optimierung, damit deine Website langfristig stabil bleibt.',
+      },
+    ]}
+  />
+
    <!-- HighlightedPosts Widget ******* -->
 
    <BlogLatestPosts
-   title="Aktuelles aus dem Online Marketing – Tipps, Trends & Insights"
+   title="Aktuelles zu WordPress, SEO und Webdesign"
  />
 
 
@@ -256,11 +288,11 @@ const metadata = {
     ]}
   >
     <Fragment slot="title">
-      Bereit durchzustarten?<br class="block sm:hidden" /> <span class="sm:whitespace-nowrap">Lass uns sprechen!</span>
+      Bereit fuer eine bessere WordPress Website?<br class="block sm:hidden" /> <span class="sm:whitespace-nowrap">Lass uns sprechen!</span>
     </Fragment>
 
     <Fragment slot="subtitle">
-      Wir melden uns innerhalb von 24 Stunden bei dir zurück. Alle Anfragen sind selbstverständlich unverbindlich und kostenlos.
+      Wir melden uns innerhalb von 24 Stunden bei dir zurueck. Deine Anfrage ist unverbindlich und kostenlos.
     </Fragment>
   </CallToAction>
 </Layout>

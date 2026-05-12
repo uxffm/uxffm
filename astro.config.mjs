@@ -15,6 +15,15 @@ import { readingTimeRemarkPlugin, responsiveTablesRehypePlugin } from './src/uti
 import { ANALYTICS, SITE } from './src/utils/config.ts';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const redirectedPathnames = [
+  '/programmierer-frankfurt',
+  '/app-entwicklung-frankfurt',
+  '/html5-banner-agentur',
+  '/website-designer-frankfurt',
+  '/wordpress-frankfurt',
+  '/service/wordpress-frankfurt',
+  '/website-monatlich-bezahlen',
+];
 
 const whenExternalScripts = (items = []) =>
   ANALYTICS.vendors.googleAnalytics.id && ANALYTICS.vendors.googleAnalytics.partytown
@@ -34,7 +43,12 @@ export default defineConfig({
     tailwind({
       applyBaseStyles: false,
     }),
-    sitemap(),
+    sitemap({
+      filter: (page) => {
+        const pathname = new URL(page).pathname.replace(/\/$/, '');
+        return !redirectedPathnames.includes(pathname);
+      },
+    }),
     mdx(),
     icon({
       include: {

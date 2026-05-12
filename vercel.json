@@ -1,6 +1,43 @@
 {
   "cleanUrls": true,
   "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/programmierer-frankfurt",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/app-entwicklung-frankfurt",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/html5-banner-agentur",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/website-designer-frankfurt",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/wordpress-frankfurt",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/service/wordpress-frankfurt",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/website-monatlich-bezahlen",
+      "destination": "/",
+      "permanent": true
+    }
+  ],
   "headers": [
     {
       "source": "/_astro/(.*)",

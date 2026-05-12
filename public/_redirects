@@ -1,3 +1,21 @@
 # Redirect old domain to new domain
 https://uxffm.com/*    https://frankfurtmarketingstudio.de/:splat    301!
 https://www.uxffm.com/*    https://frankfurtmarketingstudio.de/:splat    301!
+
+# Redirect programming-based service pages to the homepage
+/programmierer-frankfurt    /    301!
+/programmierer-frankfurt/   /    301!
+/app-entwicklung-frankfurt  /    301!
+/app-entwicklung-frankfurt/ /    301!
+/html5-banner-agentur       /    301!
+/html5-banner-agentur/      /    301!
+
+# Redirect consolidated service pages to the homepage
+/website-designer-frankfurt     /    301!
+/website-designer-frankfurt/    /    301!
+/wordpress-frankfurt            /    301!
+/wordpress-frankfurt/           /    301!
+/service/wordpress-frankfurt    /    301!
+/service/wordpress-frankfurt/   /    301!
+/website-monatlich-bezahlen     /    301!
+/website-monatlich-bezahlen/    /    301!

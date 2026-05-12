@@ -71,6 +71,6 @@ Durch diese Punkte kannst du schnell feststellen, warum dein Ranking gefallen is
 
 ## Hilfreiche Links
 
- * [WordPress Website Frankfurt](/service/wordpress-frankfurt)
+ * [WordPress Website Frankfurt](/)
  * [SEO Freelancer](/)
  * [SEO Manipulation](/seo-manipulation)

@@ -11,7 +11,7 @@ metadata:
   canonical: https://frankfurtmarketingstudio.de/falsche-seite-rankt
 ---
 
-Als <a href="/service/wordpress-frankfurt">WordPress Freelancer für die Stadt Frankfurt</a>, begegne ich oft dem Problem, dass Kunden zwar feststellen, dass ihre Seiten ranken, aber leider für das falsche Keyword. 
+Als <a href="/">WordPress Freelancer für die Stadt Frankfurt</a>, begegne ich oft dem Problem, dass Kunden zwar feststellen, dass ihre Seiten ranken, aber leider für das falsche Keyword. 
 
 Noch kniffliger wird es, wenn nicht die Hauptseite, sondern eine untergeordnete Seite für das Hauptkeyword rankt. 
 
