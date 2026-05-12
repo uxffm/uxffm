@@ -1,0 +1,32 @@
+name: Daily Reddit WordPress Post
+
+on:
+  schedule:
+    - cron: '15 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  create-post:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate post from Reddit discussions
+        run: node scripts/generate-reddit-post.mjs
+
+      - name: Commit and push post
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'Publish daily Reddit WordPress post'
+          file_pattern: 'src/content/post/*.md'
