@@ -1,8 +1,8 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 
-const SUBREDDITS = ['Wordpress', 'SEO', 'web_design', 'smallbusiness'];
-const POSTS_PER_SUBREDDIT = 8;
+const SUBREDDITS = ['Wordpress'];
+const POSTS_PER_SUBREDDIT = 25;
 const OUTPUT_DIR = 'src/content/post';
 const SITE_URL = 'https://frankfurtmarketingstudio.de';
 const isDryRun = process.env.DRY_RUN === '1';
@@ -87,7 +87,7 @@ const makePost = (posts) => {
   const primaryTopic = getTopicLabel(mainTopics[0] ?? { title: 'WordPress' });
   const title = `WordPress Trends von Reddit: ${primaryTopic} im Fokus`;
   const excerpt =
-    'Ein taeglicher Blick auf aktuelle Reddit-Diskussionen rund um WordPress, SEO, Webdesign und kleine Unternehmen - eingeordnet fuer Firmen in Frankfurt.';
+    'Ein taeglicher Blick auf aktuelle Reddit-Diskussionen rund um WordPress - eingeordnet fuer Unternehmen in Frankfurt.';
   const canonicalSlug = slugify(`reddit wordpress trends ${dateSlug}`);
 
   const topicGroups = new Map();
@@ -122,13 +122,13 @@ category: seo
 tags:
   - WordPress
   - Reddit
-  - Webdesign
-  - SEO
+  - WordPress Trends
+  - WordPress Frankfurt
 metadata:
   canonical: ${SITE_URL}/${canonicalSlug}
 ---
 
-Reddit ist kein Strategie-Ersatz, aber ein guter Fruehindikator: Dort tauchen Fragen, Probleme und Erfahrungen oft auf, bevor sie in klassischen Blogartikeln landen. Fuer Unternehmen in Frankfurt ist spannend, welche WordPress-Themen gerade echte Nutzer beschaeftigen.
+Reddit ist kein Strategie-Ersatz, aber ein guter Fruehindikator: Dort tauchen WordPress-Fragen, Plugin-Probleme, Theme-Diskussionen und Erfahrungen aus echten Projekten oft auf, bevor sie in klassischen Blogartikeln landen. Fuer Unternehmen in Frankfurt ist spannend, welche WordPress-Themen gerade echte Nutzer beschaeftigen.
 
 ${sections}
 
@@ -146,7 +146,7 @@ Wenn mehrere Diskussionen in dieselbe Richtung zeigen, lohnt sich ein Blick auf 
 
 ${sourceList}
 
-Dieser Beitrag wurde automatisch aus oeffentlichen Reddit-Diskussionen zusammengestellt und redaktionell fuer WordPress, SEO und Webdesign in Frankfurt eingeordnet.
+Dieser Beitrag wurde automatisch aus oeffentlichen Reddit-Diskussionen zusammengestellt und redaktionell fuer WordPress in Frankfurt eingeordnet.
 `;
 };
 

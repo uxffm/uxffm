@@ -1,4 +1,4 @@
-name: Daily Reddit WordPress Post
+name: Daily WordPress Reddit Post
 
 on:
   schedule:
@@ -22,7 +22,7 @@ jobs:
         with:
           node-version: 20
 
-      - name: Generate post from Reddit discussions
+      - name: Generate post from WordPress Reddit discussions
         run: node scripts/generate-reddit-post.mjs
 
       - name: Commit and push post
