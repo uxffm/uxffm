@@ -1,8 +1,8 @@
-name: Daily WordPress Reddit Post
+name: Daily SEO Community Post
 
 on:
   schedule:
-    - cron: '15 6 * * *'
+    - cron: '0 9 * * *'
   workflow_dispatch:
 
 permissions:
@@ -22,8 +22,8 @@ jobs:
         with:
           node-version: 20
 
-      - name: Generate post from WordPress Reddit discussions
-        run: node scripts/generate-reddit-post.mjs
+      - name: Generate SEO post from community discussions
+        run: node scripts/generate-seo-post.mjs
         env:
           REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
           REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
@@ -31,5 +31,5 @@ jobs:
       - name: Commit and push post
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: 'Publish daily Reddit WordPress post'
+          commit_message: 'Publish daily SEO community post'
           file_pattern: 'src/content/post/*.md'

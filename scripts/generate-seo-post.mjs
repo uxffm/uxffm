@@ -1,20 +1,20 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 
-const SUBREDDITS = ['Wordpress'];
+const SUBREDDITS = ['SEO'];
 const POSTS_PER_SUBREDDIT = 25;
 const FALLBACK_FEEDS = [
   {
-    name: 'WordPress.org Support',
-    url: 'https://wordpress.org/support/forum/how-to-and-troubleshooting/feed/',
+    name: 'Google Search Central',
+    url: 'https://developers.google.com/search/blog/rss.xml',
   },
   {
-    name: 'WordPress.org News',
-    url: 'https://wordpress.org/news/feed/',
+    name: 'Search Engine Journal',
+    url: 'https://www.searchenginejournal.com/feed/',
   },
   {
-    name: 'Make WordPress Core',
-    url: 'https://make.wordpress.org/core/feed/',
+    name: 'Search Engine Roundtable',
+    url: 'https://www.seroundtable.com/index.rdf',
   },
 ];
 const OUTPUT_DIR = 'src/content/post';
@@ -25,7 +25,7 @@ const redditClientSecret = process.env.REDDIT_CLIENT_SECRET;
 
 const today = new Date();
 const dateSlug = today.toISOString().slice(0, 10);
-const outputPath = path.join(OUTPUT_DIR, `reddit-wordpress-trends-${dateSlug}.md`);
+const outputPath = path.join(OUTPUT_DIR, `seo-trends-${dateSlug}.md`);
 
 const sanitizeText = (value = '') =>
   value
@@ -48,14 +48,14 @@ const yamlString = (value) => `"${String(value).replace(/\\/g, '\\\\').replace(/
 const fetchJson = async (url, headers = {}) => {
   const response = await fetch(url, {
     headers: {
-      'User-Agent': 'frankfurtmarketingstudio.de daily content research bot',
+      'User-Agent': 'frankfurtmarketingstudio.de daily SEO content research bot',
       Accept: 'application/json',
       ...headers,
     },
   });
 
   if (!response.ok) {
-    throw new Error(`Reddit request failed ${response.status}: ${url}`);
+    throw new Error(`JSON request failed ${response.status}: ${url}`);
   }
 
   return response.json();
@@ -80,7 +80,7 @@ const getTagValue = (item, tag) => {
 const getFeedItems = async ({ name, url }) => {
   const response = await fetch(url, {
     headers: {
-      'User-Agent': 'frankfurtmarketingstudio.de daily content research bot',
+      'User-Agent': 'frankfurtmarketingstudio.de daily SEO content research bot',
       Accept: 'application/rss+xml, application/xml, text/xml',
     },
   });
@@ -104,11 +104,11 @@ const getFeedItems = async ({ name, url }) => {
 
 const getStackExchangeQuestions = async () => {
   const json = await fetchJson(
-    'https://api.stackexchange.com/2.3/questions?pagesize=10&order=desc&sort=activity&tagged=wordpress&site=wordpress'
+    'https://api.stackexchange.com/2.3/questions?pagesize=10&order=desc&sort=activity&tagged=seo&site=webmasters'
   );
 
   return (json.items ?? []).map((item) => ({
-    source: 'WordPress StackExchange',
+    source: 'Webmasters StackExchange',
     title: sanitizeText(item.title),
     url: item.link,
     score: item.score ?? 0,
@@ -125,7 +125,7 @@ const getRedditAccessToken = async () => {
     headers: {
       Authorization: `Basic ${auth}`,
       'Content-Type': 'application/x-www-form-urlencoded',
-      'User-Agent': 'frankfurtmarketingstudio.de daily content research bot',
+      'User-Agent': 'frankfurtmarketingstudio.de daily SEO content research bot',
     },
     body: 'grant_type=client_credentials',
   });
@@ -188,23 +188,23 @@ const getFallbackPosts = async () => {
 const getTopicLabel = (post) => {
   const title = post.title.toLowerCase();
 
-  if (title.includes('plugin')) return 'Plugins und Erweiterungen';
-  if (title.includes('speed') || title.includes('performance') || title.includes('slow')) return 'Performance';
-  if (title.includes('seo') || title.includes('google') || title.includes('ranking')) return 'SEO';
-  if (title.includes('theme') || title.includes('design') || title.includes('builder')) return 'Design und Themes';
-  if (title.includes('security') || title.includes('hack') || title.includes('malware')) return 'Sicherheit';
-  if (title.includes('client') || title.includes('business') || title.includes('customer')) return 'Kunden und Business';
+  if (title.includes('google') || title.includes('core update') || title.includes('algorithm')) return 'Google Updates';
+  if (title.includes('index') || title.includes('crawl') || title.includes('canonical')) return 'Indexierung und Crawling';
+  if (title.includes('content') || title.includes('ai') || title.includes('chatgpt')) return 'Content und KI';
+  if (title.includes('local') || title.includes('maps') || title.includes('business profile')) return 'Local SEO';
+  if (title.includes('technical') || title.includes('schema') || title.includes('performance')) return 'Technisches SEO';
+  if (title.includes('link') || title.includes('backlink')) return 'Backlinks';
 
-  return 'WordPress Praxis';
+  return 'SEO Praxis';
 };
 
 const makePost = (posts) => {
   const mainTopics = posts.slice(0, 5);
-  const primaryTopic = getTopicLabel(mainTopics[0] ?? { title: 'WordPress' });
-  const title = `WordPress Trends aus der Community: ${primaryTopic} im Fokus`;
+  const primaryTopic = getTopicLabel(mainTopics[0] ?? { title: 'SEO' });
+  const title = `SEO Trends aus der Community: ${primaryTopic} im Fokus`;
   const excerpt =
-    'Ein taeglicher Blick auf aktuelle WordPress-Diskussionen - eingeordnet fuer Unternehmen in Frankfurt.';
-  const canonicalSlug = slugify(`reddit wordpress trends ${dateSlug}`);
+    'Ein taeglicher Blick auf aktuelle SEO-Diskussionen und Suchmaschinen-News - eingeordnet fuer Unternehmen in Frankfurt.';
+  const canonicalSlug = slugify(`seo trends ${dateSlug}`);
 
   const topicGroups = new Map();
   for (const post of posts) {
@@ -223,7 +223,7 @@ const makePost = (posts) => {
         })
         .join('\n');
 
-      return `## ${label}\n\n${bullets}\n\nFuer WordPress-Websites bedeutet das: Nicht jeder Trend muss sofort umgesetzt werden. Wichtig ist, daraus konkrete Prioritaeten abzuleiten: Was verbessert Ladezeit, Vertrauen, Sichtbarkeit oder die Pflege der Website?`;
+      return `## ${label}\n\n${bullets}\n\nFuer SEO bedeutet das: Nicht jedes Thema braucht sofort eine grosse Massnahme. Wichtig ist, daraus konkrete Prioritaeten abzuleiten: Was verbessert Sichtbarkeit, Indexierung, Vertrauen oder die Qualitaet der Inhalte?`;
     })
     .join('\n\n');
 
@@ -239,18 +239,18 @@ const makePost = (posts) => {
 publishDate: ${today.toISOString()}
 title: ${yamlString(title)}
 excerpt: ${yamlString(excerpt)}
-image: /images/wordpress-webseite-frankfurt.webp
+image: /images/seo-frankfurt.jpg
 category: seo
 tags:
-  - WordPress
-  - Reddit
-  - WordPress Trends
-  - WordPress Frankfurt
+  - SEO
+  - SEO Trends
+  - Google
+  - Frankfurt
 metadata:
   canonical: ${SITE_URL}/${canonicalSlug}
 ---
 
-Reddit und andere WordPress-Communities sind kein Strategie-Ersatz, aber gute Fruehindikatoren: Dort tauchen WordPress-Fragen, Plugin-Probleme, Theme-Diskussionen und Erfahrungen aus echten Projekten oft auf, bevor sie in klassischen Blogartikeln landen. Fuer Unternehmen in Frankfurt ist spannend, welche WordPress-Themen gerade echte Nutzer beschaeftigen.
+SEO-Communities und Suchmaschinen-News sind kein Ersatz fuer eine eigene Analyse, aber gute Fruehindikatoren. Dort tauchen Google-Updates, Indexierungsprobleme, Content-Fragen und technische SEO-Themen oft auf, bevor sie im Alltag vieler Unternehmen sichtbar werden.
 
 ${sections}
 
@@ -258,17 +258,17 @@ ${sections}
 
 Wenn mehrere Diskussionen in dieselbe Richtung zeigen, lohnt sich ein Blick auf die eigene Website. Besonders wichtig sind:
 
-- Laedt die WordPress-Seite schnell genug auf Smartphone und Desktop?
-- Sind Plugins wirklich notwendig oder verlangsamen sie das System?
-- Ist die Website fuer lokale Suchanfragen in Frankfurt sauber strukturiert?
-- Koennen Inhalte ohne Entwicklerwissen aktualisiert werden?
-- Gibt es regelmaessige Backups, Updates und Sicherheitspruefungen?
+- Wird die Website sauber gecrawlt und indexiert?
+- Passen Inhalte wirklich zur Suchintention?
+- Gibt es technische Bremsen bei Ladezeit, Struktur oder interner Verlinkung?
+- Sind lokale Signale fuer Frankfurt und Umgebung klar genug?
+- Werden wichtige Seiten regelmaessig gemessen und verbessert?
 
-## Quellen aus Reddit
+## Quellen
 
 ${sourceList}
 
-Dieser Beitrag wurde automatisch aus oeffentlichen WordPress-Diskussionen zusammengestellt und redaktionell fuer WordPress in Frankfurt eingeordnet.
+Dieser Beitrag wurde automatisch aus oeffentlichen SEO-Diskussionen und SEO-News zusammengestellt und redaktionell fuer Suchmaschinenoptimierung in Frankfurt eingeordnet.
 `;
 };
 
@@ -289,12 +289,12 @@ const run = async () => {
   try {
     posts = await getRedditPosts();
   } catch (error) {
-    console.warn(`Reddit unavailable, using fallback WordPress sources. ${error.message}`);
+    console.warn(`Reddit unavailable, using fallback SEO sources. ${error.message}`);
     posts = await getFallbackPosts();
   }
 
   if (posts.length < 4) {
-    throw new Error(`Not enough WordPress discussion posts found. Got ${posts.length}.`);
+    throw new Error(`Not enough SEO discussion posts found. Got ${posts.length}.`);
   }
 
   if (isDryRun) {
