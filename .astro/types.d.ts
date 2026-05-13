@@ -248,9 +248,9 @@ declare module 'astro:content' {
   collection: "post";
   data: InferEntrySchema<"post">
 } & { render(): Render[".md"] };
-"videos-fuer-seo-2026-05-13.md": {
-	id: "videos-fuer-seo-2026-05-13.md";
-  slug: "videos-fuer-seo-2026-05-13";
+"videos-fuer-seo.md": {
+	id: "videos-fuer-seo.md";
+  slug: "videos-fuer-seo";
   body: string;
   collection: "post";
   data: InferEntrySchema<"post">

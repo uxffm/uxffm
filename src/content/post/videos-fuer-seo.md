@@ -1,5 +1,4 @@
 ---
-publishDate: 2026-05-13T12:00:30.009Z
 title: "Sind Videos gut fuer SEO?"
 excerpt: "Videos koennen SEO staerken, wenn sie Suchintention, Seitenstruktur und Ladezeit sinnvoll unterstuetzen. Ein kurzer Leitfaden fuer Unternehmen in Frankfurt."
 image: /images/seo-frankfurt.jpg
@@ -10,7 +9,7 @@ tags:
   - Google
   - Frankfurt
 metadata:
-  canonical: https://frankfurtmarketingstudio.de/videos-fuer-seo-2026-05-13
+  canonical: https://frankfurtmarketingstudio.de/videos-fuer-seo
 ---
 
 Videos koennen fuer SEO sinnvoll sein, aber nicht automatisch. Entscheidend ist, ob sie eine konkrete Suchintention besser beantworten, die Seite verstaendlicher machen und technisch sauber eingebunden sind. Ein Video-Bereich allein bringt keine Rankings, wenn die Seite langsam wird oder der Inhalt fuer Google und Nutzer schwer einzuordnen ist.

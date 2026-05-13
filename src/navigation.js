@@ -54,6 +54,6 @@ export const footerData = {
     { ariaLabel: 'Tiktok', icon: 'tabler:brand-tiktok', href: 'https://www.tiktok.com/@frankfurtmarketingstudio.de' },
   ],
   footNote: `
-    © ${new Date().getFullYear()}/${(new Date().getMonth() + 1).toString().padStart(2, '0')} Online Marketing Frankfurt - All Rights Reserved. By SEO Lukasz
+    Online Marketing Frankfurt - All Rights Reserved. By SEO Lukasz
   `,
 };

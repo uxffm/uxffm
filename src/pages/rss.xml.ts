@@ -19,12 +19,14 @@ export const GET = async () => {
     description: METADATA?.description || '',
     site: import.meta.env.SITE,
 
-    items: posts.map((post) => ({
-      link: getPermalink(post.permalink, 'post'),
-      title: post.title,
-      description: post.excerpt,
-      pubDate: post.publishDate,
-    })),
+    items: posts
+      .filter((post) => post.publishDate)
+      .map((post) => ({
+        link: getPermalink(post.permalink, 'post'),
+        title: post.title,
+        description: post.excerpt,
+        pubDate: post.publishDate as Date,
+      })),
 
     trailingSlash: SITE.trailingSlash,
   });

@@ -13,15 +13,16 @@ const generatePermalink = async ({
 }: {
   id: string;
   slug: string;
-  publishDate: Date;
+  publishDate: Date | undefined;
   category: string | undefined;
 }) => {
-  const year = String(publishDate.getFullYear()).padStart(4, '0');
-  const month = String(publishDate.getMonth() + 1).padStart(2, '0');
-  const day = String(publishDate.getDate()).padStart(2, '0');
-  const hour = String(publishDate.getHours()).padStart(2, '0');
-  const minute = String(publishDate.getMinutes()).padStart(2, '0');
-  const second = String(publishDate.getSeconds()).padStart(2, '0');
+  const permalinkDate = publishDate ?? new Date(0);
+  const year = String(permalinkDate.getFullYear()).padStart(4, '0');
+  const month = String(permalinkDate.getMonth() + 1).padStart(2, '0');
+  const day = String(permalinkDate.getDate()).padStart(2, '0');
+  const hour = String(permalinkDate.getHours()).padStart(2, '0');
+  const minute = String(permalinkDate.getMinutes()).padStart(2, '0');
+  const second = String(permalinkDate.getSeconds()).padStart(2, '0');
 
   const permalink = POST_PERMALINK_PATTERN.replace('%slug%', slug)
     .replace('%id%', id)
@@ -45,7 +46,7 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
   const { Content, remarkPluginFrontmatter } = await post.render();
 
   const {
-    publishDate: rawPublishDate = new Date(),
+    publishDate: rawPublishDate,
     updateDate: rawUpdateDate,
     title,
     excerpt,
@@ -58,7 +59,7 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
   } = data;
 
   const slug = cleanSlug(rawSlug); // cleanSlug(rawSlug.split('/').pop());
-  const publishDate = new Date(rawPublishDate);
+  const publishDate = rawPublishDate ? new Date(rawPublishDate) : undefined;
   const updateDate = rawUpdateDate ? new Date(rawUpdateDate) : undefined;
   const category = rawCategory ? cleanSlug(rawCategory) : undefined;
   const tags = rawTags.map((tag: string) => cleanSlug(tag));
@@ -95,7 +96,7 @@ const load = async function (): Promise<Array<Post>> {
   const normalizedPosts = posts.map(async (post) => await getNormalizedPost(post));
 
   const results = (await Promise.all(normalizedPosts))
-    .sort((a, b) => b.publishDate.valueOf() - a.publishDate.valueOf())
+    .sort((a, b) => (b.publishDate?.valueOf() ?? Number.POSITIVE_INFINITY) - (a.publishDate?.valueOf() ?? Number.POSITIVE_INFINITY))
     .filter((post) => !post.draft);
 
   return results;

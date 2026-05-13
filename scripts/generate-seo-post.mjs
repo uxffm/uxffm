@@ -23,9 +23,6 @@ const isDryRun = process.env.DRY_RUN === '1';
 const redditClientId = process.env.REDDIT_CLIENT_ID;
 const redditClientSecret = process.env.REDDIT_CLIENT_SECRET;
 
-const today = new Date();
-const dateSlug = today.toISOString().slice(0, 10);
-
 const sanitizeText = (value = '') =>
   value
     .replace(/\r?\n/g, ' ')
@@ -203,7 +200,7 @@ const getSpecificTopic = (post) => {
   if (title.includes('video')) {
     return {
       title: 'Sind Videos gut fuer SEO?',
-      slug: `videos-fuer-seo-${dateSlug}`,
+      slug: 'videos-fuer-seo',
       tag: 'Video SEO',
       angle:
         'Videos koennen SEO staerken, wenn sie Suchintention, Seitenstruktur und Ladezeit sinnvoll unterstuetzen.',
@@ -219,7 +216,7 @@ const getSpecificTopic = (post) => {
   if (title.includes('lazy') || title.includes('spa') || title.includes('javascript')) {
     return {
       title: 'Lazy Loading und JavaScript: Was bedeutet das fuer SEO?',
-      slug: `lazy-loading-javascript-seo-${dateSlug}`,
+      slug: 'lazy-loading-javascript-seo',
       tag: 'Technisches SEO',
       angle:
         'Lazy Loading kann Nutzererfahrung und Ladezeit verbessern, muss aber fuer Google crawlbar und indexierbar bleiben.',
@@ -235,7 +232,7 @@ const getSpecificTopic = (post) => {
   if (title.includes('drop') || title.includes('dropping') || title.includes('ranking')) {
     return {
       title: 'Warum verliert eine Website Google Rankings?',
-      slug: `google-ranking-verlust-ursachen-${dateSlug}`,
+      slug: 'google-ranking-verlust-ursachen',
       tag: 'Google Rankings',
       angle:
         'Ranking-Verluste entstehen oft durch technische Probleme, geaenderte Suchintention, Konkurrenz oder Google-Updates.',
@@ -251,7 +248,7 @@ const getSpecificTopic = (post) => {
   if (title.includes('link') || title.includes('backlink')) {
     return {
       title: 'Backlinks und SEO: Worauf kommt es wirklich an?',
-      slug: `backlinks-und-seo-${dateSlug}`,
+      slug: 'backlinks-und-seo',
       tag: 'Backlinks',
       angle:
         'Backlinks koennen helfen, aber Qualitaet, Relevanz und ein natuerliches Linkprofil sind wichtiger als reine Menge.',
@@ -267,7 +264,7 @@ const getSpecificTopic = (post) => {
   if (title.includes('ai') || title.includes('overview') || title.includes('chatgpt')) {
     return {
       title: 'KI-Suchergebnisse und SEO: Was muessen Unternehmen beachten?',
-      slug: `ki-suchergebnisse-und-seo-${dateSlug}`,
+      slug: 'ki-suchergebnisse-und-seo',
       tag: 'KI SEO',
       angle:
         'KI-Antworten veraendern, wie Nutzer Suchergebnisse wahrnehmen. Gute Inhalte brauchen klare Aussagen, Vertrauen und zitierfaehige Struktur.',
@@ -282,7 +279,7 @@ const getSpecificTopic = (post) => {
 
   return {
     title: 'Warum SEO regelmaessige Pflege braucht',
-    slug: `seo-regelmaessig-optimieren-${dateSlug}`,
+    slug: 'seo-regelmaessig-optimieren',
     tag: 'SEO Strategie',
     angle:
       'SEO ist kein einmaliges Projekt. Rankings bleiben stabiler, wenn Inhalte, Technik und Suchintention regelmaessig geprueft werden.',
@@ -314,7 +311,6 @@ const makePost = (posts) => {
   const checklist = topic.checks.map((item) => `- ${item}`).join('\n');
 
   return `---
-publishDate: ${today.toISOString()}
 title: ${yamlString(title)}
 excerpt: ${yamlString(excerpt)}
 image: /images/seo-frankfurt.jpg
@@ -377,7 +373,7 @@ const run = async () => {
   try {
     await fs.access(outputPath);
     if (!isDryRun) {
-      console.log(`Post already exists for ${dateSlug}: ${outputPath}`);
+      console.log(`Post already exists: ${outputPath}`);
       return;
     }
   } catch {
