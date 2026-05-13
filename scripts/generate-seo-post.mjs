@@ -18,7 +18,7 @@ const FALLBACK_FEEDS = [
   },
 ];
 const OUTPUT_DIR = 'src/content/post';
-const SITE_URL = 'https://frankfurtmarketingstudio.de';
+const SITE_URL = 'https://seowbn.de';
 const isDryRun = process.env.DRY_RUN === '1';
 const redditClientId = process.env.REDDIT_CLIENT_ID;
 const redditClientSecret = process.env.REDDIT_CLIENT_SECRET;
@@ -44,7 +44,7 @@ const yamlString = (value) => `"${String(value).replace(/\\/g, '\\\\').replace(/
 const fetchJson = async (url, headers = {}) => {
   const response = await fetch(url, {
     headers: {
-      'User-Agent': 'frankfurtmarketingstudio.de daily SEO content research bot',
+      'User-Agent': 'seowbn.de daily SEO content research bot',
       Accept: 'application/json',
       ...headers,
     },
@@ -76,7 +76,7 @@ const getTagValue = (item, tag) => {
 const getFeedItems = async ({ name, url }) => {
   const response = await fetch(url, {
     headers: {
-      'User-Agent': 'frankfurtmarketingstudio.de daily SEO content research bot',
+      'User-Agent': 'seowbn.de daily SEO content research bot',
       Accept: 'application/rss+xml, application/xml, text/xml',
     },
   });
@@ -121,7 +121,7 @@ const getRedditAccessToken = async () => {
     headers: {
       Authorization: `Basic ${auth}`,
       'Content-Type': 'application/x-www-form-urlencoded',
-      'User-Agent': 'frankfurtmarketingstudio.de daily SEO content research bot',
+      'User-Agent': 'seowbn.de daily SEO content research bot',
     },
     body: 'grant_type=client_credentials',
   });
@@ -297,7 +297,7 @@ const makePost = (posts) => {
   const topic = getSpecificTopic(primaryPost);
   const title = topic.title;
   const excerpt =
-    `${topic.angle} Einordnung fuer SEO und Unternehmen in Frankfurt.`;
+    `${topic.angle} Ein kurzer Leitfaden fuer SEO WBN.`;
   const canonicalSlug = slugify(topic.slug);
   const source = primaryPost.subreddit ? `r/${primaryPost.subreddit}` : primaryPost.source;
 
@@ -319,7 +319,7 @@ tags:
   - SEO
   - ${topic.tag}
   - Google
-  - Frankfurt
+  - SEO WBN
 metadata:
   canonical: ${SITE_URL}/${canonicalSlug}
 ---
@@ -336,9 +336,9 @@ SEO funktioniert selten ueber einzelne Tricks. Entscheidend ist, ob eine Massnah
 
 ${checklist}
 
-## Einordnung fuer Frankfurt
+## Einordnung fuer SEO WBN
 
-Fuer lokale Unternehmen in Frankfurt ist SEO besonders dann wertvoll, wenn es konkrete Anfragen bringt. Eine technische oder inhaltliche Optimierung sollte deshalb immer mit einer einfachen Frage verbunden sein: Hilft sie potenziellen Kunden, schneller Vertrauen zu fassen und Kontakt aufzunehmen?
+Fuer SEO WBN ist wichtig, dass jede Optimierung einen klaren Zweck hat: mehr Sichtbarkeit, bessere Nutzererfahrung oder mehr qualifizierte Anfragen. Eine technische oder inhaltliche Optimierung sollte deshalb immer mit einer einfachen Frage verbunden sein: Hilft sie Nutzern, schneller die richtige Entscheidung zu treffen?
 
 ## Praktischer naechster Schritt
 
@@ -348,7 +348,7 @@ Pruefe eine wichtige Leistungsseite deiner Website und frage dich, ob sie die Su
 
 ${sourceList}
 
-Dieser Beitrag wurde automatisch aus oeffentlichen SEO-Diskussionen und SEO-News angestossen und redaktionell fuer Suchmaschinenoptimierung in Frankfurt eingeordnet.
+Dieser Beitrag wurde automatisch aus oeffentlichen SEO-Diskussionen und SEO-News angestossen und redaktionell fuer SEO WBN eingeordnet.
 `;
 };
 

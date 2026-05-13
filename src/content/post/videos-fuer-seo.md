@@ -1,22 +1,22 @@
 ---
 title: "Sind Videos gut fuer SEO?"
-excerpt: "Videos koennen SEO staerken, wenn sie Suchintention, Seitenstruktur und Ladezeit sinnvoll unterstuetzen. Ein kurzer Leitfaden fuer Unternehmen in Frankfurt."
+excerpt: "Videos koennen SEO staerken, wenn sie Suchintention, Seitenstruktur und Ladezeit sinnvoll unterstuetzen. Ein kurzer Leitfaden fuer SEO WBN."
 image: /images/seo-frankfurt.jpg
 category: seo
 tags:
   - SEO
   - Video SEO
   - Google
-  - Frankfurt
+  - SEO WBN
 metadata:
-  canonical: https://frankfurtmarketingstudio.de/videos-fuer-seo
+  canonical: https://seowbn.de/videos-fuer-seo
 ---
 
 Videos koennen fuer SEO sinnvoll sein, aber nicht automatisch. Entscheidend ist, ob sie eine konkrete Suchintention besser beantworten, die Seite verstaendlicher machen und technisch sauber eingebunden sind. Ein Video-Bereich allein bringt keine Rankings, wenn die Seite langsam wird oder der Inhalt fuer Google und Nutzer schwer einzuordnen ist.
 
 ## Wann Videos fuer SEO helfen
 
-Videos helfen besonders dann, wenn sie etwas zeigen, das Text allein nur schwer erklaert. Beispiele sind Vorher-nachher-Prozesse, Produktdemos, Beratungserklaerungen, Tutorials oder Einblicke in echte Arbeit. Fuer lokale Dienstleister in Frankfurt kann ein gutes Video Vertrauen schaffen, weil Besucher schneller verstehen, wer hinter dem Angebot steht.
+Videos helfen besonders dann, wenn sie etwas zeigen, das Text allein nur schwer erklaert. Beispiele sind Vorher-nachher-Prozesse, Produktdemos, Beratungserklaerungen, Tutorials oder Einblicke in echte Arbeit. Fuer Dienstleister und Unternehmen kann ein gutes Video Vertrauen schaffen, weil Besucher schneller verstehen, wer hinter dem Angebot steht.
 
 Google braucht trotzdem Text, Struktur und Kontext. Eine Seite sollte also nicht nur aus einem eingebetteten Video bestehen. Besser ist eine Kombination aus klarer Ueberschrift, kurzer Einleitung, Video, Zusammenfassung, FAQ und einem eindeutigen naechsten Schritt.
 
@@ -38,7 +38,7 @@ Hilfreich sind ausserdem:
 - VideoObject strukturierte Daten, wenn das Video zentral fuer die Seite ist
 - Ein aussagekraeftiges Thumbnail
 
-## Was Unternehmen in Frankfurt beachten sollten
+## Was Unternehmen beachten sollten
 
 Fuer lokale SEO geht es nicht darum, moeglichst viele Videos zu veroeffentlichen. Es geht darum, Vertrauen und Relevanz zu staerken. Ein kurzes Video auf einer Leistungsseite kann helfen, wenn es echte Fragen beantwortet: Wie laeuft die Zusammenarbeit ab? Was kostet die Leistung? Wie sieht ein Ergebnis aus? Wer ist der Ansprechpartner?
 
