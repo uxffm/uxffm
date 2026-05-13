@@ -25,7 +25,6 @@ const redditClientSecret = process.env.REDDIT_CLIENT_SECRET;
 
 const today = new Date();
 const dateSlug = today.toISOString().slice(0, 10);
-const outputPath = path.join(OUTPUT_DIR, `seo-trends-${dateSlug}.md`);
 
 const sanitizeText = (value = '') =>
   value
@@ -198,42 +197,121 @@ const getTopicLabel = (post) => {
   return 'SEO Praxis';
 };
 
-const makePost = (posts) => {
-  const mainTopics = posts.slice(0, 5);
-  const primaryTopic = getTopicLabel(mainTopics[0] ?? { title: 'SEO' });
-  const title = `SEO Trends aus der Community: ${primaryTopic} im Fokus`;
-  const excerpt =
-    'Ein taeglicher Blick auf aktuelle SEO-Diskussionen und Suchmaschinen-News - eingeordnet fuer Unternehmen in Frankfurt.';
-  const canonicalSlug = slugify(`seo trends ${dateSlug}`);
+const getSpecificTopic = (post) => {
+  const title = post.title.toLowerCase();
 
-  const topicGroups = new Map();
-  for (const post of posts) {
-    const label = getTopicLabel(post);
-    topicGroups.set(label, [...(topicGroups.get(label) ?? []), post]);
+  if (title.includes('video')) {
+    return {
+      title: 'Sind Videos gut fuer SEO?',
+      slug: `videos-fuer-seo-${dateSlug}`,
+      tag: 'Video SEO',
+      angle:
+        'Videos koennen SEO staerken, wenn sie Suchintention, Seitenstruktur und Ladezeit sinnvoll unterstuetzen.',
+      checks: [
+        'Gibt es eine klare Suchintention fuer das Video?',
+        'Verbessert das Video die bestehende Seite wirklich?',
+        'Bleibt die Ladezeit gut?',
+        'Gibt es Text, Zusammenfassung oder Transkript?',
+      ],
+    };
   }
 
-  const sections = [...topicGroups.entries()]
-    .slice(0, 5)
-    .map(([label, items]) => {
-      const bullets = items
-        .slice(0, 3)
-        .map((item) => {
-          const source = item.subreddit ? `r/${item.subreddit}` : item.source;
-          return `- Bei ${source} wird diskutiert: [${item.title}](${item.url}).`;
-        })
-        .join('\n');
+  if (title.includes('lazy') || title.includes('spa') || title.includes('javascript')) {
+    return {
+      title: 'Lazy Loading und JavaScript: Was bedeutet das fuer SEO?',
+      slug: `lazy-loading-javascript-seo-${dateSlug}`,
+      tag: 'Technisches SEO',
+      angle:
+        'Lazy Loading kann Nutzererfahrung und Ladezeit verbessern, muss aber fuer Google crawlbar und indexierbar bleiben.',
+      checks: [
+        'Sind wichtige Inhalte ohne Interaktion im HTML erreichbar?',
+        'Werden Bilder und Inhalte erst geladen, wenn Google sie sehen kann?',
+        'Sind interne Links als echte Links vorhanden?',
+        'Wird die Seite mit der Google Search Console getestet?',
+      ],
+    };
+  }
 
-      return `## ${label}\n\n${bullets}\n\nFuer SEO bedeutet das: Nicht jedes Thema braucht sofort eine grosse Massnahme. Wichtig ist, daraus konkrete Prioritaeten abzuleiten: Was verbessert Sichtbarkeit, Indexierung, Vertrauen oder die Qualitaet der Inhalte?`;
-    })
-    .join('\n\n');
+  if (title.includes('drop') || title.includes('dropping') || title.includes('ranking')) {
+    return {
+      title: 'Warum verliert eine Website Google Rankings?',
+      slug: `google-ranking-verlust-ursachen-${dateSlug}`,
+      tag: 'Google Rankings',
+      angle:
+        'Ranking-Verluste entstehen oft durch technische Probleme, geaenderte Suchintention, Konkurrenz oder Google-Updates.',
+      checks: [
+        'Gab es technische Aenderungen oder Relaunches?',
+        'Sind wichtige Seiten noch indexiert?',
+        'Hat sich die Suchintention veraendert?',
+        'Sind Wettbewerber mit besseren Inhalten vorbeigezogen?',
+      ],
+    };
+  }
+
+  if (title.includes('link') || title.includes('backlink')) {
+    return {
+      title: 'Backlinks und SEO: Worauf kommt es wirklich an?',
+      slug: `backlinks-und-seo-${dateSlug}`,
+      tag: 'Backlinks',
+      angle:
+        'Backlinks koennen helfen, aber Qualitaet, Relevanz und ein natuerliches Linkprofil sind wichtiger als reine Menge.',
+      checks: [
+        'Kommt der Link von einer thematisch passenden Seite?',
+        'Wirkt der Ankertext natuerlich?',
+        'Bringt der Link echte Nutzer oder nur eine Kennzahl?',
+        'Gibt es riskante Muster im Linkprofil?',
+      ],
+    };
+  }
+
+  if (title.includes('ai') || title.includes('overview') || title.includes('chatgpt')) {
+    return {
+      title: 'KI-Suchergebnisse und SEO: Was muessen Unternehmen beachten?',
+      slug: `ki-suchergebnisse-und-seo-${dateSlug}`,
+      tag: 'KI SEO',
+      angle:
+        'KI-Antworten veraendern, wie Nutzer Suchergebnisse wahrnehmen. Gute Inhalte brauchen klare Aussagen, Vertrauen und zitierfaehige Struktur.',
+      checks: [
+        'Beantwortet die Seite konkrete Fragen direkt?',
+        'Sind Autoritaet und Erfahrung sichtbar?',
+        'Sind Inhalte klar strukturiert?',
+        'Werden Marke, Bewertungen und Reputation gepflegt?',
+      ],
+    };
+  }
+
+  return {
+    title: 'Warum SEO regelmaessige Pflege braucht',
+    slug: `seo-regelmaessig-optimieren-${dateSlug}`,
+    tag: 'SEO Strategie',
+    angle:
+      'SEO ist kein einmaliges Projekt. Rankings bleiben stabiler, wenn Inhalte, Technik und Suchintention regelmaessig geprueft werden.',
+    checks: [
+      'Welche Seiten bringen Anfragen?',
+      'Welche Rankings verlieren Sichtbarkeit?',
+      'Welche Inhalte sind veraltet?',
+      'Welche technischen Probleme bremsen die Website?',
+    ],
+  };
+};
+
+const makePost = (posts) => {
+  const primaryPost = posts[0] ?? { title: 'SEO', url: SITE_URL, source: 'SEO Community' };
+  const topic = getSpecificTopic(primaryPost);
+  const title = topic.title;
+  const excerpt =
+    `${topic.angle} Einordnung fuer SEO und Unternehmen in Frankfurt.`;
+  const canonicalSlug = slugify(topic.slug);
+  const source = primaryPost.subreddit ? `r/${primaryPost.subreddit}` : primaryPost.source;
 
   const sourceList = posts
-    .slice(0, 8)
+    .slice(0, 5)
     .map((post) => {
-      const source = post.subreddit ? `r/${post.subreddit}` : post.source;
-      return `- [${post.title}](${post.url}) - ${source}`;
+      const itemSource = post.subreddit ? `r/${post.subreddit}` : post.source;
+      return `- [${post.title}](${post.url}) - ${itemSource}`;
     })
     .join('\n');
+  const checklist = topic.checks.map((item) => `- ${item}`).join('\n');
 
   return `---
 publishDate: ${today.toISOString()}
@@ -243,47 +321,43 @@ image: /images/seo-frankfurt.jpg
 category: seo
 tags:
   - SEO
-  - SEO Trends
+  - ${topic.tag}
   - Google
   - Frankfurt
 metadata:
   canonical: ${SITE_URL}/${canonicalSlug}
 ---
 
-SEO-Communities und Suchmaschinen-News sind kein Ersatz fuer eine eigene Analyse, aber gute Fruehindikatoren. Dort tauchen Google-Updates, Indexierungsprobleme, Content-Fragen und technische SEO-Themen oft auf, bevor sie im Alltag vieler Unternehmen sichtbar werden.
+${topic.angle}
 
-${sections}
+Ausgangspunkt ist eine aktuelle Diskussion bei ${source}: [${primaryPost.title}](${primaryPost.url}). Solche Fragen sind spannend, weil sie zeigen, welche SEO-Probleme gerade in echten Projekten auftauchen.
 
-## Was Unternehmen daraus mitnehmen koennen
+## Warum das Thema fuer SEO wichtig ist
 
-Wenn mehrere Diskussionen in dieselbe Richtung zeigen, lohnt sich ein Blick auf die eigene Website. Besonders wichtig sind:
+SEO funktioniert selten ueber einzelne Tricks. Entscheidend ist, ob eine Massnahme die Seite fuer Nutzer klarer, schneller oder vertrauenswuerdiger macht. Google kann nur bewerten, was technisch erreichbar ist und inhaltlich sauber eingeordnet werden kann.
 
-- Wird die Website sauber gecrawlt und indexiert?
-- Passen Inhalte wirklich zur Suchintention?
-- Gibt es technische Bremsen bei Ladezeit, Struktur oder interner Verlinkung?
-- Sind lokale Signale fuer Frankfurt und Umgebung klar genug?
-- Werden wichtige Seiten regelmaessig gemessen und verbessert?
+## Was Unternehmen pruefen sollten
+
+${checklist}
+
+## Einordnung fuer Frankfurt
+
+Fuer lokale Unternehmen in Frankfurt ist SEO besonders dann wertvoll, wenn es konkrete Anfragen bringt. Eine technische oder inhaltliche Optimierung sollte deshalb immer mit einer einfachen Frage verbunden sein: Hilft sie potenziellen Kunden, schneller Vertrauen zu fassen und Kontakt aufzunehmen?
+
+## Praktischer naechster Schritt
+
+Pruefe eine wichtige Leistungsseite deiner Website und frage dich, ob sie die Suchintention wirklich besser beantwortet als die Seiten deiner Wettbewerber. Wenn nicht, ist das meist der beste Startpunkt fuer SEO.
 
 ## Quellen
 
 ${sourceList}
 
-Dieser Beitrag wurde automatisch aus oeffentlichen SEO-Diskussionen und SEO-News zusammengestellt und redaktionell fuer Suchmaschinenoptimierung in Frankfurt eingeordnet.
+Dieser Beitrag wurde automatisch aus oeffentlichen SEO-Diskussionen und SEO-News angestossen und redaktionell fuer Suchmaschinenoptimierung in Frankfurt eingeordnet.
 `;
 };
 
 const run = async () => {
   await fs.mkdir(OUTPUT_DIR, { recursive: true });
-
-  try {
-    await fs.access(outputPath);
-    if (!isDryRun) {
-      console.log(`Post already exists for ${dateSlug}: ${outputPath}`);
-      return;
-    }
-  } catch {
-    // Expected when today's post has not been generated yet.
-  }
 
   let posts = [];
   try {
@@ -295,6 +369,19 @@ const run = async () => {
 
   if (posts.length < 4) {
     throw new Error(`Not enough SEO discussion posts found. Got ${posts.length}.`);
+  }
+
+  const topic = getSpecificTopic(posts[0]);
+  const outputPath = path.join(OUTPUT_DIR, `${topic.slug}.md`);
+
+  try {
+    await fs.access(outputPath);
+    if (!isDryRun) {
+      console.log(`Post already exists for ${dateSlug}: ${outputPath}`);
+      return;
+    }
+  } catch {
+    // Expected when today's post has not been generated yet.
   }
 
   if (isDryRun) {

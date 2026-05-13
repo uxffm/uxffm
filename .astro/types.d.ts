@@ -241,16 +241,16 @@ declare module 'astro:content' {
   collection: "post";
   data: InferEntrySchema<"post">
 } & { render(): Render[".md"] };
-"seo-trends-2026-05-13.md": {
-	id: "seo-trends-2026-05-13.md";
-  slug: "seo-trends-2026-05-13";
+"seo-vs-sea-therapeuten.md": {
+	id: "seo-vs-sea-therapeuten.md";
+  slug: "seo-vs-sea-therapeuten";
   body: string;
   collection: "post";
   data: InferEntrySchema<"post">
 } & { render(): Render[".md"] };
-"seo-vs-sea-therapeuten.md": {
-	id: "seo-vs-sea-therapeuten.md";
-  slug: "seo-vs-sea-therapeuten";
+"videos-fuer-seo-2026-05-13.md": {
+	id: "videos-fuer-seo-2026-05-13.md";
+  slug: "videos-fuer-seo-2026-05-13";
   body: string;
   collection: "post";
   data: InferEntrySchema<"post">
