@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-05-13T11:52:16.678Z
-title: "WordPress Trends von Reddit: WordPress Praxis im Fokus"
-excerpt: "Ein taeglicher Blick auf aktuelle Reddit-Diskussionen rund um WordPress - eingeordnet fuer Unternehmen in Frankfurt."
+title: "WordPress Trends aus der Community: WordPress Praxis im Fokus"
+excerpt: "Ein taeglicher Blick auf aktuelle WordPress-Diskussionen - eingeordnet fuer Unternehmen in Frankfurt."
 image: /images/wordpress-webseite-frankfurt.webp
 category: seo
 tags:

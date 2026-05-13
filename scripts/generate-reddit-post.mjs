@@ -3,6 +3,20 @@ import path from 'node:path';
 
 const SUBREDDITS = ['Wordpress'];
 const POSTS_PER_SUBREDDIT = 25;
+const FALLBACK_FEEDS = [
+  {
+    name: 'WordPress.org Support',
+    url: 'https://wordpress.org/support/forum/how-to-and-troubleshooting/feed/',
+  },
+  {
+    name: 'WordPress.org News',
+    url: 'https://wordpress.org/news/feed/',
+  },
+  {
+    name: 'Make WordPress Core',
+    url: 'https://make.wordpress.org/core/feed/',
+  },
+];
 const OUTPUT_DIR = 'src/content/post';
 const SITE_URL = 'https://frankfurtmarketingstudio.de';
 const isDryRun = process.env.DRY_RUN === '1';
@@ -45,6 +59,61 @@ const fetchJson = async (url, headers = {}) => {
   }
 
   return response.json();
+};
+
+const decodeHtml = (value = '') =>
+  value
+    .replace(/<!\[CDATA\[(.*?)\]\]>/gs, '$1')
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/&#x27;/g, "'")
+    .trim();
+
+const getTagValue = (item, tag) => {
+  const match = item.match(new RegExp(`<${tag}[^>]*>([\\s\\S]*?)<\\/${tag}>`, 'i'));
+  return match ? decodeHtml(match[1]) : '';
+};
+
+const getFeedItems = async ({ name, url }) => {
+  const response = await fetch(url, {
+    headers: {
+      'User-Agent': 'frankfurtmarketingstudio.de daily content research bot',
+      Accept: 'application/rss+xml, application/xml, text/xml',
+    },
+  });
+
+  if (!response.ok) {
+    throw new Error(`Feed request failed ${response.status}: ${url}`);
+  }
+
+  const xml = await response.text();
+  return [...xml.matchAll(/<item\b[\s\S]*?<\/item>/gi)]
+    .slice(0, 6)
+    .map(([item]) => ({
+      source: name,
+      title: sanitizeText(getTagValue(item, 'title')),
+      url: getTagValue(item, 'link'),
+      score: 0,
+      comments: 0,
+    }))
+    .filter((item) => item.title && item.url);
+};
+
+const getStackExchangeQuestions = async () => {
+  const json = await fetchJson(
+    'https://api.stackexchange.com/2.3/questions?pagesize=10&order=desc&sort=activity&tagged=wordpress&site=wordpress'
+  );
+
+  return (json.items ?? []).map((item) => ({
+    source: 'WordPress StackExchange',
+    title: sanitizeText(item.title),
+    url: item.link,
+    score: item.score ?? 0,
+    comments: item.answer_count ?? 0,
+  }));
 };
 
 const getRedditAccessToken = async () => {
@@ -100,6 +169,22 @@ const getRedditPosts = async () => {
     .slice(0, 12);
 };
 
+const getFallbackPosts = async () => {
+  const feedResults = await Promise.allSettled(FALLBACK_FEEDS.map((feed) => getFeedItems(feed)));
+  const feedPosts = feedResults.flatMap((result) => (result.status === 'fulfilled' ? result.value : []));
+
+  let stackExchangePosts = [];
+  try {
+    stackExchangePosts = await getStackExchangeQuestions();
+  } catch (error) {
+    console.warn(error);
+  }
+
+  return [...feedPosts, ...stackExchangePosts]
+    .sort((a, b) => b.score + b.comments * 2 - (a.score + a.comments * 2))
+    .slice(0, 12);
+};
+
 const getTopicLabel = (post) => {
   const title = post.title.toLowerCase();
 
@@ -116,9 +201,9 @@ const getTopicLabel = (post) => {
 const makePost = (posts) => {
   const mainTopics = posts.slice(0, 5);
   const primaryTopic = getTopicLabel(mainTopics[0] ?? { title: 'WordPress' });
-  const title = `WordPress Trends von Reddit: ${primaryTopic} im Fokus`;
+  const title = `WordPress Trends aus der Community: ${primaryTopic} im Fokus`;
   const excerpt =
-    'Ein taeglicher Blick auf aktuelle Reddit-Diskussionen rund um WordPress - eingeordnet fuer Unternehmen in Frankfurt.';
+    'Ein taeglicher Blick auf aktuelle WordPress-Diskussionen - eingeordnet fuer Unternehmen in Frankfurt.';
   const canonicalSlug = slugify(`reddit wordpress trends ${dateSlug}`);
 
   const topicGroups = new Map();
@@ -132,7 +217,10 @@ const makePost = (posts) => {
     .map(([label, items]) => {
       const bullets = items
         .slice(0, 3)
-        .map((item) => `- In r/${item.subreddit} wird diskutiert: [${item.title}](${item.url}).`)
+        .map((item) => {
+          const source = item.subreddit ? `r/${item.subreddit}` : item.source;
+          return `- Bei ${source} wird diskutiert: [${item.title}](${item.url}).`;
+        })
         .join('\n');
 
       return `## ${label}\n\n${bullets}\n\nFuer WordPress-Websites bedeutet das: Nicht jeder Trend muss sofort umgesetzt werden. Wichtig ist, daraus konkrete Prioritaeten abzuleiten: Was verbessert Ladezeit, Vertrauen, Sichtbarkeit oder die Pflege der Website?`;
@@ -141,7 +229,10 @@ const makePost = (posts) => {
 
   const sourceList = posts
     .slice(0, 8)
-    .map((post) => `- [${post.title}](${post.url}) - r/${post.subreddit}`)
+    .map((post) => {
+      const source = post.subreddit ? `r/${post.subreddit}` : post.source;
+      return `- [${post.title}](${post.url}) - ${source}`;
+    })
     .join('\n');
 
   return `---
@@ -159,7 +250,7 @@ metadata:
   canonical: ${SITE_URL}/${canonicalSlug}
 ---
 
-Reddit ist kein Strategie-Ersatz, aber ein guter Fruehindikator: Dort tauchen WordPress-Fragen, Plugin-Probleme, Theme-Diskussionen und Erfahrungen aus echten Projekten oft auf, bevor sie in klassischen Blogartikeln landen. Fuer Unternehmen in Frankfurt ist spannend, welche WordPress-Themen gerade echte Nutzer beschaeftigen.
+Reddit und andere WordPress-Communities sind kein Strategie-Ersatz, aber gute Fruehindikatoren: Dort tauchen WordPress-Fragen, Plugin-Probleme, Theme-Diskussionen und Erfahrungen aus echten Projekten oft auf, bevor sie in klassischen Blogartikeln landen. Fuer Unternehmen in Frankfurt ist spannend, welche WordPress-Themen gerade echte Nutzer beschaeftigen.
 
 ${sections}
 
@@ -177,7 +268,7 @@ Wenn mehrere Diskussionen in dieselbe Richtung zeigen, lohnt sich ein Blick auf 
 
 ${sourceList}
 
-Dieser Beitrag wurde automatisch aus oeffentlichen Reddit-Diskussionen zusammengestellt und redaktionell fuer WordPress in Frankfurt eingeordnet.
+Dieser Beitrag wurde automatisch aus oeffentlichen WordPress-Diskussionen zusammengestellt und redaktionell fuer WordPress in Frankfurt eingeordnet.
 `;
 };
 
@@ -186,15 +277,24 @@ const run = async () => {
 
   try {
     await fs.access(outputPath);
-    console.log(`Post already exists for ${dateSlug}: ${outputPath}`);
-    return;
+    if (!isDryRun) {
+      console.log(`Post already exists for ${dateSlug}: ${outputPath}`);
+      return;
+    }
   } catch {
     // Expected when today's post has not been generated yet.
   }
 
-  const posts = await getRedditPosts();
+  let posts = [];
+  try {
+    posts = await getRedditPosts();
+  } catch (error) {
+    console.warn(`Reddit unavailable, using fallback WordPress sources. ${error.message}`);
+    posts = await getFallbackPosts();
+  }
+
   if (posts.length < 4) {
-    throw new Error(`Not enough Reddit posts found. Got ${posts.length}.`);
+    throw new Error(`Not enough WordPress discussion posts found. Got ${posts.length}.`);
   }
 
   if (isDryRun) {
