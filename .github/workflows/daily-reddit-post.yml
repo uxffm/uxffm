@@ -24,6 +24,9 @@ jobs:
 
       - name: Generate post from WordPress Reddit discussions
         run: node scripts/generate-reddit-post.mjs
+        env:
+          REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
+          REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
 
       - name: Commit and push post
         uses: stefanzweifel/git-auto-commit-action@v5

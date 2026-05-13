@@ -6,6 +6,8 @@ const POSTS_PER_SUBREDDIT = 25;
 const OUTPUT_DIR = 'src/content/post';
 const SITE_URL = 'https://frankfurtmarketingstudio.de';
 const isDryRun = process.env.DRY_RUN === '1';
+const redditClientId = process.env.REDDIT_CLIENT_ID;
+const redditClientSecret = process.env.REDDIT_CLIENT_SECRET;
 
 const today = new Date();
 const dateSlug = today.toISOString().slice(0, 10);
@@ -27,11 +29,14 @@ const slugify = (value) =>
     .replace(/(^-|-$)/g, '')
     .slice(0, 80);
 
-const fetchJson = async (url) => {
+const yamlString = (value) => `"${String(value).replace(/\\/g, '\\\\').replace(/"/g, '\\"')}"`;
+
+const fetchJson = async (url, headers = {}) => {
   const response = await fetch(url, {
     headers: {
       'User-Agent': 'frankfurtmarketingstudio.de daily content research bot',
       Accept: 'application/json',
+      ...headers,
     },
   });
 
@@ -42,12 +47,38 @@ const fetchJson = async (url) => {
   return response.json();
 };
 
+const getRedditAccessToken = async () => {
+  if (!redditClientId || !redditClientSecret) return undefined;
+
+  const auth = Buffer.from(`${redditClientId}:${redditClientSecret}`).toString('base64');
+  const response = await fetch('https://www.reddit.com/api/v1/access_token', {
+    method: 'POST',
+    headers: {
+      Authorization: `Basic ${auth}`,
+      'Content-Type': 'application/x-www-form-urlencoded',
+      'User-Agent': 'frankfurtmarketingstudio.de daily content research bot',
+    },
+    body: 'grant_type=client_credentials',
+  });
+
+  if (!response.ok) {
+    throw new Error(`Reddit auth failed ${response.status}`);
+  }
+
+  const json = await response.json();
+  return json.access_token;
+};
+
 const getRedditPosts = async () => {
   const allPosts = [];
+  const accessToken = await getRedditAccessToken();
 
   for (const subreddit of SUBREDDITS) {
-    const url = `https://www.reddit.com/r/${subreddit}/hot.json?limit=${POSTS_PER_SUBREDDIT}`;
-    const json = await fetchJson(url);
+    const url = accessToken
+      ? `https://oauth.reddit.com/r/${subreddit}/hot?limit=${POSTS_PER_SUBREDDIT}`
+      : `https://www.reddit.com/r/${subreddit}/hot.json?limit=${POSTS_PER_SUBREDDIT}`;
+    const headers = accessToken ? { Authorization: `Bearer ${accessToken}` } : {};
+    const json = await fetchJson(url, headers);
     const posts = json?.data?.children ?? [];
 
     for (const post of posts) {
@@ -115,8 +146,8 @@ const makePost = (posts) => {
 
   return `---
 publishDate: ${today.toISOString()}
-title: ${title}
-excerpt: ${excerpt}
+title: ${yamlString(title)}
+excerpt: ${yamlString(excerpt)}
 image: /images/wordpress-webseite-frankfurt.webp
 category: seo
 tags:

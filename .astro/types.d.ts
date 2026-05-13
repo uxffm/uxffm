@@ -227,6 +227,13 @@ declare module 'astro:content' {
   collection: "post";
   data: InferEntrySchema<"post">
 } & { render(): Render[".md"] };
+"reddit-wordpress-trends-2026-05-13.md": {
+	id: "reddit-wordpress-trends-2026-05-13.md";
+  slug: "reddit-wordpress-trends-2026-05-13";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
 "seo-fehler-frankfurt.md": {
 	id: "seo-fehler-frankfurt.md";
   slug: "seo-fehler-frankfurt-vermeiden";
