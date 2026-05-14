@@ -131,13 +131,14 @@ Anforderungen an den Artikel:
 - Stil: Praktisch und handlungsorientiert — der Leser soll etwas lernen und mitnehmen
 - Zielgruppe: WordPress-Nutzer und kleine Unternehmen in Frankfurt und Umgebung
 - Am Ende: Kurzer Hinweis, dass Frankfurt Marketing Studio bei solchen Themen hilft
+- Externe Links: Baue maximal 3 externe Links natuerlich in den Fliesstext ein, aber NUR wenn sie wirklich passen — z.B. zur offiziellen Plugin-Seite, zur WordPress-Dokumentation, zur Entwickler-Website oder zu einer offiziellen Ankuendigung. Keine zufaelligen Links, keine Blogposts Dritter, keine SEO-Spam-Links. Nur offizielle, vertrauenswuerdige Quellen. Format: [Linktext](https://...) direkt im Text.
 
 Gib NUR den Markdown-Inhalt des Artikels zurueck (ab der ersten Ueberschrift mit ##, kein Frontmatter, kein Titel als H1). Fang direkt mit einem einleitenden Absatz an, dann die H2-Abschnitte.`;
 
   const content = await callClaude(prompt);
 
   // Extract a good slug from the topic
-  const slugPrompt = `Erstelle einen kurzen, praegnanten URL-Slug (auf Englisch oder Deutsch, maximal 5 Woerter, nur Kleinbuchstaben und Bindestriche) fuer einen Blogartikel ueber dieses Thema: "${topPost.title}". Gib NUR den Slug zurueck, sonst nichts.`;
+  const slugPrompt = `Erstelle einen kurzen, praegnanten URL-Slug (auf Englisch oder Deutsch, maximal 5 Woerter, nur Kleinbuchstaben und Bindestriche) fuer einen Blogartikel ueber dieses Thema: "${topPost.title}". Wichtig: Kein "wtf", "how", "why", "what", "warum", "wie", "was" im Slug — nenne stattdessen das Produkt oder Thema direkt. Gib NUR den Slug zurueck, sonst nichts.`;
   const rawSlug = await callClaude(slugPrompt);
   const slug = slugify(rawSlug.trim().toLowerCase().replace(/['"]/g, ''));
 

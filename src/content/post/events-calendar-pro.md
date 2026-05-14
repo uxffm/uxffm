@@ -10,140 +10,128 @@ metadata:
   canonical: https://frankfurtmarketingstudio.de/events-calendar-pro
 ---
 
-Die WordPress-Community ist in Aufruhr: Nutzer des beliebten Plugins "The Events Calendar Pro" können plötzlich nicht mehr auf ihre Accounts zugreifen. Stattdessen werden sie auf eine unbekannte Liquid Web-Seite weitergeleitet, ihre Zugangsdaten funktionieren nicht mehr. Was ist passiert? Und noch wichtiger: Was bedeutet das für Sie, wenn Sie dieses Plugin nutzen oder ähnliche Tools im Einsatz haben?
+## Was ist mit The Events Calendar Pro passiert? Ein kritischer Blick auf die Liquid Web-Übernahme
 
-## Der Hintergrund: StellarWP, Liquid Web und die Plugin-Übernahmen
+Die WordPress-Community ist in Aufruhr. In Foren, auf Reddit und in Slack-Gruppen häufen sich besorgte Nachrichten: „Was ist mit The Events Calendar passiert?" Die Verwirrung ist verständlich – wer sich kürzlich in sein Konto einloggen wollte, wurde plötzlich auf eine fremde Website weitergeleitet. Zugangsdaten funktionieren nicht mehr, Support-Anfragen bleiben unbeantwortet, und viele Nutzer fragen sich: Haben wir gerade Geld verloren?
 
-Um zu verstehen, was hier passiert ist, müssen wir einen Blick auf die Unternehmensstruktur werfen. The Events Calendar wurde ursprünglich von Modern Tribe entwickelt und war jahrelang eines der zuverlässigsten Event-Management-Plugins im WordPress-Ökosystem. 2020 wurde das Plugin von StellarWP übernommen — einer Marke, die zum Hosting-Unternehmen Liquid Web gehört.
+Was hier passiert, ist mehr als ein technisches Problem. Es ist ein Symptom einer größeren Entwicklung im WordPress-Ökosystem, die jeden betrifft, der auf Premium-Plugins für sein Business setzt. Als WordPress-Agentur in Frankfurt sehen wir täglich, welche Auswirkungen solche Übernahmen auf kleine und mittlere Unternehmen haben.
 
-StellarWP hat in den letzten Jahren aggressiv WordPress-Produkte aufgekauft. Zur Familie gehören mittlerweile unter anderem:
+## Die Übernahme durch Liquid Web: Was wir wissen
 
-- The Events Calendar (Free und Pro)
-- Kadence (Theme und Blocks)
-- LearnDash (LMS)
-- GiveWP (Spenden-Plugin)
-- IconicWP (WooCommerce-Erweiterungen)
-- Restrict Content Pro
+The Events Calendar, entwickelt von The Events Calendar Inc. (früher Modern Tribe), gehört zu den beliebtesten Event-Management-Lösungen für WordPress. Mit über 800.000 aktiven Installationen der kostenlosen Version und einer treuen Pro-Nutzerbasis war das Plugin jahrelang die erste Wahl für Veranstaltungskalender.
 
-Was zunächst nach einer Konsolidierung starker Produkte unter einem Dach aussah, entpuppt sich zunehmend als problematisch für die Endnutzer. Die aktuelle Situation zeigt exemplarisch, was passieren kann, wenn Unternehmensinteressen über Nutzerfreundlichkeit gestellt werden.
+Liquid Web, ein großer US-amerikanischer Hosting-Anbieter, hat in den letzten Jahren aggressiv WordPress-Unternehmen aufgekauft. Über die Tochtergesellschaft StellarWP wurden bereits Kadence, LearnDash, iThemes, GiveWP und andere bekannte Namen unter einem Dach vereint. The Events Calendar ist Teil dieser Konsolidierungsstrategie.
 
-## Was genau ist passiert? Die Account-Migration im Detail
+Das Problem: Die Migration der Nutzerkonten verlief offenbar chaotisch. Bestandskunden berichten von folgenden Erfahrungen:
 
-Laut Berichten aus der Reddit-Community wurden Nutzer-Accounts von The Events Calendar offenbar im Rahmen einer Plattform-Konsolidierung migriert. Das Problem: Viele Nutzer wurden über diese Migration entweder gar nicht oder nur unzureichend informiert.
+- Login-Daten funktionieren nicht mehr auf der neuen StellarWP-Plattform
+- Lizenzen sind scheinbar verschwunden oder nicht übertragbar
+- Der Support reagiert verzögert oder gar nicht
+- Dokumentation zur Migration fehlt oder ist unvollständig
 
-Die konkreten Symptome:
+Für Agenturen und Freelancer, die The Events Calendar Pro für Kundenprojekte nutzen, ist das ein massives Problem. Laufende Verträge, geplante Updates, ausstehender Support – alles steht plötzlich in Frage.
 
-- Login-Versuche auf der gewohnten Events Calendar-Website führen zu Weiterleitungen
-- Bestehende Zugangsdaten werden nicht erkannt
-- Lizenzschlüssel scheinen ungültig zu sein
-- Der Support ist schwer oder gar nicht erreichbar
+## Warum diese Übernahme ein Warnsignal ist
 
-Für Agenturen und Freelancer, die das Plugin bei mehreren Kundenprojekten einsetzen, ist das ein massives Problem. Ohne gültige Lizenz gibt es keine Updates — und ohne Updates entstehen Sicherheitslücken.
+Die Frustration in der Community geht über technische Login-Probleme hinaus. Sie spiegelt eine grundsätzliche Sorge wider: Was passiert mit der WordPress-Landschaft, wenn immer weniger Unternehmen immer mehr kritische Tools kontrollieren?
 
-## Die größere Problematik: Wenn WordPress-Produkte konsolidiert werden
+Liquid Web und StellarWP verfolgen ein klares Geschäftsmodell. Sie kaufen etablierte WordPress-Produkte, integrieren sie in ihr Ökosystem und nutzen Synergien – oft auf Kosten der bisherigen Nutzererfahrung. Bei Kadence, einem beliebten Theme- und Block-Builder, zeigen sich bereits ähnliche Muster. Nutzer berichten von veränderten Preismodellen, weniger Updates und einer Ausrichtung auf das hauseigene Hosting-Angebot.
 
-Der Fall The Events Calendar ist kein Einzelfall. In der gleichen Reddit-Diskussion berichten Nutzer von ähnlichen Erfahrungen mit Kadence nach der Übernahme durch StellarWP. Die Kritikpunkte wiederholen sich:
+Für kleine Unternehmen und Selbstständige in Frankfurt und Umgebung hat das konkrete Konsequenzen:
 
-**Intransparente Kommunikation**: Nutzer erfahren von Änderungen oft erst, wenn etwas nicht mehr funktioniert. Proaktive Information über bevorstehende Migrationen oder Systemumstellungen findet selten statt.
+**Abhängigkeit von einzelnen Anbietern wächst.** Wer The Events Calendar, Kadence und LearnDash nutzt, ist plötzlich von einem einzigen Konzern abhängig. Preiserhöhungen, Funktionseinschränkungen oder Einstellungen von Produkten treffen gleich mehrere Bereiche der Website.
 
-**Verschlechterte Support-Qualität**: Nach Übernahmen sinkt häufig die Qualität des Kundensupports. Entweder werden Teams verkleinert oder die Zuständigkeiten sind unklar.
+**Support-Qualität leidet oft nach Übernahmen.** Kleine, spezialisierte Teams werden in große Strukturen integriert. Das persönliche Verhältnis zum Entwickler verschwindet, Tickets landen in anonymen Support-Systemen.
 
-**Preiserhöhungen und Lizenzmodell-Änderungen**: Was heute eine Lifetime-Lizenz ist, kann morgen ein Abo-Modell sein. Die neuen Eigentümer haben andere Renditeerwaartungen als die ursprünglichen Entwickler.
+**Langfristige Strategie wird undurchsichtig.** Niemand weiß, welche Produkte StellarWP langfristig pflegen wird und welche stillschweigend eingestellt werden.
 
-**Technische Verschlechterung**: Performance-Einbußen, aufgeblähter Code oder inkompatible Updates sind keine Seltenheit, wenn Produkte in größere Ökosysteme integriert werden.
+## Praktische Schritte: Was betroffene Nutzer jetzt tun sollten
 
-## Praktische Erste Hilfe: So reaktivieren Sie Ihren Events Calendar Account
+Wenn Sie The Events Calendar Pro nutzen und von der Migration betroffen sind, gibt es konkrete Maßnahmen, die Sie ergreifen können:
 
-Wenn Sie von der Account-Migration betroffen sind, sollten Sie folgende Schritte unternehmen:
+**1. Kontakt zum neuen Support aufnehmen**
 
-**Schritt 1: Die neue Plattform identifizieren**
+Besuchen Sie die [offizielle Website von The Events Calendar](https://theeventscalendar.com/) und suchen Sie nach den aktuellen Support-Kontaktmöglichkeiten. Halten Sie Ihre ursprüngliche Kaufbestätigung, Rechnungen und Lizenzschlüssel bereit. Diese Dokumente sind der beste Nachweis für Ihre bestehenden Ansprüche.
 
-Besuchen Sie die aktuelle Website von StellarWP (stellarwp.com) und suchen Sie nach einem zentralen Login-Bereich. Seit der Konsolidierung werden viele Produkte über ein einheitliches Dashboard verwaltet.
+**2. Lizenzstatus dokumentieren**
 
-**Schritt 2: Passwort zurücksetzen**
+Machen Sie Screenshots von Ihrem WordPress-Dashboard, die zeigen, welche Version installiert ist und welcher Lizenzstatus angezeigt wird. Sichern Sie alle E-Mails, die Sie je von The Events Calendar oder StellarWP erhalten haben.
 
-Nutzen Sie die "Passwort vergessen"-Funktion mit der E-Mail-Adresse, die Sie ursprünglich bei Modern Tribe oder The Events Calendar registriert haben. In vielen Fällen wurden die Accounts übertragen, aber die Passwörter müssen neu gesetzt werden.
+**3. Plugin-Updates temporär pausieren**
 
-**Schritt 3: Kaufbelege bereithalten**
+Solange der Lizenzstatus ungeklärt ist, sollten Sie automatische Updates für das Plugin deaktivieren. Ein fehlgeschlagenes Update aufgrund einer nicht erkannten Lizenz kann im schlimmsten Fall Funktionen deaktivieren oder Inkompatibilitäten verursachen.
 
-Falls Sie Ihre Lizenz nachweisen müssen, suchen Sie nach alten Kaufbestätigungen, PayPal-Belegen oder Kreditkartenabrechnungen. Diese können beim Support als Nachweis dienen.
+**4. Backup erstellen**
 
-**Schritt 4: Support kontaktieren — aber richtig**
+Bevor Sie irgendwelche Änderungen vornehmen, erstellen Sie ein vollständiges Backup Ihrer Website. Das gilt besonders für die Datenbank, in der alle Event-Daten gespeichert sind.
 
-Nutzen Sie den offiziellen Support-Kanal von StellarWP. Beschreiben Sie Ihr Problem sachlich und fügen Sie alle relevanten Informationen bei: E-Mail-Adresse, ungefähres Kaufdatum, Lizenztyp.
+**5. Alternativen recherchieren**
 
-**Schritt 5: Dokumentieren Sie alles**
+Falls sich die Situation nicht klärt oder Sie grundsätzlich wechseln möchten, sollten Sie Alternativen prüfen. Dazu später mehr.
 
-Machen Sie Screenshots von Fehlermeldungen, notieren Sie Zeiten und speichern Sie E-Mail-Verläufe. Falls es zu einem Rechtsstreit kommt, haben Sie Nachweise.
+## Alternative Event-Plugins für WordPress
 
-## Alternativen zu The Events Calendar Pro: Was der Markt bietet
+Die Abhängigkeit von einem einzelnen Plugin ist immer ein Risiko. Unabhängig davon, ob Sie jetzt wechseln müssen oder nur vorsorgen wollen – diese Alternativen verdienen einen Blick:
 
-Falls Sie genug haben oder sich zumindest absichern möchten, lohnt sich ein Blick auf die Alternativen. Der Markt für Event-Plugins ist zum Glück vielfältig:
+**EventOn** ist eine beliebte Premium-Lösung mit modernem Design und vielen Erweiterungen. Die Lernkurve ist etwas steiler, aber die Flexibilität überzeugt viele Nutzer.
 
-**Events Manager**
+**Modern Events Calendar** bietet ähnliche Funktionen wie The Events Calendar Pro und wird aktiv weiterentwickelt. Das Plugin unterstützt wiederkehrende Events, Ticketverkauf und verschiedene Kalenderansichten.
 
-Ein solides, kostenloses Plugin mit Pro-Version. Weniger Funktionen als The Events Calendar, aber deutlich schlanker und schneller. Besonders geeignet für einfache Veranstaltungskalender.
+**Sugar Calendar** ist eine leichtgewichtige Alternative für einfachere Anforderungen. Wenn Sie keine komplexen Ticketing-Funktionen oder aufwendige Integrationen benötigen, ist dieses Plugin einen Blick wert.
 
-**Jeweils Events Calendar (Sugar Calendar)**
+**Eigene Lösung mit Custom Post Types** – für Entwickler und Agenturen kann eine maßgeschneiderte Lösung auf Basis von Custom Post Types und dem Advanced Custom Fields Plugin sinnvoll sein. Das erfordert mehr Aufwand, bietet aber maximale Kontrolle und keine Abhängigkeit von Drittanbietern.
 
-Von den Entwicklern von Easy Digital Downloads. Fokussiert auf Performance und Einfachheit. Weniger Features, aber dafür extrem zuverlässig.
+Bei einem Wechsel sollten Sie unbedingt die Datenmigration einplanen. Event-Daten, Kategorien, Bilder und eventuell Ticketverkäufe müssen sauber übertragen werden. Hierbei kann eine Agentur mit entsprechender Erfahrung viel Zeit und Nerven sparen.
 
-**Jeweils Amelia**
+## Die größere Perspektive: WordPress-Ökosystem im Wandel
 
-Spezialisiert auf Buchungen und Terminvereinbarungen. Wenn Ihr Kalender weniger zur Darstellung und mehr zur Buchung dient, könnte Amelia die bessere Wahl sein.
+Die Situation rund um The Events Calendar ist kein Einzelfall. Das WordPress-Ökosystem durchlebt gerade eine Phase der Konsolidierung, die weitreichende Folgen hat.
 
-**Modern Events Calendar**
+Auf der einen Seite stehen große Unternehmen wie Liquid Web, WP Engine oder Automattic selbst, die WordPress-Produkte und -Dienste aufkaufen. Auf der anderen Seite kämpfen unabhängige Entwickler und kleine Teams um Aufmerksamkeit und Einnahmen in einem zunehmend umkämpften Markt.
 
-Ein Feature-reiches Plugin vom Entwickler Webnus. Bietet viele der Funktionen von Events Calendar Pro, ist aber unabhängig von den großen Hosting-Konzernen.
+Für Endnutzer bedeutet das: Sorgfältige Plugin-Auswahl wird wichtiger denn je. Fragen, die Sie sich vor jeder Installation stellen sollten:
 
-**Custom Development**
+- Wer entwickelt dieses Plugin, und wie ist die Firmenstruktur?
+- Gibt es eine klare Roadmap und regelmäßige Updates?
+- Wie reagiert der Support auf Anfragen?
+- Welche Abhängigkeiten entstehen durch die Nutzung?
+- Gibt es eine realistische Exit-Strategie?
 
-Für spezifische Anforderungen kann eine maßgeschneiderte Lösung auf Basis des WordPress-Event-Systems sinnvoller sein als ein Plugin, das in zwei Jahren vielleicht nicht mehr existiert oder deutlich teurer wird.
+Besonders der letzte Punkt wird oft vernachlässigt. Können Sie Ihre Daten exportieren? Gibt es dokumentierte Formate? Lässt sich das Plugin ohne Datenverlust ersetzen?
 
-## Lehren für die Zukunft: So schützen Sie sich vor Plugin-Abhängigkeit
+## Sicherheitsaspekte nicht vergessen
 
-Die Situation um The Events Calendar Pro ist ein Weckruf. Als WordPress-Nutzer oder Agentur sollten Sie folgende Strategien implementieren:
+Die aktuelle Diskussion lenkt den Blick auch auf ein verwandtes Thema: Plugin-Sicherheit bei Übernahmen. Wenn Entwicklerteams wechseln, Codebases migriert werden und Support-Strukturen sich ändern, entstehen potenzielle Schwachstellen.
 
-**Dokumentieren Sie Ihre Plugin-Landschaft**
+Die WordPress-Community diskutiert aktuell auch eine kritische Sicherheitslücke im Avada Builder, die über eine Million Websites betrifft. Solche Vorfälle zeigen, wie wichtig es ist, Plugins aktuell zu halten und Sicherheitsmeldungen zu verfolgen. Die [offizielle WordPress-Plugin-Datenbank](https://wordpress.org/plugins/) ist dabei eine wichtige Ressource, um den Status und die Aktualität von Plugins zu prüfen.
 
-Erstellen Sie eine Liste aller verwendeten Plugins mit Lizenzinformationen, Ablaufdaten und den E-Mail-Adressen, die für die Registrierung verwendet wurden. Diese Liste sollte regelmäßig aktualisiert werden.
+Unsere Empfehlung: Führen Sie regelmäßige Sicherheitsaudits durch, besonders wenn Sie viele Premium-Plugins nutzen. Prüfen Sie, ob alle Plugins noch aktiv gepflegt werden und ob bekannte Sicherheitsprobleme zeitnah behoben werden.
 
-**Verfolgen Sie Branchen-News**
+## Lehren für die eigene WordPress-Strategie
 
-Übernahmen und Fusionen werden in der WordPress-Community diskutiert — oft Monate bevor Nutzer die Auswirkungen spüren. Quellen wie WP Tavern, Post Status oder relevante Reddit-Communities halten Sie auf dem Laufenden.
+Was können Website-Betreiber und Unternehmen aus dieser Situation lernen?
 
-**Halten Sie Exit-Strategien bereit**
+**Diversifizieren Sie Ihre Abhängigkeiten.** Wenn möglich, setzen Sie nicht alle kritischen Funktionen auf Produkte eines einzigen Anbieters. Das gilt für Plugins, Themes und Hosting gleichermaßen.
 
-Für jedes kritische Plugin sollten Sie wissen, wie ein Wechsel aussehen würde. Können Daten exportiert werden? Gibt es kompatible Alternativen? Wie hoch wäre der Migrationsaufwand?
+**Dokumentieren Sie Ihre Lizenzen.** Führen Sie eine zentrale Liste aller Lizenzen, Ablaufdaten und Zugangsdaten. Speichern Sie Kaufbelege an einem sicheren Ort.
 
-**Bevorzugen Sie Open-Source-Lösungen**
+**Planen Sie für den Worst Case.** Was passiert, wenn ein kritisches Plugin morgen eingestellt wird? Haben Sie einen Plan B?
 
-Plugins, die primär auf einem Open-Source-Modell basieren und von einer Community getragen werden, sind weniger anfällig für aggressive Unternehmensentscheidungen als proprietäre Lösungen.
+**Bevorzugen Sie offene Standards.** Plugins, die auf standardisierte Datenformate setzen und saubere Export-Funktionen bieten, machen einen späteren Wechsel einfacher.
 
-**Regelmäßige Backups sind Pflicht**
+**Bleiben Sie informiert.** Verfolgen Sie WordPress-News, Community-Diskussionen und Sicherheitsmeldungen. Frühe Warnsignale wie bei The Events Calendar können Sie so rechtzeitig erkennen.
 
-Unabhängig von Plugin-Problemen: Ein vollständiges Backup Ihrer Website inklusive Datenbank schützt Sie vor den schlimmsten Szenarien.
+## Fazit: Wachsam bleiben und vorausschauend handeln
 
-## Der größere Kontext: WordPress und die Konsolidierungswelle
+Die Turbulenzen rund um The Events Calendar Pro sind ärgerlich, aber sie bieten auch eine Chance. Sie erinnern uns daran, dass digitale Infrastruktur regelmäßige Aufmerksamkeit braucht – nicht nur wenn etwas kaputt geht.
 
-Was wir bei The Events Calendar beobachten, ist Teil eines größeren Trends. Das WordPress-Ökosystem wird zunehmend von wenigen großen Playern dominiert. Hosting-Unternehmen wie GoDaddy (mit SkyVerge-Plugins), Awesome Motive (OptinMonster, WPForms, MonsterInsights) und eben Liquid Web/StellarWP kaufen erfolgreiche Produkte auf.
+Für betroffene Nutzer gilt: Ruhe bewahren, Dokumente sammeln, Support kontaktieren. In den meisten Fällen werden sich Lizenzprobleme klären lassen, auch wenn es Zeit und Geduld erfordert.
 
-Das ist nicht per se schlecht. Größere Unternehmen haben mehr Ressourcen für Entwicklung und Support. Aber die Interessen verschieben sich. Ein unabhängiger Entwickler optimiert sein Plugin für die Nutzer. Ein Konzern optimiert für Shareholder Value.
-
-Für Nutzer bedeutet das: Wachsamkeit ist gefragt. Die WordPress-Welt von 2025 ist nicht mehr die WordPress-Welt von 2015.
-
-## Was die Community tun kann
-
-Die aktuelle Diskussion zeigt auch, dass die WordPress-Community nicht machtlos ist. Öffentlicher Druck in Foren, auf Reddit und in sozialen Medien hat schon oft zu Kursänderungen geführt. Wenn Sie von solchen Problemen betroffen sind:
-
-- Teilen Sie Ihre Erfahrungen öffentlich (sachlich, aber deutlich)
-- Hinterlassen Sie ehrliche Bewertungen im WordPress-Plugin-Verzeichnis
-- Informieren Sie andere Nutzer in relevanten Facebook-Gruppen oder Foren
-- Unterstützen Sie alternative Projekte durch Käufe oder Spenden
+Langfristig sollten alle WordPress-Nutzer ihre Plugin-Strategie überdenken. Weniger ist oft mehr. Jedes Plugin ist eine potenzielle Abhängigkeit, ein potenzielles Sicherheitsrisiko und ein potenzieller Pflegeaufwand. Wählen Sie mit Bedacht.
 
 ---
 
-**Sie sind von Plugin-Problemen betroffen oder möchten Ihre WordPress-Website zukunftssicher aufstellen?** Das Team von Frankfurt Marketing Studio unterstützt Sie bei der Auswahl zuverlässiger Plugins, der Migration von problematischen Lösungen und der generellen Optimierung Ihrer WordPress-Installation. Als lokale Agentur in Frankfurt am Main kennen wir die Bedürfnisse kleiner und mittelständischer Unternehmen — und wir behalten die Entwicklungen im WordPress-Ökosystem für Sie im Blick. Kontaktieren Sie uns für eine unverbindliche Beratung.
+**Sie sind von der The Events Calendar-Situation betroffen oder möchten Ihre WordPress-Website auf eine solidere Basis stellen?** Das Team von Frankfurt Marketing Studio unterstützt Unternehmen in Frankfurt und Umgebung bei der Auswahl, Migration und Wartung von WordPress-Plugins. Ob Sicherheitsaudit, Plugin-Wechsel oder langfristige Betreuung – sprechen Sie uns an.
 
 ## Quellen
 
