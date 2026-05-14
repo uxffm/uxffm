@@ -124,7 +124,7 @@ Weitere aktuelle Themen der Community (zur Einordnung):
 ${relatedTitles}
 
 Anforderungen an den Artikel:
-- Sprache: Deutsch (klar, professionell, aber zugaenglich)
+- Sprache: Deutsch (klar, professionell, aber zugaenglich) — immer die Sie-Form verwenden, niemals du/dich/dir/dein
 - Laenge: Mindestens 800 Woerter, gerne mehr
 - Fokus: Geh TIEF auf das spezifische Thema ein — nicht generisch, sondern konkret und nuetzlich
 - Struktur: Mehrere H2-Abschnitte mit echtem Inhalt, keine Fuellwoerter

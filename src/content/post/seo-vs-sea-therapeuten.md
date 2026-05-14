@@ -1,6 +1,6 @@
 ---
 title: "Was ist besser für Therapeuten? SEO vs SEA"
-excerpt: "Wenn du online neue Patienten gewinnen willst, brauchst du Sichtbarkeit bei Google. SEO bringt dir langfristig Vertrauen und Reichweite, kostet aber Zeit. "
+excerpt: "Wenn Sie online neue Patienten gewinnen willst, brauchen Sie Sichtbarkeit bei Google. SEO bringt Ihnen langfristig Vertrauen und Reichweite, kostet aber Zeit. "
 pubDate: "2025-07-18"
 slug: "seo-vs-sea-therapeuten"
 tags: ['SEO', 'Frankfurt', 'therapeuten']
