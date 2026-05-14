@@ -132,6 +132,7 @@ Anforderungen an den Artikel:
 - Zielgruppe: WordPress-Nutzer und kleine Unternehmen in Frankfurt und Umgebung
 - Am Ende: Kurzer Hinweis, dass Frankfurt Marketing Studio bei solchen Themen hilft
 - Externe Links: Baue maximal 3 externe Links natuerlich in den Fliesstext ein, aber NUR wenn sie wirklich passen — z.B. zur offiziellen Plugin-Seite, zur WordPress-Dokumentation, zur Entwickler-Website oder zu einer offiziellen Ankuendigung. Keine zufaelligen Links, keine Blogposts Dritter, keine SEO-Spam-Links. Nur offizielle, vertrauenswuerdige Quellen. Format: [Linktext](https://...) direkt im Text.
+- Interner Link zur Homepage: Baue genau einen internen Link zur Homepage ein ([Linktext](/)) — natuerlich im Fliesstext, wo er thematisch passt (z.B. im Schlussteil oder wenn du Frankfurt Marketing Studio erwaechnst). Nutze dabei eine Variation des Keywords "WordPress Agentur Frankfurt" als Ankertext, z.B. "WordPress Agentur Frankfurt", "WordPress Agentur in Frankfurt", "Frankfurt WordPress Agentur", "WordPress Experten aus Frankfurt" o.ae. — je nachdem was grammatikalisch am natuerlichsten klingt.
 
 Gib NUR den Markdown-Inhalt des Artikels zurueck (ab der ersten Ueberschrift mit ##, kein Frontmatter, kein Titel als H1). Fang direkt mit einem einleitenden Absatz an, dann die H2-Abschnitte.`;
 
