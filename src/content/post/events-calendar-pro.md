@@ -1,5 +1,5 @@
 ---
-title: "Was ist nur mit The Events Calendar Pro passiert?"
+title: "Events Calendar Pro: Was steckt hinter den aktuellen Problemen?"
 excerpt: "Das beliebte WordPress-Plugin sorgt für Frust. Wir schauen uns an, was schiefläuft und welche Alternativen es gibt."
 image: /images/seo-frankfurt.jpg
 category: wordpress
@@ -7,7 +7,7 @@ tags:
   - WordPress
   - Frankfurt
 metadata:
-  canonical: https://frankfurtmarketingstudio.de/wtf-events-calendar-pro
+  canonical: https://frankfurtmarketingstudio.de/events-calendar-pro
 ---
 
 Die WordPress-Community ist in Aufruhr: Nutzer des beliebten Plugins "The Events Calendar Pro" können plötzlich nicht mehr auf ihre Accounts zugreifen. Stattdessen werden sie auf eine unbekannte Liquid Web-Seite weitergeleitet, ihre Zugangsdaten funktionieren nicht mehr. Was ist passiert? Und noch wichtiger: Was bedeutet das für Sie, wenn Sie dieses Plugin nutzen oder ähnliche Tools im Einsatz haben?
