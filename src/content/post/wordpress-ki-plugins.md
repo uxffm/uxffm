@@ -1,4 +1,5 @@
 ---
+publishDate: 2026-05-15T00:00:00Z
 title: "KI-Plugins für WordPress: Was wirklich funktioniert – und was nicht"
 excerpt: "Die WordPress-Community diskutiert heiß, welche KI-Plugins 2026 echten Mehrwert liefern. Wir zeigen, welche Tools sich lohnen."
 image: /images/seo-frankfurt.jpg

@@ -1,4 +1,5 @@
 ---
+publishDate: 2026-05-14T00:00:00Z
 title: "Events Calendar Pro: Was steckt hinter den aktuellen Problemen?"
 excerpt: "Das beliebte WordPress-Plugin sorgt für Frust. Wir schauen uns an, was schiefläuft und welche Alternativen es gibt."
 image: /images/seo-frankfurt.jpg

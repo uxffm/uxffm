@@ -161,7 +161,10 @@ Nur diese zwei Zeilen, nichts anderes.`;
     .map((p) => `- [${p.title}](${p.url}) — r/wordpress`)
     .join('\n');
 
+  const today = new Date().toISOString().slice(0, 10);
+
   const frontmatter = `---
+publishDate: ${today}T00:00:00Z
 title: ${yamlString(title)}
 excerpt: ${yamlString(excerpt)}
 image: /images/seo-frankfurt.jpg
