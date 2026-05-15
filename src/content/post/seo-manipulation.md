@@ -176,7 +176,7 @@ Hier ist, wie Cloaking typischerweise funktioniert:
 
 
 ## Versteckter Text
-Das ist ein Thema, auf das ich als Freelancer <a href="/service/webdesign-frankfurt">beim erstellen von Webseiten</a> immer wieder angehen muss. 
+Das ist ein Thema, auf das ich als Freelancer <a href="/service/wordpress-frankfurt">beim erstellen von Webseiten</a> immer wieder angehen muss. 
 
 Bei verstecktem Text werden Techniken wie weißer Text auf weißem Hintergrund oder das Verstecken von Text hinter Bildern eingesetzt, um die Platzierung in Suchmaschinen zu manipulieren. Mit dieser Technik können Schlüsselwörter in eine Website gestopft werden, ohne dass sie für die Benutzer sichtbar sind. Diese Taktik kann jedoch zu Abstrafungen führen und die Glaubwürdigkeit einer Website beeinträchtigen.
 
