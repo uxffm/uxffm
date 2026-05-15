@@ -1,6 +1,6 @@
 ---
-title: "Die 10 wichtigsten Sicherheitsmaßnahmen für deine neue WordPress-Seite"
-excerpt: "Schütze deine WordPress-Website von Anfang an richtig. Diese essentiellen Sicherheitstipps bewahren dich vor Hackern und Datenverlust."
+title: "Die 10 wichtigsten Sicherheitsmaßnahmen für Ihre neue WordPress-Seite"
+excerpt: "Schützen Sie Ihre WordPress-Website von Anfang an richtig. Diese essentiellen Sicherheitstipps bewahren Sie vor Hackern und Datenverlust."
 image: /images/seo-frankfurt.jpg
 category: wordpress
 tags:
