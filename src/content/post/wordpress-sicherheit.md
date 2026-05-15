@@ -7,7 +7,7 @@ tags:
   - WordPress
   - Frankfurt
 metadata:
-  canonical: https://frankfurtmarketingstudio.de/wordpress-security-essential-steps
+  canonical: https://frankfurtmarketingstudio.de/wordpress-sicherheit
 ---
 
 ## WordPress-Sicherheit von Anfang an: Die wichtigsten Schritte für Ihre neue Website
