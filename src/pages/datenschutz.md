@@ -1,6 +1,6 @@
 ---
 title: 'Datenschutz'
-layout: '~/layouts/MarkdownLayout.astro'
+layout: '~/layouts/PlainLayout.astro'
 ---
 <META NAME="ROBOTS" CONTENT="NOINDEX,NOFOLLOW"/>
 

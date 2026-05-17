@@ -1,0 +1,32 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import type { MetaData } from '~/types';
+
+export interface Props {
+  frontmatter: {
+    title?: string
+  }
+}
+
+const { frontmatter } = Astro.props;
+const metadata: MetaData = { title: frontmatter?.title };
+---
+
+<Layout metadata={metadata}>
+  <section class="px-4 py-16 sm:px-6 mx-auto lg:px-8 lg:py-20 max-w-4xl">
+    <h1 class="font-bold text-4xl md:text-5xl mb-8">{frontmatter.title}</h1>
+    <div class="plain-content">
+      <slot />
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .plain-content :global(p) { margin-bottom: 1rem; line-height: 1.75; }
+  .plain-content :global(h2) { font-size: 1.5rem; font-weight: 700; margin: 2rem 0 1rem; }
+  .plain-content :global(h3) { font-size: 1.25rem; font-weight: 600; margin: 1.5rem 0 0.75rem; }
+  .plain-content :global(a) { color: #3b82f6; text-decoration: underline; }
+  .plain-content :global(img) { border-radius: 0.5rem; max-width: 100%; }
+  .plain-content :global(em) { font-style: italic; }
+  .plain-content :global(strong) { font-weight: 700; }
+</style>

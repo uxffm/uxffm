@@ -15,7 +15,6 @@ const {
   class={className}
   aria-label={label}
   data-aw-toggle-menu
-  onclick="var h=document.getElementById('header'),n=h&&h.querySelector('nav'),l=h&&h.querySelector(':scope>div>div:last-child');this.classList.toggle('expanded');document.body.classList.toggle('overflow-hidden');if(h){h.classList.toggle('h-screen');h.classList.toggle('expanded');h.classList.toggle('bg-page')}if(n)n.classList.toggle('hidden');if(l)l.classList.toggle('hidden');"
 >
   <span class="sr-only">{label}</span>
   <slot>
