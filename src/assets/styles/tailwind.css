@@ -64,18 +64,6 @@
   background-color: #271c2f;
 }
 
-[data-aw-toggle-menu].expanded span:nth-child(1) {
-  transform: rotate(45deg) translate(3px, 9px);
-  opacity: 1;
-}
-[data-aw-toggle-menu].expanded span:nth-child(2) {
-  opacity: 0;
-}
-[data-aw-toggle-menu].expanded span:nth-child(3) {
-  transform: rotate(-45deg) translate(3px, -9px);
-  opacity: 1;
-}
-
 .dropdown:hover .dropdown-menu {
   display: block;
 }
