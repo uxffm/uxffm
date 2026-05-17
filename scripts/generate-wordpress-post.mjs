@@ -126,7 +126,7 @@ const generatePost = async (topPost, relatedPosts) => {
 
   const prompt = `Du bist ein erfahrener WordPress-Experte und schreibst fuer das Blog von Frankfurt Marketing Studio (frankfurtmarketingstudio.de), einer WordPress- und Online-Marketing-Agentur in Frankfurt am Main.
 
-Schreibe einen ausfuehrlichen, informativen Blogartikel auf Deutsch basierend auf diesem aktuell heiss diskutierten Thema aus der WordPress-Community:
+Schreibe einen ausführlichen, informativen Blogartikel auf Deutsch basierend auf diesem aktuell heiß diskutierten Thema aus der WordPress-Community:
 
 HAUPTTHEMA: "${topPost.title}"
 Reddit-Diskussion: ${topPost.url}
@@ -136,22 +136,22 @@ Weitere aktuelle Themen der Community (zur Einordnung):
 ${relatedTitles}
 
 Anforderungen an den Artikel:
-- Sprache: Deutsch (klar, professionell, aber zugaenglich) — immer die Sie-Form verwenden, niemals du/dich/dir/dein
-- Laenge: Mindestens 800 Woerter, gerne mehr
+- Sprache: Deutsch (klar, professionell, aber zugänglich) — immer die Sie-Form verwenden, niemals du/dich/dir/dein
+- Laenge: Mindestens 800 Wörter, gerne mehr
 - Fokus: Geh TIEF auf das spezifische Thema ein — nicht generisch, sondern konkret und nuetzlich
-- Struktur: Mehrere H2-Abschnitte mit echtem Inhalt, keine Fuellwoerter
+- Struktur: Mehrere H2-Abschnitte mit echtem Inhalt, keine Füllwörter
 - Stil: Praktisch und handlungsorientiert — der Leser soll etwas lernen und mitnehmen
 - Zielgruppe: WordPress-Nutzer und kleine Unternehmen in Frankfurt und Umgebung
 - Am Ende: Kurzer Hinweis, dass Frankfurt Marketing Studio bei solchen Themen hilft
-- Externe Links: Baue maximal 3 externe Links natuerlich in den Fliesstext ein, aber NUR wenn sie wirklich passen — z.B. zur offiziellen Plugin-Seite, zur WordPress-Dokumentation, zur Entwickler-Website oder zu einer offiziellen Ankuendigung. Keine zufaelligen Links, keine Blogposts Dritter, keine SEO-Spam-Links. Nur offizielle, vertrauenswuerdige Quellen. Format: [Linktext](https://...) direkt im Text.
-- Interner Link zur Homepage: Baue genau einen internen Link zur Homepage ein ([Linktext](/)) — natuerlich im Fliesstext, wo er thematisch passt (z.B. im Schlussteil oder wenn du Frankfurt Marketing Studio erwaechnst). Nutze GENAU diesen Ankertext: "${anchorText}" — passe ihn grammatikalisch an den Satz an (z.B. Dativ/Genitiv), aber behalte alle Woerter bei.
+- Externe Links: Baue maximal 3 externe Links natürlich in den Fließtext ein, aber NUR wenn sie wirklich passen — z.B. zur offiziellen Plugin-Seite, zur WordPress-Dokumentation, zur Entwickler-Website oder zu einer offiziellen Ankündigung. Keine zufälligen Links, keine Blogposts Dritter, keine SEO-Spam-Links. Nur offizielle, vertrauenswuerdige Quellen. Format: [Linktext](https://...) direkt im Text.
+- Interner Link zur Homepage: Baue genau einen internen Link zur Homepage ein ([Linktext](/)) — natürlich im Fließtext, wo er thematisch passt (z.B. im Schlussteil oder wenn du Frankfurt Marketing Studio erwähnst). Nutze GENAU diesen Ankertext: "${anchorText}" — passe ihn grammatikalisch an den Satz an (z.B. Dativ/Genitiv), aber behalte alle Wörter bei.
 
-Gib NUR den Markdown-Inhalt des Artikels zurueck (ab der ersten Ueberschrift mit ##, kein Frontmatter, kein Titel als H1). Fang direkt mit einem einleitenden Absatz an, dann die H2-Abschnitte.`;
+Gib NUR den Markdown-Inhalt des Artikels zurück (ab der ersten Überschrift mit ##, kein Frontmatter, kein Titel als H1). Fang direkt mit einem einleitenden Absatz an, dann die H2-Abschnitte.`;
 
   const content = await callClaude(prompt);
 
   // Extract a good slug from the topic
-  const slugPrompt = `Erstelle einen kurzen, praegnanten URL-Slug (auf Englisch oder Deutsch, maximal 5 Woerter, nur Kleinbuchstaben und Bindestriche) fuer einen Blogartikel ueber dieses Thema: "${topPost.title}". Wichtig: Kein "wtf", "how", "why", "what", "warum", "wie", "was" im Slug — nenne stattdessen das Produkt oder Thema direkt. Gib NUR den Slug zurueck, sonst nichts.`;
+  const slugPrompt = `Erstelle einen kurzen, prägnanten URL-Slug (auf Englisch oder Deutsch, maximal 5 Wörter, nur Kleinbuchstaben und Bindestriche) für einen Blogartikel über dieses Thema: "${topPost.title}". Wichtig: Kein "wtf", "how", "why", "what", "warum", "wie", "was" im Slug — nenne stattdessen das Produkt oder Thema direkt. Gib NUR den Slug zurück, sonst nichts.`;
   const rawSlug = await callClaude(slugPrompt);
   const slug = slugify(rawSlug.trim().toLowerCase().replace(/['"]/g, ''));
 
@@ -159,8 +159,8 @@ Gib NUR den Markdown-Inhalt des Artikels zurueck (ab der ersten Ueberschrift mit
   const metaPrompt = `Basierend auf diesem WordPress-Thema: "${topPost.title}"
 
 Gib mir im folgenden Format:
-TITEL: [Ein praegnanter, klickstarker Deutschen Blogtitel, max 70 Zeichen]
-EXCERPT: [Ein ansprechender Teasertext, 1-2 Saetze, max 160 Zeichen]
+TITEL: [Ein prägnanter, klickstarker Deutschen Blogtitel, max 70 Zeichen]
+EXCERPT: [Ein ansprechender Teasertext, 1-2 Sätze, max 160 Zeichen]
 
 Nur diese zwei Zeilen, nichts anderes.`;
   const metaRaw = await callClaude(metaPrompt);

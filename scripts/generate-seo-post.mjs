@@ -203,7 +203,7 @@ const getSpecificTopic = (post) => {
       slug: 'videos-fuer-seo',
       tag: 'Video SEO',
       angle:
-        'Videos koennen SEO staerken, wenn sie Suchintention, Seitenstruktur und Ladezeit sinnvoll unterstuetzen.',
+        'Videos können SEO staerken, wenn sie Suchintention, Seitenstruktur und Ladezeit sinnvoll unterstuetzen.',
       checks: [
         'Gibt es eine klare Suchintention fuer das Video?',
         'Verbessert das Video die bestehende Seite wirklich?',
@@ -251,7 +251,7 @@ const getSpecificTopic = (post) => {
       slug: 'backlinks-und-seo',
       tag: 'Backlinks',
       angle:
-        'Backlinks koennen helfen, aber Qualitaet, Relevanz und ein natuerliches Linkprofil sind wichtiger als reine Menge.',
+        'Backlinks können helfen, aber Qualität, Relevanz und ein natürliches Linkprofil sind wichtiger als reine Menge.',
       checks: [
         'Kommt der Link von einer thematisch passenden Seite?',
         'Wirkt der Ankertext natuerlich?',
@@ -263,7 +263,7 @@ const getSpecificTopic = (post) => {
 
   if (title.includes('ai') || title.includes('overview') || title.includes('chatgpt')) {
     return {
-      title: 'KI-Suchergebnisse und SEO: Was muessen Unternehmen beachten?',
+      title: 'KI-Suchergebnisse und SEO: Was müssen Unternehmen beachten?',
       slug: 'ki-suchergebnisse-und-seo',
       tag: 'KI SEO',
       angle:
@@ -278,11 +278,11 @@ const getSpecificTopic = (post) => {
   }
 
   return {
-    title: 'Warum SEO regelmaessige Pflege braucht',
-    slug: 'seo-regelmaessig-optimieren',
+    title: 'Warum SEO regelmäßige Pflege braucht',
+    slug: 'seo-regelmäßig-optimieren',
     tag: 'SEO Strategie',
     angle:
-      'SEO ist kein einmaliges Projekt. Rankings bleiben stabiler, wenn Inhalte, Technik und Suchintention regelmaessig geprueft werden.',
+      'SEO ist kein einmaliges Projekt. Rankings bleiben stabiler, wenn Inhalte, Technik und Suchintention regelmäßig geprüft werden.',
     checks: [
       'Welche Seiten bringen Anfragen?',
       'Welche Rankings verlieren Sichtbarkeit?',
@@ -330,7 +330,7 @@ Ausgangspunkt ist eine aktuelle Diskussion bei ${source}: [${primaryPost.title}]
 
 ## Warum das Thema fuer SEO wichtig ist
 
-SEO funktioniert selten ueber einzelne Tricks. Entscheidend ist, ob eine Massnahme die Seite fuer Nutzer klarer, schneller oder vertrauenswuerdiger macht. Google kann nur bewerten, was technisch erreichbar ist und inhaltlich sauber eingeordnet werden kann.
+SEO funktioniert selten über einzelne Tricks. Entscheidend ist, ob eine Maßnahme die Seite fuer Nutzer klarer, schneller oder vertrauenswürdiger macht. Google kann nur bewerten, was technisch erreichbar ist und inhaltlich sauber eingeordnet werden kann.
 
 ## Was Unternehmen pruefen sollten
 
@@ -348,7 +348,7 @@ Pruefe eine wichtige Leistungsseite deiner Website und frage dich, ob sie die Su
 
 ${sourceList}
 
-Dieser Beitrag wurde automatisch aus oeffentlichen SEO-Diskussionen und SEO-News angestossen und redaktionell fuer SEO WBN eingeordnet.
+Dieser Beitrag wurde automatisch aus öffentlichen SEO-Diskussionen und SEO-News angestossen und redaktionell fuer SEO WBN eingeordnet.
 `;
 };
 
