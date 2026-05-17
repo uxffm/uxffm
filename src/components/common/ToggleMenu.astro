@@ -15,6 +15,7 @@ const {
   class={className}
   aria-label={label}
   data-aw-toggle-menu
+  onclick="var h=document.getElementById('header'),n=h&&h.querySelector('nav'),l=h&&h.querySelector(':scope>div>div:last-child');this.classList.toggle('expanded');document.body.classList.toggle('overflow-hidden');if(h){h.classList.toggle('h-screen');h.classList.toggle('expanded');h.classList.toggle('bg-page')}if(n)n.classList.toggle('hidden');if(l)l.classList.toggle('hidden');"
 >
   <span class="sr-only">{label}</span>
   <slot>
@@ -24,11 +25,11 @@ const {
     ></span>
     <span
       aria-hidden="true"
-      class="h-0.5 w-6 my-1 rounded-full bg-white transition ease transform duration-200 opacity-90 group-[.expanded]:opacity-0"
+      class="h-0.5 w-6 my-1 rounded-full bg-gray-900 dark:bg-white transition ease transform duration-200 opacity-90 group-[.expanded]:opacity-0"
     ></span>
     <span
       aria-hidden="true"
-      class="h-0.5 w-6 my-1 rounded-full bg-white transition ease transform duration-200 opacity-90 group-[.expanded]:-rotate-45 group-[.expanded]:-translate-y-2.5"
+      class="h-0.5 w-6 my-1 rounded-full bg-gray-900 dark:bg-white transition ease transform duration-200 opacity-90 group-[.expanded]:-rotate-45 group-[.expanded]:-translate-y-2.5"
     ></span>
   </slot>
 </button>
