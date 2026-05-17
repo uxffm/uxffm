@@ -58,6 +58,7 @@
   right: 0;
   bottom: 70px !important;
   padding: 0 5px;
+  background-color: #271c2f;
 }
 
 .dropdown:hover .dropdown-menu {
