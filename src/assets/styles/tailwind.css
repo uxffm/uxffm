@@ -58,6 +58,9 @@
   right: 0;
   bottom: 70px !important;
   padding: 0 5px;
+  background-color: white;
+}
+.dark #header.expanded nav {
   background-color: #271c2f;
 }
 
