@@ -139,7 +139,7 @@ import { UI } from '~/utils/config';
     document.querySelector('#header nav')?.classList.add('hidden');
   };
 
-  window.onload = onLoad;
+  document.addEventListener('DOMContentLoaded', onLoad);
   window.onpageshow = onPageShow;
 
   document.addEventListener('astro:after-swap', () => {
