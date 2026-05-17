@@ -106,7 +106,19 @@ const callClaude = async (prompt) => {
   return data.content[0].text;
 };
 
+const ANCHOR_VARIATIONS = [
+  'WordPress Agentur Frankfurt',
+  'WordPress Agentur in Frankfurt',
+  'Frankfurt WordPress Agentur',
+  'WordPress-Experten aus Frankfurt',
+  'WordPress-Agentur aus Frankfurt',
+  'Frankfurter WordPress Agentur',
+  'WordPress Spezialisten Frankfurt',
+  'WordPress Agentur Frankfurt am Main',
+];
+
 const generatePost = async (topPost, relatedPosts) => {
+  const anchorText = ANCHOR_VARIATIONS[Math.floor(Math.random() * ANCHOR_VARIATIONS.length)];
   const relatedTitles = relatedPosts
     .slice(1, 4)
     .map((p) => `- ${p.title}`)
@@ -132,7 +144,7 @@ Anforderungen an den Artikel:
 - Zielgruppe: WordPress-Nutzer und kleine Unternehmen in Frankfurt und Umgebung
 - Am Ende: Kurzer Hinweis, dass Frankfurt Marketing Studio bei solchen Themen hilft
 - Externe Links: Baue maximal 3 externe Links natuerlich in den Fliesstext ein, aber NUR wenn sie wirklich passen — z.B. zur offiziellen Plugin-Seite, zur WordPress-Dokumentation, zur Entwickler-Website oder zu einer offiziellen Ankuendigung. Keine zufaelligen Links, keine Blogposts Dritter, keine SEO-Spam-Links. Nur offizielle, vertrauenswuerdige Quellen. Format: [Linktext](https://...) direkt im Text.
-- Interner Link zur Homepage: Baue genau einen internen Link zur Homepage ein ([Linktext](/)) — natuerlich im Fliesstext, wo er thematisch passt (z.B. im Schlussteil oder wenn du Frankfurt Marketing Studio erwaechnst). Nutze dabei eine Variation des Keywords "WordPress Agentur Frankfurt" als Ankertext, z.B. "WordPress Agentur Frankfurt", "WordPress Agentur in Frankfurt", "Frankfurt WordPress Agentur", "WordPress Experten aus Frankfurt" o.ae. — je nachdem was grammatikalisch am natuerlichsten klingt.
+- Interner Link zur Homepage: Baue genau einen internen Link zur Homepage ein ([Linktext](/)) — natuerlich im Fliesstext, wo er thematisch passt (z.B. im Schlussteil oder wenn du Frankfurt Marketing Studio erwaechnst). Nutze GENAU diesen Ankertext: "${anchorText}" — passe ihn grammatikalisch an den Satz an (z.B. Dativ/Genitiv), aber behalte alle Woerter bei.
 
 Gib NUR den Markdown-Inhalt des Artikels zurueck (ab der ersten Ueberschrift mit ##, kein Frontmatter, kein Titel als H1). Fang direkt mit einem einleitenden Absatz an, dann die H2-Abschnitte.`;
 
