@@ -22,6 +22,12 @@ const SITE_URL = 'https://seowbn.de';
 const isDryRun = process.env.DRY_RUN === '1';
 const redditClientId = process.env.REDDIT_CLIENT_ID;
 const redditClientSecret = process.env.REDDIT_CLIENT_SECRET;
+const anthropicApiKey = process.env.ANTHROPIC_API_KEY;
+
+if (!anthropicApiKey) {
+  console.error('ANTHROPIC_API_KEY environment variable is required');
+  process.exit(1);
+}
 
 const sanitizeText = (value = '') =>
   value
@@ -34,7 +40,7 @@ const slugify = (value) =>
   value
     .toLowerCase()
     .normalize('NFD')
-    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[̀-ͯ]/g, '')
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/(^-|-$)/g, '')
     .slice(0, 80);
@@ -154,6 +160,7 @@ const getRedditPosts = async () => {
         subreddit,
         title: sanitizeText(data.title),
         url: `https://www.reddit.com${data.permalink}`,
+        selftext: sanitizeText((data.selftext ?? '').slice(0, 500)),
         score: data.score ?? 0,
         comments: data.num_comments ?? 0,
       });
@@ -181,175 +188,116 @@ const getFallbackPosts = async () => {
     .slice(0, 12);
 };
 
-const getTopicLabel = (post) => {
-  const title = post.title.toLowerCase();
-
-  if (title.includes('google') || title.includes('core update') || title.includes('algorithm')) return 'Google Updates';
-  if (title.includes('index') || title.includes('crawl') || title.includes('canonical')) return 'Indexierung und Crawling';
-  if (title.includes('content') || title.includes('ai') || title.includes('chatgpt')) return 'Content und KI';
-  if (title.includes('local') || title.includes('maps') || title.includes('business profile')) return 'Local SEO';
-  if (title.includes('technical') || title.includes('schema') || title.includes('performance')) return 'Technisches SEO';
-  if (title.includes('link') || title.includes('backlink')) return 'Backlinks';
-
-  return 'SEO Praxis';
+const callClaude = async (prompt) => {
+  const response = await fetch('https://api.anthropic.com/v1/messages', {
+    method: 'POST',
+    headers: {
+      'x-api-key': anthropicApiKey,
+      'anthropic-version': '2023-06-01',
+      'content-type': 'application/json',
+    },
+    body: JSON.stringify({
+      model: 'claude-opus-4-5',
+      max_tokens: 4096,
+      messages: [{ role: 'user', content: prompt }],
+    }),
+  });
+  if (!response.ok) {
+    const err = await response.text();
+    throw new Error(`Claude API error ${response.status}: ${err}`);
+  }
+  const data = await response.json();
+  return data.content[0].text;
 };
 
-const getSpecificTopic = (post) => {
-  const title = post.title.toLowerCase();
+const ANCHOR_VARIATIONS = [
+  'SEO WBN',
+  'SEO-Agentur SEO WBN',
+  'SEO WBN aus Frankfurt',
+  'SEO-Experten von SEO WBN',
+  'SEO WBN Frankfurt',
+];
 
-  if (title.includes('video')) {
-    return {
-      title: 'Sind Videos gut fuer SEO?',
-      slug: 'videos-fuer-seo',
-      tag: 'Video SEO',
-      angle:
-        'Videos können SEO staerken, wenn sie Suchintention, Seitenstruktur und Ladezeit sinnvoll unterstuetzen.',
-      checks: [
-        'Gibt es eine klare Suchintention fuer das Video?',
-        'Verbessert das Video die bestehende Seite wirklich?',
-        'Bleibt die Ladezeit gut?',
-        'Gibt es Text, Zusammenfassung oder Transkript?',
-      ],
-    };
-  }
+const generatePost = async (topPost, relatedPosts) => {
+  const anchorText = ANCHOR_VARIATIONS[Math.floor(Math.random() * ANCHOR_VARIATIONS.length)];
+  const relatedTitles = relatedPosts
+    .slice(1, 4)
+    .map((p) => `- ${p.title}`)
+    .join('\n');
+  const source = topPost.subreddit ? `r/${topPost.subreddit}` : topPost.source;
 
-  if (title.includes('lazy') || title.includes('spa') || title.includes('javascript')) {
-    return {
-      title: 'Lazy Loading und JavaScript: Was bedeutet das fuer SEO?',
-      slug: 'lazy-loading-javascript-seo',
-      tag: 'Technisches SEO',
-      angle:
-        'Lazy Loading kann Nutzererfahrung und Ladezeit verbessern, muss aber fuer Google crawlbar und indexierbar bleiben.',
-      checks: [
-        'Sind wichtige Inhalte ohne Interaktion im HTML erreichbar?',
-        'Werden Bilder und Inhalte erst geladen, wenn Google sie sehen kann?',
-        'Sind interne Links als echte Links vorhanden?',
-        'Wird die Seite mit der Google Search Console getestet?',
-      ],
-    };
-  }
+  const prompt = `Du bist ein erfahrener SEO-Experte und schreibst fuer das Blog von SEO WBN (seowbn.de), einer SEO-Beratung aus Frankfurt am Main.
 
-  if (title.includes('drop') || title.includes('dropping') || title.includes('ranking')) {
-    return {
-      title: 'Warum verliert eine Website Google Rankings?',
-      slug: 'google-ranking-verlust-ursachen',
-      tag: 'Google Rankings',
-      angle:
-        'Ranking-Verluste entstehen oft durch technische Probleme, geaenderte Suchintention, Konkurrenz oder Google-Updates.',
-      checks: [
-        'Gab es technische Aenderungen oder Relaunches?',
-        'Sind wichtige Seiten noch indexiert?',
-        'Hat sich die Suchintention veraendert?',
-        'Sind Wettbewerber mit besseren Inhalten vorbeigezogen?',
-      ],
-    };
-  }
+Schreibe einen ausführlichen, informativen Blogartikel auf Deutsch basierend auf diesem aktuell diskutierten Thema aus der SEO-Community:
 
-  if (title.includes('link') || title.includes('backlink')) {
-    return {
-      title: 'Backlinks und SEO: Worauf kommt es wirklich an?',
-      slug: 'backlinks-und-seo',
-      tag: 'Backlinks',
-      angle:
-        'Backlinks können helfen, aber Qualität, Relevanz und ein natürliches Linkprofil sind wichtiger als reine Menge.',
-      checks: [
-        'Kommt der Link von einer thematisch passenden Seite?',
-        'Wirkt der Ankertext natuerlich?',
-        'Bringt der Link echte Nutzer oder nur eine Kennzahl?',
-        'Gibt es riskante Muster im Linkprofil?',
-      ],
-    };
-  }
+HAUPTTHEMA: "${topPost.title}"
+Quelle: ${topPost.url} (${source})
+${topPost.selftext ? `Kontext: ${topPost.selftext}` : ''}
 
-  if (title.includes('ai') || title.includes('overview') || title.includes('chatgpt')) {
-    return {
-      title: 'KI-Suchergebnisse und SEO: Was müssen Unternehmen beachten?',
-      slug: 'ki-suchergebnisse-und-seo',
-      tag: 'KI SEO',
-      angle:
-        'KI-Antworten veraendern, wie Nutzer Suchergebnisse wahrnehmen. Gute Inhalte brauchen klare Aussagen, Vertrauen und zitierfaehige Struktur.',
-      checks: [
-        'Beantwortet die Seite konkrete Fragen direkt?',
-        'Sind Autoritaet und Erfahrung sichtbar?',
-        'Sind Inhalte klar strukturiert?',
-        'Werden Marke, Bewertungen und Reputation gepflegt?',
-      ],
-    };
-  }
+Weitere aktuelle Themen der Community (zur Einordnung):
+${relatedTitles}
 
-  return {
-    title: 'Warum SEO regelmäßige Pflege braucht',
-    slug: 'seo-regelmäßig-optimieren',
-    tag: 'SEO Strategie',
-    angle:
-      'SEO ist kein einmaliges Projekt. Rankings bleiben stabiler, wenn Inhalte, Technik und Suchintention regelmäßig geprüft werden.',
-    checks: [
-      'Welche Seiten bringen Anfragen?',
-      'Welche Rankings verlieren Sichtbarkeit?',
-      'Welche Inhalte sind veraltet?',
-      'Welche technischen Probleme bremsen die Website?',
-    ],
-  };
-};
+Anforderungen an den Artikel:
+- Sprache: Deutsch (klar, professionell, aber zugänglich) — immer die Sie-Form verwenden, niemals du/dich/dir/dein
+- Laenge: Mindestens 800 Wörter, gerne mehr
+- Fokus: Geh TIEF auf das spezifische Thema ein — nicht generisch, sondern konkret und nuetzlich
+- Struktur: Mehrere H2-Abschnitte mit echtem Inhalt, keine Füllwörter
+- Stil: Praktisch und handlungsorientiert — der Leser soll etwas lernen und mitnehmen
+- Zielgruppe: Unternehmen und Website-Betreiber, die SEO besser verstehen wollen
+- Am Ende: Kurzer Hinweis, dass SEO WBN bei solchen Themen hilft
+- Externe Links: Baue maximal 2 externe Links natürlich in den Fließtext ein — nur zu offiziellen Quellen (Google Search Central, Search Engine Journal, Search Engine Roundtable, offiziellen Plugin-Seiten). Keine beliebigen Drittseiten. Format: [Linktext](https://...) direkt im Text.
+- Interner Link: Baue genau einen internen Link zur Homepage ein ([Linktext](/)) — natürlich im Fließtext. Nutze GENAU diesen Ankertext: "${anchorText}" — passe ihn grammatikalisch an den Satz an, aber behalte alle Wörter bei.
 
-const makePost = (posts) => {
-  const primaryPost = posts[0] ?? { title: 'SEO', url: SITE_URL, source: 'SEO Community' };
-  const topic = getSpecificTopic(primaryPost);
-  const title = topic.title;
-  const excerpt =
-    `${topic.angle} Ein kurzer Leitfaden fuer SEO WBN.`;
-  const canonicalSlug = slugify(topic.slug);
-  const source = primaryPost.subreddit ? `r/${primaryPost.subreddit}` : primaryPost.source;
+Gib NUR den Markdown-Inhalt des Artikels zurück (ab dem ersten einleitenden Absatz, kein Frontmatter, kein H1-Titel). Fang direkt mit dem Einleitungsabsatz an, dann die H2-Abschnitte.`;
 
-  const sourceList = posts
-    .slice(0, 5)
-    .map((post) => {
-      const itemSource = post.subreddit ? `r/${post.subreddit}` : post.source;
-      return `- [${post.title}](${post.url}) - ${itemSource}`;
+  const content = await callClaude(prompt);
+
+  const slugPrompt = `Erstelle einen kurzen, prägnanten URL-Slug (auf Deutsch, maximal 5 Wörter, nur Kleinbuchstaben und Bindestriche) für einen Blogartikel über dieses SEO-Thema: "${topPost.title}". Wichtig: Nenne das konkrete Thema — keine generischen Wörter wie "seo", "tipps", "guide", "wie", "warum", "was". Gib NUR den Slug zurück, sonst nichts.`;
+  const rawSlug = await callClaude(slugPrompt);
+  const slug = slugify(rawSlug.trim().toLowerCase().replace(/['"]/g, ''));
+
+  const metaPrompt = `Basierend auf diesem SEO-Thema: "${topPost.title}"
+
+Gib mir im folgenden Format:
+TITEL: [Ein prägnanter deutschen Blogtitel, max 70 Zeichen]
+EXCERPT: [Ein ansprechender Teasertext, 1-2 Sätze, max 160 Zeichen]
+
+Nur diese zwei Zeilen, nichts anderes.`;
+  const metaRaw = await callClaude(metaPrompt);
+  const titleMatch = metaRaw.match(/TITEL:\s*(.+)/);
+  const excerptMatch = metaRaw.match(/EXCERPT:\s*(.+)/);
+  const title = titleMatch ? titleMatch[1].trim() : topPost.title;
+  const excerpt = excerptMatch ? excerptMatch[1].trim() : '';
+
+  const sourceList = [topPost, ...relatedPosts.slice(1, 4)]
+    .map((p) => {
+      const itemSource = p.subreddit ? `r/${p.subreddit}` : p.source;
+      return `- [${p.title}](${p.url}) — ${itemSource}`;
     })
     .join('\n');
-  const checklist = topic.checks.map((item) => `- ${item}`).join('\n');
 
-  return `---
+  const today = new Date().toISOString().slice(0, 10);
+
+  const frontmatter = `---
+publishDate: ${today}T00:00:00Z
 title: ${yamlString(title)}
 excerpt: ${yamlString(excerpt)}
 image: /images/seo-frankfurt.jpg
 category: seo
 tags:
   - SEO
-  - ${topic.tag}
   - Google
   - SEO WBN
 metadata:
-  canonical: ${SITE_URL}/${canonicalSlug}
+  canonical: ${SITE_URL}/${slug}
 ---
 
-${topic.angle}
-
-Ausgangspunkt ist eine aktuelle Diskussion bei ${source}: [${primaryPost.title}](${primaryPost.url}). Solche Fragen sind spannend, weil sie zeigen, welche SEO-Probleme gerade in echten Projekten auftauchen.
-
-## Warum das Thema fuer SEO wichtig ist
-
-SEO funktioniert selten über einzelne Tricks. Entscheidend ist, ob eine Maßnahme die Seite fuer Nutzer klarer, schneller oder vertrauenswürdiger macht. Google kann nur bewerten, was technisch erreichbar ist und inhaltlich sauber eingeordnet werden kann.
-
-## Was Unternehmen pruefen sollten
-
-${checklist}
-
-## Einordnung fuer SEO WBN
-
-Fuer SEO WBN ist wichtig, dass jede Optimierung einen klaren Zweck hat: mehr Sichtbarkeit, bessere Nutzererfahrung oder mehr qualifizierte Anfragen. Eine technische oder inhaltliche Optimierung sollte deshalb immer mit einer einfachen Frage verbunden sein: Hilft sie Nutzern, schneller die richtige Entscheidung zu treffen?
-
-## Praktischer naechster Schritt
-
-Pruefe eine wichtige Leistungsseite deiner Website und frage dich, ob sie die Suchintention wirklich besser beantwortet als die Seiten deiner Wettbewerber. Wenn nicht, ist das meist der beste Startpunkt fuer SEO.
-
-## Quellen
-
-${sourceList}
-
-Dieser Beitrag wurde automatisch aus öffentlichen SEO-Diskussionen und SEO-News angestossen und redaktionell fuer SEO WBN eingeordnet.
 `;
+
+  return {
+    slug,
+    content: frontmatter + content + `\n\n## Quellen\n\n${sourceList}\n\nDieser Beitrag wurde automatisch aus öffentlichen SEO-Diskussionen und SEO-News angestossen und redaktionell für SEO WBN eingeordnet.\n`,
+  };
 };
 
 const run = async () => {
@@ -358,6 +306,8 @@ const run = async () => {
   let posts = [];
   try {
     posts = await getRedditPosts();
+    console.log(`Fetched ${posts.length} posts from r/SEO`);
+    console.log(`Top post: "${posts[0]?.title}"`);
   } catch (error) {
     console.warn(`Reddit unavailable, using fallback SEO sources. ${error.message}`);
     posts = await getFallbackPosts();
@@ -367,26 +317,27 @@ const run = async () => {
     throw new Error(`Not enough SEO discussion posts found. Got ${posts.length}.`);
   }
 
-  const topic = getSpecificTopic(posts[0]);
-  const outputPath = path.join(OUTPUT_DIR, `${topic.slug}.md`);
+  console.log('Generating post with Claude...');
+  const { slug, content } = await generatePost(posts[0], posts);
 
-  try {
-    await fs.access(outputPath);
-    if (!isDryRun) {
-      console.log(`Post already exists: ${outputPath}`);
-      return;
-    }
-  } catch {
-    // Expected when today's post has not been generated yet.
-  }
+  const outputPath = path.join(OUTPUT_DIR, `${slug}.md`);
 
   if (isDryRun) {
-    console.log(makePost(posts).slice(0, 2000));
-    console.log(`\nDry run complete. Would create ${outputPath}`);
+    console.log('\n--- DRY RUN OUTPUT ---\n');
+    console.log(content.slice(0, 3000));
+    console.log(`\nWould create: ${outputPath}`);
     return;
   }
 
-  await fs.writeFile(outputPath, makePost(posts), 'utf8');
+  try {
+    await fs.access(outputPath);
+    console.log(`Post already exists: ${outputPath}`);
+    return;
+  } catch {
+    // File doesn't exist yet — expected.
+  }
+
+  await fs.writeFile(outputPath, content, 'utf8');
   console.log(`Created ${outputPath}`);
 };
 
