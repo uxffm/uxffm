@@ -19,3 +19,14 @@ https://www.uxffm.com/*    https://frankfurtmarketingstudio.de/:splat    301!
 /service/wordpress-frankfurt/   /    301!
 /website-monatlich-bezahlen     /    301!
 /website-monatlich-bezahlen/    /    301!
+
+# Old paginated/index sitemaps -> single sitemap.xml
+/sitemap-index.xml    /sitemap.xml    301!
+/sitemap-0.xml        /sitemap.xml    301!
+
+# Renamed post slugs (year removed)
+/kirki-plugin-sicherheitsluecke-cve-2026    /kirki-plugin-sicherheitsluecke-cve    301!
+/wordcamp-europe-2026-krakau                /wordcamp-europe-krakau                301!
+/wordpress-marktanteil-rueckgang-2026       /wordpress-marktanteil-rueckgang       301!
+/wordpress-plugin-sicherheit-mai-2026       /wordpress-plugin-sicherheit-mai       301!
+/wordpress-supply-chain-angriff-2026        /wordpress-supply-chain-angriff        301!

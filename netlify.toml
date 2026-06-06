@@ -4,32 +4,7 @@
 [build.processing.html]
   pretty_urls = false
 
-# Real HTTP 301 redirects for renamed post slugs (year removed).
-[[redirects]]
-  from = "/kirki-plugin-sicherheitsluecke-cve-2026"
-  to = "/kirki-plugin-sicherheitsluecke-cve"
-  status = 301
-  force = true
-[[redirects]]
-  from = "/wordcamp-europe-2026-krakau"
-  to = "/wordcamp-europe-krakau"
-  status = 301
-  force = true
-[[redirects]]
-  from = "/wordpress-marktanteil-rueckgang-2026"
-  to = "/wordpress-marktanteil-rueckgang"
-  status = 301
-  force = true
-[[redirects]]
-  from = "/wordpress-plugin-sicherheit-mai-2026"
-  to = "/wordpress-plugin-sicherheit-mai"
-  status = 301
-  force = true
-[[redirects]]
-  from = "/wordpress-supply-chain-angriff-2026"
-  to = "/wordpress-supply-chain-angriff"
-  status = 301
-  force = true
+# Redirects live in public/_redirects (single source of truth).
 [[headers]]
   for = "/assets/*"
   [headers.values]
