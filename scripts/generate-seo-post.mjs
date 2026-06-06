@@ -42,8 +42,13 @@ const slugify = (value) =>
     .normalize('NFD')
     .replace(/[̀-ͯ]/g, '')
     .replace(/[^a-z0-9]+/g, '-')
+    .replace(/\b(19|20)\d{2}\b/g, '') // never include a year in the slug
+    .replace(/-{2,}/g, '-')
     .replace(/(^-|-$)/g, '')
-    .slice(0, 80);
+    .split('-')
+    .slice(0, 5) // keep slugs short: max 5 words
+    .join('-')
+    .slice(0, 50);
 
 const yamlString = (value) => `"${String(value).replace(/\\/g, '\\\\').replace(/"/g, '\\"')}"`;
 
@@ -252,7 +257,7 @@ Gib NUR den Markdown-Inhalt des Artikels zurück (ab dem ersten einleitenden Abs
 
   const content = await callClaude(prompt);
 
-  const slugPrompt = `Erstelle einen kurzen, prägnanten URL-Slug (auf Deutsch, maximal 5 Wörter, nur Kleinbuchstaben und Bindestriche) für einen Blogartikel über dieses SEO-Thema: "${topPost.title}". Wichtig: Nenne das konkrete Thema — keine generischen Wörter wie "seo", "tipps", "guide", "wie", "warum", "was". Gib NUR den Slug zurück, sonst nichts.`;
+  const slugPrompt = `Erstelle einen kurzen, prägnanten URL-Slug (auf Deutsch, maximal 4 Wörter, nur Kleinbuchstaben und Bindestriche) für einen Blogartikel über dieses SEO-Thema: "${topPost.title}". Wichtig: Nenne das konkrete Thema — keine generischen Wörter wie "seo", "tipps", "guide", "wie", "warum", "was". Verwende KEINE Jahreszahl (z. B. 2025, 2026) im Slug. Halte den Slug so kurz wie möglich. Gib NUR den Slug zurück, sonst nichts.`;
   const rawSlug = await callClaude(slugPrompt);
   const slug = slugify(rawSlug.trim().toLowerCase().replace(/['"]/g, ''));
 

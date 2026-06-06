@@ -185,6 +185,20 @@ declare module 'astro:content' {
 
 	type ContentEntryMap = {
 		"post": {
+"burst-statistics-auth-bypass-wordpress.md": {
+	id: "burst-statistics-auth-bypass-wordpress.md";
+  slug: "burst-statistics-auth-bypass-wordpress";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
+"cern-wordpress-enterprise.md": {
+	id: "cern-wordpress-enterprise.md";
+  slug: "cern-wordpress-enterprise";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
 "dofollow-backlinks-finden.mdx": {
 	id: "dofollow-backlinks-finden.mdx";
   slug: "dofollow-backlinks-finden";
@@ -192,6 +206,13 @@ declare module 'astro:content' {
   collection: "post";
   data: InferEntrySchema<"post">
 } & { render(): Render[".mdx"] };
+"events-calendar-pro.md": {
+	id: "events-calendar-pro.md";
+  slug: "events-calendar-pro";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
 "falsche-seite-rankt.md": {
 	id: "falsche-seite-rankt.md";
   slug: "falsche-seite-rankt";
@@ -220,9 +241,23 @@ declare module 'astro:content' {
   collection: "post";
   data: InferEntrySchema<"post">
 } & { render(): Render[".md"] };
+"kirki-plugin-sicherheitsluecke-cve.md": {
+	id: "kirki-plugin-sicherheitsluecke-cve.md";
+  slug: "kirki-plugin-sicherheitsluecke-cve";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
 "low-hanging-fruits.md": {
 	id: "low-hanging-fruits.md";
   slug: "low-hanging-fruits";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
+"php-only-blocks-wordpress-7-0.md": {
+	id: "php-only-blocks-wordpress-7-0.md";
+  slug: "php-only-blocks-wordpress-7-0";
   body: string;
   collection: "post";
   data: InferEntrySchema<"post">
@@ -248,13 +283,6 @@ declare module 'astro:content' {
   collection: "post";
   data: InferEntrySchema<"post">
 } & { render(): Render[".md"] };
-"videos-fuer-seo.md": {
-	id: "videos-fuer-seo.md";
-  slug: "videos-fuer-seo";
-  body: string;
-  collection: "post";
-  data: InferEntrySchema<"post">
-} & { render(): Render[".md"] };
 "wann-seo-machen.md": {
 	id: "wann-seo-machen.md";
   slug: "wann-seo-machen";
@@ -265,6 +293,139 @@ declare module 'astro:content' {
 "warum-seo-in-frankfurt.md": {
 	id: "warum-seo-in-frankfurt.md";
   slug: "lokale-seo-frankfurt-wichtig";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
+"wordcamp-europe-krakau.md": {
+	id: "wordcamp-europe-krakau.md";
+  slug: "wordcamp-europe-krakau";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
+"wordpress-69-update-chaos.md": {
+	id: "wordpress-69-update-chaos.md";
+  slug: "wordpress-69-update-chaos";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
+"wordpress-7-0-admin-redesign.md": {
+	id: "wordpress-7-0-admin-redesign.md";
+  slug: "wordpress-7-0-admin-redesign";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
+"wordpress-7-0-ai-sdk-core.md": {
+	id: "wordpress-7-0-ai-sdk-core.md";
+  slug: "wordpress-7-0-ai-sdk-core";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
+"wordpress-7-0-armstrong.md": {
+	id: "wordpress-7-0-armstrong.md";
+  slug: "wordpress-7-0-armstrong";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
+"wordpress-7-0-echtzeit-kollaboration-ki.md": {
+	id: "wordpress-7-0-echtzeit-kollaboration-ki.md";
+  slug: "wordpress-7-0-echtzeit-kollaboration-ki";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
+"wordpress-7-0-echtzeit-kollaboration.md": {
+	id: "wordpress-7-0-echtzeit-kollaboration.md";
+  slug: "wordpress-7-0-echtzeit-kollaboration";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
+"wordpress-7-0-plugin-kompatibilitaet.md": {
+	id: "wordpress-7-0-plugin-kompatibilitaet.md";
+  slug: "wordpress-7-0-plugin-kompatibilitaet";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
+"wordpress-7-1-roadmap.md": {
+	id: "wordpress-7-1-roadmap.md";
+  slug: "wordpress-7-1-roadmap";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
+"wordpress-7-no-collaboration.md": {
+	id: "wordpress-7-no-collaboration.md";
+  slug: "wordpress-7-no-collaboration";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
+"wordpress-7-php-update-pflicht.md": {
+	id: "wordpress-7-php-update-pflicht.md";
+  slug: "wordpress-7-php-update-pflicht";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
+"wordpress-70-ki-api-schluessel-sicherheit.md": {
+	id: "wordpress-70-ki-api-schluessel-sicherheit.md";
+  slug: "wordpress-70-ki-api-schluessel-sicherheit";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
+"wordpress-ki-plugins.md": {
+	id: "wordpress-ki-plugins.md";
+  slug: "wordpress-ki-plugins";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
+"wordpress-marktanteil-rueckgang.md": {
+	id: "wordpress-marktanteil-rueckgang.md";
+  slug: "wordpress-marktanteil-rueckgang";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
+"wordpress-performance-plugins-benchmark.md": {
+	id: "wordpress-performance-plugins-benchmark.md";
+  slug: "wordpress-performance-plugins-benchmark";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
+"wordpress-plugin-sicherheit-mai.md": {
+	id: "wordpress-plugin-sicherheit-mai.md";
+  slug: "wordpress-plugin-sicherheit-mai";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
+"wordpress-sicherheit.md": {
+	id: "wordpress-sicherheit.md";
+  slug: "wordpress-sicherheit";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
+"wordpress-supply-chain-angriff-essential-plugins.md": {
+	id: "wordpress-supply-chain-angriff-essential-plugins.md";
+  slug: "wordpress-supply-chain-angriff-essential-plugins";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
+"wordpress-supply-chain-angriff.md": {
+	id: "wordpress-supply-chain-angriff.md";
+  slug: "wordpress-supply-chain-angriff";
   body: string;
   collection: "post";
   data: InferEntrySchema<"post">
