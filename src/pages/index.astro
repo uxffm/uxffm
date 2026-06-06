@@ -8,6 +8,7 @@ import CallToAction from '~/components/widgets/CallToAction.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 import WordPressReview from '~/components/widgets/WordPressReview.astro';
+import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 
 const metadata = {
   title: 'WordPress-Agentur Frankfurt | Websites, Relaunch & Support',
@@ -220,6 +221,17 @@ const metadata = {
      },
    ]}
  />
+
+  <!-- HighlightedPosts Widget ******* -->
+
+  <BlogLatestPosts
+    title="Aktuelles zu WordPress"
+    category="wordpress"
+    count={6}
+    classes={{
+      wrapper: 'bg-gradient-to-b from-purple-50 to-blue-50 dark:from-purple-900/20 dark:to-slate-900',
+    }}
+  />
 
   <FAQs
     title="WordPress-Agentur Frankfurt – häufige Fragen"
