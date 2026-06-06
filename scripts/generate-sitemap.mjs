@@ -25,6 +25,10 @@ const EXCLUDE = new Set([
   '/danke',
 ]);
 
+// Archive/navigation pages that shouldn't be in the sitemap:
+// tag pages, category pages, and any pagination page (e.g. /blog/2).
+const EXCLUDE_PATTERNS = [/^\/tag(\/|$)/, /^\/category(\/|$)/, /\/\d+$/];
+
 // Build slug -> lastmod (from post publishDate) so article URLs carry a date.
 const postLastmod = {};
 for (const file of fs.readdirSync(POST_DIR)) {
@@ -53,6 +57,7 @@ const walk = (dir) => {
       if (pathname === '/.') pathname = '/';
       pathname = pathname.replace(/\/$/, '') || '/';
       if (EXCLUDE.has(pathname)) continue;
+      if (EXCLUDE_PATTERNS.some((re) => re.test(pathname))) continue;
       urls.push(pathname);
     }
   }
