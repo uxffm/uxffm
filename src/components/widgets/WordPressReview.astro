@@ -1,12 +1,35 @@
 ---
+const reviewBody =
+  'Lukasz ist ein absoluter Profi, wenn es um WordPress geht. Meine WordPress-Installation wurde schnell von Fehlern befreit, eine alte sehr wichtige Datenbank wiederhergestellt. Danke!';
+
+const reviewJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Review',
+  itemReviewed: {
+    '@type': 'LocalBusiness',
+    name: 'Frankfurt Marketing Studio',
+    url: 'https://frankfurtmarketingstudio.de/',
+    image: 'https://frankfurtmarketingstudio.de/images/wordpress-bewertung.png',
+  },
+  author: {
+    '@type': 'Person',
+    name: 'Daniel Krug',
+  },
+  reviewRating: {
+    '@type': 'Rating',
+    ratingValue: '5',
+    bestRating: '5',
+  },
+  reviewBody,
+};
 ---
+
+<script type="application/ld+json" set:html={JSON.stringify(reviewJsonLd)} />
 
 <div class="max-w-4xl mx-auto px-4 sm:px-6 py-12">
   <div
     class="review-card glass rounded-2xl p-8 md:p-10 shadow-xl border-2"
     style="border-color: #a649f6;"
-    itemscope
-    itemtype="https://schema.org/Review"
   >
     <div class="flex items-start gap-4">
       <div class="flex-shrink-0">
@@ -15,18 +38,15 @@
           alt="Daniel Krug - WordPress-Kunde"
           class="w-16 h-16 rounded-full object-cover border-2"
           style="border-color: #a649f6;"
-          itemprop="image"
         />
       </div>
       <div class="flex-1">
-        <blockquote class="text-lg md:text-xl text-gray-700 dark:text-gray-300 leading-relaxed mb-4" itemprop="reviewBody">
-          "Lukasz ist ein absoluter Profi, wenn es um WordPress geht. Meine WordPress-Installation wurde schnell von Fehlern befreit, eine alte sehr wichtige Datenbank wiederhergestellt. Danke!"
+        <blockquote class="text-lg md:text-xl text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
+          "{reviewBody}"
         </blockquote>
         <div class="flex items-center justify-between flex-wrap gap-4">
           <div class="flex items-center gap-2">
-            <div class="flex text-yellow-400" itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
-              <meta itemprop="ratingValue" content="5" />
-              <meta itemprop="bestRating" content="5" />
+            <div class="flex text-yellow-400">
               {
                 Array.from({ length: 5 }).map(() => (
                   <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
@@ -35,8 +55,8 @@
                 ))
               }
             </div>
-            <span class="text-sm text-gray-700 dark:text-gray-300 font-medium ml-2" itemprop="author" itemscope itemtype="https://schema.org/Person">
-              <span itemprop="name">Daniel Krug</span> - Verifizierter WordPress-Kunde
+            <span class="text-sm text-gray-700 dark:text-gray-300 font-medium ml-2">
+              <span>Daniel Krug</span> - Verifizierter WordPress-Kunde
             </span>
           </div>
           <a
@@ -56,6 +76,5 @@
         </div>
       </div>
     </div>
-    <meta itemprop="itemReviewed" itemscope itemtype="https://schema.org/LocalBusiness" content="WordPress Frankfurt" />
   </div>
 </div>
