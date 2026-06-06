@@ -30,7 +30,7 @@ const {
   <div class="absolute inset-0 pointer-events-none" aria-hidden="true"></div>
   <div class="relative max-w-7xl mx-auto px-4 sm:px-6">
     <div class="pt-0 md:pt-[76px] pointer-events-none"></div>
-    <div class="py-12 md:py-20">
+    <div class="py-8 md:py-12">
       {layout === 'split' ? (
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8 items-center">
             <div class="text-left lg:order-1">
@@ -106,7 +106,7 @@ const {
             {
               title && (
                 <h1
-                  class="text-5xl md:text-6xl font-bold leading-tighter tracking-tighter mb-4 font-heading dark:text-gray-200"
+                  class="text-5xl md:text-6xl font-bold leading-tight tracking-tight mb-4 font-heading dark:text-gray-200"
                   set:html={title}
                 />
               )
@@ -164,9 +164,12 @@ const {
 
   h1  {
      background-image: linear-gradient(to right,#3180d3,#71fffd);
+      -webkit-background-clip: text;
       background-clip: text;
+      -webkit-text-fill-color: transparent;
       color: transparent;
-
+      /* room so the gradient-clipped glyphs (e.g. the "G") aren't cut off */
+      padding-bottom: 0.12em;
   }
 
 
