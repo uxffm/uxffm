@@ -1,10 +1,9 @@
 ---
 import { APP_BLOG } from "~/utils/config";
 
-import Grid from "~/components/blog/Grid.astro";
-
-import { getBlogPermalink } from "~/utils/permalinks";
-import { findLatestPosts } from "~/utils/blog";
+import { getBlogPermalink, getPermalink } from "~/utils/permalinks";
+import { fetchPosts } from "~/utils/blog";
+import { getFormattedDate } from "~/utils/utils";
 import WidgetWrapper from "~/components/ui/WidgetWrapper.astro";
 import type { Widget } from "~/types";
 import Button from "../ui/Button.astro";
@@ -15,6 +14,7 @@ export interface Props extends Widget {
   linkUrl?: string | URL;
   information?: string;
   count?: number;
+  category?: string;
 }
 
 const {
@@ -23,6 +23,7 @@ const {
   linkUrl = getBlogPermalink(),
   information = await Astro.slots.render("information"),
   count = 4,
+  category,
 
   id,
   isDark = false,
@@ -30,29 +31,65 @@ const {
   bg = await Astro.slots.render("bg"),
 } = Astro.props;
 
-const posts = APP_BLOG.isEnabled ? await findLatestPosts({ count }) : [];
+const allPosts = APP_BLOG.isEnabled ? await fetchPosts() : [];
+const filtered = category
+  ? allPosts.filter(
+      (post) => typeof post.category === "string" && post.category.toLowerCase() === category.toLowerCase()
+    )
+  : allPosts;
+const posts = filtered.slice(0, count);
 ---
 
 {
   APP_BLOG.isEnabled ? (
-    <WidgetWrapper id={id} isDark={isDark} containerClass={classes?.container} bg={bg}>
-      <div class="flex flex-col lg:justify-between lg:flex-row mb-8">
+    <WidgetWrapper
+      id={id}
+      isDark={isDark}
+      containerClass={classes?.container}
+      wrapperClass={classes?.wrapper}
+      bg={bg}
+    >
+      <div class="mb-8 text-center">
         {title && (
-          <div class="md:max-w-sm">
-            <h2
-              class="text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none group font-heading mb-2"
-              set:html={title}
-            />
-            {APP_BLOG.list.isEnabled && linkText && linkUrl && (
-              <Button variant="link" href={linkUrl}> {linkText} »</Button>
-            )}
-          </div>
+          <h2
+            class="text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none font-heading mb-2"
+            set:html={title}
+          />
         )}
 
-        {information && <p class="text-muted dark:text-slate-400 lg:text-sm lg:max-w-md" set:html={information} />}
+        {information && (
+          <p class="mx-auto max-w-2xl text-muted dark:text-slate-400" set:html={information} />
+        )}
+
+        {APP_BLOG.list.isEnabled && linkText && linkUrl && (
+          <div class="mt-3">
+            <Button variant="link" href={linkUrl}>
+              {linkText} »
+            </Button>
+          </div>
+        )}
       </div>
 
-      <Grid posts={posts} />
+      <div class="mx-auto max-w-2xl text-center divide-y divide-gray-100 dark:divide-slate-800">
+        {posts.map((post) => (
+          <a
+            href={getPermalink(post.permalink, "post")}
+            class="group block py-4 no-underline"
+          >
+            <h3 class="text-lg font-semibold leading-tight font-heading dark:text-white transition group-hover:text-primary">
+              {post.title}
+            </h3>
+            {post.publishDate && (
+              <time
+                datetime={String(post.publishDate)}
+                class="mt-1 block text-xs text-muted dark:text-slate-400"
+              >
+                {getFormattedDate(post.publishDate)}
+              </time>
+            )}
+          </a>
+        ))}
+      </div>
     </WidgetWrapper>
   ) : (
     <Fragment />
