@@ -35,7 +35,7 @@ export const footerData = {
       links: [
         { text: 'Impressum', href: '/imoportant' },
         { text: 'Datenschutz', href: '/datenschutz' },
-        { text: 'Über Mich', href: '/about-us' },
+        { text: 'Über mich', href: '/about-us' },
         { text: 'hello@frankfurtmarketingstudio.de', href: 'mailto:hello@frankfurtmarketingstudio.de' },
       ],
     },
@@ -54,6 +54,6 @@ export const footerData = {
     { ariaLabel: 'Tiktok', icon: 'tabler:brand-tiktok', href: 'https://www.tiktok.com/@frankfurtmarketingstudio.de' },
   ],
   footNote: `
-    WordPress Agentur Frankfurt - All Rights Reserved.
+    WordPress-Agentur Frankfurt - Alle Rechte vorbehalten.
   `,
 };
