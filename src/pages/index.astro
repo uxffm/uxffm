@@ -6,14 +6,13 @@ import Features from '~/components/widgets/Features.astro';
 import Content from '~/components/widgets/Content.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 import Features2 from '~/components/widgets/Features2.astro';
-import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 import WordPressReview from '~/components/widgets/WordPressReview.astro';
 
 const metadata = {
-  title: 'WordPress-Agentur Frankfurt | Webseiten, SEO & Support',
+  title: 'WordPress-Agentur Frankfurt | Websites, Relaunch & Support',
   description:
-    'WordPress-Agentur Frankfurt für schnelle, moderne und suchmaschinenoptimierte Webseiten. WordPress-Webdesign, Relaunch, Wartung, SEO und Support aus einer Hand.',
+    'WordPress-Agentur Frankfurt für moderne Websites, Relaunch, Wartung und Support. Klare Beratung, saubere Umsetzung und schnelle Hilfe für Unternehmen in Frankfurt.',
   ignoreTitleTemplate: true,
 };
 ---
@@ -51,7 +50,7 @@ const metadata = {
     <Fragment slot="subtitle">
       <span class="block mb-1 sm:hidden font-bold text-blue-600">WordPress, das sauber läuft.</span>
       <span class="colorful">Ihre WordPress-Agentur in Frankfurt am Main.</span>
-      Wir erstellen, optimieren und betreuen WordPress-Webseiten, die schnell laden, bei Google gefunden werden und Anfragen bringen. Direkt aus Frankfurt, mit klarer Beratung, sauberer Umsetzung und Support, der nicht nach dem Launch verschwindet.
+      Wir erstellen, erneuern und betreuen WordPress-Websites für Unternehmen, die eine verlässliche Website brauchen: klar aufgebaut, schnell, gut pflegbar und bereit für Anfragen.
     </Fragment>
   </Hero>
 
@@ -62,8 +61,8 @@ const metadata = {
   <Features
     id="features"
     tagline="WORDPRESS SERVICES"
-    title="WordPress-Leistungen für Unternehmen in Frankfurt"
-    subtitle="Ob neue Website, Relaunch oder laufende Betreuung: Wir verbinden WordPress-Webdesign, Technik, SEO und Wartung zu einer Website, die im Alltag funktioniert."
+    title="Was unsere WordPress-Agentur in Frankfurt macht"
+    subtitle="Keine aufgeblähte Agenturleistung, sondern genau das, was eine gute WordPress-Website braucht."
     classes={{
       wrapper: 'bg-slate-100/50 dark:bg-purple-900/20'
     }}
@@ -71,37 +70,37 @@ const metadata = {
       {
         title: 'WordPress-Website erstellen',
         description:
-          'Wir planen und bauen moderne WordPress-Webseiten für Selbstständige, Praxen, lokale Dienstleister und Unternehmen in Frankfurt. Klar strukturiert, mobiloptimiert und einfach pflegbar.',
+          'Neue Website für Unternehmen, Praxen und Dienstleister: klar strukturiert, mobiloptimiert und einfach zu pflegen.',
         icon: 'tabler:world-www',
       },
       {
         title: 'WordPress-Relaunch',
         description:
-          'Ihre bestehende Seite ist langsam, unübersichtlich oder technisch veraltet? Wir erneuern Design, Struktur und Technik, ohne wichtige Inhalte und SEO-Signale aus den Augen zu verlieren.',
+          'Wenn die alte Seite langsam, unübersichtlich oder veraltet ist, bringen wir Design, Struktur und Technik auf Stand.',
         icon: 'tabler:refresh',
       },
       {
-        title: 'WordPress SEO Frankfurt',
+        title: 'WordPress-SEO',
         description:
-          'Wir optimieren Seitenstruktur, Ladezeit, Inhalte, Meta-Daten und lokale Signale, damit Ihre WordPress-Seite für relevante Suchanfragen in Frankfurt besser gefunden wird.',
+          'Wir optimieren Struktur, Ladezeit, Inhalte und lokale Signale, damit Ihre Website in Frankfurt besser gefunden wird.',
         icon: 'tabler:search',
       },
       {
         title: 'Wartung & Sicherheit',
         description:
-          'Updates, Backups, Security-Checks und Monitoring sorgen dafür, dass Ihre Website stabil bleibt. Wir kümmern uns um die Technik, bevor kleine Fehler groß werden.',
+          'Updates, Backups und Sicherheitschecks sorgen dafür, dass Ihre Website stabil bleibt.',
         icon: 'tabler:shield-lock',
       },
       {
         title: 'Performance-Optimierung',
         description:
-          'Schnelle WordPress-Webseiten ranken besser und fühlen sich professioneller an. Wir optimieren Bilder, Caching, Theme, Plugins und Core Web Vitals.',
+          'Wir prüfen Bilder, Caching, Theme und Plugins, damit WordPress spürbar schneller wird.',
         icon: 'tabler:speedboat',
       },
       {
         title: 'WooCommerce & Erweiterungen',
         description:
-          'Von Kontaktformularen bis WooCommerce: Wir erweitern WordPress gezielt um Funktionen, die Ihr Geschäft wirklich braucht, statt die Seite mit Plugins zu überladen.',
+          'Formulare, Buchungen, Shops oder Schnittstellen: Wir erweitern WordPress nur dort, wo es sinnvoll ist.',
         icon: 'tabler:shopping-cart',
       },
     ]}
@@ -111,23 +110,23 @@ const metadata = {
 
   <Content
     isReversed
-    tagline="Warum WordPress?"
-    title="Eine Website, die Sie wirklich nutzen können"
+    tagline="Warum wir?"
+    title="Eine WordPress-Agentur, die praktisch denkt"
     items={[
     {
       title: 'Einfach zu pflegen',
       description:
-        'Sie können Texte, Bilder, Blogbeiträge und wichtige Inhalte selbst bearbeiten. Wir richten WordPress so ein, dass Sie nicht für jede kleine Änderung technische Hilfe brauchen.',
+        'Sie können wichtige Inhalte selbst ändern, ohne für jede Kleinigkeit technische Hilfe zu brauchen.',
     },
     {
       title: 'Technisch sauber umgesetzt',
       description:
-        'Wir achten auf Ladezeit, Sicherheit, saubere Struktur, mobile Darstellung und nachhaltige Erweiterbarkeit. Die Website soll nicht nur beim Launch gut aussehen.',
+        'Wir achten auf Ladezeit, Sicherheit, mobile Darstellung und eine Struktur, die später erweiterbar bleibt.',
     },
     {
-      title: 'Auf Sichtbarkeit ausgelegt',
+      title: 'Mit Blick auf Sichtbarkeit',
       description:
-        'SEO fließt von Anfang an ein: Seitenarchitektur, lokale Keywords, interne Verlinkung, strukturierte Inhalte und schnelle Ladezeiten arbeiten zusammen.',
+        'SEO ist kein Extra am Ende. Seitenstruktur, Inhalte und Technik werden von Anfang an mitgedacht.',
     },
     ]}
     image={{
@@ -136,8 +135,8 @@ const metadata = {
     }}
   >
     <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">WordPress für Frankfurt, nicht für die Schublade</h3>
-      Eine gute Website ist mehr als ein schönes Layout. Sie erklärt Ihr Angebot, schafft Vertrauen und macht es Besuchern leicht, Kontakt aufzunehmen.
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">WordPress für echte Anfragen, nicht für die Schublade</h3>
+      Eine gute Website erklärt Ihr Angebot schnell, wirkt seriös und macht Kontaktaufnahme einfach.
     </Fragment>
 
     <Fragment slot="bg">
@@ -152,17 +151,17 @@ const metadata = {
     items={[
       {
         title: 'Klarer Prozess',
-        description: `Wir starten mit Zielen, Zielgruppen und Suchintentionen. Danach entstehen Struktur, Design, Inhalte und technische Umsetzung in einem nachvollziehbaren Ablauf.`,
+        description: `Wir starten mit Ziel, Inhalt und Struktur. Danach folgen Design, Umsetzung und ein sauberer Launch.`,
       },
       {
         title: 'Direkter Ansprechpartner',
         description:
-          'Sie sprechen direkt mit jemandem, der Strategie, WordPress und SEO versteht. Kurze Wege machen Entscheidungen einfacher und Projekte schneller.',
+          'Sie sprechen direkt mit jemandem, der WordPress, Technik und Website-Strategie versteht.',
       },
       {
         title: 'Betreuung nach dem Launch',
         description:
-          "Nach dem Go-live lassen wir Sie nicht allein. Wir bieten Wartung, Updates, SEO-Optimierung, neue Landingpages und laufende Verbesserungen.",
+          "Nach dem Go-live helfen wir mit Wartung, Updates, neuen Seiten und laufenden Verbesserungen.",
       },
     ]}
     image={{
@@ -170,7 +169,7 @@ const metadata = {
       alt: 'WordPress-Agentur Frankfurt am Main',
     }}
   >
-    <Fragment slot="content">Ihre WordPress-Agentur für Frankfurt am Main, Offenbach, Wiesbaden und das Rhein-Main-Gebiet.</Fragment>
+    <Fragment slot="content">Ihre WordPress-Agentur für Frankfurt am Main und das Rhein-Main-Gebiet.</Fragment>
 
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
@@ -180,61 +179,44 @@ const metadata = {
    <!-- Features2 Widget ************** -->
 
    <Features2
-   title="Was Ihre WordPress-Website bekommt"
-   subtitle="Die wichtigsten Bausteine für einen professionellen Auftritt"
+   title="Typische Gründe, warum Kunden zu uns kommen"
+   subtitle="Viele Projekte starten nicht mit einer perfekten Idee, sondern mit einem konkreten Problem."
    columns={3}
    items={[
      {
-       title: 'Strategie & Seitenstruktur',
+       title: 'Neue Website gebraucht',
        description:
-         'Wir klären, welche Seiten Sie brauchen, welche Suchbegriffe wichtig sind und wie Besucher schnell zur Anfrage kommen.',
+         'Sie brauchen eine professionelle WordPress-Website, wissen aber noch nicht genau, wie sie aufgebaut sein soll.',
        icon: 'tabler:sitemap',
      },
      {
-       title: 'WordPress-Webdesign',
+       title: 'Alte Seite wirkt nicht mehr',
        description:
-         'Modernes Design mit klarer Nutzerführung, responsiven Layouts und einem Look, der zu Ihrem Unternehmen passt.',
+         'Design, Inhalte oder Technik passen nicht mehr zum Unternehmen. Wir machen daraus einen klaren Relaunch.',
        icon: 'tabler:device-laptop',
      },
      {
-       title: 'Technisches SEO',
-       description: `Saubere URLs, Meta-Daten, strukturierte Überschriften, interne Verlinkung und technische Grundlagen für bessere Indexierung.`,
+       title: 'WordPress ist zu langsam',
+       description: `Lange Ladezeiten, zu viele Plugins oder ein schweres Theme: Wir finden die Ursachen und räumen auf.`,
        icon: 'tabler:settings-search',
      },
      {
-       title: 'SEO-Texte & Inhalte',
+       title: 'Inhalte sind unklar',
        description:
-         'Wir schreiben oder überarbeiten Inhalte, die Ihr Angebot verständlich machen und auf lokale Suchanfragen in Frankfurt einzahlen.',
+         'Wir helfen, Leistungen verständlich zu erklären, ohne die Seite mit Marketingfloskeln zu überladen.',
        icon: 'tabler:writing',
      },
      {
-       title: 'Schnelles WordPress',
+       title: 'Support fehlt',
        description:
-         'Optimierte Bilder, schlankes Setup, Caching und reduzierte Plugin-Last für bessere Ladezeiten und eine bessere Nutzererfahrung.',
+         'Updates, kleine Änderungen oder Fehler bleiben liegen. Wir übernehmen die laufende Betreuung.',
        icon: 'tabler:gauge',
      },
      {
-       title: 'WooCommerce-Shops',
+       title: 'Mehr Anfragen gewünscht',
        description:
-         'Produktseiten, Kategorien, Checkout, Zahlungsarten und Shop-SEO für lokale oder überregionale WooCommerce-Projekte.',
+         'Kontaktwege, Seitenstruktur und lokale Sichtbarkeit werden so verbessert, dass Besucher leichter anfragen.',
        icon: 'tabler:shopping-cart',
-     },
-     {
-       title: 'Local SEO Frankfurt',
-       description:
-         'Optimierung für lokale Suchanfragen, Standortsignale und Seiten, die Interessenten aus Frankfurt gezielt abholen.',
-       icon: 'tabler:map-pin',
-     },
-     {
-       title: 'Wartung & Updates',
-       description: `Regelmäßige Updates, Backups, Sicherheitsprüfungen und technische Betreuung, damit Ihre WordPress-Seite stabil bleibt.`,
-       icon: 'tabler:tool',
-     },
-     {
-       title: 'Conversion-Optimierung',
-       description:
-         'Kontaktwege, Formulare, Call-to-Actions und Vertrauenselemente werden so platziert, dass aus Besuchern eher Anfragen werden.',
-       icon: 'tabler:chart-line',
      },
    ]}
  />
@@ -247,37 +229,25 @@ const metadata = {
       {
         title: 'Was macht eine WordPress-Agentur in Frankfurt?',
         description:
-          'Wir planen, gestalten, erstellen und betreuen WordPress-Webseiten für Unternehmen in Frankfurt. Dazu gehören Webdesign, technische Umsetzung, SEO, Ladezeitoptimierung, Wartung und Support.',
+          'Wir planen, erstellen und betreuen WordPress-Websites für Unternehmen in Frankfurt. Dazu gehören Webdesign, technische Umsetzung, Wartung, Ladezeit und bei Bedarf SEO.',
       },
       {
         title: 'Ist WordPress für lokale Unternehmen geeignet?',
         description:
-          'Ja. WordPress eignet sich sehr gut für Praxen, Kanzleien, Handwerker, Berater, lokale Dienstleister und B2B-Unternehmen, weil Inhalte flexibel gepflegt und für lokale Google-Suchen optimiert werden können.',
+          'Ja. WordPress eignet sich gut für Praxen, Kanzleien, Dienstleister und B2B-Unternehmen, weil Inhalte flexibel gepflegt werden können.',
       },
       {
         title: 'Könnt ihr eine bestehende WordPress-Seite überarbeiten?',
         description:
-          'Ja. Wir können eine bestehende Seite technisch prüfen, Ladezeiten verbessern, Inhalte neu strukturieren, das Design modernisieren und SEO-Probleme beheben.',
+          'Ja. Wir prüfen Technik, Inhalte und Struktur und modernisieren die Seite Schritt für Schritt.',
       },
       {
         title: 'Bietet ihr auch WordPress-Wartung an?',
         description:
-          'Ja. Auf Wunsch übernehmen wir Updates, Backups, Sicherheitsprüfungen, Fehlerbehebung und laufende Optimierung, damit Ihre Website langfristig stabil bleibt.',
+          'Ja. Wir übernehmen Updates, Backups, Sicherheitschecks, Fehlerbehebung und kleinere Anpassungen.',
       },
     ]}
   />
-
-   <!-- HighlightedPosts Widget ******* -->
-
-   <BlogLatestPosts
-   title="Aktuelle WordPress-Neuigkeiten"
-   category="wordpress"
-   count={6}
-   classes={{
-     wrapper: 'bg-gradient-to-b from-purple-50 to-blue-50 dark:from-purple-900/20 dark:to-slate-900',
-   }}
- />
-
 
   <!-- CallToAction Widget *********** -->
 
@@ -297,7 +267,7 @@ const metadata = {
     </Fragment>
 
     <Fragment slot="subtitle">
-      Wir melden uns innerhalb von 24 Stunden bei Ihnen zurück. Ihre Anfrage ist unverbindlich und kostenlos.
+      Kurze Nachricht reicht. Wir melden uns zeitnah und sagen ehrlich, was sinnvoll ist.
     </Fragment>
   </CallToAction>
 </Layout>
