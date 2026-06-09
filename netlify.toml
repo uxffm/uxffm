@@ -1,6 +1,8 @@
 [build]
   publish = "dist"
-  command = "npm run build"
+  # Build, then regenerate the single sitemap.xml so it auto-updates on every
+  # deploy (i.e. whenever a new post is published).
+  command = "npm run sitemap"
 
 [build.environment]
   NODE_VERSION = "22"
