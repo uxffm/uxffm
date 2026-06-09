@@ -206,6 +206,13 @@ declare module 'astro:content' {
   collection: "post";
   data: InferEntrySchema<"post">
 } & { render(): Render[".mdx"] };
+"eu-cyber-resilience-wordpress-vdp.md": {
+	id: "eu-cyber-resilience-wordpress-vdp.md";
+  slug: "eu-cyber-resilience-wordpress-vdp";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
 "events-calendar-pro.md": {
 	id: "events-calendar-pro.md";
   slug: "events-calendar-pro";
@@ -258,6 +265,13 @@ declare module 'astro:content' {
 "php-only-blocks-wordpress-7-0.md": {
 	id: "php-only-blocks-wordpress-7-0.md";
   slug: "php-only-blocks-wordpress-7-0";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
+"rank-math-yoast-seo.md": {
+	id: "rank-math-yoast-seo.md";
+  slug: "rank-math-yoast-seo";
   body: string;
   collection: "post";
   data: InferEntrySchema<"post">
@@ -377,6 +391,13 @@ declare module 'astro:content' {
 "wordpress-70-ki-api-schluessel-sicherheit.md": {
 	id: "wordpress-70-ki-api-schluessel-sicherheit.md";
   slug: "wordpress-70-ki-api-schluessel-sicherheit";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
+"wordpress-accordion-block.md": {
+	id: "wordpress-accordion-block.md";
+  slug: "wordpress-accordion-block";
   body: string;
   collection: "post";
   data: InferEntrySchema<"post">
