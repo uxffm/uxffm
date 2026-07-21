@@ -1,7 +1,7 @@
 ---
 title: "Die größten SEO-Fehler, die Frankfurter Unternehmen machen (und wie Sie sie vermeidest)"
 excerpt: "Entdecke die typischen SEO-Sünden von Unternehmen in Frankfurt – und vor allem, wie Sie diese Fehler vermeidest, um online besser gefunden zu werden."
-publishDate: 2025-06-42T00:00:00Z
+publishDate: 2025-06-28T00:00:00Z
 slug: "seo-fehler-frankfurt-vermeiden"
 tags: ['SEO', 'Frankfurt', 'Online-Marketing', 'SEO-Fehler']
 image: /images/seo-fehler-frankfurt.png
