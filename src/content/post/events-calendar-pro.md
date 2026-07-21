@@ -132,7 +132,7 @@ Langfristig sollten alle WordPress-Nutzer ihre Plugin-Strategie überdenken. Wen
 
 ---
 
-**Sie sind von der The Events Calendar-Situation betroffen oder möchten Ihre WordPress-Website auf eine solidere Basis stellen?** Als [WordPress Agentur Frankfurt](/) unterstützen wir Unternehmen in Frankfurt und Umgebung bei der Auswahl, Migration und Wartung von WordPress-Plugins. Ob Sicherheitsaudit, Plugin-Wechsel oder langfristige Betreuung – sprechen Sie uns an.
+**Sie sind von der The Events Calendar-Situation betroffen oder möchten Ihre WordPress-Website auf eine solidere Basis stellen?** Als WordPress Agentur Frankfurt unterstützen wir Unternehmen in Frankfurt und Umgebung bei der Auswahl, Migration und Wartung von WordPress-Plugins. Ob Sicherheitsaudit, Plugin-Wechsel oder langfristige Betreuung – sprechen Sie uns an.
 
 ## Quellen
 

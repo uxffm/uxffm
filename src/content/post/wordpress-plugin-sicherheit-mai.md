@@ -83,7 +83,7 @@ Wer eine WordPress-Website betreibt, sollte jetzt folgende Schritte ausführen:
 5. **Sicherheits-Scan durchführen:** Plugin wie Wordfence oder [Sucuri Security](https://wordpress.org/plugins/sucuri-scanner/) für einen vollständigen Malware-Scan nutzen
 6. **Zugangsdaten rotieren:** Admin-Passwörter und Datenbank-Credentials als Vorsichtsmaßnahme ändern
 
-Für professionell verwaltete WordPress-Websites — bei denen ein spezialisiertes Team Updates einspielt, Logs überwacht und im Ernstfall sofort reagiert — ist die [Frankfurt WordPress Agentur](/) von Frankfurt Marketing Studio der richtige Ansprechpartner für genau solche Situationen.
+Für professionell verwaltete WordPress-Websites — bei denen ein spezialisiertes Team Updates einspielt, Logs überwacht und im Ernstfall sofort reagiert — ist Frankfurt Marketing Studio der richtige Ansprechpartner für genau solche Situationen.
 
 ## Fazit: Proaktive Sicherheit ist keine Option mehr
 

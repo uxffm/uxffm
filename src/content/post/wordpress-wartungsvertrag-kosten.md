@@ -86,7 +86,7 @@ Für Unternehmen, bei denen die Website ein zentrales Vertriebs- und Kommunikati
 
 Ein WordPress-Wartungsvertrag ist keine Garantie gegen alle Probleme – aber er reduziert das Risiko erheblich und sorgt dafür, dass jemand Verantwortung für den technischen Betrieb übernimmt. Entscheidend ist, genau hinzuschauen: Was ist konkret enthalten? Wer führt die Arbeiten aus? Und gibt es transparente Berichte?
 
-Wenn Sie Fragen zur Wartung Ihrer WordPress-Website haben oder ein passendes Betreuungspaket für Ihr Unternehmen suchen, sprechen Sie gerne die [Frankfurter WordPress Agentur](/) Frankfurt Marketing Studio an – wir helfen Ihnen, die richtige Lösung für Ihren Bedarf zu finden.
+Wenn Sie Fragen zur Wartung Ihrer WordPress-Website haben oder ein passendes Betreuungspaket für Ihr Unternehmen suchen, sprechen Sie gerne Frankfurt Marketing Studio an – wir helfen Ihnen, die richtige Lösung für Ihren Bedarf zu finden.
 
 ## Quellen
 

@@ -100,7 +100,7 @@ Für WordPress-Betreiber ergeben sich daraus konkrete Schlussfolgerungen:
 
 Der ShapedPlugin-Angriff erinnert uns daran, dass Sicherheit keine einmalige Einstellung ist, sondern ein kontinuierlicher Prozess. Wer heute seine Website für sicher hält, weil alle Plugins aktuell sind, kann morgen trotzdem betroffen sein – wenn die Update-Infrastruktur selbst angegriffen wird.
 
-Wenn Sie unsicher sind, ob Ihre WordPress-Installation betroffen ist, oder wenn Sie Ihre Sicherheitsstrategie grundlegend überdenken möchten, stehen Ihnen die [WordPress-Agentur aus Frankfurt](/) von Frankfurt Marketing Studio gerne zur Seite. Wir führen WordPress-Sicherheitsaudits durch, richten proaktives Monitoring ein und begleiten Sie Schritt für Schritt – damit Sie sich auf Ihr Geschäft konzentrieren können.
+Wenn Sie unsicher sind, ob Ihre WordPress-Installation betroffen ist, oder wenn Sie Ihre Sicherheitsstrategie grundlegend überdenken möchten, steht Ihnen Frankfurt Marketing Studio gerne zur Seite. Wir führen WordPress-Sicherheitsaudits durch, richten proaktives Monitoring ein und begleiten Sie Schritt für Schritt – damit Sie sich auf Ihr Geschäft konzentrieren können.
 
 ## Quellen
 

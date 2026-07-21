@@ -88,7 +88,7 @@ Responsive Styling ist mehr als ein technisches Feature – es ist ein Schritt i
 
 Gleichzeitig eröffnet es für WordPress-Agenturen neue Möglichkeiten, Kunden im Workshop-Format zu schulen: Responsive Styling lässt sich zeigen und anfassen, ohne eine einzige Zeile Code öffnen zu müssen.
 
-Als [WordPress-Agentur Frankfurt am Main](/) unterstützen wir Unternehmen dabei, das Beste aus neuen WordPress-Features herauszuholen – von der Einführung neuer Gutenberg-Versionen bis zur Planung responsiver Layouts für alle Bildschirmgrößen. Sprechen Sie uns an, wenn Sie Unterstützung bei der Migration auf WordPress 7.1 oder dem Einsatz von Responsive Styling benötigen.
+Als WordPress-Agentur Frankfurt am Main unterstützen wir Unternehmen dabei, das Beste aus neuen WordPress-Features herauszuholen – von der Einführung neuer Gutenberg-Versionen bis zur Planung responsiver Layouts für alle Bildschirmgrößen. Sprechen Sie uns an, wenn Sie Unterstützung bei der Migration auf WordPress 7.1 oder dem Einsatz von Responsive Styling benötigen.
 
 ## Quellen
 

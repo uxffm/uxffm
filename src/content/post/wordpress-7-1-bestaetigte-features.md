@@ -80,7 +80,7 @@ Zwei heiß diskutierte Themen sind noch nicht fest für 7.1 zugesagt:
 
 Der Sprung von 7.0 auf 7.1 ist kein kleines Maintenance-Release – er adressiert echte Schwachstellen: redaktionelle Zusammenarbeit, KI-Steuerung und Medien-Handling. Wer die Beta-Phase aktiv nutzt, hat einen deutlichen Vorsprung, wenn das finale Release im August kommt.
 
-Als [WordPress-Experten aus Frankfurt](/) begleiten wir Unternehmen durch Major-Updates: vom Kompatibilitäts-Check über Beta-Tests bis zur sicheren Produktivschaltung. Sprechen Sie uns an, wenn Sie Ihre Website fit für WordPress 7.1 machen wollen.
+Als WordPress-Experten aus Frankfurt begleiten wir Unternehmen durch Major-Updates: vom Kompatibilitäts-Check über Beta-Tests bis zur sicheren Produktivschaltung. Sprechen Sie uns an, wenn Sie Ihre Website fit für WordPress 7.1 machen wollen.
 
 ## Quellen
 

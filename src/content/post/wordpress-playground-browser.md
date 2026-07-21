@@ -96,7 +96,7 @@ In der WordPress-Roadmap für 2026 und 2027 ist Playground als Plattform für in
 
 Für Agenturen und Freelancer, die regelmäßig mit neuen Plugins, neuen Kunden-Setups oder wechselnden Theme-Anforderungen arbeiten, ist jetzt der richtige Zeitpunkt, Playground in den eigenen Workflow zu integrieren – und die Zeit zu nutzen, die bisher für das Aufsetzen von Test-Umgebungen verloren ging.
 
-Als [WordPress Spezialisten Frankfurt](/) unterstützen wir Kunden dabei, ihre WordPress-Setups professionell aufzustellen – von der Plugins-Auswahl über Staging-Konzepte bis hin zur Nutzung moderner Entwicklungs-Werkzeuge wie Playground für sichere, effiziente Wartungsarbeiten.
+Als WordPress Spezialisten Frankfurt unterstützen wir Kunden dabei, ihre WordPress-Setups professionell aufzustellen – von der Plugins-Auswahl über Staging-Konzepte bis hin zur Nutzung moderner Entwicklungs-Werkzeuge wie Playground für sichere, effiziente Wartungsarbeiten.
 
 ## Quellen
 

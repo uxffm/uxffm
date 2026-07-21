@@ -59,7 +59,7 @@ Eine aktuelle Umfrage, die in der Reddit-Community viel diskutiert wird, zeigt: 
 
 ## Frankfurt Marketing Studio: Ihr Partner für WordPress 7.0
 
-Als [WordPress Agentur Frankfurt](/), die ausschließlich mit WordPress und WooCommerce arbeitet, verfolgen wir die Entwicklungen rund um WordPress 7.0 sehr genau. Wir begleiten Unternehmen in Frankfurt und Umgebung beim Update-Prozess, prüfen Plugin-Kompatibilität, optimieren bestehende Installationen und beraten zu sinnvollen KI-Integrationen – abgestimmt auf Ihre Marke und Ihre Zielgruppe.
+Als WordPress Agentur Frankfurt, die ausschließlich mit WordPress und WooCommerce arbeitet, verfolgen wir die Entwicklungen rund um WordPress 7.0 sehr genau. Wir begleiten Unternehmen in Frankfurt und Umgebung beim Update-Prozess, prüfen Plugin-Kompatibilität, optimieren bestehende Installationen und beraten zu sinnvollen KI-Integrationen – abgestimmt auf Ihre Marke und Ihre Zielgruppe.
 
 Wenn Sie Fragen zu WordPress 7.0 oder dem Einsatz von KI auf Ihrer Website haben, sprechen Sie uns gerne an.
 

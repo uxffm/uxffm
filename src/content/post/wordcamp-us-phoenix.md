@@ -61,7 +61,7 @@ Man muss nicht persönlich nach Phoenix reisen, um vom WordCamp US zu profitiere
 
 Wer die Reise nach Arizona scheut, findet in Europa ebenfalls starke Community-Events. WordCamp Europe ist das direkte Pendant zum WCUS — mit ähnlichem Format, aber stärkerem Fokus auf europäische Rechts- und Datenschutzfragen. Auch auf regionaler Ebene gibt es WordCamps in Deutschland und dem deutschsprachigen Raum, die durch geringere Reisekosten punkten.
 
-Für Frankfurter Unternehmen gilt: Ob WCUS, WordCamp Europe oder ein lokales Meetup — der Kontakt zur WordPress-Community zahlt sich aus. Wer seinen WordPress-Auftritt ernsthaft optimieren will und dabei professionelle Unterstützung sucht, ist bei den [WordPress Spezialisten Frankfurt](/) von Frankfurt Marketing Studio an der richtigen Adresse. Wir beobachten diese Entwicklungen kontinuierlich und übersetzen Community-Wissen in handfeste Empfehlungen für unsere Kunden.
+Für Frankfurter Unternehmen gilt: Ob WCUS, WordCamp Europe oder ein lokales Meetup — der Kontakt zur WordPress-Community zahlt sich aus. Wer seinen WordPress-Auftritt ernsthaft optimieren will und dabei professionelle Unterstützung sucht, ist bei Frankfurt Marketing Studio an der richtigen Adresse. Wir beobachten diese Entwicklungen kontinuierlich und übersetzen Community-Wissen in handfeste Empfehlungen für unsere Kunden.
 
 ## Was bleibt
 

@@ -98,7 +98,7 @@ Die Einführung des MCP Adapters ist mehr als ein technisches Feature – sie ma
 
 Für kleine Unternehmen und Agenturen bedeutet das: Aufgaben, die bisher feste Entwicklerstunden erforderten, werden zunehmend durch KI delegierbar – vorausgesetzt, die WordPress-Installation ist korrekt konfiguriert und abgesichert.
 
-Die [Frankfurt Marketing Studio WordPress Agentur Frankfurt am Main](/) begleitet Kunden beim Aufbau zukunftsfähiger WordPress-Infrastrukturen – von der MCP-Einrichtung über Plugin-Entwicklung bis hin zu sicheren, wartbaren Setups, die mit dem wachsenden KI-Ökosystem kompatibel sind.
+Die Frankfurt Marketing Studio begleitet Kunden beim Aufbau zukunftsfähiger WordPress-Infrastrukturen – von der MCP-Einrichtung über Plugin-Entwicklung bis hin zu sicheren, wartbaren Setups, die mit dem wachsenden KI-Ökosystem kompatibel sind.
 
 ## Quellen
 

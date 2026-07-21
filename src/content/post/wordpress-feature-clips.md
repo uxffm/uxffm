@@ -70,7 +70,7 @@ Das zeigt, wohin die Reise geht: WordPress entwickelt sich von einem reinen Cont
 
 ## Für Frankfurt Marketing Studio: Wie wir diesen Trend begleiten
 
-Als [WordPress-Experten aus Frankfurt](/) beobachten wir diese Entwicklungen sehr genau. Für unsere Kunden aus Frankfurt und der Rhein-Main-Region bedeutet die wachsende Verzahnung von WordPress und sozialen Medien konkrete Möglichkeiten: Wer bereits eine gut gepflegte WordPress-Website mit regelmäßigen Blogbeiträgen betreibt, hat das inhaltliche Fundament bereits gelegt — Feature Clips und ähnliche Funktionen helfen, diesen Content effizient auf weiteren Kanälen zu nutzen.
+Als WordPress-Experten aus Frankfurt beobachten wir diese Entwicklungen sehr genau. Für unsere Kunden aus Frankfurt und der Rhein-Main-Region bedeutet die wachsende Verzahnung von WordPress und sozialen Medien konkrete Möglichkeiten: Wer bereits eine gut gepflegte WordPress-Website mit regelmäßigen Blogbeiträgen betreibt, hat das inhaltliche Fundament bereits gelegt — Feature Clips und ähnliche Funktionen helfen, diesen Content effizient auf weiteren Kanälen zu nutzen.
 
 Wenn Sie mehr darüber erfahren möchten, wie Sie Ihre WordPress-Website fit für Social Media machen und welche Funktionen und Plugins aktuell wirklich Mehrwert bieten, sprechen Sie uns an. Wir unterstützen Sie dabei, WordPress nicht nur als Website, sondern als vollständiges digitales Kommunikationswerkzeug einzusetzen.
 

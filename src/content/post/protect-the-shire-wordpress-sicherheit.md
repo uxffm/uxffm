@@ -76,7 +76,7 @@ Als Betreiber einer WordPress-Website müssen Sie für „Protect The Shire" sel
 
 Für kleinen und mittelständische Unternehmen, die WordPress als Fundament ihrer Online-Präsenz nutzen, bedeutet das: Die Plattform investiert aktiv in ihre Sicherheit. Das macht WordPress nicht nur im Vergleich zu anderen CMS-Systemen, sondern auch im Kontext der wachsenden regulatorischen Anforderungen zu einer soliden Wahl.
 
-Als [WordPress-Agentur aus Frankfurt](/) helfen wir Unternehmen dabei, ihre WordPress-Installationen sicher, aktuell und performant zu betreiben — von der initialen Einrichtung über regelmäßige Sicherheits-Audits bis zur schnellen Reaktion im Ernstfall. Wenn Sie Fragen zur „Protect The Shire"-Initiative haben oder wissen möchten, wie gut Ihre aktuelle WordPress-Sicherheitsstrategie aufgestellt ist, sprechen Sie uns gerne an.
+Als WordPress-Agentur aus Frankfurt helfen wir Unternehmen dabei, ihre WordPress-Installationen sicher, aktuell und performant zu betreiben — von der initialen Einrichtung über regelmäßige Sicherheits-Audits bis zur schnellen Reaktion im Ernstfall. Wenn Sie Fragen zur „Protect The Shire"-Initiative haben oder wissen möchten, wie gut Ihre aktuelle WordPress-Sicherheitsstrategie aufgestellt ist, sprechen Sie uns gerne an.
 
 ## Quellen
 

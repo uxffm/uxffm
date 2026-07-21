@@ -89,7 +89,7 @@ Aus diesem Vorfall lassen sich konkrete Lehren für die eigene WordPress-Sicherh
 
 Der OptinMonster-CDN-Angriff zeigt: Vertrauen in einen Plugin-Anbieter reicht nicht aus, um dauerhaft sicher zu sein. Selbst etablierte und weitverbreitete Plugins können zum Einfallstor werden — wenn auch nicht durch eigene Fehler, sondern durch Schwachstellen in der Infrastruktur dahinter.
 
-Als [WordPress-Agentur aus Frankfurt](/) helfen wir kleinen und mittelständischen Unternehmen dabei, ihre WordPress-Websites sicher, aktuell und zuverlässig zu betreiben — mit regelmäßigen Sicherheits-Audits, durchdachten Backup-Strategien und einer schnellen Reaktion bei Sicherheitsvorfällen. Wenn Sie unsicher sind, ob Ihre Website von diesem Angriff betroffen ist, oder wenn Sie Ihre WordPress-Sicherheit grundlegend auf ein professionelles Niveau heben möchten, sprechen Sie uns an.
+Als WordPress-Agentur aus Frankfurt helfen wir kleinen und mittelständischen Unternehmen dabei, ihre WordPress-Websites sicher, aktuell und zuverlässig zu betreiben — mit regelmäßigen Sicherheits-Audits, durchdachten Backup-Strategien und einer schnellen Reaktion bei Sicherheitsvorfällen. Wenn Sie unsicher sind, ob Ihre Website von diesem Angriff betroffen ist, oder wenn Sie Ihre WordPress-Sicherheit grundlegend auf ein professionelles Niveau heben möchten, sprechen Sie uns an.
 
 ## Quellen
 

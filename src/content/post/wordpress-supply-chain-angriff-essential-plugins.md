@@ -79,7 +79,7 @@ WordPress.org hat nach diesem Vorfall angekündigt, die Überprüfung von Eigent
 
 Der Essential-Plugin-Angriff ist ein Lehrstück darüber, dass im digitalen Bereich Vertrauen kein statisches Gut ist. Ein Plugin, dem Sie fünf Jahre lang zu Recht vertraut haben, kann nach einem Eigentümerwechsel binnen Monaten zur Waffe gegen Ihre eigene Website werden.
 
-Für kleine Unternehmen und Selbstständige, die keine eigene IT-Abteilung haben, ist es schwer, all diese Entwicklungen im Blick zu behalten. Als [WordPress-Agentur Frankfurt am Main](/) unterstützen wir Unternehmen dabei, ihre WordPress-Websites nicht nur technisch sauber aufzusetzen, sondern auch langfristig sicher zu betreiben – von regelmäßigen Plugin-Audits bis zur Einrichtung von Monitoring-Systemen, die solche Angriffe frühzeitig sichtbar machen.
+Für kleine Unternehmen und Selbstständige, die keine eigene IT-Abteilung haben, ist es schwer, all diese Entwicklungen im Blick zu behalten. Als WordPress-Agentur Frankfurt am Main unterstützen wir Unternehmen dabei, ihre WordPress-Websites nicht nur technisch sauber aufzusetzen, sondern auch langfristig sicher zu betreiben – von regelmäßigen Plugin-Audits bis zur Einrichtung von Monitoring-Systemen, die solche Angriffe frühzeitig sichtbar machen.
 
 ## Quellen
 

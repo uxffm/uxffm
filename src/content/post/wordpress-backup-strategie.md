@@ -97,7 +97,7 @@ Wer in Deutschland einen Online-Shop betreibt, sollte Backup-Ziele sorgfältig w
 
 Manchmal reicht auch das beste Backup nicht aus: wenn ein Server kompromittiert wurde und die Angreifer Malware in Backup-Dateien eingeschleust haben, wenn die Wiederherstellung aus technischen Gründen scheitert oder wenn ein komplexes Serverumfeld die manuelle Wiederherstellung erschwert.
 
-Als [WordPress-Agentur aus Frankfurt](/) helfen wir Unternehmen nicht nur bei der Einrichtung professioneller Backup-Lösungen, sondern auch bei der schnellen Reaktion auf Sicherheitsvorfälle – von der Schadensanalyse über die Malware-Bereinigung bis zur vollständigen Wiederherstellung. Kontaktieren Sie uns, bevor es zur Notfallsituation kommt.
+Als WordPress-Agentur aus Frankfurt helfen wir Unternehmen nicht nur bei der Einrichtung professioneller Backup-Lösungen, sondern auch bei der schnellen Reaktion auf Sicherheitsvorfälle – von der Schadensanalyse über die Malware-Bereinigung bis zur vollständigen Wiederherstellung. Kontaktieren Sie uns, bevor es zur Notfallsituation kommt.
 
 ## Fazit: Backups sind kein „Nice-to-have"
 

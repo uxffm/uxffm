@@ -71,7 +71,7 @@ Ein großes WordPress-Update sollte nie unvorbereitet eingespielt werden — bes
 
 Das WordPress 7.0 Admin-Redesign ist mehr als ein Facelift. DataViews modernisiert die tägliche Arbeit im Backend grundlegend, das neue Design-System bringt längst überfällige Konsistenz, und der überarbeitete Revisions-Vergleich macht redaktionelle Workflows effizienter. Gleichzeitig erfordert das Update sorgfältige Vorbereitung — vor allem wegen der Kompatibilitätsprobleme bei Plugins, die auf das alte WP_List_Table-System gesetzt haben.
 
-Wenn Sie Unterstützung beim Update benötigen, Ihre Plugins auf Kompatibilität prüfen lassen möchten oder sich unsicher sind, ob Ihre Website bereit für WordPress 7.0 ist, hilft Ihnen die [Frankfurter WordPress Agentur](/) Frankfurt Marketing Studio gerne weiter. Wir begleiten Websites durch jedes WordPress-Update — von der Prüfung bis zum erfolgreichen Go-live.
+Wenn Sie Unterstützung beim Update benötigen, Ihre Plugins auf Kompatibilität prüfen lassen möchten oder sich unsicher sind, ob Ihre Website bereit für WordPress 7.0 ist, hilft Ihnen Frankfurt Marketing Studio gerne weiter. Wir begleiten Websites durch jedes WordPress-Update — von der Prüfung bis zum erfolgreichen Go-live.
 
 ## Quellen
 

@@ -69,7 +69,7 @@ Empfehlenswert sind besonders die KI-Sessions und das WordPress-7.0-Panel – be
 
 Die Kombination aus einem frischen Major Release und dem größten Community-Event Europas macht den Juni 2026 zu einem wichtigen Monat für die WordPress-Welt. Die KI-Integration schreitet rasant voran, die Community arbeitet an offenen Fragen offen und öffentlich, und das Programm in Kraków zeigt, wie lebendig das WordPress-Ökosystem trotz aller Herausforderungen ist.
 
-Als [WordPress-Agentur aus Frankfurt](/) beobachten wir diese Entwicklungen genau und helfen unseren Kunden dabei, die richtigen Schlüsse zu ziehen – ob beim Update auf WordPress 7.0, bei der strategischen Integration von KI-Diensten oder beim Einsatz neuer Core-Features für konkrete Geschäftsziele.
+Als WordPress-Agentur aus Frankfurt beobachten wir diese Entwicklungen genau und helfen unseren Kunden dabei, die richtigen Schlüsse zu ziehen – ob beim Update auf WordPress 7.0, bei der strategischen Integration von KI-Diensten oder beim Einsatz neuer Core-Features für konkrete Geschäftsziele.
 
 ## Quellen
 

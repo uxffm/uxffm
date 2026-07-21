@@ -69,7 +69,7 @@ Für Websitebetreiber bedeutet das: Nach 7.0.1 steht mit 7.1 eine deutlich anspr
 
 WordPress 7.0.1 ist das, was es sein soll: ein leises, stabiles Bugfix-Update, das die raueren Kanten des Mai-Releases abschleift. Es ist kein Grund zur Panik, aber auch kein Grund zum Hinausschieben. Planen Sie das Update für die Woche nach dem 9. Juli ein – mit Backup, idealerweise nach einem kurzen Staging-Test.
 
-Wenn Sie unsicher sind, welche Auswirkungen 7.0.1 auf Ihre spezifische WordPress-Umgebung hat, oder wenn Sie jemanden brauchen, der das Update professionell begleitet: Die [WordPress-Agentur aus Frankfurt](/) – Frankfurt Marketing Studio – übernimmt solche Wartungsaufgaben im Rahmen eines laufenden Betreuungsvertrags.
+Wenn Sie unsicher sind, welche Auswirkungen 7.0.1 auf Ihre spezifische WordPress-Umgebung hat, oder wenn Sie jemanden brauchen, der das Update professionell begleitet: Die WordPress-Agentur aus Frankfurt – Frankfurt Marketing Studio – übernimmt solche Wartungsaufgaben im Rahmen eines laufenden Betreuungsvertrags.
 
 ## Quellen
 

@@ -96,7 +96,7 @@ WordPress 7.0 ist ein ehrgeiziges Release, das die Plattform in eine neue Ära f
 
 Die wichtigste Botschaft: Wenn Sie KI-API-Schlüssel in WordPress hinterlegen, behandeln Sie diese wie Zahlungsdaten. Setzen Sie Ausgabenlimits, verwenden Sie dedizierte Schlüssel, sichern Sie Ihr Dashboard konsequent ab – und bleiben Sie informiert.
 
-Als [Frankfurt WordPress Agentur](/) unterstützen wir Unternehmen aus Frankfurt und der Rhein-Main-Region bei genau diesen Fragen: von der sicheren Konfiguration von WordPress 7.0 über die Auswahl und Härtung von KI-Plugins bis hin zu vollständigen Security-Audits. Sprechen Sie uns an, wenn Sie Ihre WordPress-Installation fit für die KI-Ära machen wollen.
+Als Frankfurt WordPress Agentur unterstützen wir Unternehmen aus Frankfurt und der Rhein-Main-Region bei genau diesen Fragen: von der sicheren Konfiguration von WordPress 7.0 über die Auswahl und Härtung von KI-Plugins bis hin zu vollständigen Security-Audits. Sprechen Sie uns an, wenn Sie Ihre WordPress-Installation fit für die KI-Ära machen wollen.
 
 ## Quellen
 

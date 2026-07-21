@@ -81,7 +81,7 @@ Das kurzfristige Zurückrollen von React 19 in Gutenberg 23.3.2 zeigt, dass das 
 
 Gleichzeitig macht diese Entwicklung deutlich: Wer WordPress professionell einsetzt, kommt an regelmäßigen technischen Audits nicht vorbei. Ein Plugin-Ökosystem, das nicht gepflegt wird, kann beim nächsten Major-Release zur Schwachstelle werden.
 
-Wenn Sie ein WordPress-Projekt professionell betreiben und sicherstellen möchten, dass Ihre Site durch diese Architekturveränderungen nicht beeinträchtigt wird, sind die [WordPress-Experten aus Frankfurt](/) der richtige Ansprechpartner. Frankfurt Marketing Studio begleitet Unternehmen bei WordPress-Upgrades, Plugin-Audits und der technischen Absicherung Ihrer Online-Präsenz — damit Ihre Website auch nach dem 7.1-Release stabil und performant bleibt.
+Wenn Sie ein WordPress-Projekt professionell betreiben und sicherstellen möchten, dass Ihre Site durch diese Architekturveränderungen nicht beeinträchtigt wird, sind die WordPress-Experten aus Frankfurt der richtige Ansprechpartner. Frankfurt Marketing Studio begleitet Unternehmen bei WordPress-Upgrades, Plugin-Audits und der technischen Absicherung Ihrer Online-Präsenz — damit Ihre Website auch nach dem 7.1-Release stabil und performant bleibt.
 
 ## Quellen
 

@@ -72,7 +72,7 @@ Wenn Sie regelmäßig Bilder hochladen – Produktfotos, Event-Fotos, Immobilien
 
 Für Ihre Server-Infrastruktur bedeutet die neue Pipeline eine Entlastung der CPU: Thumbnail-Generierung, die bislang PHP und Imagick beschäftigt hat, verlagert sich zum Client. Auf Shared-Hosting-Paketen mit CPU-Limits kann das einen merklichen Unterschied machen.
 
-Wenn Sie eine [WordPress Agentur in Frankfurt](/) suchen, die Ihre Website professionell betreut, lohnt es sich, WordPress 7.1 mit einem strukturierten Testplan einzuführen: Staging-Umgebung aufsetzen, Gutenberg-Plugin aktualisieren, kritische Upload-Flows durchspielen – und erst dann in Produktion gehen.
+Wenn Sie eine WordPress Agentur in Frankfurt suchen, die Ihre Website professionell betreut, lohnt es sich, WordPress 7.1 mit einem strukturierten Testplan einzuführen: Staging-Umgebung aufsetzen, Gutenberg-Plugin aktualisieren, kritische Upload-Flows durchspielen – und erst dann in Produktion gehen.
 
 ## Fazit
 

@@ -216,5 +216,5 @@ Die beste Alternative zur SEO Manipulation nennt sich White-Hat SEO. Also mit Go
 
 ## Hilfreiche Links
 
- * [Hilfe mit Ihrer WordPress Webseite (Mein Service)](/)
+ * Hilfe mit Ihrer WordPress Webseite
 

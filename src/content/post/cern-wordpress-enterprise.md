@@ -67,7 +67,7 @@ Wichtig ist dabei:
 - **Teams einzubinden** – die besten technischen Lösungen scheitern, wenn die Redaktion nicht mitgemacht hat
 - **Sicherheits- und Zugriffskonzepte von Anfang an mitzudenken** – gerade bei großen Institutionen und Unternehmen
 
-Für Frankfurter Unternehmen, die einen Website-Relaunch planen oder von einem anderen CMS wechseln möchten, sind diese Lektionen unmittelbar anwendbar. Als [WordPress-Experten aus Frankfurt](/) unterstützen wir Sie bei der strategischen Planung, technischen Umsetzung und dem laufenden Betrieb Ihrer WordPress-Website – von der ersten Konzeption bis zur fertigen Migration.
+Für Frankfurter Unternehmen, die einen Website-Relaunch planen oder von einem anderen CMS wechseln möchten, sind diese Lektionen unmittelbar anwendbar. Als WordPress-Experten aus Frankfurt unterstützen wir Sie bei der strategischen Planung, technischen Umsetzung und dem laufenden Betrieb Ihrer WordPress-Website – von der ersten Konzeption bis zur fertigen Migration.
 
 ## Fazit: WordPress und Wissenschaft
 

@@ -82,7 +82,7 @@ Der CRA kommt zu einem Zeitpunkt, an dem die WordPress-Sicherheitslandschaft ohn
 
 Für Website-Betreiber bedeutet das: Die Auswahl vertrauenswürdiger Plugins wird noch wichtiger. Plugins von Entwicklern, die den CRA erfüllen und professionelle Sicherheitsprozesse nachweisen können, werden einen Wettbewerbsvorteil haben. Umgekehrt werden Plugins ohne VDP und mit intransparenten Update-Praktiken zunehmend als Risiko wahrgenommen.
 
-Als [WordPress Agentur Frankfurt am Main](/) beobachten wir diese Entwicklungen genau und berücksichtigen sie bei der Plugin-Auswahl für unsere Kundenprojekte.
+Als WordPress Agentur Frankfurt am Main beobachten wir diese Entwicklungen genau und berücksichtigen sie bei der Plugin-Auswahl für unsere Kundenprojekte.
 
 ## Was der CRA für Website-Betreiber bedeutet
 

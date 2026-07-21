@@ -85,7 +85,7 @@ Mit WordPress 7.0 am Horizont ist zu erwarten, dass die KI-Integration tiefer in
 
 WordPress 6.9 hat eindrucksvoll gezeigt, was passiert, wenn ein Major Release ohne ausreichende Vorbereitung eingespielt wird. WooCommerce, Yoast und Elementor waren innerhalb von zwei Wochen gepatcht – aber für Shop-Betreiber, die in der Zwischenzeit Umsatz verloren haben, war das wenig hilfreich.
 
-Die gute Nachricht: Mit der richtigen Update-Strategie – Staging, Kompatibilitätsprüfung, manuelle Freigabe – sind solche Situationen vermeidbar. Als [Frankfurt WordPress Agentur](/) unterstützen wir Unternehmen dabei, genau diese Prozesse einzurichten: von der Staging-Konfiguration über Plugin-Audits bis zum kontrollierten Update-Management, das Ihre Website auch bei großen WordPress-Releases stabil hält.
+Die gute Nachricht: Mit der richtigen Update-Strategie – Staging, Kompatibilitätsprüfung, manuelle Freigabe – sind solche Situationen vermeidbar. Als Frankfurt WordPress Agentur unterstützen wir Unternehmen dabei, genau diese Prozesse einzurichten: von der Staging-Konfiguration über Plugin-Audits bis zum kontrollierten Update-Management, das Ihre Website auch bei großen WordPress-Releases stabil hält.
 
 ## Quellen
 

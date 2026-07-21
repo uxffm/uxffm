@@ -67,7 +67,7 @@ Dieser Fall ist lehrreich, weil er zeigt, wie moderne WordPress-Angriffe konstru
 
 Das bedeutet: Wer seine WordPress-Site als „sicher genug" betrachtet, weil er ein Security-Plugin installiert hat, unterschätzt das Problem. Echte Sicherheit ist ein Prozess, keine Einmalmaßnahme. Er umfasst regelmäßige Updates, minimale Nutzerrechte nach dem Least-Privilege-Prinzip, kritisches Lesen von E-Mails, die Dringlichkeit signalisieren, und die Bereitschaft, nach einem Vorfall strukturiert zu reagieren.
 
-Als [WordPress-Experten aus Frankfurt](/) helfen wir kleinen und mittelständischen Unternehmen dabei, ihre WordPress-Installationen dauerhaft sicher zu halten – von der initialen Härtung über Zugriffskontrollen bis zum laufenden Plugin-Monitoring. Wenn Sie unsicher sind, ob Ihre Website betroffen ist oder Unterstützung bei der Absicherung benötigen, sprechen Sie uns gerne an.
+Als WordPress-Experten aus Frankfurt helfen wir kleinen und mittelständischen Unternehmen dabei, ihre WordPress-Installationen dauerhaft sicher zu halten – von der initialen Härtung über Zugriffskontrollen bis zum laufenden Plugin-Monitoring. Wenn Sie unsicher sind, ob Ihre Website betroffen ist oder Unterstützung bei der Absicherung benötigen, sprechen Sie uns gerne an.
 
 ## Quellen
 

@@ -177,7 +177,7 @@ Sicherheitslücken werden regelmäßig entdeckt. Folgen Sie relevanten Quellen w
 
 Die wichtigsten Sicherheitsmaßnahmen für eine neue WordPress-Website lassen sich auf wenige Kernpunkte reduzieren: gutes Hosting, starke Zugangsdaten mit 2FA, konsequente Updates, ein solides Sicherheits-Plugin und regelmäßige Backups. Wer diese Grundlagen von Anfang an beherzigt, hat bereits 95 Prozent der üblichen Angriffsvektoren abgedeckt.
 
-Für viele Unternehmen ist die technische Umsetzung dennoch eine Herausforderung – sei es aus Zeitmangel oder fehlendem Know-how. Als [WordPress Agentur in Frankfurt](/) unterstützt Frankfurt Marketing Studio Sie gerne bei der Absicherung Ihrer Website. Von der initialen Einrichtung über regelmäßige Wartung bis zur Notfall-Hilfe bei gehackten Seiten: Wir sorgen dafür, dass Sie sich auf Ihr Kerngeschäft konzentrieren können, während Ihre Website sicher läuft.
+Für viele Unternehmen ist die technische Umsetzung dennoch eine Herausforderung – sei es aus Zeitmangel oder fehlendem Know-how. Als WordPress Agentur in Frankfurt unterstützt Frankfurt Marketing Studio Sie gerne bei der Absicherung Ihrer Website. Von der initialen Einrichtung über regelmäßige Wartung bis zur Notfall-Hilfe bei gehackten Seiten: Wir sorgen dafür, dass Sie sich auf Ihr Kerngeschäft konzentrieren können, während Ihre Website sicher läuft.
 
 ## Quellen
 

@@ -99,7 +99,7 @@ Wer bereits mit Yoast SEO arbeitet und zu Rank Math wechseln möchte, sollte den
 
 Beide Plugins bieten Import-Assistenten für den jeweiligen Gegenspieler. Nutzen Sie diese und testen Sie den Wechsel zuerst in einer Staging-Umgebung. Prüfen Sie nach dem Wechsel in der Google Search Console, ob strukturierte Daten korrekt übernommen wurden, und lassen Sie das Rich-Results-Testwerkzeug von Google über Ihre wichtigsten Seiten laufen.
 
-Für neue WordPress-Projekte empfehlen wir als [Frankfurter WordPress Agentur](/) in der Regel Rank Math – wegen des besseren Kosten-Leistungs-Verhältnisses, der tieferen Schema-Unterstützung und der übersichtlicheren Darstellung von Search Console-Daten direkt im Editor. Für Content-getriebene Projekte mit großen Redaktionsteams ohne technischen Hintergrund bleibt Yoast die erste Wahl.
+Für neue WordPress-Projekte empfehlen wir als Frankfurter WordPress Agentur in der Regel Rank Math – wegen des besseren Kosten-Leistungs-Verhältnisses, der tieferen Schema-Unterstützung und der übersichtlicheren Darstellung von Search Console-Daten direkt im Editor. Für Content-getriebene Projekte mit großen Redaktionsteams ohne technischen Hintergrund bleibt Yoast die erste Wahl.
 
 Wenn Sie sich nicht sicher sind, welches Plugin zu Ihrer spezifischen Situation passt, oder wenn Sie einen sicheren Wechsel ohne Datenverlust planen möchten, steht das Team von Frankfurt Marketing Studio gerne für ein unverbindliches Gespräch zur Verfügung.
 

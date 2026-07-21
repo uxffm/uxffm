@@ -106,7 +106,7 @@ Die Alternative ist, jetzt in sieben Wochen zu investieren – nicht sieben Tage
 
 React 19 kommt mit WordPress 7.1, und das ist gut so: Das Upgrade bringt echte Performance-Verbesserungen und moderne APIs für zukünftige Gutenberg-Features. Der Juni-Incident war ein Weckruf, keine strukturelle Absage an das Upgrade. Das Core-Team hat mit dem Gutenberg-23.4-Flag die richtige Infrastruktur für einen geordneten Übergang geschaffen – jetzt liegt es an Entwicklern und Betreibern, diese Gelegenheit zu nutzen.
 
-Wenn Sie Unterstützung beim Plugin-Audit, bei der Staging-Einrichtung oder bei der Vorbereitung Ihrer Website auf WordPress 7.1 benötigen, helfen Ihnen die [WordPress-Experten aus Frankfurt](/) von Frankfurt Marketing Studio gerne weiter.
+Wenn Sie Unterstützung beim Plugin-Audit, bei der Staging-Einrichtung oder bei der Vorbereitung Ihrer Website auf WordPress 7.1 benötigen, hilft Ihnen Frankfurt Marketing Studio gerne weiter.
 
 ## Quellen
 

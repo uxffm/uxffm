@@ -74,7 +74,7 @@ Für Unternehmenswebsites ist das ein erheblicher Sicherheits- und Verwaltungsvo
 
 Die Entscheidung, Echtzeit-Kollaboration aus WordPress 7.0 zu entfernen, war richtig. Ein halbfertiges Feature, das auf Millionen von Sites Instabilitäten verursacht, wäre deutlich schädlicher gewesen als eine transparente Verschiebung. Der klare Kommunikationsweg des Core-Teams – mit öffentlicher Erklärung und konkretem Ausblick auf WordPress 7.1 – zeigt, wie professionell das Projekt heute geführt wird.
 
-Wenn Sie Fragen zur Migration auf WordPress 7.0 haben, zur KI-Integration auf Ihrer Website oder zur Vorbereitung auf die Kollaborationsfunktionen in 7.1, helfen wir Ihnen gerne weiter. Als [WordPress Agentur Frankfurt am Main](/) kennen wir die technischen Details und unterstützen Sie dabei, das Beste aus jedem WordPress-Update herauszuholen.
+Wenn Sie Fragen zur Migration auf WordPress 7.0 haben, zur KI-Integration auf Ihrer Website oder zur Vorbereitung auf die Kollaborationsfunktionen in 7.1, helfen wir Ihnen gerne weiter. Als WordPress Agentur Frankfurt am Main kennen wir die technischen Details und unterstützen Sie dabei, das Beste aus jedem WordPress-Update herauszuholen.
 
 ## Quellen
 

@@ -83,7 +83,7 @@ Bei der Performance lohnt sich ein Blick auf die Server-Anforderungen: Die Echtz
 
 WordPress 7.0 ist kein inkrementelles Update, sondern ein Plattform-Sprung. Die Integration von Echtzeit-Kollaboration und KI-Infrastruktur direkt in den Core verändert, wie Teams mit WordPress arbeiten werden. Gleichzeitig steigen die Anforderungen an Setup, Kompatibilitätsprüfung und laufende Pflege.
 
-Als [WordPress Agentur in Frankfurt](/) unterstützen wir Unternehmen dabei, das Update sicher einzuspielen, Kompatibilitätsprobleme zu lösen und die neuen Kollaborations- und KI-Funktionen sinnvoll in bestehende Workflows zu integrieren. Sprechen Sie uns an, wenn Sie Unterstützung beim Umstieg auf WordPress 7.0 benötigen.
+Als WordPress Agentur in Frankfurt unterstützen wir Unternehmen dabei, das Update sicher einzuspielen, Kompatibilitätsprobleme zu lösen und die neuen Kollaborations- und KI-Funktionen sinnvoll in bestehende Workflows zu integrieren. Sprechen Sie uns an, wenn Sie Unterstützung beim Umstieg auf WordPress 7.0 benötigen.
 
 ## Quellen
 

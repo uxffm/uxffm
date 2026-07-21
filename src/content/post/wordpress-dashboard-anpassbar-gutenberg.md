@@ -67,7 +67,7 @@ Für den regulären Rollout über WordPress 7.1 ist es sinnvoll, frühzeitig zu 
 
 Das neue Dashboard ist ein klares Signal, dass der Gutenberg-Ansatz – Block-basiert, flexibel, für alle Bereiche des Admin – in WordPress 7.1 konsequent weitergeführt wird. Für Website-Betreiber, die ihren Redaktionsprozess effizienter gestalten möchten, lohnt sich ein frühzeitiger Blick auf das Feature.
 
-Als [WordPress-Agentur Frankfurt am Main](/) begleiten wir Sie bei der Evaluierung und Einführung neuer WordPress-Features – von der Kompatibilitätsprüfung Ihrer bestehenden Plugins bis zur Einrichtung maßgeschneiderter Dashboard-Layouts für Ihr Team.
+Als WordPress-Agentur Frankfurt am Main begleiten wir Sie bei der Evaluierung und Einführung neuer WordPress-Features – von der Kompatibilitätsprüfung Ihrer bestehenden Plugins bis zur Einrichtung maßgeschneiderter Dashboard-Layouts für Ihr Team.
 
 ## Quellen
 

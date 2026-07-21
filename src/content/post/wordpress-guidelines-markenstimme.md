@@ -86,7 +86,7 @@ Mit Beta 1 am 15. Juli 2026 beginnt die offizielle Testphase für WordPress 7.1.
 
 Die Guidelines-Funktion ist ein kleines Feature mit potenziell großer Wirkung. Sie löst ein fundamentales Problem der KI-gestützten Inhaltserstellung: die fehlende Kontextbindung. Statt generischer Ausgaben, die mühsam nachbearbeitet werden müssen, entsteht von Anfang an Inhalt, der zur eigenen Marke passt.
 
-Für Unternehmen in Frankfurt und Umgebung, die WordPress für ihre Online-Präsenz nutzen, öffnet das neue Möglichkeiten – von konsistenterem Content-Marketing bis zur effizienteren Zusammenarbeit in größeren Redaktionsteams. Als [WordPress-Agentur aus Frankfurt](/) unterstützen wir Sie bei der strategischen Vorbereitung auf WordPress 7.1: von der Konzeption sinnvoller Guidelines über die Einrichtung einer sicheren Testumgebung bis zur reibungslosen Umsetzung des Updates auf Ihrer Live-Website. Sprechen Sie uns an.
+Für Unternehmen in Frankfurt und Umgebung, die WordPress für ihre Online-Präsenz nutzen, öffnet das neue Möglichkeiten – von konsistenterem Content-Marketing bis zur effizienteren Zusammenarbeit in größeren Redaktionsteams. Als WordPress-Agentur aus Frankfurt unterstützen wir Sie bei der strategischen Vorbereitung auf WordPress 7.1: von der Konzeption sinnvoller Guidelines über die Einrichtung einer sicheren Testumgebung bis zur reibungslosen Umsetzung des Updates auf Ihrer Live-Website. Sprechen Sie uns an.
 
 ## Quellen
 

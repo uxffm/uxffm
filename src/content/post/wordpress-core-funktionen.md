@@ -88,7 +88,7 @@ Die Diskussion auf r/wordpress zeigt eine klare Tendenz: Betreiber fahren besser
 
 Eine praktische Checkliste: Vor jeder Plugin-Installation sollte geprüft werden, ob WordPress Core die Funktion inzwischen nativ anbietet. Wenn nein, lohnt ein Blick auf die Plugin-Seite: Wann war das letzte Update? Hat der Entwickler einen aktiven Support-Thread? Gibt es Alternativen mit einer nachgewiesenen Wartungsgeschichte?
 
-Die [WordPress Agentur Frankfurt am Main](/) von Frankfurt Marketing Studio hilft Unternehmen dabei, ihre WordPress-Installationen zu auditieren – überflüssige Plugins zu identifizieren, sichere Alternativen zu finden und Core-Funktionen richtig einzusetzen. Eine schlanke, gut gewartete Installation ist in 2026 die beste Versicherung gegen Sicherheitsvorfälle und Performance-Probleme.
+Frankfurt Marketing Studio hilft Unternehmen dabei, ihre WordPress-Installationen zu auditieren – überflüssige Plugins zu identifizieren, sichere Alternativen zu finden und Core-Funktionen richtig einzusetzen. Eine schlanke, gut gewartete Installation ist in 2026 die beste Versicherung gegen Sicherheitsvorfälle und Performance-Probleme.
 
 ## Quellen
 

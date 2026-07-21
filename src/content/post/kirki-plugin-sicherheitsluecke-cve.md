@@ -101,7 +101,7 @@ Die Kirki-Schwachstelle ist ein mahnendes Beispiel dafür, wie schnell ein belie
 
 CVE-2026-8206 ist eine ernste Bedrohung, die sofortiges Handeln erfordert. Das Update auf Kirki 6.0.7 ist der erste und wichtigste Schritt. Danach sollten Sie Ihre Logs prüfen, Passwörter zurücksetzen und langfristige Sicherheitsmaßnahmen implementieren.
 
-Als [WordPress-Experten aus Frankfurt](/), die täglich mit WordPress-Installationen aller Größenordnungen arbeiten, kennt Frankfurt Marketing Studio die Herausforderungen, die solche Sicherheitslücken für kleine und mittlere Unternehmen bedeuten. Wenn Sie unsicher sind, ob Ihre Website betroffen ist, oder wenn Sie Unterstützung bei der Absicherung Ihrer WordPress-Präsenz benötigen, stehen wir Ihnen gerne zur Seite — mit einem konkreten Sicherheits-Audit, sofortige Schutzmaßnahmen und langfristiger Betreuung.
+Als WordPress-Experten aus Frankfurt, die täglich mit WordPress-Installationen aller Größenordnungen arbeiten, kennt Frankfurt Marketing Studio die Herausforderungen, die solche Sicherheitslücken für kleine und mittlere Unternehmen bedeuten. Wenn Sie unsicher sind, ob Ihre Website betroffen ist, oder wenn Sie Unterstützung bei der Absicherung Ihrer WordPress-Präsenz benötigen, stehen wir Ihnen gerne zur Seite — mit einem konkreten Sicherheits-Audit, sofortige Schutzmaßnahmen und langfristiger Betreuung.
 
 ## Quellen
 

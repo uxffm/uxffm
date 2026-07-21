@@ -59,7 +59,7 @@ Die Flexibilität, die WordPress bietet, ist mit keiner anderen Plattform zu err
 
 Die gesunkenen Marktanteile sind ein Signal, dass sich WordPress weiterentwickeln muss – und das tut es, mit Investitionen in Performance, KI und Developer Experience. Für Unternehmen, die heute auf WordPress setzen und es richtig einsetzen, ändert sich deshalb im Kern nichts.
 
-Als [WordPress-Agentur aus Frankfurt](/) unterstützen wir Unternehmen dabei, WordPress nicht nur einzurichten, sondern optimal zu betreiben: von der Performance-Optimierung über die Sicherheitsabsicherung bis zur strategischen Content-Architektur. Wenn Sie wissen möchten, wie gut Ihre WordPress-Website aufgestellt ist, sprechen Sie uns an.
+Als WordPress-Agentur aus Frankfurt unterstützen wir Unternehmen dabei, WordPress nicht nur einzurichten, sondern optimal zu betreiben: von der Performance-Optimierung über die Sicherheitsabsicherung bis zur strategischen Content-Architektur. Wenn Sie wissen möchten, wie gut Ihre WordPress-Website aufgestellt ist, sprechen Sie uns an.
 
 ## Quellen
 

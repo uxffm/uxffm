@@ -89,7 +89,7 @@ Wer seine WordPress-Website professionell betreibt, kommt heute nicht mehr darum
 
 Fünf Stunden – so viel Zeit bleibt im Median, bevor eine bekannte Schwachstelle aktiv ausgenutzt wird. Das ist weniger als ein halber Arbeitstag. Wer Security-Updates nach dem Prinzip „ich schau nächste Woche drüber" handhabt, hat in der Hälfte der Fälle bereits verloren.
 
-Als [WordPress Agentur Frankfurt am Main](/) unterstützen wir Unternehmen dabei, ihre WordPress-Präsenz nicht nur technisch sauber zu halten, sondern auch dauerhaft abgesichert zu betreiben – mit strukturierten Update-Prozessen, Plugin-Audits und dem richtigen Sicherheits-Stack für die jeweilige Anforderung. Sprechen Sie uns an, wenn Sie Ihre WordPress-Sicherheitsstrategie überprüfen oder professionalisieren möchten.
+Als WordPress Agentur Frankfurt am Main unterstützen wir Unternehmen dabei, ihre WordPress-Präsenz nicht nur technisch sauber zu halten, sondern auch dauerhaft abgesichert zu betreiben – mit strukturierten Update-Prozessen, Plugin-Audits und dem richtigen Sicherheits-Stack für die jeweilige Anforderung. Sprechen Sie uns an, wenn Sie Ihre WordPress-Sicherheitsstrategie überprüfen oder professionalisieren möchten.
 
 ## Quellen
 

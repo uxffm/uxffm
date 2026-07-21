@@ -74,7 +74,7 @@ Einige Hosting-Anbieter haben angekündigt, veraltete PHP-Versionen bis Ende 202
 
 ## Frankfurt Marketing Studio hilft beim PHP-Upgrade
 
-Die PHP-Versionsanhebung in WordPress 7.0 ist technisch lösbar — aber sie erfordert Sorgfalt, die richtigen Werkzeuge und Zeit, die viele Website-Betreiber nicht haben. Als [WordPress Agentur Frankfurt am Main](/) begleiten wir Unternehmen durch genau diesen Prozess: von der Bestandsaufnahme über den Staging-Test bis hin zur sicheren Migration auf PHP 8.x und WordPress 7.0.
+Die PHP-Versionsanhebung in WordPress 7.0 ist technisch lösbar — aber sie erfordert Sorgfalt, die richtigen Werkzeuge und Zeit, die viele Website-Betreiber nicht haben. Als WordPress Agentur Frankfurt am Main begleiten wir Unternehmen durch genau diesen Prozess: von der Bestandsaufnahme über den Staging-Test bis hin zur sicheren Migration auf PHP 8.x und WordPress 7.0.
 
 Wenn Sie nicht sicher sind, auf welcher PHP-Version Ihre Website läuft, oder wenn Sie befürchten, dass ein Update Ihre Plugin-Landschaft destabilisieren könnte — sprechen Sie uns an. Ein kurzes Audit zeigt schnell, wo Sie stehen und was zu tun ist.
 

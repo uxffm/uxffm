@@ -82,7 +82,7 @@ Die KI-Integration in WordPress 7.0 ist kein Marketing-Gimmick — sie ist der G
 - **Zukunftssicherheit**: Wer jetzt auf WordPress 7.0 setzt und die Connector-Infrastruktur korrekt einrichtet, ist für die nächste Generation KI-gestützter Plugins gerüstet.
 - **Weniger Plugin-Abhängigkeiten**: Native Blöcke wie der Lightbox-Slideshow und der Breadcrumbs-Block reduzieren die Abhängigkeit von Drittanbieter-Plugins.
 
-Wenn Sie Ihre WordPress-Website auf Version 7.0 aktualisieren möchten, den neuen KI-Client für Ihr Unternehmen nutzen wollen oder schlicht sicherstellen möchten, dass das Update reibungslos verläuft, steht Ihnen die [WordPress Agentur Frankfurt](/) von Frankfurt Marketing Studio gerne zur Seite.
+Wenn Sie Ihre WordPress-Website auf Version 7.0 aktualisieren möchten, den neuen KI-Client für Ihr Unternehmen nutzen wollen oder schlicht sicherstellen möchten, dass das Update reibungslos verläuft, steht Ihnen Frankfurt Marketing Studio gerne zur Seite.
 
 ## Fazit: WordPress 7.0 ist ein Meilenstein
 

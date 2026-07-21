@@ -61,7 +61,7 @@ Die Diskussion auf Reddit und in der Community ist lebhaft – und die Meinungen
 
 Klar ist: WordPress selbst ist nicht in Gefahr. Das CMS, das Kernteam und die Community sind lebendiger denn je. Aber das Geschäftsmodell rund um kleine Plugin-Shops steht unter Druck – und wer als Website-Betreiber blind auf ein bestimmtes Plugin setzt, sollte die Situation seiner Anbieter im Auge behalten.
 
-Als [WordPress-Agentur aus Frankfurt](/), die täglich mit WordPress-Projekten für Unternehmen in der Rhein-Main-Region arbeitet, kennen wir diese Dynamiken genau. Wir helfen Ihnen, eine stabile, zukunftssichere Plugin-Strategie zu entwickeln – und reagieren schnell, wenn sich im Ökosystem etwas ändert. Sprechen Sie uns gerne an.
+Als WordPress-Agentur aus Frankfurt, die täglich mit WordPress-Projekten für Unternehmen in der Rhein-Main-Region arbeitet, kennen wir diese Dynamiken genau. Wir helfen Ihnen, eine stabile, zukunftssichere Plugin-Strategie zu entwickeln – und reagieren schnell, wenn sich im Ökosystem etwas ändert. Sprechen Sie uns gerne an.
 
 ## Quellen
 

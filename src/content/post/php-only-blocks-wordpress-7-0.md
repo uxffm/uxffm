@@ -103,7 +103,7 @@ PHP-only Blocks sind dabei nur eine von mehreren Neuerungen in 7.0: Das WP AI Cl
 
 ## Frankfurt Marketing Studio hilft bei der Umsetzung
 
-Als [WordPress-Experten aus Frankfurt](/) entwickeln wir maßgeschneiderte Lösungen für Unternehmen in Frankfurt und der Rhein-Main-Region – von Custom-Blocks über Theme-Entwicklung bis hin zur Plugin-Integration und WooCommerce-Projekten. Wenn Sie Fragen zu PHP-only Blocks, zu WordPress 7.0 oder zur Entwicklung individueller Blocklösungen für Ihre Website haben, sprechen Sie uns gerne an.
+Als WordPress-Experten aus Frankfurt entwickeln wir maßgeschneiderte Lösungen für Unternehmen in Frankfurt und der Rhein-Main-Region – von Custom-Blocks über Theme-Entwicklung bis hin zur Plugin-Integration und WooCommerce-Projekten. Wenn Sie Fragen zu PHP-only Blocks, zu WordPress 7.0 oder zur Entwicklung individueller Blocklösungen für Ihre Website haben, sprechen Sie uns gerne an.
 
 ## Quellen
 
