@@ -25,7 +25,7 @@ export const headerData = {
       href: '/blog',
     },
   ],
-  actions: [{ text: 'Kontakt', href: '/kontakt', target: '' }],
+  actions: [{ text: 'Kontakt', href: '/kontakt', target: '', variant: 'primary' }],
 };
 
 export const footerData = {
