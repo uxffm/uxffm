@@ -95,6 +95,11 @@ const {
       ) : (
         <>
           <div class="text-center max-w-5xl mx-auto">
+            {Astro.slots.has('eyebrow') && (
+              <div class="mb-8">
+                <slot name="eyebrow" />
+              </div>
+            )}
             {
               tagline && (
                 <p
