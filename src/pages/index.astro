@@ -22,12 +22,6 @@ const metadata = {
   <!-- Hero Widget ******************* -->
 
 
-  <div class="hero-image-wrapper">
-    <div class="hero-image">
-      <img src="/images/wordpress-webseite-frankfurt.webp" alt="WordPress-Agentur Frankfurt">
-    </div>
-  </div>
-
   <Hero
     actions={[
       {
@@ -286,72 +280,8 @@ const metadata = {
 
 
 <style>
-/* Hero Image Improvements */
-.hero-image-wrapper {
-  position: relative;
-  margin-bottom: 1rem;
-}
-
-.hero-image-wrapper::before {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 450px;
-  height: 450px;
-  background: linear-gradient(135deg, rgba(59, 130, 246, 0.12), rgba(30, 64, 175, 0.08));
-  border-radius: 50%;
-  filter: blur(80px);
-  z-index: -1;
-  animation: pulse 4s ease-in-out infinite;
-}
-
-@keyframes pulse {
-  0%, 100% { opacity: 0.5; transform: translate(-50%, -50%) scale(1); }
-  50% { opacity: 0.8; transform: translate(-50%, -50%) scale(1.1); }
-}
-
-.hero-image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-}
-
-.hero-image img {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  border: 2px solid rgba(59, 130, 246, 0.2);
-  border-radius: 12px;
-}
-
-.hero-image img:hover {
-  transform: scale(1.02);
-  box-shadow: 0 20px 60px rgba(59, 130, 246, 0.25);
-}
-
 .colorful {
   color: rgb(59 130 246);
   font-weight: 700;
-}
-
-@media (max-width: 768px) {
-  .hero-image img {
-    max-width: 100%;
-    height: auto;
-  }
-
-  .hero-image-wrapper::before {
-    width: 300px;
-    height: 300px;
-  }
-}
-
-@media (min-width: 768px) {
-  .hero-image img {
-    width: 100%;
-    max-width: 520px;
-    height: auto;
-  }
 }
 </style>
