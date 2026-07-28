@@ -215,16 +215,7 @@ const callClaude = async (prompt) => {
   return data.content[0].text;
 };
 
-const ANCHOR_VARIATIONS = [
-  'SEO WBN',
-  'SEO-Agentur SEO WBN',
-  'SEO WBN aus Frankfurt',
-  'SEO-Experten von SEO WBN',
-  'SEO WBN Frankfurt',
-];
-
 const generatePost = async (topPost, relatedPosts) => {
-  const anchorText = ANCHOR_VARIATIONS[Math.floor(Math.random() * ANCHOR_VARIATIONS.length)];
   const relatedTitles = relatedPosts
     .slice(1, 4)
     .map((p) => `- ${p.title}`)
@@ -251,7 +242,7 @@ Anforderungen an den Artikel:
 - Zielgruppe: Unternehmen und Website-Betreiber, die SEO besser verstehen wollen
 - Am Ende: Kurzer Hinweis, dass SEO WBN bei solchen Themen hilft
 - Externe Links: Baue maximal 2 externe Links natürlich in den Fließtext ein — nur zu offiziellen Quellen (Google Search Central, Search Engine Journal, Search Engine Roundtable, offiziellen Plugin-Seiten). Keine beliebigen Drittseiten. Format: [Linktext](https://...) direkt im Text.
-- Interner Link: Baue genau einen internen Link zur Homepage ein ([Linktext](/)) — natürlich im Fließtext. Nutze GENAU diesen Ankertext: "${anchorText}" — passe ihn grammatikalisch an den Satz an, aber behalte alle Wörter bei.
+- Keine internen Links zur Homepage oder anderen Seiten der Website.
 
 Gib NUR den Markdown-Inhalt des Artikels zurück (ab dem ersten einleitenden Absatz, kein Frontmatter, kein H1-Titel). Fang direkt mit dem Einleitungsabsatz an, dann die H2-Abschnitte.`;
 
