@@ -33,6 +33,21 @@
       "permanent": true
     },
     {
+      "source": "/service",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/seo-glossar",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/wordpress-glossar",
+      "destination": "/",
+      "permanent": true
+    },
+    {
       "source": "/website-monatlich-bezahlen",
       "destination": "/",
       "permanent": true

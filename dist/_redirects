@@ -17,6 +17,12 @@ https://www.uxffm.com/*    https://frankfurtmarketingstudio.de/:splat    301!
 /wordpress-frankfurt/           /    301!
 /service/wordpress-frankfurt    /    301!
 /service/wordpress-frankfurt/   /    301!
+/service                        /    301!
+/service/                       /    301!
+/seo-glossar                    /    301!
+/seo-glossar/                   /    301!
+/wordpress-glossar              /    301!
+/wordpress-glossar/             /    301!
 /website-monatlich-bezahlen     /    301!
 /website-monatlich-bezahlen/    /    301!
 

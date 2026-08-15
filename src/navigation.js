@@ -8,7 +8,6 @@ export const headerData = {
     },
     {
       text: 'Service',
-      href: getPermalink('/service'),
       links: [
         {
           text: 'SEO Frankfurt',
