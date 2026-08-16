@@ -731,6 +731,13 @@ declare module 'astro:content' {
   collection: "post";
   data: InferEntrySchema<"post">
 } & { render(): Render[".md"] };
+"wordpress-ki-plugins-vergleich.md": {
+	id: "wordpress-ki-plugins-vergleich.md";
+  slug: "wordpress-ki-plugins-vergleich";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
 "wordpress-ki-plugins.md": {
 	id: "wordpress-ki-plugins.md";
   slug: "wordpress-ki-plugins";
