@@ -86,10 +86,3 @@ Ein einzelnes Update löst das unmittelbare Problem. Aber um langfristig sicher 
 CVE-2026-8181 ist ein weiteres Beispiel dafür, dass WordPress-Sicherheit kontinuierliche Aufmerksamkeit erfordert. Das Gute: Die Lösung ist in diesem Fall unkompliziert – ein Plugin-Update auf Version 3.4.2 schließt die Lücke vollständig.
 
 Wenn Sie sich nicht sicher sind, ob Ihre Website bereits kompromittiert wurde, oder wenn Sie eine professionelle Überprüfung Ihrer WordPress-Sicherheitskonfiguration benötigen, helfen wir Ihnen gerne weiter. Als WordPress Agentur Frankfurt am Main unterstützen wir kleine und mittlere Unternehmen dabei, ihre Online-Präsenz sicher und performant zu betreiben – von regelmäßigen Security-Audits bis hin zur vollständigen Bereinigung kompromittierter Websites.
-
-## Quellen
-
-- [Hackers exploit auth bypass flaw in Burst Statistics WordPress plugin](https://www.bleepingcomputer.com/news/security/hackers-exploit-auth-bypass-flaw-in-burst-statistics-wordpress-plugin/) — r/wordpress
-- [Gravity Forms supply chain attack: backdoored installer distributed via official site for weeks](https://www.reddit.com/r/wordpress/comments/gravity_forms_supply_chain) — r/wordpress
-- [333 new WordPress vulnerabilities disclosed in a single week – 236 still unpatched](https://www.reddit.com/r/wordpress/comments/weekly_vuln_stats_jan2026) — r/wordpress
-- [Avada Builder RCE patched in v3.15.3 – update if you have 1M+ install plugin](https://www.reddit.com/r/wordpress/comments/avada_builder_rce) — r/wordpress

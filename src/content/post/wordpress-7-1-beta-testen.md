@@ -101,9 +101,3 @@ Bis zum 15. Juli haben Sie noch zwei Tage. Nutzen Sie die Zeit:
 4. Notieren Sie PHP-Version und aktive Theme-Version.
 
 Als WordPress Agentur Frankfurt am Main begleiten wir unsere Kunden durch Update-Zyklen wie diesen – von der Testumgebung über die Kompatibilitätsprüfung bis zum produktiven Rollout. Wenn Sie unsicher sind, ob Ihre Website für 7.1 bereit ist, sprechen Sie uns an.
-
-## Quellen
-
-- [WordPress 7.1 Release Party Schedule – Make WordPress Core](https://make.wordpress.org/core/2026/07/03/wordpress-7-1-release-party-schedule/) — WordPress.org
-- [WordPress 7.1 Release Squad Announced](https://wp-content.co/wordpress-7-1-release-squad-announced-focus-areas-ai-collaboration-media-performance-and-more/) — r/wordpress
-- [WordPress 7.1 to Be Released in August – Seravo](https://seravo.com/en/wordpress-7-1-to-be-released-in-august/) — r/wordpress

@@ -115,9 +115,3 @@ wp user meta delete <user-id> two_factor_totp_key
 Die wp2shell-Welle hat gezeigt, dass Admin-Credential-Diebstahl ein reales und aktives Risiko ist. Zwei-Faktor-Authentifizierung ist keine Raketenwissenschaft – sie lässt sich in unter 15 Minuten einrichten und bietet eine der wirkungsvollsten Schutzmaßnahmen gegen Account-Übernahmen. Wer heute noch ohne 2FA betreibt, setzt seine Website unnötig einem Risiko aus.
 
 Als [WordPress Agentur Frankfurt am Main](/) richten wir 2FA standardmäßig für alle Websites ein, die wir betreuen – und unterstützen Sie gerne dabei, bestehende Installationen nachzurüsten. Sprechen Sie uns an, wenn Sie nach dem wp2shell-Incident Ihre Sicherheitskonfiguration auf den neuesten Stand bringen möchten.
-
-## Quellen
-
-- [Two Factor Plugin](https://wordpress.org/plugins/two-factor/) — r/wordpress
-- [Wordfence Two-Factor Authentication](https://www.wordfence.com/help/wordfence-login-security/two-factor-authentication/) — r/wordpress
-- [WordPress wp2shell: Angriffswelle nach PoC-Veröffentlichung](https://www.reddit.com/r/wordpress/comments/wp2shell_angriffswelle) — r/wordpress

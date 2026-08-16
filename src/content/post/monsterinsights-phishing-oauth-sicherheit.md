@@ -68,9 +68,3 @@ Dieser Fall ist lehrreich, weil er zeigt, wie moderne WordPress-Angriffe konstru
 Das bedeutet: Wer seine WordPress-Site als „sicher genug" betrachtet, weil er ein Security-Plugin installiert hat, unterschätzt das Problem. Echte Sicherheit ist ein Prozess, keine Einmalmaßnahme. Er umfasst regelmäßige Updates, minimale Nutzerrechte nach dem Least-Privilege-Prinzip, kritisches Lesen von E-Mails, die Dringlichkeit signalisieren, und die Bereitschaft, nach einem Vorfall strukturiert zu reagieren.
 
 Als WordPress-Experten aus Frankfurt helfen wir kleinen und mittelständischen Unternehmen dabei, ihre WordPress-Installationen dauerhaft sicher zu halten – von der initialen Härtung über Zugriffskontrollen bis zum laufenden Plugin-Monitoring. Wenn Sie unsicher sind, ob Ihre Website betroffen ist oder Unterstützung bei der Absicherung benötigen, sprechen Sie uns gerne an.
-
-## Quellen
-
-- [MonsterInsights Website Compromised And Sending Phishing Emails](https://www.searchenginejournal.com/monsterinsights-website-compromised-and-sending-phishing-emails/579140/) — Search Engine Journal
-- [Awesome Motive Breach Widens as Uncanny Automator Confirms Customer Data Theft](https://www.therepository.email/awesome-motive-breach-widens-as-uncanny-automator-confirms-customer-data-theft-monsterinsights-users-hit-with-phishing-campaign) — The Repository
-- [MonsterInsights CVE-2026-5371: High-Severity Plugin Vulnerability](https://www.webmastered.com/blog/monsterinsights-oauth-token-vulnerability/) — Webmastered

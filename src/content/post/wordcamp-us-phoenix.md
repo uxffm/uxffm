@@ -68,9 +68,3 @@ Für Frankfurter Unternehmen gilt: Ob WCUS, WordCamp Europe oder ein lokales Mee
 WordCamp US 2026 in Phoenix ist mehr als eine Konferenz — es ist ein Stimmungsbarometer für die gesamte WordPress-Community. Die Standortwahl zeigt, dass hinter den Kulissen pragmatische Entscheidungen getroffen werden; der starke KI-Fokus zeigt, dass WordPress 7.0 keine Eintagsfliege ist, sondern eine langfristige Weichenstellung. Und das anhaltende Engagement von über 875 Mitwirkenden bei jeder größeren WordPress-Version zeigt: Das Open-Source-Modell trägt weiterhin.
 
 Wer am 24. Juli noch nicht entschieden hat, ob er dabei ist, verliert die Erstattungsoption. Wer dabei ist — ob vor Ort in Phoenix oder über die nachträglichen Talk-Aufnahmen —, bekommt einen wertvollen Einblick in die Richtung, die das beliebteste CMS der Welt einschlägt.
-
-## Quellen
-
-- [WordCamp US 2026 – Offizielle Website](https://us.wordcamp.org/2026/) — WordCamp US
-- [Get Involved With WordCamp US 2026 in Phoenix](https://wordpress.org/news/2026/05/wcus-2026-get-involved/) — WordPress.org News
-- [WordCamp US 2026 Heads to Phoenix in the Middle of Summer](https://www.therepository.email/wordcamp-us-2026-heads-to-phoenix-in-the-middle-of-summer) — The Repository

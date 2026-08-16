@@ -93,9 +93,3 @@ Eine verlässliche Faustregel: Plugins, die seit mehr als einem Jahr kein Update
 Das React-19-Debakel von Anfang Juni ist letztlich ein klassisches Ecosystem-Skalierungsproblem. Das Upgrade selbst ist technisch sinnvoll, und das Core-Team hat mit dem Feature-Flag-Ansatz in Gutenberg 23.4 die richtige Konsequenz gezogen. Für WordPress 7.1 sind die Voraussetzungen damit deutlich besser als beim ersten Versuch.
 
 Wenn Sie unsicher sind, ob Ihre WordPress-Site von den React-19-Änderungen betroffen sein könnte – ob als Plugin-Entwickler oder als Betreiber einer komplexen Block-Editor-Installation –, hilft Frankfurt Marketing Studio bei der Kompatibilitätsprüfung, dem Build-Audit und der Teststrategie weiter.
-
-## Quellen
-
-- [React 19 upgrade temporarily reverted in Gutenberg](https://make.wordpress.org/core/2026/06/05/react-19-upgrade-temporarily-reverted-in-gutenberg/) — r/wordpress
-- [React 19 Upgrade in WordPress – Make WordPress Core](https://make.wordpress.org/core/2026/05/27/react-19-upgrade-in-wordpress/) — r/wordpress
-- [What's new in Gutenberg 23.4? (June 17, 2026)](https://make.wordpress.org/core/2026/06/17/whats-new-in-gutenberg-23-3-03-jun-2/) — r/wordpress

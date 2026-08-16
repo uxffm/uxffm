@@ -95,9 +95,3 @@ Wichtig: Stellen Sie sicher, dass korrekte hreflang-Tags gesetzt werden. Diese s
 Mehrsprachige WordPress-Websites sind kein triviales Projekt. Die Wahl des falschen Plugins kann bedeuten, dass Sie später mühsam migrieren oder mit Kompatibilitätsproblemen kämpfen müssen. Nehmen Sie sich die Zeit, Ihre Anforderungen klar zu definieren, bevor Sie sich für ein Plugin entscheiden.
 
 Wenn Sie unsicher sind, welche Lösung für Ihre spezifische Situation die richtige ist, stehen Ihnen die [WordPress Spezialisten Frankfurt](/) von Frankfurt Marketing Studio gerne beratend zur Seite. Wir haben Erfahrung mit allen drei genannten Plugins und helfen Ihnen dabei, Ihre mehrsprachige Website technisch sauber aufzusetzen – von der Erstberatung bis zur laufenden Betreuung.
-
-## Quellen
-
-- [WPML vs Polylang — which do you prefer and why? — r/wordpress](https://www.reddit.com/r/Wordpress/)
-- [Has anyone switched from WPML to Polylang? How was the migration? — r/wordpress](https://www.reddit.com/r/Wordpress/)
-- [TranslatePress review after 1 year of use — r/wordpress](https://www.reddit.com/r/Wordpress/)

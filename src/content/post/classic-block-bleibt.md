@@ -64,10 +64,3 @@ Der beste Zeitpunkt für eine solche Migration ist kein erzwungener Moment – s
 Die Rücknahme der Classic-Block-Entscheidung ist mehr als eine technische Korrektur – sie ist ein Beleg dafür, dass das WordPress-Ökosystem funktioniert. Open-Source lebt davon, dass Nutzerinnen, Nutzer, Agenturen und Entwicklerinnen und Entwickler ihre Perspektive einbringen. Und manchmal, wie in diesem Fall, ändert das tatsächlich den Kurs.
 
 WordPress 7.1 erscheint am 19. August 2026 – pünktlich zum [WordCamp US in Phoenix](https://us.wordcamp.org/2026/). Wenn Sie wissen möchten, ob Ihre Website bereit für das Update ist oder Unterstützung bei der Migration zu nativen Blöcken benötigen, steht Ihnen die [WordPress Agentur Frankfurt](/), Frankfurt Marketing Studio, gerne zur Seite.
-
-## Quellen
-
-- [The Classic block stays in the inserter for WordPress 7.1 – Make WordPress Core](https://make.wordpress.org/core/2026/07/07/the-classic-block-stays-in-the-inserter-for-wordpress-7-1/) — r/wordpress
-- [Contributors Reverse Course on Plan to Begin Phasing Out the Classic Block](https://www.therepository.email/contributors-reverse-course-on-plan-to-begin-phasing-out-the-classic-block) — r/wordpress
-- [WordPress 7.1 Beta Release Schedule and Key Updates](https://wp-dude.com/news/wordpress-7-1-beta-release-schedule) — r/wordpress
-- [What's new for developers (July 2026)](https://developer.wordpress.org/news/2026/07/whats-new-for-developers-july-2026/) — r/wordpress

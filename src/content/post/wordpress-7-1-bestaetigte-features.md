@@ -81,9 +81,3 @@ Zwei heiß diskutierte Themen sind noch nicht fest für 7.1 zugesagt:
 Der Sprung von 7.0 auf 7.1 ist kein kleines Maintenance-Release – er adressiert echte Schwachstellen: redaktionelle Zusammenarbeit, KI-Steuerung und Medien-Handling. Wer die Beta-Phase aktiv nutzt, hat einen deutlichen Vorsprung, wenn das finale Release im August kommt.
 
 Als WordPress-Experten aus Frankfurt begleiten wir Unternehmen durch Major-Updates: vom Kompatibilitäts-Check über Beta-Tests bis zur sicheren Produktivschaltung. Sprechen Sie uns an, wenn Sie Ihre Website fit für WordPress 7.1 machen wollen.
-
-## Quellen
-
-- [Roadmap to 7.1 – Make WordPress Core](https://make.wordpress.org/core/2026/06/19/roadmap-to-7-1/) — r/wordpress
-- [React 19 upgrade temporarily reverted in Gutenberg](https://make.wordpress.org/core/2026/06/05/react-19-upgrade-temporarily-reverted-in-gutenberg/) — r/wordpress
-- [WordPress 7.1 Release Squad Announced](https://wp-content.co/wordpress-7-1-release-squad-announced-focus-areas-ai-collaboration-media-performance-and-more/) — r/wordpress

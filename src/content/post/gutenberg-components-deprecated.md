@@ -78,9 +78,3 @@ Wer regelmäßig WordPress-Updates betreut, kennt das Muster: Die eigentliche Ar
 Die Deprecation-Welle in Gutenberg 23.5 ist kein dramatischer Einschnitt, aber ein klares Signal: Das Core-Team räumt auf und erwartet, dass Plugin-Autoren mitziehen. Die `__next40pxDefaultSize`-Prop hat ihre Schuldigkeit getan; wer sie noch in seinem Code hat, sollte sie in Ruhe entfernen. Wichtiger ist der React-19-Kompatibilitätstest – dieser hat das Potenzial, Plugin-UIs auf Produktivsites tatsächlich zu brechen, wenn das nächste Mal kein experimentelles Flag schützt.
 
 Beta 1 läuft, das Experiment-Flag ist aktiv: Es gibt keinen besseren Zeitpunkt als jetzt.
-
-## Quellen
-
-- [WordPress 7.1 Beta cycle – WordPress on X](https://x.com/WordPress/status/2076290641122800003) — r/wordpress
-- [React 19 Upgrade in WordPress – Make WordPress Core](https://make.wordpress.org/core/2026/05/27/react-19-upgrade-in-wordpress/) — r/wordpress
-- [__next40pxDefaultSize promises BC break – GitHub Issue #55401](https://github.com/WordPress/gutenberg/issues/55401) — r/wordpress

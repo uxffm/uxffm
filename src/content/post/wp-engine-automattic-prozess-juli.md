@@ -66,9 +66,3 @@ Einen vollständigen Überblick über das Verfahren bietet die unabhängige [Kon
 Der gescheiterte Schlichtungsversuch vom 9. Juli ist ein deutliches Signal: Dieser Fall wird vor Gericht entschieden. Ein Urteil – egal in welche Richtung – wird die Spielregeln des WordPress-Ökosystems langfristig verändern. Wer WordPress professionell betreibt, sollte die Entwicklung verfolgen und die eigene Infrastruktur auf ihre Resilienz gegenüber ökosystemischen Veränderungen prüfen.
 
 Als WordPress-Agentur aus Frankfurt begleiten wir Unternehmen bei genau diesen strategischen Fragen: Welche Abhängigkeiten entstehen durch WordPress-Einsatz, wie minimiert man Risiken in der Plugin-Versorgung, und wie bleibt eine Website auch dann stabil, wenn sich die Rahmenbedingungen des Ökosystems verschieben.
-
-## Quellen
-
-- [WP Engine and Automattic Trade Accusations of Withheld Evidence in Flurry of Court Filings](https://www.therepository.email/wp-engine-and-automattic-trade-accusations-of-withheld-evidence-in-flurry-of-court-filings) — r/wordpress
-- [U.S. Court Orders WP Engine to Reveal Strategy Deck Sentence, Finds Mullenweg Was "Evasive" in Deposition](https://www.therepository.email/us-court-orders-wp-engine-to-reveal-strategy-deck-sentence-finds-mullenweg-was-evasive-in-deposition) — r/wordpress
-- [WP Engine Wins Approval to Add WooCommerce as Defendant](https://www.therepository.email/wp-engine-wins-approval-to-add-woocommerce-as-defendant-as-court-signals-frustration-with-lengthy-filings) — r/wordpress

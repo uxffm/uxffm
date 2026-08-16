@@ -86,9 +86,3 @@ Die Entscheidung hängt von der Hosting-Umgebung, dem Budget, dem Datenschutzrah
 Was der Benchmark letztlich zeigt: WordPress-Performance ist kein einmaliges Projekt, sondern eine kontinuierliche Aufgabe. Core-Updates ändern Plugin-Verhalten, neue Inhalte erhöhen den Seitenumfang, und die Anforderungen von Google Core Web Vitals verschieben sich. Wer heute gute Werte hat, muss das nicht auch in drei Monaten noch tun – sofern er nicht aktiv hinschaut.
 
 Als WordPress-Agentur Frankfurt am Main unterstützen wir Unternehmen aus Frankfurt und der Rhein-Main-Region dabei, WordPress-Websites dauerhaft auf hohem Performance-Niveau zu halten: von der initialen Plugin-Auswahl über die Konfiguration bis hin zu regelmäßigen Audits. Sprechen Sie uns an, wenn Sie wissen möchten, wo Ihre Website heute steht und welche Maßnahmen den größten Hebel bieten.
-
-## Quellen
-
-- [WordPress Performance Plugins 2026: Benchmark-Ergebnisse](https://medium.com/@hungrybookstube/wordpress-performance-plugins-2026-i-benchmarked-9-of-them-so-you-dont-have-to-3947b12228b8) — r/wordpress
-- [WordPress 6.9: Warum 40 % der Plugins Probleme bekommen könnten](https://editorialge.com/wordpress-6-9-beta-plugin-breakage/) — r/wordpress
-- [WordPress 6.9 Known Issues 2026](https://onpoint.to/wordpress-6-9-known-issues/) — r/wordpress

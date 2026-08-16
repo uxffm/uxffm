@@ -80,9 +80,3 @@ Ein strukturierter Ansatz für WordPress-Sicherheit umfasst:
 Wenn Sie unsicher sind, ob Ihre WordPress-Website aktuell und ausreichend abgesichert ist, unterstützen die [WordPress-Experten aus Frankfurt](/). Wir prüfen Ihre Installation, spielen ausstehende Sicherheitsupdates ein, richten automatische Update-Prozesse ein und implementieren ein Sicherheitskonzept, das zu Ihrer Website und Ihrem Betrieb passt – von der kleinen Unternehmensseite bis zum komplexen WooCommerce-Shop.
 
 Sprechen Sie uns an, wenn Sie Fragen zu WordPress 7.0.3 oder zum Thema Website-Sicherheit allgemein haben.
-
-## Quellen
-
-- [WordPress 7.0.3 Released: 12 Vulnerabilities Found and Fixed – Patchstack](https://patchstack.com/articles/wordpress-7-0-3-released-12-vulnerabilities-found-and-fixed/) — r/wordpress
-- [Version 7.0.3 – WordPress Documentation](https://wordpress.org/documentation/wordpress-version/version-7-0-3/) — r/wordpress
-- [WordPress 7.0.3 Fixes 12 Security Vulnerabilities: Update Your Site Now – ShapedPlugin](https://shapedplugin.com/wordpress-7-0-3-release/) — r/wordpress

@@ -118,10 +118,6 @@ Nur diese zwei Zeilen, nichts anderes.`;
   const title = titleMatch ? titleMatch[1].trim() : 'WordPress 7.0: Echtzeit-Kollaboration kurzfristig gestrichen';
   const excerpt = excerptMatch ? excerptMatch[1].trim() : 'WordPress 7.0 ist da – aber ohne Echtzeit-Kollaboration. Was steckt dahinter und wann kommt das Feature?';
 
-  const sourceList = [topPost, ...relatedPosts]
-    .map((p) => `- [${p.title}](${p.url}) — r/wordpress`)
-    .join('\n');
-
   const today = new Date().toISOString().slice(0, 10);
 
   const frontmatter = `---
@@ -149,7 +145,7 @@ metadata:
     // File doesn't exist yet — expected.
   }
 
-  await fs.writeFile(outputPath, frontmatter + content + `\n\n## Quellen\n\n${sourceList}\n`, 'utf8');
+  await fs.writeFile(outputPath, frontmatter + content, 'utf8');
   console.log(`Created ${outputPath}`);
 };
 

@@ -63,10 +63,3 @@ WordPress 7.0 ist ein wichtiges Release, das Sie nicht verpassen sollten – sch
 4. **Nach dem Update alle wichtigen Funktionen durchklicken** – vom Kontaktformular bis zum Shop.
 
 Falls Sie bei der Aktualisierung, der sicheren Konfiguration oder der Einschätzung neuer KI-Funktionen Unterstützung wünschen, hilft Ihnen Frankfurt Marketing Studio als erfahrene WordPress Agentur Frankfurt gerne weiter. Wir begleiten kleine Unternehmen aus Frankfurt und der Region bei Updates, Wartung und der sinnvollen Nutzung neuer WordPress-Funktionen – damit Ihre Website stabil bleibt und Sie technisch immer auf der sicheren Seite stehen.
-
-## Quellen
-
-- [WordPress 7.0 ships without real-time collaboration – removed due to race conditions, server load, and memory efficiency concerns](https://make.wordpress.org/core/2026/05/08/rtc-removed-from-7-0/) — r/wordpress
-- [WordPress 7.0: A Provider-Agnostic AI Client Lands in Core](https://www.godaddy.com/resources/news/wordpress-7-0-real-time-collaboration-arrives-in-core) — r/wordpress
-- [Is AI Replacing WordPress Plugins in 2026?](https://themewinter.com/ai-killing-wordpress/) — r/wordpress
-- [WordPress plugin business challenges: 48.8% of plugin companies saw sales worsen in 2025](https://thewpminute.com/the-wp-minutes-wordpress-predictions-for-2026/) — r/wordpress

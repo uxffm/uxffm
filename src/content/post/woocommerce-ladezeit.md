@@ -72,9 +72,3 @@ Konkrete Zielwerte: LCP (Largest Contentful Paint) unter 2,5 Sekunden, INP (Inte
 ## Performance-Audit statt Rätselraten
 
 Performance-Optimierung ist kein einmaliges Projekt, sondern ein fortlaufender Prozess — besonders wenn der Shop wächst, neue Plugins hinzukommen und WordPress-Updates Abhängigkeiten verändern. Als Frankfurter WordPress Agentur begleiten wir Shopbetreiber mit strukturierten Performance-Audits, Hosting-Migration und maßgeschneiderten Caching-Konfigurationen. Wenn Ihr WooCommerce-Shop langsamer ist, als er sein sollte, sprechen Sie uns an.
-
-## Quellen
-
-- [WooCommerce High Performance Order Storage – Dokumentation](https://woocommerce.com/document/high-performance-order-storage/) — WooCommerce.com
-- [Core Web Vitals: Was Google wirklich bewertet](https://web.dev/articles/vitals) — web.dev
-- [Aktuelle Diskussionen rund um WooCommerce-Performance](https://www.reddit.com/r/wordpress/) — r/wordpress

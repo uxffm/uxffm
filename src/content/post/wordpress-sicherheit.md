@@ -178,10 +178,3 @@ Sicherheitslücken werden regelmäßig entdeckt. Folgen Sie relevanten Quellen w
 Die wichtigsten Sicherheitsmaßnahmen für eine neue WordPress-Website lassen sich auf wenige Kernpunkte reduzieren: gutes Hosting, starke Zugangsdaten mit 2FA, konsequente Updates, ein solides Sicherheits-Plugin und regelmäßige Backups. Wer diese Grundlagen von Anfang an beherzigt, hat bereits 95 Prozent der üblichen Angriffsvektoren abgedeckt.
 
 Für viele Unternehmen ist die technische Umsetzung dennoch eine Herausforderung – sei es aus Zeitmangel oder fehlendem Know-how. Als WordPress Agentur in Frankfurt unterstützt Frankfurt Marketing Studio Sie gerne bei der Absicherung Ihrer Website. Von der initialen Einrichtung über regelmäßige Wartung bis zur Notfall-Hilfe bei gehackten Seiten: Wir sorgen dafür, dass Sie sich auf Ihr Kerngeschäft konzentrieren können, während Ihre Website sicher läuft.
-
-## Quellen
-
-- [What are the most important security steps for a new WordPress website?](https://www.reddit.com/r/Wordpress/comments/1td3cue/what_are_the_most_important_security_steps_for_a/) — r/wordpress
-- [How are professional websites actually built nowadays?](https://www.reddit.com/r/Wordpress/comments/1tcz1wm/how_are_professional_websites_actually_built/) — r/wordpress
-- [Is there a way to make a personal blog for free via Wordpress?](https://www.reddit.com/r/Wordpress/comments/1tcvs6r/is_there_a_way_to_make_a_personal_blog_for_free/) — r/wordpress
-- [Which builders are people actually using today](https://www.reddit.com/r/Wordpress/comments/1tdl5qb/which_builders_are_people_actually_using_today/) — r/wordpress

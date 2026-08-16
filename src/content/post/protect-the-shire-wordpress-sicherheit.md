@@ -77,10 +77,3 @@ Als Betreiber einer WordPress-Website müssen Sie für „Protect The Shire" sel
 Für kleinen und mittelständische Unternehmen, die WordPress als Fundament ihrer Online-Präsenz nutzen, bedeutet das: Die Plattform investiert aktiv in ihre Sicherheit. Das macht WordPress nicht nur im Vergleich zu anderen CMS-Systemen, sondern auch im Kontext der wachsenden regulatorischen Anforderungen zu einer soliden Wahl.
 
 Als WordPress-Agentur aus Frankfurt helfen wir Unternehmen dabei, ihre WordPress-Installationen sicher, aktuell und performant zu betreiben — von der initialen Einrichtung über regelmäßige Sicherheits-Audits bis zur schnellen Reaktion im Ernstfall. Wenn Sie Fragen zur „Protect The Shire"-Initiative haben oder wissen möchten, wie gut Ihre aktuelle WordPress-Sicherheitsstrategie aufgestellt ist, sprechen Sie uns gerne an.
-
-## Quellen
-
-- [Protect The Shire – WordPress News (wordpress.org, 5. Juni 2026)](https://wordpress.org/news/2026/06/pts/) — r/wordpress
-- [New WordPress Initiative Will Secure Plugins And Themes](https://www.searchenginejournal.com/wordpress-announces-initiative-to-secure-all-plugins-and-themes/578189/) — r/wordpress
-- [State of WordPress Security in 2026](https://patchstack.com/whitepaper/state-of-wordpress-security-in-2026/) — r/wordpress
-- [30 WordPress Plugins Bought And Backdoored: The 2026 Supply Chain Attack Explained](https://blueheadline.com/cybersecurity/wordpress-plugin-backdoor-supply-chain-attack/) — r/wordpress

@@ -87,10 +87,3 @@ Wenn Sie Ihre WordPress-Website auf Version 7.0 aktualisieren möchten, den neue
 ## Fazit: WordPress 7.0 ist ein Meilenstein
 
 WordPress 7.0 „Armstrong" setzt einen klaren Kurs: KI wird ein nativer Bestandteil der Plattform — nicht als Aufsatz, sondern als Infrastruktur. Wer WordPress professionell betreibt, sollte die neue Version sorgfältig testen und zügig updaten, denn das KI-Ökosystem rund um WordPress wird sich in den kommenden Monaten rasch weiterentwickeln. Frühzeitige Anwender haben dabei einen klaren Vorteil.
-
-## Quellen
-
-- [WordPress 7.0 "Armstrong" is here — built-in AI Client, new admin, and more](https://www.reddit.com/r/wordpress/comments/abc123/wordpress_70_armstrong_is_here/) — r/wordpress
-- [Automattic hit with class action over WP Engine dispute — anti-competitive tactics alleged](https://www.reddit.com/r/wordpress/comments/def456/automattic_class_action_wp_engine/) — r/wordpress
-- [How are you using the new WordPress 7.0 AI Client in your plugins?](https://www.reddit.com/r/wordpress/comments/ghi789/wordpress_70_ai_client_usage/) — r/wordpress
-- [48.8% of WordPress plugin companies saw sales worsen in 2025 — what's going on?](https://www.reddit.com/r/wordpress/comments/jkl012/plugin_sales_down_2025/) — r/wordpress

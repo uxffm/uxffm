@@ -87,9 +87,3 @@ Alles darüber hinaus sollte einen konkreten, messbaren Nutzen haben – oder es
 Die r/wordpress-Community ist sich in einem Punkt einig: Die Anzahl der Plugins sagt wenig über die Qualität einer WordPress-Installation aus. Was zählt, ist ein gepflegter, regelmäßig überprüfter Stack aus qualitativ hochwertigen, gut gewarteten Plugins, die keine Funktionen doppeln und sauber programmiert sind.
 
 Für Unternehmen, die sich nicht sicher sind, ob ihr WordPress-Setup noch zeitgemäß ist, bietet sich ein professionelles Audit an. Als WordPress-Agentur aus Frankfurt analysiert Frankfurt Marketing Studio den Plugin-Stack, identifiziert Sicherheits- und Performance-Probleme und entwickelt ein schlankes Setup, das stabil, sicher und schnell ist.
-
-## Quellen
-
-- [WordPress too slow? Cut down your plugins](https://www.reddit.com/r/Wordpress/comments/1tb2cyz/wordpress_too_slow_cut_down_your_plugins/) — r/wordpress
-- [How many plugins is too many? Let's discuss](https://www.reddit.com/r/Wordpress/comments/1taz9mb/how_many_plugins_is_too_many_lets_discuss/) — r/wordpress
-- [I went from 47 plugins to 11 – here's what I learned](https://www.reddit.com/r/Wordpress/comments/1taxhqd/i_went_from_47_plugins_to_11_heres_what_i_learned/) — r/wordpress

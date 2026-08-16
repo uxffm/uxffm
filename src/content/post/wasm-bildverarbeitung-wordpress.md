@@ -79,9 +79,3 @@ Wenn Sie eine WordPress Agentur in Frankfurt suchen, die Ihre Website profession
 Die VIPS/WebAssembly-Pipeline ist eines der architektonisch bedeutendsten Features seit Jahren. Sie verschiebt die Grenze zwischen Client und Server – und zwar in eine Richtung, die bei guter Implementierung echte Vorteile bringt: schnellere Uploads, breitere Formatunterstützung, weniger Serverlast. Die Einschränkungen (Browser-Kompatibilität, RAM-Anforderungen, größere Core-ZIP) sind real, aber handhabbar.
 
 Ob Ihre bestehende WordPress-Installation und Ihr Hosting-Setup von diesem Upgrade profitieren oder ob Anpassungen notwendig sind – Frankfurt Marketing Studio unterstützt Sie gern bei der Analyse, dem Testing und dem sicheren Rollout von WordPress-Updates. Sprechen Sie uns an.
-
-## Quellen
-
-- [Call for Testing: client-side media processing – Make WordPress Core](https://make.wordpress.org/core/2026/06/04/call-for-testing-client-side-media-processing/) — r/wordpress
-- [What's new for developers? (June 2026)](https://developer.wordpress.org/news/2026/06/whats-new-for-developers-june-2026/) — r/wordpress
-- [React 19 upgrade temporarily reverted in Gutenberg – Make WordPress Core](https://make.wordpress.org/core/2026/06/05/react-19-upgrade-temporarily-reverted-in-gutenberg/) — r/wordpress

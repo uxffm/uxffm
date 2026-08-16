@@ -100,10 +100,3 @@ Das unterstreicht, wie wichtig eine proaktive Sicherheitsstrategie für WordPres
 ## Frankfurt Marketing Studio hilft
 
 Als [WordPress-Experten aus Frankfurt](/) unterstützen wir kleine und mittlere Unternehmen dabei, ihre WordPress-Websites sicher, aktuell und performant zu betreiben. Ob proaktives Sicherheits-Monitoring, sofortige Hilfe nach einem Sicherheitsvorfall oder eine vollständige Überprüfung Ihrer Hosting- und Update-Konfiguration – sprechen Sie uns an. Gerade in Situationen wie wp2shell, wo schnelles Handeln entscheidend ist, ist ein erfahrener Partner an Ihrer Seite ein erheblicher Vorteil.
-
-## Quellen
-
-- [New wp2shell WordPress Core Flaw Lets Unauthenticated Attackers Run Code](https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html) — r/wordpress
-- [CVE-2026-63030 and CVE-2026-60137 (wp2shell): WordPress RCE Explained](https://www.picussecurity.com/resource/blog/cve-2026-63030-and-cve-2026-60137-wp2shell-wordpress-rce-explained) — r/wordpress
-- [Hackers are exploiting recently patched WordPress bugs, putting millions of websites at risk](https://techcrunch.com/2026/07/20/hackers-are-exploiting-recently-patched-wordpress-bugs-putting-millions-of-websites-at-risk/) — r/wordpress
-- [Exploitation in the Wild of wp2shell](https://www.wiz.io/blog/wp2shell-cve-2026-63030-cve-2026-60137) — r/wordpress

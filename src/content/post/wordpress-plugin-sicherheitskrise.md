@@ -80,9 +80,3 @@ Es wäre falsch, aus diesen Zahlen den Schluss zu ziehen, WordPress sei grundsä
 Entscheidend ist der Betrieb: Eine professionell gewartete WordPress-Installation mit einem durchdachten Sicherheitskonzept ist deutlich widerstandsfähiger als eine vernachlässigte Installation mit veralteten Plugins und schwachen Zugangsdaten. Die gute Nachricht: Die meisten erfolgreichen Angriffe hätten durch grundlegende Sicherheitsmaßnahmen verhindert werden können.
 
 Als WordPress-Agentur Frankfurt am Main unterstützen wir Unternehmen dabei, ihre WordPress-Websites professionell zu betreiben und zu schützen – von der regelmäßigen Wartung über Sicherheits-Audits bis hin zur Notfallhilfe bei Kompromittierungen. Wenn Sie wissen möchten, wie gut Ihre WordPress-Installation heute aufgestellt ist, sprechen Sie uns gerne an.
-
-## Quellen
-
-- [State of WordPress Security in 2026 – Patchstack](https://patchstack.com/whitepaper/state-of-wordpress-security-in-2026/) — r/wordpress
-- [250+ Weekly WordPress Plugin Vulnerabilities in 2026 – Webmastered](https://www.webmastered.com/blog/wordpress-plugin-vulnerabilities-exploitable/) — r/wordpress
-- [Protect The Shire – WordPress News](https://wordpress.org/news/2026/06/pts/) — r/wordpress

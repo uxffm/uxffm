@@ -97,10 +97,3 @@ WordPress 7.0 ist ein ehrgeiziges Release, das die Plattform in eine neue Ära f
 Die wichtigste Botschaft: Wenn Sie KI-API-Schlüssel in WordPress hinterlegen, behandeln Sie diese wie Zahlungsdaten. Setzen Sie Ausgabenlimits, verwenden Sie dedizierte Schlüssel, sichern Sie Ihr Dashboard konsequent ab – und bleiben Sie informiert.
 
 Als Frankfurt WordPress Agentur unterstützen wir Unternehmen aus Frankfurt und der Rhein-Main-Region bei genau diesen Fragen: von der sicheren Konfiguration von WordPress 7.0 über die Auswahl und Härtung von KI-Plugins bis hin zu vollständigen Security-Audits. Sprechen Sie uns an, wenn Sie Ihre WordPress-Installation fit für die KI-Ära machen wollen.
-
-## Quellen
-
-- [Security Researcher: WordPress 7.0 Could Trigger Rush To Steal AI API Keys](https://www.searchenginejournal.com/wordpress-7-0-faces-security-concerns-over-ai-api-keys/575679/) — r/wordpress
-- [WordPress 7.0 Armstrong release: AI Abilities API](https://wppoland.com/en/wordpress-7-0-complete-guide-ai-integration/) — r/wordpress
-- [Patchstack CEO Warns WordPress 7.0 Could Trigger "Absolute Rush" To Steal AI API Keys](https://www.therepository.email/patchstack-ceo-warns-wordpress-7-0-could-trigger-absolute-rush-to-steal-ai-api-keys) — r/wordpress
-- [WordPress 7.0 AI Engine: Every Plugin Gets Your API Key, No Spend Cap](https://www.thewordpresscompany.co.uk/blog/2026/04/12/wordpress-7-ai-engine-budget-risk/) — r/wordpress

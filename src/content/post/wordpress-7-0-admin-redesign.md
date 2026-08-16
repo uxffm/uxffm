@@ -72,9 +72,3 @@ Ein großes WordPress-Update sollte nie unvorbereitet eingespielt werden — bes
 Das WordPress 7.0 Admin-Redesign ist mehr als ein Facelift. DataViews modernisiert die tägliche Arbeit im Backend grundlegend, das neue Design-System bringt längst überfällige Konsistenz, und der überarbeitete Revisions-Vergleich macht redaktionelle Workflows effizienter. Gleichzeitig erfordert das Update sorgfältige Vorbereitung — vor allem wegen der Kompatibilitätsprobleme bei Plugins, die auf das alte WP_List_Table-System gesetzt haben.
 
 Wenn Sie Unterstützung beim Update benötigen, Ihre Plugins auf Kompatibilität prüfen lassen möchten oder sich unsicher sind, ob Ihre Website bereit für WordPress 7.0 ist, hilft Ihnen Frankfurt Marketing Studio gerne weiter. Wir begleiten Websites durch jedes WordPress-Update — von der Prüfung bis zum erfolgreichen Go-live.
-
-## Quellen
-
-- [WordPress 7.0's New Dashboard: The Biggest Admin Redesign in Over a Decade](https://obrienmedia.co.uk/wordpress-7-0s-new-dashboard-the-biggest-admin-redesign-in-over-a-decade) — obrienmedia.co.uk
-- [WordPress 7.0 Releases May 20, 2026: What's New](https://www.inmotionhosting.com/support/edu/wordpress/wordpress-news/wordpress-7-0-release-date/) — inmotionhosting.com
-- [What's new for developers? (May 2026)](https://developer.wordpress.org/news/2026/05/whats-new-for-developers-may-2026/) — developer.wordpress.org

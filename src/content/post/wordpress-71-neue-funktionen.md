@@ -72,10 +72,3 @@ Für Betreiber kleinerer bis mittelgroßer WordPress-Sites ist 7.1 ein solides U
 Vor dem Update empfiehlt es sich, Plugin-Kompatibilität zu prüfen – besonders für Plugins, die eigene Block-Styles oder Custom-CSS-Lösungen für Hover-Effekte einsetzen. Wer bisher ein Plugin für Tabs oder Inhaltsverzeichnisse nutzt, sollte prüfen, ob der neue Core-Block dieselbe Funktion ausreichend abbildet, bevor doppelte Funktionalität aktiv bleibt.
 
 Als [WordPress Agentur Frankfurt am Main](/) unterstützen wir unsere Kundinnen und Kunden dabei, solche Updates sicher einzuspielen, Kompatibilitäten zu prüfen und neue Funktionen sinnvoll einzusetzen. Sprechen Sie uns an, wenn Sie Unterstützung beim Update auf WordPress 7.1 benötigen oder wissen möchten, welche der neuen Funktionen sich für Ihr Projekt lohnen.
-
-## Quellen
-
-- [WordPress 7.1: What to Expect (Releasing August 19, 2026)](https://smartwp.com/wordpress-7-1/) — r/wordpress
-- [WordPress 7.1 Beta 1 – WordPress News](https://wordpress.org/news/2026/07/wordpress-7-1-beta-1/) — r/wordpress
-- [Pseudo and custom style states in WordPress 7.1](https://make.wordpress.org/core/2026/08/05/pseudo-and-custom-style-states-in-wordpress-7-1/) — r/wordpress
-- [What's Coming in WordPress 7.1? (Features & Screenshots)](https://www.wpbeginner.com/news/whats-coming-in-wordpress-7-1-features-screenshots/) — r/wordpress

@@ -89,10 +89,3 @@ Responsive Styling ist mehr als ein technisches Feature – es ist ein Schritt i
 Gleichzeitig eröffnet es für WordPress-Agenturen neue Möglichkeiten, Kunden im Workshop-Format zu schulen: Responsive Styling lässt sich zeigen und anfassen, ohne eine einzige Zeile Code öffnen zu müssen.
 
 Als WordPress-Agentur Frankfurt am Main unterstützen wir Unternehmen dabei, das Beste aus neuen WordPress-Features herauszuholen – von der Einführung neuer Gutenberg-Versionen bis zur Planung responsiver Layouts für alle Bildschirmgrößen. Sprechen Sie uns an, wenn Sie Unterstützung bei der Migration auf WordPress 7.1 oder dem Einsatz von Responsive Styling benötigen.
-
-## Quellen
-
-- [Call for Testing: Responsive Styling](https://make.wordpress.org/test/2026/07/03/call-for-testing-responsive-styling/) — wordpress.org / r/wordpress
-- [WordPress 7.1 Beta 1: Responsive Styling, Playlist-Block und Tabs-Block](https://wordpress.org/news/2026/07/wordpress-7-1-beta-1/) — wordpress.org / r/wordpress
-- [WordPress 7.1 – Was Entwickler jetzt wissen müssen (Juli 2026)](https://developer.wordpress.org/news/2026/07/whats-new-for-developers-july-2026/) — wordpress.org / r/wordpress
-- [Gutenberg 23.5: Responsive Styling, Grid-Vorbereitung und Blockeditor-Updates](https://make.wordpress.org/core/2026/07/01/whats-new-in-gutenberg-23-5-july-1-2026/) — wordpress.org / r/wordpress

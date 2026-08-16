@@ -76,9 +76,3 @@ Falls Sie sich für das Update entscheiden, hier die empfohlene Reihenfolge:
 WooCommerce 11.0 ist ein durchdachtes Release. Die Verschiebung um eine Woche war richtig – der RC1-Bug hätte auf bestimmten Hosting-Umgebungen echten Schaden anrichten können. Die finale Version ist stabil, die Performance-Verbesserungen sind spürbar, und mit Checkout Recovery bekommt WooCommerce endlich ein natives Tool gegen Warenkorbabbrüche.
 
 Für die meisten Shopbetreiber lohnt sich das Update – mit dem nötigen Backup und einem kurzen Blick auf die Kompatibilitätsliste. Wenn Sie unsicher sind oder Ihren Shop lieber von Fachleuten aktualisieren lassen möchten, steht die [WordPress Agentur Frankfurt am Main](/) Ihnen als erfahrener Partner zur Seite – von der Planung über das Update bis zum laufenden Betrieb.
-
-## Quellen
-
-- [WooCommerce 11.0 release is delayed – WooCommerce Developer Blog](https://developer.woocommerce.com/2026/07/28/woocommerce-11-0-delay/) — r/wordpress
-- [WooCommerce 11.0: What's coming for developers – WooCommerce Developer Blog](https://developer.woocommerce.com/2026/07/13/woocommerce-11-0-pre-release/) — r/wordpress
-- [The product editor beta is being retired in WooCommerce 11.0 – WooCommerce Developer Blog](https://developer.woocommerce.com/2026/06/02/product-editor-beta-retiring/) — r/wordpress

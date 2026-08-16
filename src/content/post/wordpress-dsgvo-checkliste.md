@@ -102,9 +102,3 @@ Die DSGVO fordert neben rechtlicher Dokumentation auch „technische und organis
 Die DSGVO-Konformität Ihrer WordPress-Website ist keine einmalige Aufgabe. Sie erfordert regelmäßige Überprüfung – insbesondere wenn neue Plugins installiert, externe Dienste integriert oder das Theme gewechselt wird. Wer das Thema systematisch angeht, schützt sich vor Abmahnungen und Bußgeldern und stärkt zugleich das Vertrauen seiner Besucher.
 
 Als WordPress Agentur Frankfurt am Main unterstützt Frankfurt Marketing Studio Sie dabei, Ihre Website auf DSGVO-Konformität zu überprüfen und die notwendigen technischen und rechtlichen Maßnahmen umzusetzen – von der Cookie-Integration bis zum vollständigen Datenschutz-Audit.
-
-## Quellen
-
-- [GDPR compliance checklist for WordPress site — what am I missing?](https://www.reddit.com/r/wordpress/comments/1l4g8vx/gdpr_compliance_checklist_for_wordpress_site/) — r/wordpress
-- [Best cookie consent plugin in 2026? Borlabs vs Complianz vs Cookiebot](https://www.reddit.com/r/wordpress/comments/1l3r2kp/best_cookie_consent_plugin_in_2026_borlabs_vs/) — r/wordpress
-- [Got a GDPR warning letter — what do I need to fix on my WP site?](https://www.reddit.com/r/wordpress/comments/1l2m9qw/got_a_gdpr_warning_letter_what_do_i_need_to_fix/) — r/wordpress

@@ -84,9 +84,3 @@ Bei der Performance lohnt sich ein Blick auf die Server-Anforderungen: Die Echtz
 WordPress 7.0 ist kein inkrementelles Update, sondern ein Plattform-Sprung. Die Integration von Echtzeit-Kollaboration und KI-Infrastruktur direkt in den Core verändert, wie Teams mit WordPress arbeiten werden. Gleichzeitig steigen die Anforderungen an Setup, Kompatibilitätsprüfung und laufende Pflege.
 
 Als WordPress Agentur in Frankfurt unterstützen wir Unternehmen dabei, das Update sicher einzuspielen, Kompatibilitätsprobleme zu lösen und die neuen Kollaborations- und KI-Funktionen sinnvoll in bestehende Workflows zu integrieren. Sprechen Sie uns an, wenn Sie Unterstützung beim Umstieg auf WordPress 7.0 benötigen.
-
-## Quellen
-
-- [WordPress 7.0: Real-Time Collaboration Arrives in Core](https://www.reddit.com/r/wordpress/comments/wordpress70_collab/) — r/wordpress
-- [WordPress AI Team & WP AI Client Announcement](https://www.reddit.com/r/wordpress/comments/wp_ai_client_core/) — r/wordpress
-- [Plugin-Ecosystem 2026: Marktveränderungen in der Community](https://www.reddit.com/r/wordpress/comments/plugin_market_2026/) — r/wordpress

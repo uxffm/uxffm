@@ -60,9 +60,3 @@ Der Netto-Effekt für Websites: weniger, aber wirkungsvollere Plugins. Wer seine
 **Pflicht-Plugins behalten und aktuell halten.** Kein KI-Modell ersetzt hier Zuverlässigkeit, Signaturen-Updates und API-Integrationen.
 
 Als [Frankfurter WordPress Agentur](/) unterstützen wir Unternehmen dabei, ihren Plugin-Stack auf das Wesentliche zu reduzieren, KI sinnvoll einzubinden und trotzdem sicher und performant zu bleiben. Sprechen Sie uns an, wenn Sie wissen möchten, welche Plugins auf Ihrer Website noch gebraucht werden – und welche nicht.
-
-## Quellen
-
-- [Is AI Replacing WordPress Plugins in 2026?](https://themewinter.com/ai-killing-wordpress/) — r/wordpress
-- [WordPress Plugin Vulnerabilities: 250+ Weekly in 2026](https://www.webmastered.com/blog/wordpress-plugin-vulnerabilities-exploitable/) — r/wordpress
-- [WordPress 7.0: AI Abilities API and WP AI Client](https://wordpress.org/news/) — r/wordpress

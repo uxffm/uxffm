@@ -68,9 +68,3 @@ Konkret sollten Sie Folgendes prüfen:
 - **Haben Sie eine lokale Kopie aller genutzten Plugins?** Im Fall eines Zugangsverlusts zu wordpress.org können Sie so trotzdem auf kompatible Versionen zurückgreifen.
 
 Für Unternehmen, die ohne eigene IT-Abteilung arbeiten, ist es schwierig, solche Entwicklungen kontinuierlich im Blick zu behalten. Als WordPress-Agentur aus Frankfurt begleiten wir Unternehmen nicht nur beim Aufbau und der Pflege ihrer Websites, sondern auch bei der strategischen Einordnung von Entwicklungen im WordPress-Ökosystem – damit Ihre Website auch dann stabil und sicher bleibt, wenn sich die Spielregeln des Ökosystems ändern.
-
-## Quellen
-
-- [Automattic planned to target 10 competitors with royalty fees, WP Engine claims in new filing](https://techcrunch.com/2026/02/12/automattic-planned-to-target-10-competitors-with-royalty-fees-wp-engine-claims-in-new-filing/) — r/wordpress
-- [WordPress vs WP Engine Conflict Timeline: Complete History](https://wpvswpe.report/) — r/wordpress
-- [The people arguing about WordPress went quiet in 2026 and the problems that caused the argument are still there](https://blogherald.com/blog-platforms-tools/n-the-people-arguing-about-wordpress-went-quiet-in-2026-and-the-problems-that-caused-the-argument-are-still-there/) — r/wordpress

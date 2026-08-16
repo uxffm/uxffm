@@ -68,9 +68,3 @@ CVE-2026-65640 ist bereits der dritte Sicherheitspatch innerhalb weniger Wochen:
 Für Betreiberinnen und Betreiber bedeutet das jedoch: Reaktionsfähigkeit ist keine Option mehr, sondern Pflicht. Wer WordPress professionell einsetzt, braucht Prozesse, die sicherstellen, dass Sicherheitsupdates zeitnah eingespielt werden – automatisch, wenn möglich, manuell überwacht, wenn nötig.
 
 Wenn Sie bei der Absicherung Ihrer WordPress-Installation Unterstützung suchen, hilft Ihnen die [WordPress-Agentur Frankfurt am Main](/) gerne weiter – von der Update-Verwaltung über Sicherheits-Audits bis hin zur Einrichtung automatisierter Monitoring-Prozesse.
-
-## Quellen
-
-- [WordPress 7.0.4 Patches CVE-2026-65640: Remote Code Execution via Ghostscript](https://magicwp.io/blog/wordpress-7-0-4-cve-2026-65640) — r/wordpress
-- [WordPress 7.0.4 Patches Remote Code Execution Vulnerability](https://www.securityweek.com/wordpress-7-0-4-patches-remote-code-execution-vulnerability/) — r/wordpress
-- [WordPress 7.0.4 Release – WordPress News](https://wordpress.org/news/2026/08/wordpress-7-0-4-release/) — r/wordpress

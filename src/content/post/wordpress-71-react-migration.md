@@ -107,9 +107,3 @@ Die Alternative ist, jetzt in sieben Wochen zu investieren – nicht sieben Tage
 React 19 kommt mit WordPress 7.1, und das ist gut so: Das Upgrade bringt echte Performance-Verbesserungen und moderne APIs für zukünftige Gutenberg-Features. Der Juni-Incident war ein Weckruf, keine strukturelle Absage an das Upgrade. Das Core-Team hat mit dem Gutenberg-23.4-Flag die richtige Infrastruktur für einen geordneten Übergang geschaffen – jetzt liegt es an Entwicklern und Betreibern, diese Gelegenheit zu nutzen.
 
 Wenn Sie Unterstützung beim Plugin-Audit, bei der Staging-Einrichtung oder bei der Vorbereitung Ihrer Website auf WordPress 7.1 benötigen, hilft Ihnen Frankfurt Marketing Studio gerne weiter.
-
-## Quellen
-
-- [Preparing for React 19 in WordPress 7.1 – what's your migration plan?](https://www.reddit.com/r/Wordpress/comments/1lhk4x2/preparing_for_react_19_in_wordpress_71/) — r/wordpress
-- [Plugin compatibility with Gutenberg 23.4 React 19 flag – share your results](https://www.reddit.com/r/Wordpress/comments/1ljm8v3/plugin_compatibility_gutenberg_234_react19_flag/) — r/wordpress
-- [React 19 Upgrade in WordPress – Make WordPress Core](https://make.wordpress.org/core/2026/05/27/react-19-upgrade-in-wordpress/) — r/wordpress

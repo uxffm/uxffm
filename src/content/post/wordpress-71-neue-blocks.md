@@ -60,10 +60,3 @@ Wichtig: Beta-Software sollte niemals auf einer Produktivwebsite eingesetzt werd
 WordPress 7.1 ist kein reines Entwickler-Update – die Verbesserungen am Block Editor, die neuen nativen Blöcke und die vereinfachte responsive Gestaltung kommen unmittelbar Website-Betreibern zugute. Wer seine WordPress-Seite bisher an Agentur oder Entwickler ausgelagert hat, wird feststellen, dass sich mehr Aufgaben eigenständig erledigen lassen. Und wer ohnehin auf professionelle Unterstützung setzt, profitiert davon, dass künftige Anpassungen schneller und günstiger umzusetzen sind.
 
 Haben Sie Fragen dazu, wie die Neuerungen in WordPress 7.1 für Ihr Projekt eingesetzt werden können? Als WordPress Agentur Frankfurt, die täglich mit dem CMS arbeitet, begleiten wir Sie von der Testphase über das Update bis zur gezielten Nutzung der neuen Funktionen.
-
-## Quellen
-
-- [WordPress 7.1 Beta 1 – WordPress News](https://wordpress.org/news/2026/07/wordpress-7-1-beta-1/) — r/wordpress
-- [WordPress 7.1 Beta 1 is out for testing](https://wordpress.org/news/2026/07/wordpress-7-1-beta-1/) — r/wordpress
-- [Responsive styling in the block editor – no more custom CSS needed](https://developer.wordpress.org/news/2026/07/whats-new-for-developers-july-2026/) — r/wordpress
-- [WordPress 7.1 release squad announced – AI, collaboration, media, performance](https://wp-content.co/wordpress-7-1-release-squad-announced-focus-areas-ai-collaboration-media-performance-and-more/) — r/wordpress

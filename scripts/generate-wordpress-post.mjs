@@ -174,10 +174,6 @@ Nur diese zwei Zeilen, nichts anderes.`;
   const title = titleMatch ? titleMatch[1].trim() : topPost.title;
   const excerpt = excerptMatch ? excerptMatch[1].trim() : '';
 
-  const sourceList = [topPost, ...relatedPosts.slice(1, 4)]
-    .map((p) => `- [${p.title}](${p.url}) — r/wordpress`)
-    .join('\n');
-
   const today = new Date().toISOString().slice(0, 10);
 
   const frontmatter = `---
@@ -197,7 +193,7 @@ metadata:
 
   return {
     slug,
-    content: frontmatter + content + `\n\n## Quellen\n\n${sourceList}\n`,
+    content: frontmatter + content,
   };
 };
 

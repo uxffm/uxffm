@@ -76,9 +76,3 @@ Wenn ein Plugin nach dem Update auf 7.0 nicht mehr korrekt funktioniert und kein
 WordPress 7.0 ist ein bedeutendes Release, das technische Schulden in vielen Plugin-Entwicklungen sichtbar macht. Die gute Nachricht: Die größten Risiken sind bekannt, und für die meistgenutzten Frameworks wie Elementor und WooCommerce liegen kompatible Versionen vor. Wer methodisch vorgeht – Staging-Test, PHP-Version prüfen, Plugin-Updates sequentiell einspielen – kommt in der Regel problemlos durch.
 
 Als WordPress-Agentur aus Frankfurt, die täglich Websites migriert und aktualisiert, begleiten wir unsere Kunden durch genau solche Update-Prozesse. Wenn Sie unsicher sind, ob Ihre WordPress-Installation sicher auf 7.0 aktualisiert werden kann, sprechen Sie uns an – wir analysieren Ihre Plugin-Landschaft und begleiten das Update professionell.
-
-## Quellen
-
-- [WordPress 7.0 Field Guide – Make WordPress Core](https://make.wordpress.org/core/2026/05/14/wordpress-7-0-field-guide/) — r/wordpress
-- [WordPress 7.0 And Elementor Addons: Complete Compatibility Guide](https://wpwhichplugin.com/wordpress-7-0-elementor-addons-compatibility-guide/) — r/wordpress
-- [WordPress 7.0 Update Guide for WooCommerce Stores](https://devanshthakkar.com/wordpress-7-0-update-guide-for-woocommerce/) — r/wordpress

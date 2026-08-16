@@ -64,9 +64,3 @@ Außerdem: Wenn Sie Plugins von Drittanbietern einsetzen, prüfen Sie jetzt scho
 Responsives Styling ohne CSS, interaktive Zustände über den Editor und neue native Blöcke senken die Einstiegshürde für anspruchsvolles Webdesign deutlich. Das ist gut für alle, die WordPress selbst bedienen – und es bedeutet auch, dass Agenturen effektiver arbeiten können, weil weniger Spezial-CSS und weniger Zusatz-Plugins nötig sind.
 
 Wenn Sie wissen möchten, was WordPress 7.1 konkret für Ihre Website bedeutet, welche Plugins Sie vorab prüfen sollten und wie Sie das Update sicher einspulen, hilft Ihnen das Team der [WordPress-Agentur Frankfurt am Main](/) dabei – von der Staging-Analyse bis zum Live-Update inklusive Qualitätssicherung.
-
-## Quellen
-
-- [WordPress 7.1 Beta 1 – WordPress News](https://wordpress.org/news/2026/07/wordpress-7-1-beta-1/) — offizielle Ankündigung
-- [What's new in Gutenberg 23.6? (July 22, 2026)](https://make.wordpress.org/core/2026/07/22/whats-new-in-gutenberg-23-6-july-22-2026/) — r/wordpress
-- [Call for Testing: Responsive Styling](https://make.wordpress.org/test/2026/07/03/call-for-testing-responsive-styling/) — r/wordpress

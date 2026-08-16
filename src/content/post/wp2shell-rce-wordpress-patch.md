@@ -103,9 +103,3 @@ Die wp2shell-Lücke ist ein eindringliches Signal: WordPress-Sicherheit ist kein
 Als [WordPress Agentur Frankfurt am Main](/) unterstützen wir kleine und mittelständische Unternehmen dabei, ihre WordPress-Installationen sicher und aktuell zu halten. Nach Vorfällen wie wp2shell erhalten wir regelmäßig Anfragen von Betreibern, die nicht sicher sind, ob ihre Website kompromittiert wurde – oder die wissen möchten, ob alle notwendigen Schutzmaßnahmen aktiv sind.
 
 Sprechen Sie uns an: Wir helfen Ihnen bei der Versionsprüfung, der Analyse von Serverprotokollen, der Bereinigung kompromittierter Installationen und der langfristigen Absicherung Ihrer WordPress-Präsenz in der Rhein-Main-Region.
-
-## Quellen
-
-- [WordPress Core "wp2shell" RCE flaws get public exploits, patch now](https://www.bleepingcomputer.com/news/security/wordpress-core-wp2shell-rce-flaws-get-public-exploits-patch-now/) — r/wordpress
-- [CVE-2026-63030 and CVE-2026-60137 (wp2shell): WordPress RCE Explained](https://www.picussecurity.com/resource/blog/cve-2026-63030-and-cve-2026-60137-wp2shell-wordpress-rce-explained) — r/wordpress
-- [New wp2shell WordPress Core Flaw Lets Unauthenticated Attackers Run Code](https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html) — r/wordpress

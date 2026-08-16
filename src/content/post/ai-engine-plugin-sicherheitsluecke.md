@@ -90,9 +90,3 @@ Für kleine und mittelständische Unternehmen in Frankfurt und Umgebung ist das 
 Als WordPress-Experten aus Frankfurt, die täglich WordPress-Websites betreuen und absichern, sehen wir solche Sicherheitsvorfälle leider regelmäßig. Das gute Ergebnis: Wer proaktiv handelt und sein System aktuell hält, ist in den allermeisten Fällen gut geschützt.
 
 Frankfurt Marketing Studio hilft Ihnen dabei, Ihre WordPress-Website sicherheitstechnisch zu prüfen, laufend zu warten und optimal gegen aktuelle Bedrohungen zu schützen – sprechen Sie uns gerne an.
-
-## Quellen
-
-- [WordPress AI Engine Plugin Exposes 100,000 WordPress Sites to Privilege Escalation Attacks](https://cybersecuritynews.com/ai-engine-wordpress-plugin-exposes-100000-wordpress-sites/) — r/wordpress
-- [AI Engine Flaw Exposes 100,000 WordPress Sites to Attack](https://www.esecurityplanet.com/threats/news-wordpress-vulnerability-100k-impact/) — r/wordpress
-- [WordPress AI Security Risk 2026: 100K+ Sites Exposed Through Plugins](https://www.pandacodegen.com/blog/wordpress-ai-security-risk-2026) — r/wordpress

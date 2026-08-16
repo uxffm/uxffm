@@ -88,9 +88,3 @@ Für professionell verwaltete WordPress-Websites — bei denen ein spezialisiert
 ## Fazit: Proaktive Sicherheit ist keine Option mehr
 
 Der Mai 2026 hat erneut gezeigt: WordPress-Sicherheit ist ein laufendes Projekt, kein einmaliger Setup-Schritt. Plugins mit Hunderttausenden aktiver Installationen können innerhalb von Tagen nach einem Update zur gefährlichsten Komponente einer Website werden. Wer keinen internen IT-Administrator mit WordPress-Expertise beschäftigt, sollte professionelle Unterstützung in Betracht ziehen — bevor ein Vorfall eintritt, nicht danach. Die Konsequenzen einer kompromittierten Website reichen von Datenverlust über DSGVO-Bußgelder bis hin zu dauerhaftem Reputationsschaden.
-
-## Quellen
-
-- [Hackers exploit auth bypass flaw in Burst Statistics WordPress plugin](https://www.bleepingcomputer.com/news/security/hackers-exploit-auth-bypass-flaw-in-burst-statistics-wordpress-plugin/) — r/wordpress
-- [1 Million WordPress Sites Exposed by Avada Builder Security Flaws](https://rewterz.com/threat-advisory/1-million-wordpress-sites-exposed-by-avada-builder-security-flaws) — r/wordpress
-- [WordPress Vulnerability Roundup: May 2026](https://wpvanguard.com/blog/wordpress-vulnerability-roundup-may-2026) — r/wordpress

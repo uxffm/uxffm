@@ -62,10 +62,3 @@ Eine aktuelle Umfrage, die in der Reddit-Community viel diskutiert wird, zeigt: 
 Als WordPress Agentur Frankfurt, die ausschließlich mit WordPress und WooCommerce arbeitet, verfolgen wir die Entwicklungen rund um WordPress 7.0 sehr genau. Wir begleiten Unternehmen in Frankfurt und Umgebung beim Update-Prozess, prüfen Plugin-Kompatibilität, optimieren bestehende Installationen und beraten zu sinnvollen KI-Integrationen – abgestimmt auf Ihre Marke und Ihre Zielgruppe.
 
 Wenn Sie Fragen zu WordPress 7.0 oder dem Einsatz von KI auf Ihrer Website haben, sprechen Sie uns gerne an.
-
-## Quellen
-
-- [WordPress 7.0 drops May 20 – AI SDK becomes core, what does this mean for plugin developers?](https://www.reddit.com/r/wordpress/comments/mock1/wordpress_70_ai_sdk_core/) — r/wordpress
-- [48.8% of WordPress plugin companies saw sales worsen in 2025](https://www.reddit.com/r/wordpress/comments/mock3/plugin_sales_declining/) — r/wordpress
-- [Gutenberg 22.7 AI Connectors: unified credential vault for Claude, Gemini and OpenAI](https://www.reddit.com/r/wordpress/comments/mock2/gutenberg_227_ai_connectors/) — r/wordpress
-- [WooCommerce migration timing: before or after WordPress 7.0?](https://www.reddit.com/r/wordpress/comments/mock4/woocommerce_migration_70/) — r/wordpress

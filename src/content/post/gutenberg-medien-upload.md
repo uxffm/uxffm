@@ -72,9 +72,3 @@ Wenn Sie WordPress 7.0 einsetzen und das [Gutenberg-Plugin](https://wordpress.or
 Besonders wenn Ihre Website regelmäßig mit Bildmaterial arbeitet – ob Produktfotos, Reportage-Bilder oder Eventfotos – lohnt es sich, die neuen Medien-Funktionen frühzeitig zu evaluieren. UltraHDR wird in der Fotografie-Community bereits intensiv diskutiert, und Websites, die das Format früh unterstützen, profitieren von einer deutlich besseren Bildqualität auf modernen Displays.
 
 Als Frankfurter WordPress Agentur unterstützen wir Sie bei der Evaluierung und Umsetzung von WordPress-Updates – von der Kompatibilitätsprüfung Ihrer bestehenden Plugins bis zur Einrichtung optimierter Medien-Workflows für Ihr Team.
-
-## Quellen
-
-- [What's new in Gutenberg 23.4? (June 17, 2026)](https://make.wordpress.org/core/2026/06/17/whats-new-in-gutenberg-23-3-03-jun-2/) — r/wordpress
-- [What's new in Gutenberg 23.3? (June 03, 2026)](https://make.wordpress.org/core/2026/06/03/whats-new-in-gutenberg-23-3-03-jun/) — r/wordpress
-- [Announcing a collaborative editing outreach effort for 7.1](https://make.wordpress.org/core/2026/06/03/announcing-a-collaborative-editing-outreach-effort-for-7-1/) — r/wordpress

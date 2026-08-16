@@ -86,9 +86,3 @@ Einige strukturelle Maßnahmen können das Risiko dauerhaft senken:
 Der ARVE-Backdoor zeigt einmal mehr, dass Sicherheitsrisiken im WordPress-Ökosystem nicht nur von veralteten Plugins ausgehen – auch aktuelle Versionen aus vertrauenswürdigen Quellen können innerhalb von Stunden zur Bedrohung werden. Wer Version 10.8.7 installiert hat, muss jetzt handeln.
 
 Wenn Sie Hilfe bei der Überprüfung Ihrer WordPress-Installation benötigen, ein Sicherheitsaudit durchführen lassen möchten oder Ihre Website nach einem solchen Vorfall professionell absichern wollen, stehen Ihnen die [WordPress-Experten aus Frankfurt](/) gerne zur Seite. Wir begleiten Sie von der Incident-Response bis zum langfristigen Sicherheitsmonitoring.
-
-## Quellen
-
-- [CVE-2026-18072: Backdoored ARVE plugin enables admin logins without credentials](https://blog.toolslib.net/2026/07/29/cve-2026-18072-arve-backdoor/) — r/wordpress
-- [Critical WordPress Plugin Backdoor Exposes 20,000 Sites to Administrator Takeover](https://cyberpress.org/wordpress-plugin-backdoor-exposes-20000-sites/) — r/wordpress
-- [GitHub Advisory GHSA-45wh-rxq4-jqc6](https://github.com/advisories/GHSA-45wh-rxq4-jqc6) — r/wordpress

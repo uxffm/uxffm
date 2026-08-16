@@ -95,9 +95,3 @@ Prüfen Sie vor dem Update:
 WordPress 7.1 mit Echtzeit-Kollaboration wird kommen, und nach allem, was das Core-Team kommuniziert, wird es deutlich ausgereifter sein als das ursprünglich für 7.0 geplante Feature. Bis August 2026 lässt sich mit den richtigen Workflows und Plugins gut und produktiv arbeiten.
 
 Wenn Sie Unterstützung beim WordPress-Upgrade auf Version 7.0, bei der Plugin-Kompatibilitätsprüfung oder beim Aufbau effizienter Redaktionsabläufe für Ihr Team benötigen, hilft Frankfurt Marketing Studio gerne weiter – von der technischen Migration bis zum fertigen Content-Workflow.
-
-## Quellen
-
-- [WordPress 7.0 ships without real-time collaboration – feature removed days before release](https://make.wordpress.org/core/2026/05/08/rtc-removed-from-7-0/) — r/wordpress
-- [WordPress AI connector approval experiment blocks plugin access to API keys by default](https://make.wordpress.org/ai/2026/05/08/ai-contributor-weekly-summary-6-may-2026/) — r/wordpress
-- [WordPress 7.0 released: What actually shipped vs what was promised](https://www.searchenginejournal.com/wordpress-7-0-will-ship-without-real-time-collaboration/574330/) — r/wordpress

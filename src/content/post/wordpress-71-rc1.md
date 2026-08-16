@@ -82,9 +82,3 @@ Der sinnvolle Ablauf sieht so aus:
 WordPress 7.1 ist, gemessen an der Anzahl der enthaltenen Fixes und Features, eines der substanzreichsten Minor-Releases der letzten Jahre. Das Field Guide macht deutlich, wie viele Einzelteile sich verändert haben – von der Art, wie Icons verwaltet werden, bis hin zu subtilen CSS-Vererbungsregeln im Navigation-Block. Die meisten Änderungen sind Verbesserungen, aber jede Verbesserung kann auf Websites, die auf das alte Verhalten gebaut wurden, überraschende Auswirkungen haben.
 
 Als [WordPress-Agentur Frankfurt am Main](/) führen wir für unsere Kunden koordinierte Update-Prozesse durch: Staging-Tests, Plugin-Kompatibilitätschecks und dokumentierte Rollouts. Wenn Sie sichergehen wollen, dass Ihre Website den 19. August ohne Überraschungen übersteht, sprechen Sie uns rechtzeitig an.
-
-## Quellen
-
-- [WordPress 7.1 Release Candidate 1](https://wordpress.org/news/2026/08/wordpress-7-1-release-candidate-1/) — r/wordpress
-- [WordPress 7.1 Field Guide – Make WordPress Core](https://make.wordpress.org/core/2026/08/05/wordpress-7-1-field-guide/) — r/wordpress
-- [Miscellaneous Block Editor Changes in WordPress 7.1](https://make.wordpress.org/core/2026/08/04/miscellaneous-block-editor-changes-in-wordpress-7-1/) — r/wordpress

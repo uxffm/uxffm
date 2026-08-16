@@ -91,9 +91,3 @@ Für Website-Betreiber ohne Entwicklungshintergrund ist die wichtigste Botschaft
 Für Agenturen und Entwicklerinnen: Nutzen Sie die nächsten 18 Tage aktiv. RC1 am 5. August ist der letzte Moment für Kompatibilitätsrückmeldungen an Plugin-Autoren. Wer eigene Custom Blocks betreibt, sollte die Migration auf Block-API v3 jetzt abschließen und nicht auf den letzten Moment warten.
 
 Als [Frankfurter WordPress Agentur](/) begleiten wir Websites durch genau solche Versionswechsel: Staging-Setups, Kompatibilitätschecks, Block-Migrationen und koordinierte Update-Rollouts. Sprechen Sie uns an, wenn Sie sichergehen wollen, dass Ihre Website den 19. August reibungslos übersteht.
-
-## Quellen
-
-- [The post editor is going full iframe: what block developers need to know before WordPress 7.1](https://gutenbergtimes.com/the-post-editor-is-going-full-iframe-what-block-developers-need-to-know-before-wordpress-7-1/) — r/wordpress
-- [WordPress 7.1: What to Expect (Releasing August 19, 2026)](https://smartwp.com/wordpress-7-1/) — r/wordpress
-- [What's new for developers (July 2026)](https://developer.wordpress.org/news/2026/07/whats-new-for-developers-july-2026/) — r/wordpress

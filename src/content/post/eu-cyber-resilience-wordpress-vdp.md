@@ -109,10 +109,3 @@ Für Plugin-Entwickler ist der CRA eine Chance, sich durch professionelle Sicher
 ---
 
 **Sie haben Fragen zum Cyber Resilience Act oder benötigen Unterstützung bei der Absicherung Ihrer WordPress-Website?** Frankfurt Marketing Studio unterstützt Unternehmen in Frankfurt und Umgebung bei allen Fragen rund um WordPress-Sicherheit, Plugin-Auswahl und die technische Umsetzung von Compliance-Anforderungen. Sprechen Sie uns an – wir helfen Ihnen, Ihre Website fit für die neuen Anforderungen zu machen.
-
-## Quellen
-
-- [EU Cyber Resilience Act: VDP deadline June 12 – what WordPress plugin developers must do NOW](https://www.reddit.com/r/wordpress/comments/cra_wordpress_plugins_2026/) — r/wordpress
-- [Patchstack CRA checklist for WordPress plugin developers](https://patchstack.com/whitepaper/cyber-resilience-act-checklist/) — r/wordpress
-- [WordPress 7.0 AI Connectors: security implications of third-party API keys in core](https://vapvarun.com/wordpress-7-ai-connectors-pros-cons/) — r/wordpress
-- [State of WordPress Security 2026: supply chain attacks up 40%](https://patchstack.com/whitepaper/state-of-wordpress-security-in-2026/) — r/wordpress

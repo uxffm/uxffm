@@ -75,10 +75,3 @@ Für Unternehmenswebsites ist das ein erheblicher Sicherheits- und Verwaltungsvo
 Die Entscheidung, Echtzeit-Kollaboration aus WordPress 7.0 zu entfernen, war richtig. Ein halbfertiges Feature, das auf Millionen von Sites Instabilitäten verursacht, wäre deutlich schädlicher gewesen als eine transparente Verschiebung. Der klare Kommunikationsweg des Core-Teams – mit öffentlicher Erklärung und konkretem Ausblick auf WordPress 7.1 – zeigt, wie professionell das Projekt heute geführt wird.
 
 Wenn Sie Fragen zur Migration auf WordPress 7.0 haben, zur KI-Integration auf Ihrer Website oder zur Vorbereitung auf die Kollaborationsfunktionen in 7.1, helfen wir Ihnen gerne weiter. Als WordPress Agentur Frankfurt am Main kennen wir die technischen Details und unterstützen Sie dabei, das Beste aus jedem WordPress-Update herauszuholen.
-
-## Quellen
-
-- [Real-time collaboration will not ship in WordPress 7.0](https://make.wordpress.org/core/2026/05/08/rtc-removed-from-7-0/) — r/wordpress
-- [WordPress AI connector approval experiment](https://make.wordpress.org/ai/2026/05/08/ai-contributor-weekly-summary-6-may-2026/) — r/wordpress
-- [WordPress 7.0 Will Ship Without Real-Time Collaboration](https://www.searchenginejournal.com/wordpress-7-0-will-ship-without-real-time-collaboration/574330/) — r/wordpress
-- [WordPress 7.0: Release Date, New Features, and How to Upgrade Safely](https://www.bigcloudy.com/blog/wordpress-7-0-update/) — r/wordpress

@@ -77,9 +77,3 @@ Einige Hosting-Anbieter haben angekündigt, veraltete PHP-Versionen bis Ende 202
 Die PHP-Versionsanhebung in WordPress 7.0 ist technisch lösbar — aber sie erfordert Sorgfalt, die richtigen Werkzeuge und Zeit, die viele Website-Betreiber nicht haben. Als WordPress Agentur Frankfurt am Main begleiten wir Unternehmen durch genau diesen Prozess: von der Bestandsaufnahme über den Staging-Test bis hin zur sicheren Migration auf PHP 8.x und WordPress 7.0.
 
 Wenn Sie nicht sicher sind, auf welcher PHP-Version Ihre Website läuft, oder wenn Sie befürchten, dass ein Update Ihre Plugin-Landschaft destabilisieren könnte — sprechen Sie uns an. Ein kurzes Audit zeigt schnell, wo Sie stehen und was zu tun ist.
-
-## Quellen
-
-- [Dropping PHP 7.2 and 7.3 support – Make WordPress Core](https://make.wordpress.org/core/2026/01/09/dropping-support-for-php-7-2-and-7-3/) — wordpress.org
-- [WordPress 7.0 ships: PHP 7.4 required, AI built-in](https://webhosting.today/2026/05/20/wordpress-7-0-ships-php-7-4-required-ai-built-in-real-time-collaboration-delayed/) — webhosting.today
-- [PHP Compatibility and WordPress Versions](https://make.wordpress.org/core/handbook/references/php-compatibility-and-wordpress-versions/) — make.wordpress.org

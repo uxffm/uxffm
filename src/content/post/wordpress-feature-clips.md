@@ -73,9 +73,3 @@ Das zeigt, wohin die Reise geht: WordPress entwickelt sich von einem reinen Cont
 Als WordPress-Experten aus Frankfurt beobachten wir diese Entwicklungen sehr genau. Für unsere Kunden aus Frankfurt und der Rhein-Main-Region bedeutet die wachsende Verzahnung von WordPress und sozialen Medien konkrete Möglichkeiten: Wer bereits eine gut gepflegte WordPress-Website mit regelmäßigen Blogbeiträgen betreibt, hat das inhaltliche Fundament bereits gelegt — Feature Clips und ähnliche Funktionen helfen, diesen Content effizient auf weiteren Kanälen zu nutzen.
 
 Wenn Sie mehr darüber erfahren möchten, wie Sie Ihre WordPress-Website fit für Social Media machen und welche Funktionen und Plugins aktuell wirklich Mehrwert bieten, sprechen Sie uns an. Wir unterstützen Sie dabei, WordPress nicht nur als Website, sondern als vollständiges digitales Kommunikationswerkzeug einzusetzen.
-
-## Quellen
-
-- [Feature Clips: Turn Posts Into Social-Ready Video – WordPress.com Blog](https://wordpress.com/blog/2026/06/26/feature-clips/)
-- [Create a Feature Clip from a post – WordPress.com Support](https://wordpress.com/support/feature-clips/)
-- [WordPress.org News](https://wordpress.org/news/)

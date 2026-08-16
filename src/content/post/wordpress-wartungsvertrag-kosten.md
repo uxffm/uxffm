@@ -87,9 +87,3 @@ Für Unternehmen, bei denen die Website ein zentrales Vertriebs- und Kommunikati
 Ein WordPress-Wartungsvertrag ist keine Garantie gegen alle Probleme – aber er reduziert das Risiko erheblich und sorgt dafür, dass jemand Verantwortung für den technischen Betrieb übernimmt. Entscheidend ist, genau hinzuschauen: Was ist konkret enthalten? Wer führt die Arbeiten aus? Und gibt es transparente Berichte?
 
 Wenn Sie Fragen zur Wartung Ihrer WordPress-Website haben oder ein passendes Betreuungspaket für Ihr Unternehmen suchen, sprechen Sie gerne Frankfurt Marketing Studio an – wir helfen Ihnen, die richtige Lösung für Ihren Bedarf zu finden.
-
-## Quellen
-
-- [What should a WordPress maintenance plan actually include?](https://www.reddit.com/r/Wordpress/comments/1lnp3q7/what_should_a_wordpress_maintenance_plan_actually/) — r/wordpress
-- [How much do you charge for WordPress care plans?](https://www.reddit.com/r/Wordpress/comments/1lmx8k4/how_much_do_you_charge_for_wordpress_care_plans/) — r/wordpress
-- [My WordPress site got hacked – no backups, no monitoring, hard lessons](https://www.reddit.com/r/Wordpress/comments/1lks2f1/my_wordpress_site_got_hacked_no_backups_no/) — r/wordpress

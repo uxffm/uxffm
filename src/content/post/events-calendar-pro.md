@@ -133,10 +133,3 @@ Langfristig sollten alle WordPress-Nutzer ihre Plugin-Strategie überdenken. Wen
 ---
 
 **Sie sind von der The Events Calendar-Situation betroffen oder möchten Ihre WordPress-Website auf eine solidere Basis stellen?** Als WordPress Agentur Frankfurt unterstützen wir Unternehmen in Frankfurt und Umgebung bei der Auswahl, Migration und Wartung von WordPress-Plugins. Ob Sicherheitsaudit, Plugin-Wechsel oder langfristige Betreuung – sprechen Sie uns an.
-
-## Quellen
-
-- [WTF has happened to The Events Calendar Pro](https://www.reddit.com/r/Wordpress/comments/1tbgvrf/wtf_has_happened_to_the_events_calendar_pro/) — r/wordpress
-- [With Kadence going down the gutter as they are acquired by Liquidweb, what other lightweight/performant alternatives do you folks recommend?](https://www.reddit.com/r/Wordpress/comments/1tb6l3j/with_kadence_going_down_the_gutter_as_they_are/) — r/wordpress
-- [5+ years in. The biggest security risk on every site I've inherited isn't a vulnerability it's the previous developer's \"temporary\" admin account.](https://www.reddit.com/r/Wordpress/comments/1tbx9aj/5_years_in_the_biggest_security_risk_on_every/) — r/wordpress
-- [1,000,000 WordPress Sites Affected by Arbitrary File Read and SQL Injection Vulnerabilities in Avada Builder WordPress Plugin](https://www.reddit.com/r/Wordpress/comments/1tbkedb/1000000_wordpress_sites_affected_by_arbitrary/) — r/wordpress

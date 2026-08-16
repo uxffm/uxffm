@@ -74,9 +74,3 @@ Für Frankfurter Unternehmen, die einen Website-Relaunch planen oder von einem a
 Dass ausgerechnet CERN – eine Organisation, die das Internet miterfunden hat – sich für WordPress als zukünftiges Web-CMS entscheidet, ist mehr als eine technische Entscheidung. Es ist eine Aussage über die Reife der Plattform, die Stärke der Community und die Zukunftsfähigkeit von Open Source im professionellen Umfeld.
 
 Beim WordCamp Europe 2026 wird diese Geschichte heute in Kraków als Opening Keynote erzählt. Und sie ist eine, die es wert ist, gehört zu werden – egal ob Sie Entwicklerin, Unternehmensinhaber oder einfach WordPress-Nutzerin sind.
-
-## Quellen
-
-- [Two worlds collide: WordPress at CERN – WordCamp Europe 2026](https://europe.wordcamp.org/2026/session/two-worlds-collide-wordpress-at-cern/) — r/wordpress
-- [WordPress now available for CERN websites – CERN](https://home.cern/news/announcement/computing/wordpress-now-available-cern-websites) — r/wordpress
-- [CERN Moves to WordPress: Another Case for WordPress for Enterprise – Syde](https://syde.com/cern-wordpress-for-enterprise/) — r/wordpress

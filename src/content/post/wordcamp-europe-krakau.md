@@ -70,9 +70,3 @@ Empfehlenswert sind besonders die KI-Sessions und das WordPress-7.0-Panel – be
 Die Kombination aus einem frischen Major Release und dem größten Community-Event Europas macht den Juni 2026 zu einem wichtigen Monat für die WordPress-Welt. Die KI-Integration schreitet rasant voran, die Community arbeitet an offenen Fragen offen und öffentlich, und das Programm in Kraków zeigt, wie lebendig das WordPress-Ökosystem trotz aller Herausforderungen ist.
 
 Als WordPress-Agentur aus Frankfurt beobachten wir diese Entwicklungen genau und helfen unseren Kunden dabei, die richtigen Schlüsse zu ziehen – ob beim Update auf WordPress 7.0, bei der strategischen Integration von KI-Diensten oder beim Einsatz neuer Core-Features für konkrete Geschäftsziele.
-
-## Quellen
-
-- [Looking Ahead to WordCamp Europe 2026 – WordPress News](https://wordpress.org/news/2026/05/wceu-2026-sessions/) — r/wordpress
-- [WordPress 7.0: neue KI-Infrastruktur und Gutenberg Phase 3](https://gutenbergtimes.com/wordpress-7-0-source-of-truth/) — r/wordpress
-- [WordCamp Europe 2026 – KI-Sessions im Überblick](https://europe.wordcamp.org/2026/built-for-intelligence-the-ai-sessions-coming-to-wceu-2026/) — r/wordpress

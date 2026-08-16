@@ -60,9 +60,3 @@ Die Flexibilität, die WordPress bietet, ist mit keiner anderen Plattform zu err
 Die gesunkenen Marktanteile sind ein Signal, dass sich WordPress weiterentwickeln muss – und das tut es, mit Investitionen in Performance, KI und Developer Experience. Für Unternehmen, die heute auf WordPress setzen und es richtig einsetzen, ändert sich deshalb im Kern nichts.
 
 Als WordPress-Agentur aus Frankfurt unterstützen wir Unternehmen dabei, WordPress nicht nur einzurichten, sondern optimal zu betreiben: von der Performance-Optimierung über die Sicherheitsabsicherung bis zur strategischen Content-Architektur. Wenn Sie wissen möchten, wie gut Ihre WordPress-Website aufgestellt ist, sprechen Sie uns an.
-
-## Quellen
-
-- [WordPress verliert Marktanteile sechs Monate in Folge – Search Engine Journal](https://www.searchenginejournal.com/wordpress-market-share-in-decline/576042/) — r/wordpress
-- [WordPress Plugin Sales Survey 2025 – WP Product Talk](https://wpproducttalk.com/blog/wordpress-plugin-sales-survey-2025/) — r/wordpress
-- [WordPress Market Share 2026 – WPPoland](https://wppoland.com/en/is-wordpress-dying-market-share-2026/) — r/wordpress

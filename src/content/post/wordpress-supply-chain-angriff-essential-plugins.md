@@ -80,9 +80,3 @@ WordPress.org hat nach diesem Vorfall angekündigt, die Überprüfung von Eigent
 Der Essential-Plugin-Angriff ist ein Lehrstück darüber, dass im digitalen Bereich Vertrauen kein statisches Gut ist. Ein Plugin, dem Sie fünf Jahre lang zu Recht vertraut haben, kann nach einem Eigentümerwechsel binnen Monaten zur Waffe gegen Ihre eigene Website werden.
 
 Für kleine Unternehmen und Selbstständige, die keine eigene IT-Abteilung haben, ist es schwer, all diese Entwicklungen im Blick zu behalten. Als WordPress-Agentur Frankfurt am Main unterstützen wir Unternehmen dabei, ihre WordPress-Websites nicht nur technisch sauber aufzusetzen, sondern auch langfristig sicher zu betreiben – von regelmäßigen Plugin-Audits bis zur Einrichtung von Monitoring-Systemen, die solche Angriffe frühzeitig sichtbar machen.
-
-## Quellen
-
-- [30+ WordPress plugins bought on Flippa and backdoored in supply chain attack](https://thenextweb.com/news/wordpress-plugins-backdoor-supply-chain-essential-plugin-flippa-2) — r/wordpress
-- [Attacker Bought 30 WordPress Plugins on Flippa and Backdoored All of Them](https://www.infoq.com/news/2026/05/wordpress-plugins-supply-chain/) — r/wordpress
-- [Flippa Promoted the Plugin Portfolio Sale as a Success Story. It Was a Supply Chain Attack.](https://webhosting.today/2026/04/17/flippa-promoted-the-plugin-portfolio-sale-as-a-success-story-it-was-a-supply-chain-attack/) — r/wordpress

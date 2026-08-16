@@ -90,9 +90,3 @@ Wer seine WordPress-Website professionell betreibt, kommt heute nicht mehr darum
 Fünf Stunden – so viel Zeit bleibt im Median, bevor eine bekannte Schwachstelle aktiv ausgenutzt wird. Das ist weniger als ein halber Arbeitstag. Wer Security-Updates nach dem Prinzip „ich schau nächste Woche drüber" handhabt, hat in der Hälfte der Fälle bereits verloren.
 
 Als WordPress Agentur Frankfurt am Main unterstützen wir Unternehmen dabei, ihre WordPress-Präsenz nicht nur technisch sauber zu halten, sondern auch dauerhaft abgesichert zu betreiben – mit strukturierten Update-Prozessen, Plugin-Audits und dem richtigen Sicherheits-Stack für die jeweilige Anforderung. Sprechen Sie uns an, wenn Sie Ihre WordPress-Sicherheitsstrategie überprüfen oder professionalisieren möchten.
-
-## Quellen
-
-- [WordPress 7.0 "Armstrong" released](https://www.reddit.com/r/Wordpress/comments/1ktqcmq/wordpress_70_armstrong_released/) — r/wordpress
-- [Fastest growing security issue in WordPress — Broken access control](https://www.reddit.com/r/Wordpress/comments/1k9sxvk/fastest_growing_security_issue_in_wordpress/) — r/wordpress
-- [Security/CVE report for April 2026](https://www.reddit.com/r/Wordpress/comments/1kbz7hl/securitycve_report_for_april_2026/) — r/wordpress

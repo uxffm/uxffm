@@ -76,9 +76,3 @@ Major-Updates wie dieses sind kein Routine-Patch – sie erfordern Aufmerksamkei
 Wer seinen Shop professionell betreibt, plant solche Updates nicht ad hoc, sondern im Rahmen einer klaren Wartungsstrategie: regelmäßige Updates in einer Testumgebung, Kompatibilitätsprüfungen vor dem Produktiveinsatz und ein Rollback-Plan für den Notfall.
 
 Als [WordPress Agentur Frankfurt](/) unterstützen wir Shopbetreiber bei WooCommerce-Updates, Performanceoptimierungen und der Umsetzung neuer Features. Wenn Sie unsicher sind, wie das Update für Ihren Shop verläuft – sprechen Sie uns an, bevor Sie auf „Update" klicken.
-
-## Quellen
-
-- [WooCommerce 11.0 release is delayed – WooCommerce Developer Blog](https://developer.woocommerce.com/2026/07/28/woocommerce-11-0-delay/) — r/wordpress
-- [WooCommerce 11.0: What's coming for developers – WooCommerce Developer Blog](https://developer.woocommerce.com/2026/07/13/woocommerce-11-0-pre-release/) — r/wordpress
-- [The product editor beta is being retired in WooCommerce 11.0 – WooCommerce Developer Blog](https://developer.woocommerce.com/2026/06/02/product-editor-beta-retiring/) — r/wordpress

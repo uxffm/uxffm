@@ -105,9 +105,3 @@ Konkrete strukturelle Maßnahmen, die künftig helfen:
 ## Frankfurt Marketing Studio unterstützt bei der Incident Response
 
 Als [WordPress-Experten aus Frankfurt](/) begleiten wir Unternehmen in der Rhein-Main-Region bei der Analyse, Bereinigung und Absicherung ihrer WordPress-Installationen nach Sicherheitsvorfällen. Falls Sie unsicher sind, ob Ihre Site betroffen war, oder eine professionelle Einschätzung benötigen – sprechen Sie uns an. Eine erste Einschätzung geben wir gerne.
-
-## Quellen
-
-- [WordPress wp2shell attacks escalate following public PoC release](https://fieldeffect.com/blog/wordpress-wp2shell-attacks-public-poc) — r/wordpress
-- [Exploitation in the Wild of wp2shell](https://www.wiz.io/blog/wp2shell-cve-2026-63030-cve-2026-60137) — r/wordpress
-- [WordPress Security Statistics for 2026 ft: wp2shell](https://www.swif.ai/blog/wordpress-security-statistics) — r/wordpress

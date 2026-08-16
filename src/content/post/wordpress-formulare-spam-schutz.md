@@ -91,9 +91,3 @@ Wenn trotz CAPTCHA und Honeypot immer noch unerwünschte Submissions durchkommen
 ## Sichere WordPress-Formulare aus Frankfurt
 
 Spam-Schutz, DSGVO-Compliance und Nutzerfreundlichkeit müssen sich nicht ausschließen – es geht darum, die richtigen Maßnahmen sinnvoll zu kombinieren. Als [Frankfurt WordPress Agentur](/) unterstützt Frankfurt Marketing Studio kleine und mittelständische Unternehmen dabei, ihre WordPress-Websites technisch sauber aufzustellen: von der Wahl des richtigen Formular-Plugins über die Einrichtung von Cloudflare Turnstile bis hin zur vollständigen DSGVO-Prüfung aller Formulare und Datenschutzeinstellungen.
-
-## Quellen
-
-- [What's the best spam protection for Contact Form 7 in 2026?](https://www.reddit.com/r/wordpress/) — r/wordpress
-- [Cloudflare Turnstile vs hCaptcha vs reCAPTCHA — which do you use?](https://www.reddit.com/r/wordpress/) — r/wordpress
-- [My contact form is being used to send spam emails — how do I stop it?](https://www.reddit.com/r/wordpress/) — r/wordpress

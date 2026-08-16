@@ -90,9 +90,3 @@ Wenn Sie eine WordPress-Website betreiben und Accordion-Plugins einsetzen, lohnt
 Für Unternehmen, die ihre Website selbst pflegen, bringt WordPress 6.9 insgesamt mehr redaktionelle Selbstständigkeit: FAQ-Bereiche, Lesezeitangaben, Kollaborations-Feedback – das alles funktioniert jetzt ohne externe Plugins. Weniger Abhängigkeiten bedeutet weniger Angriffsfläche und weniger Wartungsaufwand.
 
 Wenn Sie Unterstützung bei der Migration, beim Theme-Customizing für den neuen Accordion-Block oder bei der Nutzung von Block Notes im Redaktionsteam benötigen, sprechen Sie Frankfurt Marketing Studio an – wir begleiten Sie bei der Umsetzung.
-
-## Quellen
-
-- [What's Inside WordPress 6.9 "Gene": Accordion, Terms Query, Math Block And More](https://wpdeveloper.com/whats-inside-wordpress-6-9-gene) — r/wordpress
-- [WordPress 6.9 "Gene" Introduces Notes, Expanded Command Palette, Improved Editing Tools](https://www.therepository.email/wordpress-6-9-gene-introduces-notes-expanded-command-palette-improved-editing-tools-and-abilities-api) — r/wordpress
-- [WordPress 6.9: The Collaboration Release That Changes Everything](https://humanmade.com/wordpress-for-enterprise/wordpress-6-9-the-collaboration-release-that-changes-everything/) — r/wordpress

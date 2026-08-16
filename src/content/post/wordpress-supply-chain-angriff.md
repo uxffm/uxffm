@@ -110,9 +110,3 @@ Dieser Vorfall ist eine Erinnerung daran, dass das Vertrauen in einen Plugin-Ent
 Für Unternehmen, die auf WordPress setzen, bedeutet das: Ein professionelles Plugin-Management ist keine optionale Maßnahme mehr, sondern Teil der Grundsicherheit jeder Installation. Dazu gehören regelmäßige Audits, kontrollierte Update-Prozesse und das Wissen, welche Software auf der eigenen Website läuft.
 
 Als WordPress-Agentur aus Frankfurt helfen wir Unternehmen dabei, ihre WordPress-Installationen sicher, aktuell und performant zu halten — mit strukturierten Wartungskonzepten, die genau solche Vorfälle frühzeitig erkennen. Sprechen Sie uns an, wenn Sie Ihre Website überprüfen lassen möchten.
-
-## Quellen
-
-- [Attacker Bought 30 WordPress Plugins on Flippa and Backdoored All of Them](https://www.infoq.com/news/2026/05/wordpress-plugins-supply-chain/) — InfoQ
-- [30+ WordPress plugins bought on Flippa and backdoored in supply chain attack](https://thenextweb.com/news/wordpress-plugins-backdoor-supply-chain-essential-plugin-flippa-2) — The Next Web
-- [How a Six-Figure Flippa Buy Backdoored 31 WordPress Plugins](https://cyberspit.com/essentialplugin-supply-chain-attack.html) — CyberSpit

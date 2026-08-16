@@ -82,10 +82,3 @@ Das kurzfristige Zurückrollen von React 19 in Gutenberg 23.3.2 zeigt, dass das 
 Gleichzeitig macht diese Entwicklung deutlich: Wer WordPress professionell einsetzt, kommt an regelmäßigen technischen Audits nicht vorbei. Ein Plugin-Ökosystem, das nicht gepflegt wird, kann beim nächsten Major-Release zur Schwachstelle werden.
 
 Wenn Sie ein WordPress-Projekt professionell betreiben und sicherstellen möchten, dass Ihre Site durch diese Architekturveränderungen nicht beeinträchtigt wird, sind die WordPress-Experten aus Frankfurt der richtige Ansprechpartner. Frankfurt Marketing Studio begleitet Unternehmen bei WordPress-Upgrades, Plugin-Audits und der technischen Absicherung Ihrer Online-Präsenz — damit Ihre Website auch nach dem 7.1-Release stabil und performant bleibt.
-
-## Quellen
-
-- [React 19 Upgrade in WordPress – Make WordPress Core](https://make.wordpress.org/core/2026/05/27/react-19-upgrade-in-wordpress/) — r/wordpress
-- [React 19 upgrade temporarily reverted in Gutenberg – Make WordPress Core](https://make.wordpress.org/core/2026/06/05/react-19-upgrade-temporarily-reverted-in-gutenberg/) — r/wordpress
-- [Gutenberg React 19 Revert: What Plugin Authors Should Do Now | The WP Clan](https://thewpclan.com/gutenberg-react-19-revert/) — r/wordpress
-- [WordPress 7.1 Development Has Started — SoJu Web Development](https://supersoju.com/blog/2026/06/04/wordpress-7-1-development-has-started-features-and-what-agencies-should-watch/) — r/wordpress

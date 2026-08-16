@@ -102,9 +102,3 @@ Beide Plugins bieten Import-Assistenten für den jeweiligen Gegenspieler. Nutzen
 Für neue WordPress-Projekte empfehlen wir als Frankfurter WordPress Agentur in der Regel Rank Math – wegen des besseren Kosten-Leistungs-Verhältnisses, der tieferen Schema-Unterstützung und der übersichtlicheren Darstellung von Search Console-Daten direkt im Editor. Für Content-getriebene Projekte mit großen Redaktionsteams ohne technischen Hintergrund bleibt Yoast die erste Wahl.
 
 Wenn Sie sich nicht sicher sind, welches Plugin zu Ihrer spezifischen Situation passt, oder wenn Sie einen sicheren Wechsel ohne Datenverlust planen möchten, steht das Team von Frankfurt Marketing Studio gerne für ein unverbindliches Gespräch zur Verfügung.
-
-## Quellen
-
-- [Yoast SEO – WordPress Plugin-Verzeichnis](https://wordpress.org/plugins/wordpress-seo/) — r/wordpress
-- [Rank Math SEO – WordPress Plugin-Verzeichnis](https://wordpress.org/plugins/seo-by-rank-math/) — r/wordpress
-- [Rank Math vs. Yoast: Which is Best? Community Thread r/wordpress](https://www.reddit.com/r/Wordpress/comments/1de34gk/rank_math_vs_yoast_seo_which_is_best_in_2026/) — r/wordpress

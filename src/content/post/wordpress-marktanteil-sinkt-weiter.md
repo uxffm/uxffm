@@ -96,10 +96,3 @@ Das bedeutet aber nicht, dass Sie WordPress sofort aufgeben sollten. Es bedeutet
 Für Website-Betreiber und kleine Unternehmen in Frankfurt und der Region: Diese Entscheidungen sind komplex. Sie benötigen einen Partner, der Ihnen hilft, die richtige Lösung zu wählen – nicht basierend auf Hype oder Panik, sondern basierend auf Ihren konkreten Anforderungen. Eine erfahrene Frankfurter WordPress Agentur, die sich intensiv mit solchen Fragen auseinandersetzt, kann Ihnen dabei helfen, die richtige Strategie zu entwickeln.
 
 Die WordPress-Community wird diese Krise wahrscheinlich überstehen. Die Frage ist nur: in welcher Form, und ob Sie dann noch dabei sein möchten.
-
-## Quellen
-
-- [WordPress market share drops to 41.5% - six consecutive months of decline](https://www.reddit.com/r/wordpress/comments/trending_market_share) — r/wordpress
-- [Should I migrate my client's WordPress sites to something else given the governance issues?](https://www.reddit.com/r/wordpress/comments/governance_migration) — r/wordpress
-- [WordPress 6.8 performance improvements are actually significant - benchmarks inside](https://www.reddit.com/r/wordpress/comments/wp68_performance) — r/wordpress
-- [Best caching plugin in 2026? WP Rocket vs FlyingPress vs LiteSpeed Cache](https://www.reddit.com/r/wordpress/comments/caching_plugins_2026) — r/wordpress

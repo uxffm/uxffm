@@ -164,10 +164,3 @@ WordPress 7.0 "Armstrong" ist ein bedeutendes Release, das die Plattform fit fü
 Für Websitebetreiber bedeutet das: Planen Sie das Update, aber überstürzen Sie nichts. Testen Sie gründlich, aktualisieren Sie Ihre Datenschutzerklärung für die KI-Nutzung und nutzen Sie die neuen Möglichkeiten schrittweise.
 
 Sie benötigen Unterstützung beim Update auf WordPress 7.0 oder möchten die neuen KI-Funktionen optimal in Ihren Workflow integrieren? Als WordPress Agentur Frankfurt am Main unterstützt Sie Frankfurt Marketing Studio bei allen Fragen rund um WordPress – von der sicheren Migration bis zur individuellen Schulung für Ihr Team.
-
-## Quellen
-
-- [WordPress 7.0 "Armstrong" ist da: KI-Integration, neues Dashboard und was das für euren Workflow bedeutet](https://www.reddit.com/r/wordpress/comments/1li2mno/wordpress_70_armstrong_release_ai_integration/) — r/wordpress
-- [Real-time collaboration removed from WP 7.0 - is 7.1 (August) too long to wait?](https://www.reddit.com/r/wordpress/comments/1li3abc/realtime_collaboration_removed_wp70/) — r/wordpress
-- [WP AI Client in core: which AI provider are you using with WordPress 7?](https://www.reddit.com/r/wordpress/comments/1li4def/wp_ai_client_provider_discussion/) — r/wordpress
-- [WordPress 7.0 broke my theme - DataViews changes and migration tips](https://www.reddit.com/r/wordpress/comments/1li5ghi/wp70_theme_migration_tips/) — r/wordpress

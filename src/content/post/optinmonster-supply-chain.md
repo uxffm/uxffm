@@ -90,10 +90,3 @@ Aus diesem Vorfall lassen sich konkrete Lehren für die eigene WordPress-Sicherh
 Der OptinMonster-CDN-Angriff zeigt: Vertrauen in einen Plugin-Anbieter reicht nicht aus, um dauerhaft sicher zu sein. Selbst etablierte und weitverbreitete Plugins können zum Einfallstor werden — wenn auch nicht durch eigene Fehler, sondern durch Schwachstellen in der Infrastruktur dahinter.
 
 Als WordPress-Agentur aus Frankfurt helfen wir kleinen und mittelständischen Unternehmen dabei, ihre WordPress-Websites sicher, aktuell und zuverlässig zu betreiben — mit regelmäßigen Sicherheits-Audits, durchdachten Backup-Strategien und einer schnellen Reaktion bei Sicherheitsvorfällen. Wenn Sie unsicher sind, ob Ihre Website von diesem Angriff betroffen ist, oder wenn Sie Ihre WordPress-Sicherheit grundlegend auf ein professionelles Niveau heben möchten, sprechen Sie uns an.
-
-## Quellen
-
-- [Supply Chain Attack on OptinMonster, TrustPulse, and PushEngage: Tampered CDN Scripts Auto-Creating Rogue Admins](https://patchstack.com/articles/supply-chain-attack-on-optinmonster-trustpulse-and-pushengage-tampered-cdn-scripts-auto-creating-rogue-admins/) — Patchstack
-- [OptinMonster supply chain attack hits 1.2 million sites](https://sansec.io/research/optinmonster-supply-chain-attack) — Sansec
-- [OptinMonster WordPress plugin hacked in CDN supply-chain attack](https://www.bleepingcomputer.com/news/security/optinmonster-wordpress-plugin-hacked-in-cdn-supply-chain-attack/) — Bleeping Computer
-- [Supply-chain attack hits OptinMonster plugin used in 1.2 million WordPress sites](https://cyberinsider.com/supply-chain-attack-hits-optinmonster-plugin-used-in-1-2-million-wordpress-sites/) — r/wordpress

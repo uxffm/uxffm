@@ -265,13 +265,6 @@ Nur diese zwei Zeilen, nichts anderes.`;
   const title = titleMatch ? titleMatch[1].trim() : topPost.title;
   const excerpt = excerptMatch ? excerptMatch[1].trim() : '';
 
-  const sourceList = [topPost, ...relatedPosts.slice(1, 4)]
-    .map((p) => {
-      const itemSource = p.subreddit ? `r/${p.subreddit}` : p.source;
-      return `- [${p.title}](${p.url}) — ${itemSource}`;
-    })
-    .join('\n');
-
   const today = new Date().toISOString().slice(0, 10);
 
   const frontmatter = `---
@@ -292,7 +285,7 @@ metadata:
 
   return {
     slug,
-    content: frontmatter + content + `\n\n## Quellen\n\n${sourceList}\n\nDieser Beitrag wurde automatisch aus öffentlichen SEO-Diskussionen und SEO-News angestossen und redaktionell für SEO WBN eingeordnet.\n`,
+    content: frontmatter + content + `\n\nDieser Beitrag wurde automatisch aus öffentlichen SEO-Diskussionen und SEO-News angestossen und redaktionell für SEO WBN eingeordnet.\n`,
   };
 };
 

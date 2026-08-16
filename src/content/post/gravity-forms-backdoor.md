@@ -95,9 +95,3 @@ Das Unternehmen hat die kompromittierten Versionen umgehend aus dem Download-Ber
 Der Gravity Forms-Backdoor ist ein ernster Vorfall — und ein weiterer Beleg dafür, dass auch Premium-Plugins und seriöse Anbieter kompromittiert werden können. Wer am 10. oder 11. Juli manuell heruntergeladen hat, sollte sofort handeln. Für alle anderen gilt: Auf Version 2.9.13 aktualisieren und eine File-Integrity-Prüfung als feste Gewohnheit etablieren.
 
 Wenn Sie unsicher sind, ob Ihre Website betroffen ist, oder wenn Sie nach einem solchen Vorfall Ihre WordPress-Sicherheitsstrategie auf solide Grundlagen stellen möchten, steht Ihnen die [WordPress-Agentur aus Frankfurt](/) gerne zur Seite. Wir führen Sicherheitsaudits durch, begleiten bei der Incident Response und richten proaktives Monitoring ein — damit Ihre Website auch dann geschützt bleibt, wenn der nächste Angriff kommt.
-
-## Quellen
-
-- [SECURITY INCIDENT NOTICE: Gravity Forms 2.9.11.1, 2.9.12 Malware Compromise Notice](https://www.gravityforms.com/blog/security-incident-notice/) — r/wordpress
-- [WordPress Gravity Forms developer hacked to push backdoored plugins](https://www.bleepingcomputer.com/news/security/wordpress-gravity-forms-developer-hacked-to-push-backdoored-plugins/) — r/wordpress
-- [Malware Found in Official GravityForms Plugin Indicating Supply Chain Breach](https://patchstack.com/articles/critical-malware-found-in-gravityforms-official-plugin-site/) — r/wordpress
