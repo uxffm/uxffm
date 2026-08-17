@@ -34,7 +34,7 @@ export const footerData = {
       links: [
         { text: 'Impressum', href: '/imoportant' },
         { text: 'Datenschutz', href: '/datenschutz' },
-        { text: 'Über mich', href: '/about-us' },
+        { text: 'Über uns', href: '/about-us' },
         { text: 'hello@frankfurtmarketingstudio.de', href: 'mailto:hello@frankfurtmarketingstudio.de' },
       ],
     },

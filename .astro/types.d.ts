@@ -640,6 +640,13 @@ declare module 'astro:content' {
   collection: "post";
   data: InferEntrySchema<"post">
 } & { render(): Render[".md"] };
+"wordpress-abilities-api-7-1.md": {
+	id: "wordpress-abilities-api-7-1.md";
+  slug: "wordpress-abilities-api-7-1";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
 "wordpress-accordion-block.md": {
 	id: "wordpress-accordion-block.md";
   slug: "wordpress-accordion-block";
