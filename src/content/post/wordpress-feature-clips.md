@@ -67,9 +67,3 @@ Es ist gut möglich, dass Automattic die Funktion in den kommenden Monaten auch 
 Feature Clips fügt sich in eine breitere Entwicklung ein. Mit [WordPress 7.0 „Armstrong"](https://wordpress.org/news/), das am 20. Mai 2026 erschien, wurden bereits umfangreiche KI-Funktionen in den Core integriert. Der neue AI Client ermöglicht es Plugins und Themes, standardisiert mit KI-Modellen zu kommunizieren. Feature Clips nutzt diese Infrastruktur, um generative Videoproduktion direkt im Editor zugänglich zu machen.
 
 Das zeigt, wohin die Reise geht: WordPress entwickelt sich von einem reinen Content-Management-System zu einer integrierten Plattform, die Erstellung, Optimierung und Verteilung von Inhalten zusammenführt.
-
-## Für Frankfurt Marketing Studio: Wie wir diesen Trend begleiten
-
-Als WordPress-Experten aus Frankfurt beobachten wir diese Entwicklungen sehr genau. Für unsere Kunden aus Frankfurt und der Rhein-Main-Region bedeutet die wachsende Verzahnung von WordPress und sozialen Medien konkrete Möglichkeiten: Wer bereits eine gut gepflegte WordPress-Website mit regelmäßigen Blogbeiträgen betreibt, hat das inhaltliche Fundament bereits gelegt — Feature Clips und ähnliche Funktionen helfen, diesen Content effizient auf weiteren Kanälen zu nutzen.
-
-Wenn Sie mehr darüber erfahren möchten, wie Sie Ihre WordPress-Website fit für Social Media machen und welche Funktionen und Plugins aktuell wirklich Mehrwert bieten, sprechen Sie uns an. Wir unterstützen Sie dabei, WordPress nicht nur als Website, sondern als vollständiges digitales Kommunikationswerkzeug einzusetzen.

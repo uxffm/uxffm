@@ -58,5 +58,3 @@ Für Agenturen und Entwickler, die mit WordPress arbeiten, ist das ein wichtiges
 Wenn Sie eine WordPress-Site betreiben, ändert sich durch den Abilities-API-Streit kurzfristig nichts. Das Release WordPress 7.1 selbst bringt dennoch relevante Neuerungen: responsives Block-Styling direkt im Editor, Pseudo-Zustände für Buttons und Navigationslinks, persistente Admin-Toolbar und neue Blöcke wie Playlist und Tabs.
 
 Langfristig ist die Abilities API ein Baustein für die KI-fähige WordPress-Infrastruktur der Zukunft. Wer heute schon Automatisierung in WordPress-Projekte integriert – sei es für redaktionelle Workflows, Kundenkommunikation oder Performance-Monitoring – sollte diesen Bereich im Auge behalten.
-
-Als [WordPress-Agentur Frankfurt am Main](/) unterstützen wir Unternehmen dabei, ihre WordPress-Infrastruktur zukunftssicher aufzustellen: von der Plugin-Auswahl über API-Anbindungen bis hin zur Integration moderner KI-Werkzeuge. Sprechen Sie uns an, wenn Sie wissen möchten, was die aktuellen Entwicklungen im WordPress-Kern für Ihr Projekt bedeuten.

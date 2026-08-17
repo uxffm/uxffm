@@ -66,5 +66,3 @@ Konkret sollten Sie Folgendes prüfen:
 - **Wissen Sie, auf welchem Hoster Ihre Website liegt** und ob dieser vom Streit potenziell betroffen sein könnte?
 - **Haben Sie Ihren Plugin-Update-Prozess dokumentiert?** Wenn Updates über ein alternatives System laufen, kann ein Unterbruch des WordPress.org-Zugangs schnell zur Sicherheitslücke werden.
 - **Haben Sie eine lokale Kopie aller genutzten Plugins?** Im Fall eines Zugangsverlusts zu wordpress.org können Sie so trotzdem auf kompatible Versionen zurückgreifen.
-
-Für Unternehmen, die ohne eigene IT-Abteilung arbeiten, ist es schwierig, solche Entwicklungen kontinuierlich im Blick zu behalten. Als WordPress-Agentur aus Frankfurt begleiten wir Unternehmen nicht nur beim Aufbau und der Pflege ihrer Websites, sondern auch bei der strategischen Einordnung von Entwicklungen im WordPress-Ökosystem – damit Ihre Website auch dann stabil und sicher bleibt, wenn sich die Spielregeln des Ökosystems ändern.

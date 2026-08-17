@@ -70,5 +70,3 @@ Wer auf echtes Real-time-Editing wartet – das gleichzeitige Bearbeiten eines D
 Für Betreiber kleinerer bis mittelgroßer WordPress-Sites ist 7.1 ein solides Update, das den Editor deutlich komfortabler macht. Besonders die responsiven Styling-Optionen und die interaktiven Zustände reduzieren die Abhängigkeit von zusätzlichen Plugins oder individuellem CSS – das wirkt sich positiv auf Ladezeit und Wartungsaufwand aus.
 
 Vor dem Update empfiehlt es sich, Plugin-Kompatibilität zu prüfen – besonders für Plugins, die eigene Block-Styles oder Custom-CSS-Lösungen für Hover-Effekte einsetzen. Wer bisher ein Plugin für Tabs oder Inhaltsverzeichnisse nutzt, sollte prüfen, ob der neue Core-Block dieselbe Funktion ausreichend abbildet, bevor doppelte Funktionalität aktiv bleibt.
-
-Als [WordPress Agentur Frankfurt am Main](/) unterstützen wir unsere Kundinnen und Kunden dabei, solche Updates sicher einzuspielen, Kompatibilitäten zu prüfen und neue Funktionen sinnvoll einzusetzen. Sprechen Sie uns an, wenn Sie Unterstützung beim Update auf WordPress 7.1 benötigen oder wissen möchten, welche der neuen Funktionen sich für Ihr Projekt lohnen.

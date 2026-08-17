@@ -43,17 +43,6 @@ const callClaude = async (prompt) => {
   return data.content[0].text;
 };
 
-const ANCHOR_VARIATIONS = [
-  'WordPress Agentur Frankfurt',
-  'WordPress Agentur in Frankfurt',
-  'Frankfurt WordPress Agentur',
-  'WordPress-Experten aus Frankfurt',
-  'WordPress-Agentur aus Frankfurt',
-  'Frankfurter WordPress Agentur',
-  'WordPress Spezialisten Frankfurt',
-  'WordPress Agentur Frankfurt am Main',
-];
-
 const run = async () => {
   await fs.mkdir(OUTPUT_DIR, { recursive: true });
 
@@ -71,7 +60,6 @@ const run = async () => {
     { title: '48% of WordPress plugin companies saw sales decline in 2025 – ecosystem analysis', url: 'https://wordpress.org/news/' },
   ];
 
-  const anchorText = ANCHOR_VARIATIONS[Math.floor(Math.random() * ANCHOR_VARIATIONS.length)];
   const relatedTitles = relatedPosts.map((p) => `- ${p.title}`).join('\n');
 
   const prompt = `Du bist ein erfahrener WordPress-Experte und schreibst fuer das Blog von Frankfurt Marketing Studio (frankfurtmarketingstudio.de), einer WordPress- und Online-Marketing-Agentur in Frankfurt am Main.
@@ -93,9 +81,7 @@ Anforderungen an den Artikel:
 - Stil: Praktisch und handlungsorientiert — der Leser soll etwas lernen und mitnehmen
 - Zielgruppe: WordPress-Nutzer und kleine Unternehmen in Frankfurt und Umgebung
 - Erkläre: Was war ursprünglich geplant, warum wurde Echtzeit-Kollaboration entfernt, was ist stattdessen in 7.0 enthalten, wann kommt die Funktion (7.1 August 2026), wie sollen Teams bis dahin zusammenarbeiten
-- Am Ende: Kurzer Hinweis, dass Frankfurt Marketing Studio bei solchen Themen hilft
 - Externe Links: Baue maximal 3 externe Links natürlich in den Fließtext ein — nur zur offiziellen WordPress-Dokumentation, zu make.wordpress.org oder zu searchenginejournal.com. Format: [Linktext](https://...) direkt im Text.
-- Interner Link zur Homepage: Baue genau einen internen Link zur Homepage ein ([Linktext](/)) — natürlich im Fließtext, wo er thematisch passt. Nutze GENAU diesen Ankertext: "${anchorText}" — passe ihn grammatikalisch an den Satz an, aber behalte alle Wörter bei.
 
 Gib NUR den Markdown-Inhalt des Artikels zurück (ab der ersten Überschrift mit ##, kein Frontmatter, kein Titel als H1). Fang direkt mit einem einleitenden Absatz an, dann die H2-Abschnitte.`;
 

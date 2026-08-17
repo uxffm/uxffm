@@ -131,5 +131,3 @@ Für betroffene Nutzer gilt: Ruhe bewahren, Dokumente sammeln, Support kontaktie
 Langfristig sollten alle WordPress-Nutzer ihre Plugin-Strategie überdenken. Weniger ist oft mehr. Jedes Plugin ist eine potenzielle Abhängigkeit, ein potenzielles Sicherheitsrisiko und ein potenzieller Pflegeaufwand. Wählen Sie mit Bedacht.
 
 ---
-
-**Sie sind von der The Events Calendar-Situation betroffen oder möchten Ihre WordPress-Website auf eine solidere Basis stellen?** Als WordPress Agentur Frankfurt unterstützen wir Unternehmen in Frankfurt und Umgebung bei der Auswahl, Migration und Wartung von WordPress-Plugins. Ob Sicherheitsaudit, Plugin-Wechsel oder langfristige Betreuung – sprechen Sie uns an.

@@ -100,7 +100,3 @@ Wenn Sie PHP-only Blocks in Projekten einsetzen wollen, empfehlen sich folgende 
 WordPress 7.0 erscheint am 20. Mai 2026 – in wenigen Tagen. Für Website-Betreiber gilt wie bei jedem Major Release: vollständiges Backup anlegen, Update zuerst in einer Staging-Umgebung testen, Plugin-Kompatibilität prüfen und erst dann auf der Live-Site ausrollen. Die [offizielle WordPress-Entwickler-Dokumentation](https://developer.wordpress.org/block-editor/) bietet den besten Einstieg in die neuen Block-APIs.
 
 PHP-only Blocks sind dabei nur eine von mehreren Neuerungen in 7.0: Das WP AI Client SDK wird Teil des Kerns, der Admin-Bereich bekommt sein größtes Redesign seit über einem Jahrzehnt, und das DataViews-System ersetzt die alten Listen-Tabellen durch eine moderne, filterbare Oberfläche. Es lohnt sich, rechtzeitig informiert zu sein und keine überstürzten Updates unmittelbar nach dem Release einzuspielen.
-
-## Frankfurt Marketing Studio hilft bei der Umsetzung
-
-Als WordPress-Experten aus Frankfurt entwickeln wir maßgeschneiderte Lösungen für Unternehmen in Frankfurt und der Rhein-Main-Region – von Custom-Blocks über Theme-Entwicklung bis hin zur Plugin-Integration und WooCommerce-Projekten. Wenn Sie Fragen zu PHP-only Blocks, zu WordPress 7.0 oder zur Entwicklung individueller Blocklösungen für Ihre Website haben, sprechen Sie uns gerne an.

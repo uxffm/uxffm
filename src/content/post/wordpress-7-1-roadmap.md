@@ -93,5 +93,3 @@ Prüfen Sie vor dem Update:
 ## Fazit: Geduld lohnt sich – aber nicht untätig warten
 
 WordPress 7.1 mit Echtzeit-Kollaboration wird kommen, und nach allem, was das Core-Team kommuniziert, wird es deutlich ausgereifter sein als das ursprünglich für 7.0 geplante Feature. Bis August 2026 lässt sich mit den richtigen Workflows und Plugins gut und produktiv arbeiten.
-
-Wenn Sie Unterstützung beim WordPress-Upgrade auf Version 7.0, bei der Plugin-Kompatibilitätsprüfung oder beim Aufbau effizienter Redaktionsabläufe für Ihr Team benötigen, hilft Frankfurt Marketing Studio gerne weiter – von der technischen Migration bis zum fertigen Content-Workflow.

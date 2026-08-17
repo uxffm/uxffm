@@ -89,5 +89,3 @@ Die [offizielle Entwickler-Dokumentation](https://developer.wordpress.org/news/2
 Für Website-Betreiber ohne Entwicklungshintergrund ist die wichtigste Botschaft: Spielen Sie WordPress 7.1 nicht am ersten Tag auf Ihre Live-Website auf. Testen Sie zuerst auf einer Staging-Umgebung, prüfen Sie, ob alle Plugins und Themes ein aktuelles Update haben, und warten Sie bei kritischen Plugins auf eine explizite „kompatibel mit WP 7.1"-Bestätigung vom Hersteller.
 
 Für Agenturen und Entwicklerinnen: Nutzen Sie die nächsten 18 Tage aktiv. RC1 am 5. August ist der letzte Moment für Kompatibilitätsrückmeldungen an Plugin-Autoren. Wer eigene Custom Blocks betreibt, sollte die Migration auf Block-API v3 jetzt abschließen und nicht auf den letzten Moment warten.
-
-Als [Frankfurter WordPress Agentur](/) begleiten wir Websites durch genau solche Versionswechsel: Staging-Setups, Kompatibilitätschecks, Block-Migrationen und koordinierte Update-Rollouts. Sprechen Sie uns an, wenn Sie sichergehen wollen, dass Ihre Website den 19. August reibungslos übersteht.

@@ -62,5 +62,3 @@ Außerdem: Wenn Sie Plugins von Drittanbietern einsetzen, prüfen Sie jetzt scho
 ## Was WordPress 7.1 für Ihre Agentur bedeutet
 
 Responsives Styling ohne CSS, interaktive Zustände über den Editor und neue native Blöcke senken die Einstiegshürde für anspruchsvolles Webdesign deutlich. Das ist gut für alle, die WordPress selbst bedienen – und es bedeutet auch, dass Agenturen effektiver arbeiten können, weil weniger Spezial-CSS und weniger Zusatz-Plugins nötig sind.
-
-Wenn Sie wissen möchten, was WordPress 7.1 konkret für Ihre Website bedeutet, welche Plugins Sie vorab prüfen sollten und wie Sie das Update sicher einspulen, hilft Ihnen das Team der [WordPress-Agentur Frankfurt am Main](/) dabei – von der Staging-Analyse bis zum Live-Update inklusive Qualitätssicherung.

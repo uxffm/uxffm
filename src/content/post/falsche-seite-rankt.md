@@ -25,7 +25,7 @@ Hier meine Lösungen, falls die falsche Seite oder das falsche Keyword rankt.
 
 Beim Erstellen einer Webseite ist es von größter Bedeutung, als allererstes sicherzustellen, dass das Keyword, für das Sie ranken möchtest, auch tatsächlich auf der Seite vorkommt. Dies mag offensichtlich klingen, aber es ist ein häufiger Stolperstein der übersehen wird. 
 
-Die wichtigsten Bereiche, in denen das Ziel-Keyword vorhanden sein sollte, sind der Titel der Seite, die H1-Überschrift, die ersten 100 Wörter des Textes und eventuell noch einmal in einer H2-Überschrift. Wenn das Keyword in diesen Bereichen nicht auftaucht, ist das die erste Optimierung, die vorgenommen werden sollte. Dabei ist es allerdings entscheidend, nicht in die Falle der <a href="/blog/seo-manipulation">SEO-Manipulation</a> wie Keyword-Stuffing zu tappen. Es geht darum, das Keyword auf natürliche und sinnvolle Weise in den Inhalt zu integrieren, ohne dabei die Lesbarkeit oder die Qualität des Inhalts zu beeinträchtigen.
+Die wichtigsten Bereiche, in denen das Ziel-Keyword vorhanden sein sollte, sind der Titel der Seite, die H1-Überschrift, die ersten 100 Wörter des Textes und eventuell noch einmal in einer H2-Überschrift. Wenn das Keyword in diesen Bereichen nicht auftaucht, ist das die erste Optimierung, die vorgenommen werden sollte. Dabei ist es allerdings entscheidend, nicht in die Falle der SEO-Manipulation wie Keyword-Stuffing zu tappen. Es geht darum, das Keyword auf natürliche und sinnvolle Weise in den Inhalt zu integrieren, ohne dabei die Lesbarkeit oder die Qualität des Inhalts zu beeinträchtigen.
 
 Diese Vorgehensweise ist der erste Schritt, den ich unternehme, wenn ich <a href="/service/wordpress-frankfurt">eine Webseite erstelle</a>, beispielsweise für ein Frankfurter Unternehmen. 
 
@@ -73,6 +73,3 @@ Checkliste: So löst Sie das Problem mit dem falschen Ranking
   * Optimiere die interne Verlinkung, um die wichtigste Seite hervorzuheben.
   * Prüfe in der Google Search Console, für welche Suchanfragen Ihre Seiten ranken.
   * Reduziere ähnliche Inhalte, um das Crawl-Budget effizient zu nutzen.
-
-
-Solltest Sie doch Fragen haben, schreibe mir gerne. Als <a href="/">Freelancer im Bereich Suchmaschinenoptimierung</a> helfe ich Ihnen unkompliziert und schnell.

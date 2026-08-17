@@ -72,5 +72,3 @@ Wer jetzt mit dem [offiziellen Block-Editor-Handbook](https://developer.wordpres
 ## Jetzt vorbereiten, nicht reagieren
 
 Die häufigste Frage auf r/wordpress in diesen Tagen lautet: „Soll ich sofort auf 7.1 updaten oder warten?" Die Antwort hängt von Ihrer Plugin-Situation ab. Wenn Sie ausschließlich aktiv gepflegte, populäre Plugins einsetzen, können Sie in der Regel direkt nach dem Release updaten – nach einem Test auf Staging. Bei älteren oder weniger bekannten Editor-Plugins lohnt es sich, eine bis zwei Wochen abzuwarten und die Community-Berichte zu beobachten.
-
-Als [Frankfurter WordPress Agentur](/) begleiten wir Sie durch das 7.1-Update: von der Plugin-Kompatibilitätsprüfung über das Staging-Testing bis zum produktiven Rollout. Wenn Sie sich bei einzelnen Plugins unsicher sind oder das Update mit professioneller Begleitung durchführen möchten, sprechen Sie uns an.

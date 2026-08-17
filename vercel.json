@@ -48,6 +48,26 @@
       "permanent": true
     },
     {
+      "source": "/google-ranking-verlust",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/low-hanging-fruits",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/seo-manipulation",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/seo-vs-sea-therapeuten",
+      "destination": "/",
+      "permanent": true
+    },
+    {
       "source": "/website-monatlich-bezahlen",
       "destination": "/",
       "permanent": true

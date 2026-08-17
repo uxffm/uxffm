@@ -5,7 +5,6 @@ import Hero from '~/components/widgets/Hero.astro';
 import Features from '~/components/widgets/Features.astro';
 import Content from '~/components/widgets/Content.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
-import Features2 from '~/components/widgets/Features2.astro';
 import WordPressReview from '~/components/widgets/WordPressReview.astro';
 import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 
@@ -172,51 +171,6 @@ const metadata = {
     </Fragment>
   </Content>
 
-   <!-- Features2 Widget ************** -->
-
-   <Features2
-   title="Wobei brauchen Sie Hilfe?"
-   subtitle="Viele WordPress-Projekte starten mit einem konkreten Problem. Genau dort setzen wir an."
-   columns={3}
-   items={[
-     {
-       title: 'Ich brauche eine neue Website',
-       description:
-         'Sie haben ein Angebot, aber noch keine Website, die es klar und professionell zeigt.',
-       icon: 'tabler:sitemap',
-     },
-     {
-       title: 'Meine alte Seite wirkt nicht mehr',
-       description:
-         'Design, Inhalte oder Technik passen nicht mehr zu Ihrem Unternehmen und sollen erneuert werden.',
-       icon: 'tabler:device-laptop',
-     },
-     {
-       title: 'Meine WordPress-Seite ist zu langsam',
-       description: `Lange Ladezeiten, zu viele Plugins oder ein schweres Theme: Wir finden die Ursachen und räumen auf.`,
-       icon: 'tabler:settings-search',
-     },
-     {
-       title: 'Meine Inhalte sind unklar',
-       description:
-         'Ihre Leistungen sollen verständlicher erklärt werden, ohne die Seite mit Marketingfloskeln zu überladen.',
-       icon: 'tabler:writing',
-     },
-     {
-       title: 'Mir fehlt WordPress-Support',
-       description:
-         'Updates, kleine Änderungen oder Fehler bleiben liegen und sollen zuverlässig betreut werden.',
-       icon: 'tabler:gauge',
-     },
-     {
-       title: 'Ich möchte mehr Anfragen',
-       description:
-         'Kontaktwege, Seitenstruktur und lokale Sichtbarkeit sollen Besucher leichter zur Anfrage führen.',
-       icon: 'tabler:shopping-cart',
-     },
-   ]}
- />
-
   <!-- HighlightedPosts Widget ******* -->
 
   <BlogLatestPosts
@@ -231,6 +185,7 @@ const metadata = {
   <!-- Frankfurt Stadtteile -->
 
   <section class="max-w-4xl mx-auto px-4 sm:px-6 py-12">
+    <h2 class="leading-tighter text-heading text-4xl md:text-5xl font-bold tracking-tighter mb-4 font-heading">Für ganz Frankfurt</h2>
     <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
       Es spielt keine Rolle, ob Sie Therapeutin in Sachsenhausen sind oder Rechtsanwalt auf der Zeil, Wir erstellen Ihre WordPress-Seite oder helfen Ihnen dabei, fair und schnell. Wir arbeiten mit Kundinnen und Kunden aus dem gesamten Frankfurter Stadtgebiet. Dazu gehören unter anderem:
     </p>

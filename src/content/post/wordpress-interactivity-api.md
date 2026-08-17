@@ -173,5 +173,3 @@ Das Core-Team verfolgt damit einen klaren Kurs: Gutenberg und der Block-Editor b
 ## Fazit
 
 Die WordPress Interaktivitäts-API ist für viele Anwendungsfälle heute die sauberere Wahl als ein vollständiger React-Block. Sie erfordert weniger JavaScript, weniger Build-Konfiguration und weniger externe Abhängigkeiten – und produziert dafür Markup, das serverseitig vollständig gerendert ist und im Browser reaktiv wird.
-
-Ob Akkordeon, Produktfilter oder interaktives Formular: Wenn Sie gerade einen neuen Block planen oder einen bestehenden React-Block vereinfachen möchten, lohnt es sich, die Interaktivitäts-API zuerst zu evaluieren. Frankfurt Marketing Studio unterstützt Sie bei der Architekturentscheidung, der Block-Entwicklung und der Migration bestehender Plugins.

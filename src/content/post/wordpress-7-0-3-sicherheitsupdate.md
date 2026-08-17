@@ -74,9 +74,3 @@ Ein strukturierter Ansatz für WordPress-Sicherheit umfasst:
 - **Starke Passwörter und Zwei-Faktor-Authentifizierung** für alle Admin-Accounts
 - **Tägliche Backups** an einem externen Speicherort, auf den WordPress selbst keinen Zugriff hat
 - **Monitoring**: Wissen Sie innerhalb von Minuten, wenn Ihre Site nicht erreichbar ist oder ungewöhnliche Aktivitäten auftreten
-
-## Wie Frankfurt Marketing Studio helfen kann
-
-Wenn Sie unsicher sind, ob Ihre WordPress-Website aktuell und ausreichend abgesichert ist, unterstützen die [WordPress-Experten aus Frankfurt](/). Wir prüfen Ihre Installation, spielen ausstehende Sicherheitsupdates ein, richten automatische Update-Prozesse ein und implementieren ein Sicherheitskonzept, das zu Ihrer Website und Ihrem Betrieb passt – von der kleinen Unternehmensseite bis zum komplexen WooCommerce-Shop.
-
-Sprechen Sie uns an, wenn Sie Fragen zu WordPress 7.0.3 oder zum Thema Website-Sicherheit allgemein haben.

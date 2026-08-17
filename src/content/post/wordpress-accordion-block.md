@@ -88,5 +88,3 @@ Das Feature markiert gleichzeitig den Beginn von Phase 3 des Gutenberg-Projekts 
 Wenn Sie eine WordPress-Website betreiben und Accordion-Plugins einsetzen, lohnt sich nach dem Update auf Version 6.9 eine Migration auf den nativen Block. Die Schritte sind überschaubar: Block-Inserter öffnen, neue Accordion-Struktur aufbauen, Inhalte übertragen, altes Plugin deaktivieren.
 
 Für Unternehmen, die ihre Website selbst pflegen, bringt WordPress 6.9 insgesamt mehr redaktionelle Selbstständigkeit: FAQ-Bereiche, Lesezeitangaben, Kollaborations-Feedback – das alles funktioniert jetzt ohne externe Plugins. Weniger Abhängigkeiten bedeutet weniger Angriffsfläche und weniger Wartungsaufwand.
-
-Wenn Sie Unterstützung bei der Migration, beim Theme-Customizing für den neuen Accordion-Block oder bei der Nutzung von Block Notes im Redaktionsteam benötigen, sprechen Sie Frankfurt Marketing Studio an – wir begleiten Sie bei der Umsetzung.

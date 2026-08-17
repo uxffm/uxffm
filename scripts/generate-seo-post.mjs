@@ -240,7 +240,6 @@ Anforderungen an den Artikel:
 - Struktur: Mehrere H2-Abschnitte mit echtem Inhalt, keine Füllwörter
 - Stil: Praktisch und handlungsorientiert — der Leser soll etwas lernen und mitnehmen
 - Zielgruppe: Unternehmen und Website-Betreiber, die SEO besser verstehen wollen
-- Am Ende: Kurzer Hinweis, dass SEO WBN bei solchen Themen hilft
 - Externe Links: Baue maximal 2 externe Links natürlich in den Fließtext ein — nur zu offiziellen Quellen (Google Search Central, Search Engine Journal, Search Engine Roundtable, offiziellen Plugin-Seiten). Keine beliebigen Drittseiten. Format: [Linktext](https://...) direkt im Text.
 - Keine internen Links zur Homepage oder anderen Seiten der Website.
 

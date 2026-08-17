@@ -99,5 +99,3 @@ Bis zum 15. Juli haben Sie noch zwei Tage. Nutzen Sie die Zeit:
 2. Richten Sie eine Staging-Umgebung ein, falls Sie noch keine haben.
 3. Erstellen Sie eine Liste aller aktiven Plugins – prüfen Sie für jeden, wann er zuletzt aktualisiert wurde.
 4. Notieren Sie PHP-Version und aktive Theme-Version.
-
-Als WordPress Agentur Frankfurt am Main begleiten wir unsere Kunden durch Update-Zyklen wie diesen – von der Testumgebung über die Kompatibilitätsprüfung bis zum produktiven Rollout. Wenn Sie unsicher sind, ob Ihre Website für 7.1 bereit ist, sprechen Sie uns an.

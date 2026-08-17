@@ -80,5 +80,3 @@ Der sinnvolle Ablauf sieht so aus:
 ## Die 13 Tage bis zum Release – jetzt nutzen
 
 WordPress 7.1 ist, gemessen an der Anzahl der enthaltenen Fixes und Features, eines der substanzreichsten Minor-Releases der letzten Jahre. Das Field Guide macht deutlich, wie viele Einzelteile sich verändert haben – von der Art, wie Icons verwaltet werden, bis hin zu subtilen CSS-Vererbungsregeln im Navigation-Block. Die meisten Änderungen sind Verbesserungen, aber jede Verbesserung kann auf Websites, die auf das alte Verhalten gebaut wurden, überraschende Auswirkungen haben.
-
-Als [WordPress-Agentur Frankfurt am Main](/) führen wir für unsere Kunden koordinierte Update-Prozesse durch: Staging-Tests, Plugin-Kompatibilitätschecks und dokumentierte Rollouts. Wenn Sie sichergehen wollen, dass Ihre Website den 19. August ohne Überraschungen übersteht, sprechen Sie uns rechtzeitig an.

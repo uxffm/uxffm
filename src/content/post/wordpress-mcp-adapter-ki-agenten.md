@@ -97,5 +97,3 @@ Die Kontrolle bleibt beim Websitebetreiber. Einige Punkte, die im Produktivbetri
 Die Einführung des MCP Adapters ist mehr als ein technisches Feature – sie markiert einen strategischen Wandel. WordPress positioniert sich nicht nur als CMS, sondern als steuerbarer Knotenpunkt innerhalb von KI-gestützten Workflows. Eine WordPress-Website, die MCP-kompatibel ist, kann in automatisierte Redaktionsprozesse, Kundenservice-Pipelines oder Produktkatalogs-Pflege eingebunden werden, ohne dass Entwickler für jede neue KI-Integration eigene Schnittstellen bauen.
 
 Für kleine Unternehmen und Agenturen bedeutet das: Aufgaben, die bisher feste Entwicklerstunden erforderten, werden zunehmend durch KI delegierbar – vorausgesetzt, die WordPress-Installation ist korrekt konfiguriert und abgesichert.
-
-Die Frankfurt Marketing Studio begleitet Kunden beim Aufbau zukunftsfähiger WordPress-Infrastrukturen – von der MCP-Einrichtung über Plugin-Entwicklung bis hin zu sicheren, wartbaren Setups, die mit dem wachsenden KI-Ökosystem kompatibel sind.

@@ -88,5 +88,3 @@ Das ist normal und liegt daran, dass Block-Themes und klassische Themes untersch
 ## Der Umstieg lohnt sich – aber er will geplant sein
 
 Die Migration zum Block-Checkout ist eine sinnvolle Investition in die Zukunftssicherheit Ihres Shops. Sie zahlt sich in besserer Performance, modernerer Nutzererfahrung und langfristiger Kompatibilität mit dem WordPress-Ökosystem aus. Wer jetzt plant und testet, vermeidet spätere Zwangsmigration unter Zeitdruck.
-
-Als WordPress Agentur Frankfurt am Main begleiten wir WooCommerce-Shopbetreiber durch den gesamten Migrationsprozess: von der Plugin-Analyse über die Einrichtung der Testumgebung bis zur reibungslosen Umstellung auf dem Live-Shop. Nehmen Sie Kontakt auf, wenn Sie unsicher sind, wie die Migration für Ihren spezifischen Shop-Setup aussieht – wir entwickeln einen klaren Plan ohne unnötige Unterbrechungen des laufenden Betriebs.

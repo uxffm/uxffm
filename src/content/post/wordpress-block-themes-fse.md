@@ -84,5 +84,3 @@ Die [offizielle Gutenberg-Plugin-Seite](https://wordpress.org/plugins/gutenberg/
 ## Fazit: Block Themes sind bereit — aber nicht für jedes Projekt
 
 Full Site Editing ist kein Hype mehr, sondern gelebte Praxis in vielen professionellen WordPress-Projekten. Die Lernkurve ist real, der langfristige Gewinn ebenfalls. Wer heute mit einem neuen Projekt startet, sollte ernsthaft in Block Themes investieren. Wer eine bestehende Website betreibt, sollte eine Migration sorgfältig planen — oder bis zu einem geplanten Relaunch warten.
-
-Als [WordPress-Experten aus Frankfurt](/) begleiten wir Kunden durch genau diese Entscheidungen: von der Technologieauswahl über die Theme-Entwicklung bis hin zur vollständigen Website-Migration. Sprechen Sie uns an, wenn Sie unsicher sind, welcher Ansatz für Ihr WordPress-Projekt der richtige ist.

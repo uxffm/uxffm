@@ -101,7 +101,3 @@ Konkrete strukturelle Maßnahmen, die künftig helfen:
 - **WAF / CDN mit Exploit-Erkennung vorschalten** – Cloudflare, Akamai und andere haben bereits innerhalb von Stunden nach der Offenlegung WAF-Regeln für wp2shell veröffentlicht.
 - **REST-API-Zugang beschränken** – Falls Ihre Site die Batch-Route nicht aktiv nutzt, können Sie den `/wp-json/batch/v1`-Endpunkt auf Infrastrukturebene (Nginx, Apache, .htaccess) blockieren.
 - **Monitoring einrichten** – Tools wie [WP Activity Log](https://wordpress.org/plugins/wp-security-audit-log/) protokollieren Admin-Aktivitäten und machen nachträgliche Kompromittierungen rekonstruierbar.
-
-## Frankfurt Marketing Studio unterstützt bei der Incident Response
-
-Als [WordPress-Experten aus Frankfurt](/) begleiten wir Unternehmen in der Rhein-Main-Region bei der Analyse, Bereinigung und Absicherung ihrer WordPress-Installationen nach Sicherheitsvorfällen. Falls Sie unsicher sind, ob Ihre Site betroffen war, oder eine professionelle Einschätzung benötigen – sprechen Sie uns an. Eine erste Einschätzung geben wir gerne.

@@ -162,5 +162,3 @@ Diese Zahlen verdeutlichen, warum WordPress nach wie vor das führende Content-M
 WordPress 7.0 "Armstrong" ist ein bedeutendes Release, das die Plattform fit für die KI-Ära macht. Die native KI-Integration ist durchdacht implementiert, das neue Dashboard ein längst überfälliges Upgrade. Ja, die Verschiebung der Real-time Collaboration enttäuscht, und ja, manche Themes bereiten Kopfschmerzen – aber insgesamt überwiegen die Vorteile deutlich.
 
 Für Websitebetreiber bedeutet das: Planen Sie das Update, aber überstürzen Sie nichts. Testen Sie gründlich, aktualisieren Sie Ihre Datenschutzerklärung für die KI-Nutzung und nutzen Sie die neuen Möglichkeiten schrittweise.
-
-Sie benötigen Unterstützung beim Update auf WordPress 7.0 oder möchten die neuen KI-Funktionen optimal in Ihren Workflow integrieren? Als WordPress Agentur Frankfurt am Main unterstützt Sie Frankfurt Marketing Studio bei allen Fragen rund um WordPress – von der sicheren Migration bis zur individuellen Schulung für Ihr Team.

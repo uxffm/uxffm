@@ -107,5 +107,3 @@ Der EU Cyber Resilience Act ist keine ferne Zukunftsmusik – die erste Deadline
 Für Plugin-Entwickler ist der CRA eine Chance, sich durch professionelle Sicherheitsstandards vom Wettbewerb abzuheben. Für Website-Betreiber wird er ein wichtiges Kriterium bei der Plugin-Auswahl. Und für die WordPress-Community insgesamt könnte er langfristig zu einem sichereren Ökosystem beitragen.
 
 ---
-
-**Sie haben Fragen zum Cyber Resilience Act oder benötigen Unterstützung bei der Absicherung Ihrer WordPress-Website?** Frankfurt Marketing Studio unterstützt Unternehmen in Frankfurt und Umgebung bei allen Fragen rund um WordPress-Sicherheit, Plugin-Auswahl und die technische Umsetzung von Compliance-Anforderungen. Sprechen Sie uns an – wir helfen Ihnen, Ihre Website fit für die neuen Anforderungen zu machen.

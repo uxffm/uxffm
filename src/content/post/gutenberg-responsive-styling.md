@@ -87,5 +87,3 @@ Es ist die umfangreichste Editor-Version seit WordPress 6.4 und bringt Funktione
 Responsive Styling ist mehr als ein technisches Feature – es ist ein Schritt in Richtung Inklusion. Websitebetreiber ohne Programmierkenntnisse können nun selbst sicherstellen, dass ihre Website auf allen Geräten gut aussieht. Das senkt die Abhängigkeit von Agenturen für einfache Anpassungen und stärkt die Eigenständigkeit der Nutzer.
 
 Gleichzeitig eröffnet es für WordPress-Agenturen neue Möglichkeiten, Kunden im Workshop-Format zu schulen: Responsive Styling lässt sich zeigen und anfassen, ohne eine einzige Zeile Code öffnen zu müssen.
-
-Als WordPress-Agentur Frankfurt am Main unterstützen wir Unternehmen dabei, das Beste aus neuen WordPress-Features herauszuholen – von der Einführung neuer Gutenberg-Versionen bis zur Planung responsiver Layouts für alle Bildschirmgrößen. Sprechen Sie uns an, wenn Sie Unterstützung bei der Migration auf WordPress 7.1 oder dem Einsatz von Responsive Styling benötigen.

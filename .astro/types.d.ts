@@ -269,13 +269,6 @@ declare module 'astro:content' {
   collection: "post";
   data: InferEntrySchema<"post">
 } & { render(): Render[".md"] };
-"google-ranking-verlust.md": {
-	id: "google-ranking-verlust.md";
-  slug: "google-ranking-verlust";
-  body: string;
-  collection: "post";
-  data: InferEntrySchema<"post">
-} & { render(): Render[".md"] };
 "gravity-forms-backdoor.md": {
 	id: "gravity-forms-backdoor.md";
   slug: "gravity-forms-backdoor";
@@ -314,13 +307,6 @@ declare module 'astro:content' {
 "kirki-plugin-sicherheitsluecke-cve.md": {
 	id: "kirki-plugin-sicherheitsluecke-cve.md";
   slug: "kirki-plugin-sicherheitsluecke-cve";
-  body: string;
-  collection: "post";
-  data: InferEntrySchema<"post">
-} & { render(): Render[".md"] };
-"low-hanging-fruits.md": {
-	id: "low-hanging-fruits.md";
-  slug: "low-hanging-fruits";
   body: string;
   collection: "post";
   data: InferEntrySchema<"post">
@@ -377,20 +363,6 @@ declare module 'astro:content' {
 "seo-fehler-frankfurt.md": {
 	id: "seo-fehler-frankfurt.md";
   slug: "seo-fehler-frankfurt-vermeiden";
-  body: string;
-  collection: "post";
-  data: InferEntrySchema<"post">
-} & { render(): Render[".md"] };
-"seo-manipulation.md": {
-	id: "seo-manipulation.md";
-  slug: "seo-manipulation";
-  body: string;
-  collection: "post";
-  data: InferEntrySchema<"post">
-} & { render(): Render[".md"] };
-"seo-vs-sea-therapeuten.md": {
-	id: "seo-vs-sea-therapeuten.md";
-  slug: "seo-vs-sea-therapeuten";
   body: string;
   collection: "post";
   data: InferEntrySchema<"post">

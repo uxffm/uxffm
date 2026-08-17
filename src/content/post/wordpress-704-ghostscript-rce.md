@@ -66,5 +66,3 @@ Das WordPress-Sicherheitsteam hat **automatische Updates für alle aktiven WordP
 CVE-2026-65640 ist bereits der dritte Sicherheitspatch innerhalb weniger Wochen: Auf das kritische Update 7.0.2 im Juli folgte 7.0.3 mit zwölf Fixes am 6. August, jetzt kommt 7.0.4. Das ist kein Zeichen für eine besonders unsichere Plattform – im Gegenteil: Sicherheitsforschungsteams analysieren WordPress intensiver denn je, und das Sicherheitsteam reagiert schnell.
 
 Für Betreiberinnen und Betreiber bedeutet das jedoch: Reaktionsfähigkeit ist keine Option mehr, sondern Pflicht. Wer WordPress professionell einsetzt, braucht Prozesse, die sicherstellen, dass Sicherheitsupdates zeitnah eingespielt werden – automatisch, wenn möglich, manuell überwacht, wenn nötig.
-
-Wenn Sie bei der Absicherung Ihrer WordPress-Installation Unterstützung suchen, hilft Ihnen die [WordPress-Agentur Frankfurt am Main](/) gerne weiter – von der Update-Verwaltung über Sicherheits-Audits bis hin zur Einrichtung automatisierter Monitoring-Prozesse.

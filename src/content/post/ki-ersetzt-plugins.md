@@ -58,5 +58,3 @@ Der Netto-Effekt für Websites: weniger, aber wirkungsvollere Plugins. Wer seine
 **Komfort-Plugins prüfen.** Haben diese Plugins eine KI-Erweiterung bekommen? Oder gibt es eine vollwertige Alternative, die KI und Plugin-Funktion kombiniert?
 
 **Pflicht-Plugins behalten und aktuell halten.** Kein KI-Modell ersetzt hier Zuverlässigkeit, Signaturen-Updates und API-Integrationen.
-
-Als [Frankfurter WordPress Agentur](/) unterstützen wir Unternehmen dabei, ihren Plugin-Stack auf das Wesentliche zu reduzieren, KI sinnvoll einzubinden und trotzdem sicher und performant zu bleiben. Sprechen Sie uns an, wenn Sie wissen möchten, welche Plugins auf Ihrer Website noch gebraucht werden – und welche nicht.

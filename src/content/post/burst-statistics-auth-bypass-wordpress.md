@@ -84,5 +84,3 @@ Ein einzelnes Update löst das unmittelbare Problem. Aber um langfristig sicher 
 ## Fazit: WordPress-Sicherheit ist kein einmaliges Projekt
 
 CVE-2026-8181 ist ein weiteres Beispiel dafür, dass WordPress-Sicherheit kontinuierliche Aufmerksamkeit erfordert. Das Gute: Die Lösung ist in diesem Fall unkompliziert – ein Plugin-Update auf Version 3.4.2 schließt die Lücke vollständig.
-
-Wenn Sie sich nicht sicher sind, ob Ihre Website bereits kompromittiert wurde, oder wenn Sie eine professionelle Überprüfung Ihrer WordPress-Sicherheitskonfiguration benötigen, helfen wir Ihnen gerne weiter. Als WordPress Agentur Frankfurt am Main unterstützen wir kleine und mittlere Unternehmen dabei, ihre Online-Präsenz sicher und performant zu betreiben – von regelmäßigen Security-Audits bis hin zur vollständigen Bereinigung kompromittierter Websites.

@@ -71,9 +71,3 @@ WordPress 7.4 selbst wird voraussichtlich PHP 8.2 als Mindestversion voraussetze
 Für Agenturen und Entwickler, die mehrere Kundenprojekte betreuen, ist die Situation noch komplexer. Viele Shared-Hosting-Umgebungen laufen standardmäßig noch auf älteren PHP-Versionen, wenn der Kunde die Einstellungen nie angefasst hat. Hier lohnt es sich, systematisch alle verwalteten Sites zu inventarisieren und Kunden proaktiv auf den Upgrade-Bedarf hinzuweisen.
 
 Einige Hosting-Anbieter haben angekündigt, veraltete PHP-Versionen bis Ende 2026 zwangsweise zu deaktivieren. Wer nicht aktiv wird, riskiert also nicht nur fehlende WordPress-Updates, sondern auch einen ungeplanten Serverausfall.
-
-## Frankfurt Marketing Studio hilft beim PHP-Upgrade
-
-Die PHP-Versionsanhebung in WordPress 7.0 ist technisch lösbar — aber sie erfordert Sorgfalt, die richtigen Werkzeuge und Zeit, die viele Website-Betreiber nicht haben. Als WordPress Agentur Frankfurt am Main begleiten wir Unternehmen durch genau diesen Prozess: von der Bestandsaufnahme über den Staging-Test bis hin zur sicheren Migration auf PHP 8.x und WordPress 7.0.
-
-Wenn Sie nicht sicher sind, auf welcher PHP-Version Ihre Website läuft, oder wenn Sie befürchten, dass ein Update Ihre Plugin-Landschaft destabilisieren könnte — sprechen Sie uns an. Ein kurzes Audit zeigt schnell, wo Sie stehen und was zu tun ist.

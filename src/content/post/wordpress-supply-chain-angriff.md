@@ -108,5 +108,3 @@ Matt Mullenweg und das WordPress.org-Team haben sich bisher nicht zu konkreten s
 Dieser Vorfall ist eine Erinnerung daran, dass das Vertrauen in einen Plugin-Entwickler kein dauerhaftes Gut ist — es kann verkauft werden. Die Qualität eines Plugins gestern ist kein Garant für die Sicherheit heute.
 
 Für Unternehmen, die auf WordPress setzen, bedeutet das: Ein professionelles Plugin-Management ist keine optionale Maßnahme mehr, sondern Teil der Grundsicherheit jeder Installation. Dazu gehören regelmäßige Audits, kontrollierte Update-Prozesse und das Wissen, welche Software auf der eigenen Website läuft.
-
-Als WordPress-Agentur aus Frankfurt helfen wir Unternehmen dabei, ihre WordPress-Installationen sicher, aktuell und performant zu halten — mit strukturierten Wartungskonzepten, die genau solche Vorfälle frühzeitig erkennen. Sprechen Sie uns an, wenn Sie Ihre Website überprüfen lassen möchten.
