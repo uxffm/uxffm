@@ -2,7 +2,7 @@
 publishDate: 2026-06-30T00:00:00Z
 title: "Gutenberg 23.4: Robuste Medien-Uploads und UltraHDR für WordPress"
 excerpt: "Gutenberg 23.4 macht Uploads netzwerkresistent, führt UltraHDR-Support ein und bringt neue Grid-Transforms für den Block-Editor."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

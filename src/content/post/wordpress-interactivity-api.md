@@ -2,7 +2,7 @@
 publishDate: 2026-07-02T00:00:00Z
 title: "WordPress Interaktivitäts-API: Reaktive Blocks ohne React-Abhängigkeit"
 excerpt: "Die Interactivity API ermöglicht reaktive UI-Updates direkt aus PHP – ohne React-Bundle. Was Entwickler 2026 für den produktiven Einsatz wissen müssen."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

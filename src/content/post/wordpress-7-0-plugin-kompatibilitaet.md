@@ -2,7 +2,7 @@
 publishDate: 2026-05-28T00:00:00Z
 title: "WordPress 7.0: Welche Plugins brechen – und wie Sie es beheben"
 excerpt: "Eine Woche nach dem Release von WordPress 7.0 häufen sich Berichte über inkompatible Plugins. Wir zeigen, welche Bereiche betroffen sind und wie Sie Ihre Website sicher halten."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

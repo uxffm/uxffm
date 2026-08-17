@@ -2,7 +2,7 @@
 publishDate: 2026-07-12T00:00:00Z
 title: "WP Engine vs. Automattic: Schlichtung gescheitert – was jetzt auf WordPress zukommt"
 excerpt: "Der Vergleichsversuch vom 9. Juli blieb erfolglos. Nach über 20 Anträgen, einem umstrittenen Mullenweg-Verhör und dem Beitritt von WooCommerce als Beklagtem steuert der Fall auf einen Prozess zu."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

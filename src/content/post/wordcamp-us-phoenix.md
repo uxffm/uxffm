@@ -2,7 +2,7 @@
 publishDate: 2026-07-04T00:00:00Z
 title: "WordCamp US 2026 in Phoenix: Was Sie zum größten WordPress-Event erwartet"
 excerpt: "WordCamp US 2026 findet vom 16. bis 19. August in Phoenix, Arizona statt. Alles über Programm, Tickets, den KI-Track und die heiß diskutierte Standortwahl."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

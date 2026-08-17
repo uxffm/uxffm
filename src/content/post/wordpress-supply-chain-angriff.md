@@ -2,7 +2,7 @@
 publishDate: 2026-05-23T00:00:00Z
 title: "31 WordPress-Plugins mit Backdoor: Der Supply-Chain-Angriff, der 400.000 Sites traf"
 excerpt: "Ein Angreifer kaufte 31 WordPress-Plugins auf Flippa und versteckte monatelang eine Backdoor. Was passiert ist und was Sie jetzt tun müssen."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

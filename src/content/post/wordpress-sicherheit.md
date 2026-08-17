@@ -2,7 +2,7 @@
 publishDate: 2026-05-15T00:00:00Z
 title: "Die 10 wichtigsten Sicherheitsmaßnahmen für Ihre neue WordPress-Seite"
 excerpt: "Schützen Sie Ihre WordPress-Website von Anfang an richtig. Diese essentiellen Sicherheitstipps bewahren Sie vor Hackern und Datenverlust."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

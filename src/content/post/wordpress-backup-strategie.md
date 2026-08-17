@@ -2,7 +2,7 @@
 publishDate: 2026-06-12T00:00:00Z
 title: "WordPress-Backup 2026: So sichern Sie Ihre Website wirklich ab"
 excerpt: "Die meisten WordPress-Sites sind schlecht gesichert – und merken es erst, wenn es zu spät ist. So implementieren Sie eine Backup-Strategie, die wirklich funktioniert."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

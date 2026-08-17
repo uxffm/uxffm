@@ -2,7 +2,7 @@
 publishDate: 2026-07-26T00:00:00Z
 title: "WordPress 2FA einrichten: So schützen Sie Admin-Zugänge wirklich"
 excerpt: "Nach der wp2shell-Welle ist Zwei-Faktor-Authentifizierung für WordPress-Admins Pflicht. Wir zeigen, welche Plugins sich bewähren und wie die Einrichtung in 15 Minuten gelingt."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

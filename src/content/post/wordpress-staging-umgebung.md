@@ -2,7 +2,7 @@
 publishDate: 2026-07-07T00:00:00Z
 title: "WordPress Staging-Umgebung: So testen Sie sicher vor jedem Update"
 excerpt: "Updates ohne Risiko testen – so richten Sie eine professionelle WordPress Staging-Umgebung ein und vermeiden teure Ausfälle auf der Live-Website."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

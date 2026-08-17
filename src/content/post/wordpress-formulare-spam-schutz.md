@@ -2,7 +2,7 @@
 publishDate: 2026-08-10T00:00:00Z
 title: "WordPress-Formulare absichern: Spam, Bots und DSGVO im Griff"
 excerpt: "Schlecht gesicherte WordPress-Formulare sind ein Einfallstor für Spam und Bots. So schützen Sie Ihre Kontaktformulare zuverlässig und rechtssicher nach DSGVO."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

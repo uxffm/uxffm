@@ -2,7 +2,7 @@
 publishDate: 2026-08-03T00:00:00Z
 title: "Gravity Forms Supply-Chain-Hack: Backdoor in offiziellem Plugin-Download"
 excerpt: "Angreifer injizierten eine Backdoor in offizielle Gravity Forms-Downloads vom 10.–11. Juli. Über 5 Millionen Sites nutzen das Plugin – das müssen Betroffene jetzt wissen."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

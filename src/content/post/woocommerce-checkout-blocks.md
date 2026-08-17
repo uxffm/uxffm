@@ -2,7 +2,7 @@
 publishDate: 2026-06-14T00:00:00Z
 title: "WooCommerce Checkout Blocks: Was Shopbetreiber jetzt wissen müssen"
 excerpt: "WooCommerce macht die blockbasierte Kasse zum Standard. Was das für Ihren Shop bedeutet und wie Sie die Umstellung sicher planen."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

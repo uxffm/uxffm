@@ -2,7 +2,7 @@
 publishDate: 2026-07-14T00:00:00Z
 title: "WordPress 7.1 Guidelines: KI endlich mit Ihrer Markenstimme"
 excerpt: "Die neue Guidelines-Funktion in WordPress 7.1 lässt KI in Ihrer Markenstimme schreiben – ein Gamechanger für Content-Teams und Agenturen."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

@@ -2,7 +2,7 @@
 publishDate: 2026-08-06T00:00:00Z
 title: "WordPress 7.1 RC1 ist da: Was das Field Guide jetzt erfordert"
 excerpt: "WordPress 7.1 Release Candidate 1 und das offizielle Field Guide sind erschienen. 13 Tage bis zum Release – hier sind die Änderungen, die Sie noch nicht kennen."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

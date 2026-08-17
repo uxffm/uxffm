@@ -2,7 +2,7 @@
 publishDate: 2026-07-29T00:00:00Z
 title: "Der Classic Block bleibt: WordPress Community erzwingt Kehrtwende"
 excerpt: "WordPress plante, den Classic Block aus dem Inserter zu entfernen – bis die Community klar widersprach. Was das für Ihre Website und WordPress 7.1 bedeutet."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

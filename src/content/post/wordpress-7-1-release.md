@@ -2,7 +2,7 @@
 publishDate: 2026-08-13T00:00:00Z
 title: "WordPress 7.1: Was am 19. August kommt und wie Sie sich vorbereiten"
 excerpt: "WordPress 7.1 erscheint am 19. August 2026 – mit React 19, neuen Block-APIs und Performance-Verbesserungen. Was Sie vorab prüfen und testen sollten."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

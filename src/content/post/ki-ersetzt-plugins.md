@@ -2,7 +2,7 @@
 publishDate: 2026-08-02T00:00:00Z
 title: "Ersetzt KI WordPress-Plugins? Was noch Plugins braucht – und was nicht mehr"
 excerpt: "KI übernimmt immer mehr Aufgaben, die früher Plugins erledigten. Welche Plugin-Kategorien wirklich bedroht sind – und wo Plugins unverzichtbar bleiben."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

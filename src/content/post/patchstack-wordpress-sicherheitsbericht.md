@@ -2,7 +2,7 @@
 publishDate: 2026-06-25T00:00:00Z
 title: "Patchstack 2026: 11.334 WordPress-Sicherheitslücken – was das für Ihre Website bedeutet"
 excerpt: "Der neue Patchstack-Sicherheitsbericht 2026 zeigt alarmierende Zahlen: 42 % mehr Schwachstellen, Angriffe innerhalb von Stunden nach Bekanntwerden – und klassische Schutzmaßnahmen versagen."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

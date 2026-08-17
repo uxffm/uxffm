@@ -2,7 +2,7 @@
 publishDate: 2026-05-26T00:00:00Z
 title: "Burst Statistics Plugin: Kritische Sicherheitslücke CVE-2026-8181"
 excerpt: "CVE-2026-8181 erlaubt Angreifern die vollständige Übernahme jeder WordPress-Website mit Burst Statistics. Jetzt sofort auf Version 3.4.2 aktualisieren."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

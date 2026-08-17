@@ -2,7 +2,7 @@
 publishDate: 2026-07-17T00:00:00Z
 title: "Managed WordPress Hosting 2026: Welcher Anbieter passt zu Ihrem Unternehmen?"
 excerpt: "Raidboxes, Kinsta, Cloudways oder Hetzner? Die WordPress-Community diskutiert intensiv, welches Managed Hosting für kleine Unternehmen im DACH-Raum am besten abschneidet."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

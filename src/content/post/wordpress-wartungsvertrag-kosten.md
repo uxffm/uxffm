@@ -2,7 +2,7 @@
 publishDate: 2026-07-05T00:00:00Z
 title: "WordPress-Wartungsvertrag: Was er kosten sollte und was drin sein muss"
 excerpt: "Wie viel kostet ein seriöser WordPress-Wartungsvertrag, und was muss darin enthalten sein? Ein ehrlicher Überblick für Unternehmen, die ihre Website langfristig absichern wollen."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

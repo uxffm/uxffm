@@ -2,7 +2,7 @@
 publishDate: 2026-06-06T00:00:00Z
 title: "WordPress verliert Marktanteile: Was das für Ihre Website bedeutet"
 excerpt: "WordPress-Marktanteil fiel sechs Monate in Folge – von 43,2 % auf 41,9 %. Was steckt dahinter, und was sollten Sie als Betreiber einer WordPress-Website jetzt tun?"
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

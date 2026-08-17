@@ -2,7 +2,7 @@
 publishDate: 2026-06-19T00:00:00Z
 title: "WordPress Plugin-Bloat: Warum weniger Plugins oft mehr bedeutet"
 excerpt: "Zu viele WordPress-Plugins verlangsamen die Website und öffnen Sicherheitslücken. So analysieren Sie Ihren Plugin-Stack und behalten die Kontrolle."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

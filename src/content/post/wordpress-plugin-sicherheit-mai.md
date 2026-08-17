@@ -2,7 +2,7 @@
 publishDate: 2026-05-29T00:00:00Z
 title: "Kritische WordPress-Sicherheitslücken Mai 2026: Was Sie jetzt tun müssen"
 excerpt: "Im Mai 2026 gefährden CVE-2026-8181 in Burst Statistics und CVE-2026-4798 in Avada Builder über 1,5 Millionen WordPress-Seiten — hier erfahren Sie, was zu tun ist."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

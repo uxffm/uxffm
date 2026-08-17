@@ -2,7 +2,7 @@
 publishDate: 2026-07-11T00:00:00Z
 title: "WordPress Playground: Vollständiges WordPress direkt im Browser – ohne Installation"
 excerpt: "WordPress Playground läuft komplett im Browser via WebAssembly – kein Hosting, keine Installation. Ideal für Plugin-Tests, Demos und schnelle Entwicklung."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

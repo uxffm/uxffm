@@ -2,7 +2,7 @@
 publishDate: 2026-06-27T00:00:00Z
 title: "ShapedPlugin-Hack: Backdoor in Pro-Plugins stahl WooCommerce-Daten"
 excerpt: "Angreifer injizierten seit Mai 2026 eine Backdoor in ShapedPlugin Pro-Updates. WordPress-Shops verloren Zugangsdaten, 2FA-Secrets und Bestelldaten."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

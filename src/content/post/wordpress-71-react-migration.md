@@ -2,7 +2,7 @@
 publishDate: 2026-07-01T00:00:00Z
 title: "React-19-Migration für WordPress 7.1: Checkliste für Entwickler und Betreiber"
 excerpt: "WordPress 7.1 erscheint am 19. August mit React 19 als Standard. Was Entwickler und Site-Betreiber jetzt konkret tun müssen, um den Übergang ohne Ausfälle zu meistern."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

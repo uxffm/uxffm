@@ -2,7 +2,7 @@
 publishDate: 2026-05-18T00:00:00Z
 title: "PHP-Only Blocks in WordPress 7.0: Blöcke endlich ohne React"
 excerpt: "WordPress 7.0 erlaubt Block-Registrierung in reinem PHP – ohne React, Node.js oder Build-Tools. Was das für WordPress-Entwickler bedeutet."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

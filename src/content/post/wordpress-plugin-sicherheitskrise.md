@@ -2,7 +2,7 @@
 publishDate: 2026-07-08T00:00:00Z
 title: "250+ neue WordPress-Sicherheitslücken pro Woche: Was Sie jetzt tun müssen"
 excerpt: "Plugin-Schwachstellen werden in 2026 schneller ausgenutzt als je zuvor. Die aktuellen Zahlen sind alarmierend – und zeigen, warum regelmäßige Updates allein nicht mehr ausreichen."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

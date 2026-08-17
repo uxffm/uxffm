@@ -2,7 +2,7 @@
 publishDate: 2026-05-19T00:00:00Z
 title: "WordPress Performance-Plugins 2026: Was der große Benchmark-Test wirklich zeigt"
 excerpt: "Ein aktueller Benchmark hat 9 WordPress-Caching- und Optimierungs-Plugins unter die Lupe genommen. Die Ergebnisse überraschen – und zeigen, wo viele Websites unnötig Punkte verschenken."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

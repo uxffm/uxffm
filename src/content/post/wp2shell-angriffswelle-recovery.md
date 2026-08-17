@@ -2,7 +2,7 @@
 publishDate: 2026-07-25T00:00:00Z
 title: "wp2shell: Die Angriffswelle rollt – So erkennen Sie eine Kompromittierung"
 excerpt: "Seit dem PoC-Release explodieren die Angriffe auf WordPress: Tausende Versuche, 100+ Backdoor-Accounts. Was Sie jetzt prüfen müssen, wenn Sie noch nicht sicher sind."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

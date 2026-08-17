@@ -2,7 +2,7 @@
 publishDate: 2026-05-20T00:00:00Z
 title: "WordPress 7.0 Admin-Redesign: Das neue Dashboard im Detail"
 excerpt: "WordPress 7.0 bringt die größte Admin-Überarbeitung seit über einem Jahrzehnt. Was sich ändert, was Sie beachten müssen und wie Sie das Update sicher durchführen."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

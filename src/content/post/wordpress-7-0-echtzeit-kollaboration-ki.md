@@ -2,7 +2,7 @@
 publishDate: 2026-05-16T00:00:00Z
 title: "WordPress 7.0: Echtzeit-Kollaboration und natives KI-System kommen"
 excerpt: "WordPress 7.0 erscheint am 20. Mai 2026 mit Echtzeit-Bearbeitung, nativem KI-Client und neuem Admin-Design – das größte Update seit Gutenberg."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

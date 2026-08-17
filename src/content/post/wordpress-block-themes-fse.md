@@ -2,7 +2,7 @@
 publishDate: 2026-07-27T00:00:00Z
 title: "WordPress Block Themes & Full Site Editing: Lohnt sich der Umstieg?"
 excerpt: "Full Site Editing spaltet die WordPress-Community. Wir zeigen, was Block Themes heute leisten, wo die Stolpersteine liegen und für wen der Wechsel sinnvoll ist."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

@@ -2,7 +2,7 @@
 publishDate: 2026-07-15T00:00:00Z
 title: "WordPress-Plugin-Shops schließen: Was steckt hinter dem Einbruch der Indie-Entwickler?"
 excerpt: "DLX Plugins, SNIP & Co. geben auf. Die WordPress-Community diskutiert hitzig: Brechen die Plugin-Verkäufe ein – und was bedeutet das für Ihre Website?"
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

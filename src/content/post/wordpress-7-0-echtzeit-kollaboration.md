@@ -2,7 +2,7 @@
 publishDate: 2026-05-21T00:00:00Z
 title: "WordPress 7.0: Echtzeit-Kollaboration kurzfristig gestrichen"
 excerpt: "WordPress 7.0 ist erschienen – aber ohne das groß angekündigte Echtzeit-Editing. Was steckt hinter der Entscheidung und wann kommt das Feature?"
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

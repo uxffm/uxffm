@@ -2,7 +2,7 @@
 publishDate: 2026-07-09T00:00:00Z
 title: "Vibe Coding und WordPress: Wenn KI-generierter Code zur Sicherheitsfalle wird"
 excerpt: "KI-generierte WordPress-Plugins sind 2026 ein wachsendes Sicherheitsrisiko. Was Vibe Coding bedeutet, warum es das Plugin-Ökosystem gefährdet – und wie Sie sich schützen."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

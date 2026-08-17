@@ -2,7 +2,7 @@
 publishDate: 2026-07-20T00:00:00Z
 title: "WordPress E-Mails landen im Spam: So lösen Sie das Problem dauerhaft"
 excerpt: "Wenn WordPress-E-Mails im Spam landen oder gar nicht ankommen, liegt es meist an PHP-Mail und fehlenden DNS-Einträgen. Mit SMTP und DKIM lösen Sie das dauerhaft."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

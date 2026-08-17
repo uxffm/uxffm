@@ -2,7 +2,7 @@
 publishDate: 2026-05-17T00:00:00Z
 title: "WordPress 7.0: Das KI-SDK wird Teil des Kerns"
 excerpt: "WordPress 7.0 erscheint am 20. Mai 2026 und integriert das AI SDK direkt in den Core. Was das für Plugin-Entwickler und Website-Betreiber bedeutet."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

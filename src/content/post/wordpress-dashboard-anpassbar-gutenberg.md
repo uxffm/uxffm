@@ -2,7 +2,7 @@
 publishDate: 2026-07-03T00:00:00Z
 title: "Gutenberg 23.3: Das neue anpassbare WordPress-Dashboard im Test"
 excerpt: "Gutenberg 23.3 bringt ein experimentelles, vollständig anpassbares WordPress-Dashboard mit Drag-and-Drop-Widgets – der größte Admin-Umbau seit Jahren."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

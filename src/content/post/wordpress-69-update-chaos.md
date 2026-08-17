@@ -2,7 +2,7 @@
 publishDate: 2026-05-24T00:00:00Z
 title: "WordPress 6.9 Update-Chaos: Was wirklich schiefgelaufen ist – und wie Sie sicher updaten"
 excerpt: "WordPress 6.9 löste eine Kette von Security-Patches aus, die zahlreiche Websites lahmlegte. Was hinter dem Update-Chaos steckt und wie Sie Ihre Website beim nächsten Update schützen."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

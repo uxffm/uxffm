@@ -2,7 +2,7 @@
 publishDate: 2026-06-11T00:00:00Z
 title: "AI Engine Plugin-Sicherheitslücke: 100.000 WordPress-Sites in Gefahr"
 excerpt: "CVE-2025-11749 im AI Engine Plugin ermöglicht unbefugten Zugriff auf über 100.000 WordPress-Sites. Was Sie jetzt sofort tun müssen."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

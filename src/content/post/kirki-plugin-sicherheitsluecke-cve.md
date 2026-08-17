@@ -2,7 +2,7 @@
 publishDate: 2026-06-05T00:00:00Z
 title: "Kritische Kirki-Lücke CVE-2026-8206: 500.000 WordPress-Sites in Gefahr"
 excerpt: "Eine CVSS-9.8-Schwachstelle im Kirki Page Builder ermöglicht Angreifern die vollständige Admin-Kontenübernahme. Sofort auf Version 6.0.7 aktualisieren."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

@@ -2,7 +2,7 @@
 publishDate: 2026-06-22T00:00:00Z
 title: "WordPress 7.1: Bilder direkt im Browser verarbeiten – VIPS & WebAssembly"
 excerpt: "WordPress 7.1 verarbeitet Bilder künftig direkt im Browser mit WebAssembly. Was das für Upload-Speed, Serverauslastung und unterstützte Formate bedeutet."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

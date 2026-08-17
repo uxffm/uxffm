@@ -2,7 +2,7 @@
 publishDate: 2026-08-14T00:00:00Z
 title: "WordPress 7.0.4: Kritische RCE-Lücke via Ghostscript – sofort updaten"
 excerpt: "CVE-2026-65640 erlaubt Angreifern mit Autorenrechten, über präparierte PostScript-Dateien Code auszuführen. CVSS 8.8 – alle Versionen ab 4.7 betroffen."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

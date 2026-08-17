@@ -2,7 +2,7 @@
 publishDate: 2026-07-18T00:00:00Z
 title: "WordPress 7.1 Beta 1: Responsive Styling, Notes und neue Blöcke"
 excerpt: "WordPress 7.1 Beta 1 ist da – mit responsivem Styling ohne CSS, Inline-Notes mit @mentions und neuen Blöcken. Was das für Ihre Website bedeutet."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

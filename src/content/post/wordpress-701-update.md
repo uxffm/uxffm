@@ -2,7 +2,7 @@
 publishDate: 2026-07-06T00:00:00Z
 title: "WordPress 7.0.1: Was das Maintenance-Update am 9. Juli behebt"
 excerpt: "Am 9. Juli 2026 erscheint WordPress 7.0.1 – ein reines Bugfix-Update für die Regressionsprobleme aus dem Mai-Release. Was behoben wird und ob Sie sofort aktualisieren sollten."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

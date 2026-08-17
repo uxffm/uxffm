@@ -2,7 +2,7 @@
 publishDate: 2026-06-03T00:00:00Z
 title: "WordCamp Europe 2026: KI, WordPress 7.0 und Kraków"
 excerpt: "WordCamp Europe 2026 startet morgen in Kraków. Was Sie über die KI-Sessions, das WordPress-7.0-Panel und die wichtigsten Community-Themen wissen müssen."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

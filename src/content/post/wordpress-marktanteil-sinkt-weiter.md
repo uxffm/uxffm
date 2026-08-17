@@ -2,7 +2,7 @@
 publishDate: 2026-07-10T00:00:00Z
 title: "WordPress verliert weiter – Marktanteil auf 41,5% gesunken"
 excerpt: "WordPress rutscht zum sechsten Mal in Folge ab. Was steckt hinter dem Rückgang des beliebtesten CMS?"
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

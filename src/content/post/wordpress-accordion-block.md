@@ -2,7 +2,7 @@
 publishDate: 2026-06-08T00:00:00Z
 title: "WordPress 6.9: Der native Accordion-Block – FAQ-Bereiche endlich ohne Plugin"
 excerpt: "WordPress 6.9 bringt erstmals einen nativen Accordion-Block ins Core. Wie er funktioniert, wann er das Plugin ersetzt – und was SEO-technisch zu beachten ist."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

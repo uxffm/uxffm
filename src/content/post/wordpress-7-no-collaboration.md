@@ -2,7 +2,7 @@
 publishDate: 2026-05-30T00:00:00Z
 title: "WordPress 7.0 ohne Echtzeit-Zusammenarbeit: Das steckt dahinter"
 excerpt: "WordPress 7.0 verzichtet auf die Echtzeit-Kollaboration. Schuld sind Race Conditions, Serverlast und Speicherprobleme. Wir erklären die Hintergründe."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

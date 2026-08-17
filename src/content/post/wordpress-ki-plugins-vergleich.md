@@ -2,7 +2,7 @@
 publishDate: 2026-08-16T00:00:00Z
 title: "WordPress KI-Plugins: Welche Tools lohnen sich wirklich?"
 excerpt: "KI-Plugins versprechen schnellere Texte, bessere SEO und mehr Produktivität. Doch welche WordPress-KI-Tools halten was sie versprechen – und welche sind Zeitverschwendung?"
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

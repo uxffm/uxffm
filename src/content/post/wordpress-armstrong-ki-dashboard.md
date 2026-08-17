@@ -2,7 +2,7 @@
 publishDate: 2026-06-21T00:00:00Z
 title: "WordPress 7.0 Armstrong: KI zieht nativ in den Core ein"
 excerpt: "Das größte Update seit Jahren bringt native KI-Integration und ein komplett neues Admin-Dashboard. Real-time Collaboration folgt mit Version 7.1."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

@@ -2,7 +2,7 @@
 publishDate: 2026-06-07T00:00:00Z
 title: "EU Cyber Resilience Act: VDP-Frist 12. Juni – Jetzt handeln!"
 excerpt: "Plugin-Entwickler aufgepasst: Die neue EU-Verordnung verlangt eine Vulnerability Disclosure Policy. Was ihr bis zum Stichtag wissen müsst."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

@@ -2,7 +2,7 @@
 publishDate: 2026-07-30T00:00:00Z
 title: "WooCommerce 11.0 kommt am 4. August – was Shopbetreiber jetzt wissen müssen"
 excerpt: "WooCommerce 11.0 wurde kurzfristig verschoben: Statt gestern kommt das Major-Update am 4. August. Was steckt drin – und was müssen Shopbetreiber vorbereiten?"
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

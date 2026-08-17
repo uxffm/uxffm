@@ -2,7 +2,7 @@
 publishDate: 2026-08-01T00:00:00Z
 title: "WordPress 7.1: Der Post-Editor wird vollständig in einen Iframe verlegt – was jetzt zu tun ist"
 excerpt: "In WordPress 7.1 läuft der Post-Editor zwingend im Iframe – unabhängig von apiVersion. Was das für Plugins, Themes und Ihre Website bedeutet und was Sie bis zum 19. August prüfen müssen."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

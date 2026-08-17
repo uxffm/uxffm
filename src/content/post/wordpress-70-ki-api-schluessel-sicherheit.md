@@ -2,7 +2,7 @@
 publishDate: 2026-05-31T00:00:00Z
 title: "WordPress 7.0 Armstrong: KI-API-Schlüssel schützen – das müssen Sie jetzt wissen"
 excerpt: "WordPress 7.0 bringt KI direkt in den Core – doch Sicherheitsforscher warnen: gespeicherte AI-API-Keys sind ein hochattraktives Angriffsziel. So schützen Sie sich."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

@@ -2,7 +2,7 @@
 publishDate: 2026-08-04T00:00:00Z
 title: "WooCommerce 11.0 ist live: Was jetzt beim Update zu beachten ist"
 excerpt: "WooCommerce 11.0 ist heute erschienen. Welche Probleme aus dem RC gelöst wurden, was Shopbetreiber jetzt tun sollten – und welche Neuerungen sofort nutzbar sind."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

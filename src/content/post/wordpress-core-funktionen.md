@@ -2,7 +2,7 @@
 publishDate: 2026-07-16T00:00:00Z
 title: "WordPress ohne Plugins: Was der Core in 2026 wirklich kann"
 excerpt: "Plugin-Shops schließen, Sicherheitslücken häufen sich – viele fragen sich: Wie viel kann WordPress today ohne Plugins? Die Antwort überrascht."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

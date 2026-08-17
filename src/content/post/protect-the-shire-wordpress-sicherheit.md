@@ -2,7 +2,7 @@
 publishDate: 2026-06-17T00:00:00Z
 title: 'WordPress „Protect The Shire“: Automatische Updates werden sicherer'
 excerpt: "WordPress führt eine 24-Stunden-Prüfpause für Plugin-Auto-Updates ein. Was die neue „Protect The Shire”-Initiative konkret bedeutet — für Betreiber und Entwickler."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

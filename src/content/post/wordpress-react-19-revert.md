@@ -2,7 +2,7 @@
 publishDate: 2026-06-26T00:00:00Z
 title: "React 19 in WordPress: Warum das Upgrade zurückgezogen wurde – und was jetzt kommt"
 excerpt: "Gutenberg 23.3 brachte React 19 – und brach dabei Dutzende Plugins. Was genau schiefging, welche Sites betroffen waren und wie der Plan für WordPress 7.1 aussieht."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

@@ -270,7 +270,7 @@ Nur diese zwei Zeilen, nichts anderes.`;
 publishDate: ${today}T00:00:00Z
 title: ${yamlString(title)}
 excerpt: ${yamlString(excerpt)}
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: seo
 tags:
   - SEO

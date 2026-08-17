@@ -2,7 +2,7 @@
 publishDate: 2026-07-28T00:00:00Z
 title: "WordPress 7.1 Beta: Responsives Design endlich ohne CSS – Das kommt im August"
 excerpt: "WordPress 7.1 bringt native responsive Stylings, Pseudo-State-Kontrollen und neue Blöcke – alles direkt im Editor, ohne eine Zeile CSS. Was das für Ihre Website bedeutet."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

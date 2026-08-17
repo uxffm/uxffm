@@ -2,7 +2,7 @@
 publishDate: 2026-07-22T00:00:00Z
 title: "Gutenberg 23.5: Komponenten-Deprecation – was Plugin-Autoren jetzt tun müssen"
 excerpt: "Zehn Kernkomponenten in @wordpress/components sind hard-deprecated, React 19 ist testbar – so handeln Plugin-Entwickler vor WordPress 7.1 richtig."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

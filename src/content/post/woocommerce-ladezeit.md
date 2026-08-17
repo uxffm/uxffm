@@ -2,7 +2,7 @@
 publishDate: 2026-07-19T00:00:00Z
 title: "WooCommerce Ladezeit optimieren: Konkrete Maßnahmen für schnellere Shops"
 excerpt: "Langsamer WooCommerce-Shop kostet Sie Kunden und Google-Rankings. Die effektivsten Maßnahmen für spürbar bessere Ladezeiten im Überblick."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

@@ -2,7 +2,7 @@
 publishDate: 2026-08-05T00:00:00Z
 title: "Elementor, Bricks oder Block Editor: Welcher Page Builder lohnt sich 2026?"
 excerpt: "Page Builder oder nativer Block Editor? Wir vergleichen Elementor, Bricks Builder und Gutenberg – und zeigen, wann welches Tool die bessere Wahl ist."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

@@ -2,7 +2,7 @@
 publishDate: 2026-06-18T00:00:00Z
 title: "React 19 in WordPress: Plugin-Entwickler müssen jetzt handeln"
 excerpt: "Die React-19-Migration in Gutenberg sorgt für Kompatibilitätsprobleme. Was Plugin-Entwickler tun müssen und was der Revert für Ihre Site bedeutet."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

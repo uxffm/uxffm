@@ -2,7 +2,7 @@
 publishDate: 2026-07-24T00:00:00Z
 title: "Kritische WordPress-Lücke wp2shell: Was Sie jetzt sofort tun müssen"
 excerpt: "Eine kritische Remote-Code-Execution-Lücke namens wp2shell bedroht Millionen WordPress-Sites. So prüfen und schützen Sie Ihre Installation jetzt."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

@@ -2,7 +2,7 @@
 publishDate: 2026-06-04T00:00:00Z
 title: "CERN setzt auf WordPress: Was die Migration von 800 Websites bedeutet"
 excerpt: "CERN, der Geburtsort des Internets, migriert über 800 Websites auf WordPress. Was das für WordPress als Enterprise-CMS bedeutet – und was Sie davon lernen können."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

@@ -2,7 +2,7 @@
 publishDate: 2026-08-12T00:00:00Z
 title: "WPML vs. Polylang: Das richtige Plugin für Ihre mehrsprachige WordPress-Site"
 excerpt: "Mehrsprachige WordPress-Websites stellen viele Betreiber vor Herausforderungen. Welches Plugin – WPML, Polylang oder TranslatePress – ist die richtige Wahl?"
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

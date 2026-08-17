@@ -2,7 +2,7 @@
 publishDate: 2026-06-24T00:00:00Z
 title: "WordPress 7.1: Alle bestätigten Features im Überblick"
 excerpt: "Die offizielle Roadmap zu WordPress 7.1 listet konkrete Features: KI-Richtlinien, Vorschlagsmodus, HEIC-Upload und responsive Zustände kommen im August."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

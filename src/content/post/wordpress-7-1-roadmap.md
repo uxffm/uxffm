@@ -2,7 +2,7 @@
 publishDate: 2026-06-01T00:00:00Z
 title: "WordPress 7.1: Wann kommt Echtzeit-Kollaboration – und was die Roadmap verspricht"
 excerpt: "WordPress 7.0 startete ohne Echtzeit-Kollaboration. Was kommt in 7.1, wann erscheint es und wie sollten Teams bis dahin zusammenarbeiten?"
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

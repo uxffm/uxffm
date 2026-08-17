@@ -2,7 +2,7 @@
 publishDate: 2026-08-07T00:00:00Z
 title: "Backdoor in ARVE-Plugin: 20.000 WordPress-Sites betroffen"
 excerpt: "Wordfence entdeckte eine Backdoor in ARVE v10.8.7, die Angreifern Admin-Zugriff ohne Passwort ermöglicht. Rund 20.000 WordPress-Sites betroffen – jetzt prüfen."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

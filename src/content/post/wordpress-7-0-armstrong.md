@@ -2,7 +2,7 @@
 publishDate: 2026-05-27T00:00:00Z
 title: "WordPress 7.0 \"Armstrong\": KI-Client, neues Admin und mehr"
 excerpt: "WordPress 7.0 bringt erstmals einen eingebauten KI-Client ins Core — wir erklären, was das für Ihre Website bedeutet."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

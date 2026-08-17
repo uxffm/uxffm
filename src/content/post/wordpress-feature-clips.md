@@ -2,7 +2,7 @@
 publishDate: 2026-06-29T00:00:00Z
 title: "WordPress Feature Clips: Blog-Posts direkt als Kurzvideo für Reels & TikTok"
 excerpt: "WordPress.com hat Feature Clips eingeführt: Mit wenigen Klicks werden Ihre Blog-Posts zu vertikalen Kurzvideos für Instagram Reels, TikTok und YouTube Shorts."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

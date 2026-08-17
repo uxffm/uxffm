@@ -2,7 +2,7 @@
 publishDate: 2026-07-21T00:00:00Z
 title: "Responsive Styling in WordPress: Blöcke ohne CSS anpassen"
 excerpt: "Gutenberg 23.5 macht responsives Gestalten einfacher als je zuvor – so passen Sie Blöcke für alle Bildschirmgrößen an, ganz ohne CSS zu schreiben."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

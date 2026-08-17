@@ -2,7 +2,7 @@
 publishDate: 2026-08-11T00:00:00Z
 title: "WordPress 7.0.3: 12 Sicherheitslücken geschlossen – sofort aktualisieren"
 excerpt: "Am 6. August 2026 hat WordPress ein dringendes Sicherheitsupdate veröffentlicht. CVE-2026-64638 erreicht einen CVSS-Score von 8.9 – alle Sites bis Version 4.7 sind betroffen."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

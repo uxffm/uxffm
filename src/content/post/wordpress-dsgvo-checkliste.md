@@ -2,7 +2,7 @@
 publishDate: 2026-06-10T00:00:00Z
 title: "WordPress & DSGVO 2026: Die Checkliste für rechtssichere Websites"
 excerpt: "Cookies, Google Fonts, Kontaktformulare – was Ihre WordPress-Website 2026 wirklich DSGVO-konform macht. Eine praxisnahe Checkliste für kleine Unternehmen."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

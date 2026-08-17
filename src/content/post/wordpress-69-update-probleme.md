@@ -2,7 +2,7 @@
 publishDate: 2026-06-20T00:00:00Z
 title: "WordPress 6.9: Update-Probleme mit WooCommerce, Yoast & Elementor"
 excerpt: "WordPress 6.9 hat kurz nach dem Release drei der meistgenutzten Plugins lahmgelegt. Was genau schiefging, welche Versionen jetzt sicher sind – und wie Sie sich schützen."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

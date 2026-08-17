@@ -2,7 +2,7 @@
 publishDate: 2026-06-28T00:00:00Z
 title: "MonsterInsights unter Angriff: Phishing, Typosquat-Domain und OAuth-Lücke bedrohen 2 Millionen WordPress-Sites"
 excerpt: "Eine Phishing-Kampagne mit gefälschter CVE, eine Typosquat-Domain und CVE-2026-5371 treffen MonsterInsights – so schützen Sie Ihre WordPress-Site jetzt."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

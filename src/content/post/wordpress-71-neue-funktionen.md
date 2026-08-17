@@ -2,7 +2,7 @@
 publishDate: 2026-08-08T00:00:00Z
 title: "WordPress 7.1: Diese neuen Funktionen kommen am 19. August"
 excerpt: "WordPress 7.1 erscheint am 19. August 2026 – und bringt interaktives Styling, responsive Steuerung direkt im Editor, drei neue Core-Blöcke und einen deutlich stärkeren KI-Layer. Was Sie jetzt wissen müssen."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

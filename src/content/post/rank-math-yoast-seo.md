@@ -2,7 +2,7 @@
 publishDate: 2026-06-09T00:00:00Z
 title: "Rank Math vs. Yoast SEO 2026: Welches Plugin passt zu Ihrer Website?"
 excerpt: "Rank Math oder Yoast SEO – die Frage beschäftigt die WordPress-Community seit Jahren. Ein ehrlicher Vergleich für 2026 mit konkreter Empfehlung für verschiedene Einsatzszenarien."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

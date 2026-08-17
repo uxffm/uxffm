@@ -2,7 +2,7 @@
 publishDate: 2026-05-25T00:00:00Z
 title: "WordPress 7.0: PHP 7.4 ist jetzt Pflicht – handeln Sie jetzt"
 excerpt: "WordPress 7.0 erhöht die PHP-Mindestanforderung auf 7.4. Sites auf älteren PHP-Versionen erhalten kein Update – und riskieren Sicherheitslücken."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

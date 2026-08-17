@@ -2,7 +2,7 @@
 publishDate: 2026-06-16T00:00:00Z
 title: "OptinMonster-CDN-Hack: 1,2 Millionen WordPress-Sites betroffen"
 excerpt: "Ein CDN-Supply-Chain-Angriff über Awesome Motive infizierte OptinMonster, TrustPulse und PushEngage. Was Sie jetzt prüfen und tun müssen."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

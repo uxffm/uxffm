@@ -2,7 +2,7 @@
 publishDate: 2026-06-13T00:00:00Z
 title: "WordPress MCP Adapter: KI-Agenten direkt mit Ihrer Website verbinden"
 excerpt: "Der WordPress MCP Adapter macht Ihre Website zur Schnittstelle für KI-Agenten. So steuern Claude, Cursor & Co. Ihr WordPress per natürlicher Sprache."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

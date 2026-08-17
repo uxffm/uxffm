@@ -2,7 +2,7 @@
 publishDate: 2026-07-31T00:00:00Z
 title: "wp2shell: Kritische WordPress-Sicherheitslücke – Sofort auf 7.0.2 aktualisieren"
 excerpt: "CVE-2026-63030 und CVE-2026-60137 erlauben vollständige Website-Übernahme ohne Login. Millionen WordPress-Sites betroffen – so schützen Sie sich jetzt."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

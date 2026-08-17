@@ -2,7 +2,7 @@
 publishDate: 2026-06-23T00:00:00Z
 title: "WP Engine vs. Automattic: Was der Rechtsstreit für WordPress-Betreiber bedeutet"
 excerpt: "Am 25. Juni 2026 findet die entscheidende Anhörung statt. Wir erklären, was der Prozess für die WordPress-Community und Ihre Website wirklich bedeutet."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

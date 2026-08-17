@@ -2,7 +2,7 @@
 publishDate: 2026-08-17T00:00:00Z
 title: "WordPress Abilities API: Warum die geplante Erweiterung für 7.1 scheiterte"
 excerpt: "Die WordPress-Community diskutiert hitzig: Drei neue Abilities sollten in 7.1 landen – doch ein Core-Maintainer zog die Notbremse. Was steckt dahinter?"
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

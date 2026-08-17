@@ -2,7 +2,7 @@
 publishDate: 2026-06-02T00:00:00Z
 title: "WordPress Supply-Chain-Angriff: 31 gekaufte Plugins als Hintertür"
 excerpt: "Ein Angreifer kaufte 31 WordPress-Plugins mit 400.000 Installationen auf Flippa und versteckte eine Backdoor 8 Monate lang im Code – bis sie im April 2026 aktiviert wurde."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress

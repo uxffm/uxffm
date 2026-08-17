@@ -2,7 +2,7 @@
 publishDate: 2026-07-13T00:00:00Z
 title: "WordPress 7.1 Beta 1 ab 15. Juli: Das sollten Sie jetzt testen"
 excerpt: "Beta 1 von WordPress 7.1 erscheint am 15. Juli. Wir zeigen, welche Features besonders getestet werden müssen und wie Sie sicher mitmachen – ohne Ihre Live-Website zu riskieren."
-image: /images/seo-frankfurt.jpg
+image: /images/wordpress-frankfurt.jpg
 category: wordpress
 tags:
   - WordPress
