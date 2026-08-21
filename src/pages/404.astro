@@ -1,8 +1,9 @@
 ---
 import Layout from '~/layouts/Layout.astro';
 import { getHomePermalink } from '~/utils/permalinks';
+import { pageTitles } from '~/site-titles.js';
 
-const title = `Error 404`;
+const title = pageTitles.notFound;
 ---
 
 <Layout metadata={{ title }}>

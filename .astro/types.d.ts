@@ -185,6 +185,13 @@ declare module 'astro:content' {
 
 	type ContentEntryMap = {
 		"post": {
+"agentic-commerce-woocommerce.md": {
+	id: "agentic-commerce-woocommerce.md";
+  slug: "agentic-commerce-woocommerce";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
 "ai-engine-plugin-sicherheitsluecke.md": {
 	id: "ai-engine-plugin-sicherheitsluecke.md";
   slug: "ai-engine-plugin-sicherheitsluecke";
@@ -412,6 +419,13 @@ declare module 'astro:content' {
 "woocommerce-checkout-blocks.md": {
 	id: "woocommerce-checkout-blocks.md";
   slug: "woocommerce-checkout-blocks";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
+"woocommerce-hpos-migration-pflicht.md": {
+	id: "woocommerce-hpos-migration-pflicht.md";
+  slug: "woocommerce-hpos-migration-pflicht";
   body: string;
   collection: "post";
   data: InferEntrySchema<"post">
@@ -741,6 +755,13 @@ declare module 'astro:content' {
 "wordpress-marktanteil-sinkt-weiter.md": {
 	id: "wordpress-marktanteil-sinkt-weiter.md";
   slug: "wordpress-marktanteil-sinkt-weiter";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
+"wordpress-mary-lou-live.md": {
+	id: "wordpress-mary-lou-live.md";
+  slug: "wordpress-mary-lou-live";
   body: string;
   collection: "post";
   data: InferEntrySchema<"post">

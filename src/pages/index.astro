@@ -1,5 +1,6 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
+import { pageTitles } from '~/site-titles.js';
 
 import Hero from '~/components/widgets/Hero.astro';
 import Features from '~/components/widgets/Features.astro';
@@ -9,9 +10,9 @@ import WordPressReview from '~/components/widgets/WordPressReview.astro';
 import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 
 const metadata = {
-  title: 'WordPress Agentur Frankfurt | Websites, Relaunch & Support',
+  title: pageTitles.home,
   description:
-    'WordPress-Agentur Frankfurt für moderne Websites, Relaunch, Wartung und Support. Klare Beratung, saubere Umsetzung und schnelle Hilfe für Unternehmen in Frankfurt.',
+    'WordPress Agentur Frankfurt für moderne Websites, Relaunch, Wartung und Support. Klare Beratung, saubere Umsetzung und schnelle Hilfe für Unternehmen in Frankfurt.',
   ignoreTitleTemplate: true,
 };
 ---
@@ -44,7 +45,6 @@ const metadata = {
     </Fragment>
 
     <Fragment slot="subtitle">
-      <span class="colorful">Ihre WordPress-Agentur in Frankfurt am Main.</span>
       Wenn Ihre Website veraltet ist, zu langsam lädt oder zu wenige Anfragen bringt, helfen wir als Frankfurter WordPress Agentur mit einer WordPress-Website, die klar aufgebaut, gut pflegbar und verlässlich ist. 
     </Fragment>
   </Hero>
@@ -55,9 +55,9 @@ const metadata = {
 
   <Features
     id="features"
-    tagline="WORDPRESS SERVICES"
+    tagline="WORDPRESS Agentur Frankfurt"
     title="Wie wir Ihnen mit WordPress helfen"
-    subtitle="Für Unternehmen in Frankfurt, die eine bessere Website brauchen, ohne sich selbst um Technik, Plugins und Struktur kümmern zu müssen."
+    subtitle="Für Unternehmen in Frankfurt, die eine bessere Website brauchen, ohne sich selbst um Technik, Plugins und Struktur kümmern zu müssen. Als WordPress Agentur aus Frankfurt am Main helfen wir Ihnen mit einer modernen WordPress Website."
     classes={{
       wrapper: 'bg-slate-100/50 dark:bg-purple-900/20'
     }}
@@ -187,7 +187,7 @@ const metadata = {
   <section class="max-w-4xl mx-auto px-4 sm:px-6 py-12">
     <h2 class="leading-tighter text-heading text-4xl md:text-5xl font-bold tracking-tighter mb-4 font-heading">Für ganz Frankfurt</h2>
     <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-      Es spielt keine Rolle, ob Sie Therapeutin in Sachsenhausen sind oder Rechtsanwalt auf der Zeil, Wir erstellen Ihre WordPress-Seite oder helfen Ihnen dabei, fair und schnell. Wir arbeiten mit Kundinnen und Kunden aus dem gesamten Frankfurter Stadtgebiet. Dazu gehören unter anderem:
+      Es spielt keine Rolle, ob Sie Therapeutin in Sachsenhausen sind oder Rechtsanwalt auf der Zeil, Wir erstellen Ihre WordPress-Seite oder helfen Ihnen dabei, fair und schnell. Mit unserer WordPress Agentur arbeiten mit Kunden aus dem gesamten Frankfurter Stadtgebiet. Dazu gehören unter anderem:
     </p>
     <p class="mt-4 text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
       Altstadt, Innenstadt, Bahnhofsviertel, Gutleutviertel, Gallus, Westend, Nordend, Ostend, Bornheim, Bockenheim, Sachsenhausen, Oberrad, Niederrad, Schwanheim, Griesheim, Rödelheim, Hausen, Praunheim, Heddernheim, Niederursel, Ginnheim, Dornbusch, Eschersheim, Eckenheim, Preungesheim, Bonames, Berkersheim, Frankfurter Berg, Riederwald, Seckbach, Fechenheim, Höchst, Nied, Sindlingen, Zeilsheim, Unterliederbach, Sossenheim, Nieder-Erlenbach, Kalbach-Riedberg, Harheim, Nieder-Eschbach, Bergen-Enkheim sowie der Flughafen.

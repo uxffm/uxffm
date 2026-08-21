@@ -10,7 +10,7 @@ site:
 metadata:
   title:
     default: WordPress-Agentur Frankfurt
-    template: '%s — WordPress-Agentur Frankfurt'
+    template: '%s'
   description: "WordPress-Agentur aus Frankfurt am Main. Wir entwickeln und betreuen WordPress-Websites für Unternehmen."
   robots:
     index: true
