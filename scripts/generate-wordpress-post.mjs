@@ -67,26 +67,76 @@ const getRedditAccessToken = async () => {
   return json.access_token;
 };
 
+const getPostsViaWordPressOrgRss = async () => {
+  const feeds = [
+    'https://wordpress.org/news/feed/',
+    'https://make.wordpress.org/core/feed/',
+  ];
+  const posts = [];
+  for (const feedUrl of feeds) {
+    try {
+      const response = await fetch(feedUrl, {
+        headers: { 'User-Agent': 'frankfurtmarketingstudio.de daily WordPress content research bot' },
+      });
+      if (!response.ok) continue;
+      const xml = await response.text();
+      const items = [...xml.matchAll(/<item>([\s\S]*?)<\/item>/g)].map((m) => m[1]);
+      for (const item of items) {
+        const title = sanitizeText((item.match(/<title>(?:<!\[CDATA\[)?([\s\S]*?)(?:\]\]>)?<\/title>/) ?? [])[1] ?? '');
+        const link = sanitizeText((item.match(/<link>(.*?)<\/link>/) ?? [])[1] ?? '');
+        const desc = sanitizeText(((item.match(/<description>(?:<!\[CDATA\[)?([\s\S]*?)(?:\]\]>)?<\/description>/) ?? [])[1] ?? '').slice(0, 500));
+        if (title && link) posts.push({ title, url: link, score: 0, comments: 0, selftext: desc });
+      }
+    } catch { /* skip feed on error */ }
+  }
+  return posts.slice(0, 10);
+};
+
+const getRedditPostsViaRss = async () => {
+  const rssUrl = `https://www.reddit.com/r/${SUBREDDIT}/hot.rss?limit=${POSTS_PER_FETCH}`;
+  const response = await fetch(rssUrl, {
+    headers: {
+      'User-Agent': 'frankfurtmarketingstudio.de daily WordPress content research bot',
+      Accept: 'application/rss+xml, application/xml, text/xml',
+    },
+  });
+  if (!response.ok) throw new Error(`Reddit RSS failed ${response.status}: ${rssUrl}`);
+  const xml = await response.text();
+  const items = [...xml.matchAll(/<entry>([\s\S]*?)<\/entry>/g)].map((m) => m[1]);
+  return items
+    .map((item) => {
+      const title = sanitizeText((item.match(/<title[^>]*>([^<]+)<\/title>/) ?? [])[1] ?? '');
+      const link = ((item.match(/<link[^>]+href="([^"]+)"/) ?? [])[1] ?? '');
+      return { title, url: link, score: 0, comments: 0, selftext: '' };
+    })
+    .filter((p) => p.title && !p.title.startsWith('[') && p.title.length > 10)
+    .slice(0, 10);
+};
+
 const getRedditPosts = async () => {
   const accessToken = await getRedditAccessToken();
-  const url = accessToken
-    ? `https://oauth.reddit.com/r/${SUBREDDIT}/hot?limit=${POSTS_PER_FETCH}`
-    : `https://www.reddit.com/r/${SUBREDDIT}/hot.json?limit=${POSTS_PER_FETCH}`;
-  const headers = accessToken ? { Authorization: `Bearer ${accessToken}` } : {};
-  const json = await fetchJson(url, headers);
-  const posts = json?.data?.children ?? [];
-
-  return posts
-    .filter((post) => post.data?.title && !post.data.stickied && !post.data.over_18)
-    .map((post) => ({
-      title: sanitizeText(post.data.title),
-      url: `https://www.reddit.com${post.data.permalink}`,
-      score: post.data.score ?? 0,
-      comments: post.data.num_comments ?? 0,
-      selftext: sanitizeText((post.data.selftext ?? '').slice(0, 500)),
-    }))
-    .sort((a, b) => b.score + b.comments * 2 - (a.score + a.comments * 2))
-    .slice(0, 10);
+  if (accessToken) {
+    const url = `https://oauth.reddit.com/r/${SUBREDDIT}/hot?limit=${POSTS_PER_FETCH}`;
+    const json = await fetchJson(url, { Authorization: `Bearer ${accessToken}` });
+    const posts = json?.data?.children ?? [];
+    return posts
+      .filter((post) => post.data?.title && !post.data.stickied && !post.data.over_18)
+      .map((post) => ({
+        title: sanitizeText(post.data.title),
+        url: `https://www.reddit.com${post.data.permalink}`,
+        score: post.data.score ?? 0,
+        comments: post.data.num_comments ?? 0,
+        selftext: sanitizeText((post.data.selftext ?? '').slice(0, 500)),
+      }))
+      .sort((a, b) => b.score + b.comments * 2 - (a.score + a.comments * 2))
+      .slice(0, 10);
+  }
+  try {
+    const posts = await getRedditPostsViaRss();
+    if (posts.length >= 3) return posts;
+  } catch { /* fall through to WordPress.org */ }
+  console.log('Reddit unavailable, falling back to WordPress.org news feed');
+  return getPostsViaWordPressOrgRss();
 };
 
 const callClaude = async (prompt) => {
