@@ -1,0 +1,139 @@
+---
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import Hero from '~/components/widgets/Hero.astro';
+import Layout from '~/layouts/PageLayout.astro';
+import Content from '~/components/widgets/Content.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
+import { pageTitles } from '~/site-titles.js';
+
+const metadata = {
+  title: pageTitles.wordpressEntwickler,
+  description:
+    'WordPress Entwickler und PHP Freelancer in Frankfurt: Entwicklung, Wartung und Notfall-Hilfe. Aktuelle PHP-Sicherheitslücke PHP2Shell? Ich aktualisiere PHP und bereinige gehackte Seiten.',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero Widget ******************* -->
+
+  <Hero
+    tagline="WordPress Entwickler & PHP Freelancer"
+    title="WordPress Entwickler Frankfurt – PHP Freelancer"
+    subtitle="Individuelle WordPress-Entwicklung, Plugins, Themes und Wartung vom Freelancer im Rhein-Main-Gebiet. Und wenn es brennt, etwa bei der aktuellen PHP2Shell-Sicherheitslücke: Ich aktualisiere, prüfe und bereinige."
+    actions={[{ variant: 'primary', target: '_blank', text: 'Jetzt anfragen!', href: '/kontakt' }]}
+  />
+
+  <!-- Features3 Widget ************** -->
+
+  <Features3
+    title="WordPress Entwickler Frankfurt – Meine Leistungen"
+    subtitle="Vom Plugin bis zum Notfall-Einsatz, alles aus einer Hand"
+    columns={2}
+    items={[
+      {
+        title: 'Individuelle WordPress-Entwicklung',
+        description:
+          'Maßgeschneiderte Themes und Websites, die schnell, sauber und wartbar sind. Ohne überladene Page-Builder-Lösungen, wenn es auch schlanker geht.',
+        icon: 'tabler:brand-wordpress',
+      },
+      {
+        title: 'Plugin-Entwicklung in PHP',
+        description:
+          'Eigene Plugins, Schnittstellen zu CRM, ERP oder Zahlungsanbietern und Anpassungen bestehender Plugins. Sauberer PHP-Code nach WordPress-Standards.',
+        icon: 'tabler:puzzle',
+      },
+      {
+        title: 'WooCommerce & Online-Shops',
+        description:
+          'Shops einrichten, erweitern und beschleunigen: Zahlungsarten, Versand, Produktimporte und individuelle Checkout-Anpassungen.',
+        icon: 'tabler:shopping-cart',
+      },
+      {
+        title: 'Wartung & Support',
+        description:
+          'Regelmäßige Updates, Backups, Monitoring und schnelle Hilfe bei Problemen, damit Sicherheitslücken wie PHP2Shell Sie nicht unvorbereitet treffen.',
+        icon: 'tabler:tool',
+      },
+      {
+        title: 'Malware-Entfernung & Hack-Reparatur',
+        description:
+          'Webshells, Spam-Injektionen, Weiterleitungen und Blacklist-Einträge: Ich finde die Ursache, räume auf und sorge dafür, dass es nicht wiederkommt.',
+        icon: 'tabler:shield-lock',
+      },
+      {
+        title: 'Performance & Core Web Vitals',
+        description:
+          'Ladezeiten, Layout-Verschiebungen und Datenbank-Ballast optimieren, für bessere Nutzererfahrung und bessere Rankings.',
+        icon: 'tabler:bolt',
+      },
+      {
+        title: 'Migration & Relaunch',
+        description:
+          'Umzug auf neuen Hoster, neue PHP-Version oder kompletter Relaunch, ohne Ranking-Verlust und mit sauberen Weiterleitungen.',
+        icon: 'tabler:arrows-transfer-up',
+      },
+      {
+        title: 'Persönlich vor Ort in Frankfurt',
+        description:
+          'Ein fester Ansprechpartner im Rhein-Main-Gebiet statt wechselnder Agentur-Teams. Kurze Wege, klare Absprachen, faire Preise.',
+        icon: 'tabler:map-pin',
+      },
+    ]}
+    classes={{ container: 'max-w-5xl' }}
+  />
+
+  <!-- FAQs Widget ******************* -->
+
+  <FAQs
+    title="WordPress Entwickler Frankfurt – FAQs"
+    subtitle="Die wichtigsten Fragen zu WordPress-Entwicklung und zur PHP-Sicherheitslücke PHP2Shell. Weitere Fragen beantworte ich gerne persönlich."
+    columns={1}
+    items={[
+      {
+        title: 'Meine Website ist gehackt. Was soll ich zuerst tun?',
+        description:
+          'Ändern Sie keine Dateien, sondern sichern Sie den aktuellen Stand und melden Sie sich bei mir. Ändern Sie danach Passwörter für WordPress, Hosting, FTP und Datenbank. Je schneller die Hintertür geschlossen wird, desto kleiner der Schaden.',
+      },
+      {
+        title: 'Reicht ein Update von WordPress, um PHP2Shell zu beheben?',
+        description:
+          'Nein. Die Lücke liegt in PHP selbst, also muss PHP auf dem Server aktualisiert werden. Und auch dieses Update entfernt keine Webshells, die bereits installiert wurden. Mehr dazu auf der Seite zur PHP-Sicherheitslücke.',
+      },
+      {
+        title: 'Wie lange dauert eine Bereinigung?',
+        description:
+          'Je nach Größe der Installation meist wenige Stunden bis ein bis zwei Tage. Im Notfall melde ich mich schnell zurück und nenne Ihnen vorab einen realistischen Aufwand.',
+      },
+      {
+        title: 'Was kostet ein WordPress Entwickler oder PHP Freelancer?',
+        description:
+          'Das hängt vom Projekt ab. Kleine Anpassungen und Notfall-Einsätze rechne ich nach Aufwand ab, größere Projekte biete ich zum Festpreis an. Nach einem kurzen Gespräch erhalten Sie ein transparentes Angebot.',
+      },
+      {
+        title: 'Arbeiten Sie auch mit Kunden außerhalb von Frankfurt?',
+        description:
+          'Ja. Die meisten Projekte laufen remote, vor Ort in Frankfurt und im Rhein-Main-Gebiet treffen wir uns gerne persönlich.',
+      },
+      {
+        title: 'Wie schütze ich meine WordPress-Seite künftig?',
+        description:
+          'Halten Sie WordPress, Plugins und Themes aktuell, nutzen Sie starke Passwörter mit Zwei-Faktor-Login, entfernen Sie ungenutzte Plugins und legen Sie regelmäßige Backups an. Mit einem Wartungsvertrag übernehme ich das für Sie.',
+      },
+    ]}
+  />
+
+  <!-- CallToAction Widget *********** -->
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Jetzt unverbindlich anfragen!',
+        href: '/kontakt',
+      },
+    ]}
+    title="Website gehackt oder neues WordPress-Projekt?"
+    subtitle="Schreiben Sie mir eine Nachricht. Ich melde mich schnell zurück. Ihr WordPress Entwickler und PHP Freelancer aus Frankfurt."
+  />
+</Layout>

@@ -8,6 +8,8 @@ export const pageTitles = {
   kontakt: 'Schreiben Sie uns eine Nachricht',
   suchmaschinenmarketing: 'Suchmaschinenmarketing Frankfurt (SEM) SEA vom Experten ',
   suchmaschinenoptimierung: 'SEO Frankfurt - Suchmaschinenoptimierung für mehr Sichtbarkeit',
+  wordpressEntwickler: 'WordPress Entwickler Frankfurt - PHP Freelancer & Notfall-Hilfe',
+  php2shell: 'PHP Sicherheitslücke PHP2Shell: Hilfe & Absicherung in Frankfurt',
   notFound: 'Error 404',
   blogList: 'Unser WordPress Blog',
   blogTag: (tag) => `Posts by tag '${tag}'`,
