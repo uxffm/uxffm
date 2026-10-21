@@ -8,7 +8,7 @@ export const pageTitles = {
   kontakt: 'Schreiben Sie uns eine Nachricht',
   suchmaschinenmarketing: 'Suchmaschinenmarketing Frankfurt (SEM) SEA vom Experten ',
   suchmaschinenoptimierung: 'SEO Frankfurt - Suchmaschinenoptimierung für mehr Sichtbarkeit',
-  wordpressEntwickler: 'WordPress Entwickler Frankfurt - PHP Freelancer | PHP2Shell Hilfe',
+  wordpressEntwickler: 'PHP2Shell Hilfe Frankfurt | PHP Freelancer & WordPress Entwickler',
   notFound: 'Error 404',
   blogList: 'Unser WordPress Blog',
   blogTag: (tag) => `Posts by tag '${tag}'`,

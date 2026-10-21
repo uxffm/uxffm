@@ -47,7 +47,7 @@ export const footerData = {
       links: [
         { text: 'SEO Frankfurt', href: '/suchmaschinenoptimierung-frankfurt' },
         { text: 'Suchmaschinenmarketing Frankfurt', href: '/suchmaschinenmarketing-frankfurt' },
-        { text: 'WordPress Entwickler Frankfurt', href: '/wordpress-entwickler-php-freelancer-frankfurt' },
+        { text: 'WordPress Entwickler Frankfurt & PHP2Shell Hilfe', href: '/wordpress-entwickler-php-freelancer-frankfurt' },
       ],
     },
 

@@ -139,6 +139,65 @@ const metadata = {
     classes={{ container: 'max-w-5xl' }}
   />
 
+  <!-- Glossar Widget ************** -->
+
+  <Features3
+    title="PHP2Shell einfach erklärt – die wichtigsten Begriffe"
+    subtitle="Was hinter Remote Code Execution, Webshell und Patch steckt"
+    columns={2}
+    items={[
+      {
+        title: 'Remote Code Execution (RCE)',
+        description:
+          'Ein Angreifer führt über das Internet eigenen Code auf Ihrem Server aus, ohne Login. Das ist die schwerste Kategorie von Sicherheitslücken. Beide PHP2Shell-Lücken werden mit einem CVSS-Wert von 9,2 (kritisch) bewertet.',
+        icon: 'tabler:terminal-2',
+      },
+      {
+        title: 'Webshell & Backdoor',
+        description:
+          'Eine kleine PHP-Datei, die Angreifern dauerhaft Zugriff gibt, oft getarnt als Plugin, Bild oder Systemdatei. Auch nach dem PHP-Update bleibt sie aktiv, wenn sie nicht entfernt wird.',
+        icon: 'tabler:file-code',
+      },
+      {
+        title: 'Multipart-Upload als Angriffsweg',
+        description:
+          'Berichten zufolge wird die Lücke über speziell präparierte Multipart-Anfragen (Datei-Uploads, Formulare) ausgelöst. Deshalb kann der Angriff passieren, bevor WordPress, Plugins oder ein Sicherheits-Plugin überhaupt starten.',
+        icon: 'tabler:upload',
+      },
+      {
+        title: 'Patch, Exploit & Zero-Day',
+        description:
+          'Der Patch ist die Korrektur des PHP-Teams. Ein Exploit ist der Angriffscode, der bereits kursiert. Je länger Server ungepatcht bleiben, desto wahrscheinlicher ist ein automatisierter Angriff durch Bots.',
+        icon: 'tabler:bandage',
+      },
+      {
+        title: 'WAF, Firewall & Hardening',
+        description:
+          'Eine Web Application Firewall (z. B. Cloudflare), Regeln im Apache oder Nginx und Server-Hardening bieten Übergangsschutz, ersetzen aber nie das PHP-Update.',
+        icon: 'tabler:flame',
+      },
+      {
+        title: 'PHP-FPM, Hoster & Server',
+        description:
+          'Nach dem Update müssen PHP-FPM bzw. die PHP-Worker neu gestartet werden, sonst läuft die alte Version weiter. Bei Shared Hosting entscheidet der Hoster, bei VPS und Root-Server sind Sie selbst verantwortlich.',
+        icon: 'tabler:server',
+      },
+      {
+        title: 'Logfiles & Incident Response',
+        description:
+          'Zugriffs- und Fehler-Logs zeigen, ob verdächtige Anfragen eingegangen sind. Ich werte sie aus, grenze den Zeitpunkt eines möglichen Einbruchs ein und dokumentiere den Vorfall.',
+        icon: 'tabler:list-search',
+      },
+      {
+        title: 'DSGVO & Meldepflicht',
+        description:
+          'Wurden personenbezogene Daten abgegriffen, kann eine Meldung an die Datenschutzbehörde innerhalb von 72 Stunden nötig sein (Art. 33 DSGVO). Ich liefere Ihnen die technische Grundlage dafür.',
+        icon: 'tabler:scale',
+      },
+    ]}
+    classes={{ container: 'max-w-5xl' }}
+  />
+
   <!-- FAQs Widget ******************* -->
 
   <FAQs
@@ -165,6 +224,21 @@ const metadata = {
         title: 'Reicht das Update, wenn ich schon angegriffen wurde?',
         description:
           'Nein. Das Update schließt die Lücke, entfernt aber keine Hintertüren, die bereits installiert wurden. Deshalb sollte nach dem Update immer geprüft werden, ob ein Befall vorliegt.',
+      },
+      {
+        title: 'Woran erkenne ich, dass über PHP2Shell eingebrochen wurde?',
+        description:
+          'Typische Hinweise sind unbekannte PHP-Dateien in wp-content/uploads oder im Webroot, neue Administratoren, unerklärliche Cronjobs, ungewöhnlich hohe Serverlast, Spam-Weiterleitungen oder Warnungen von Google und Ihrem Hoster. Sicherheit bringt nur eine Prüfung der Dateien und Logs.',
+      },
+      {
+        title: 'Schützt mich ein Sicherheits-Plugin wie Wordfence?',
+        description:
+          'Nur eingeschränkt. Die Lücke liegt Berichten zufolge in PHP selbst und kann ausgenutzt werden, bevor WordPress und seine Plugins laden. Das PHP-Update ist deshalb der entscheidende Schritt, eine WAF oder ein Plugin ergänzt ihn nur.',
+      },
+      {
+        title: 'Muss ich den Vorfall melden (DSGVO)?',
+        description:
+          'Wenn personenbezogene Daten betroffen sein könnten, gilt die Meldepflicht nach Art. 33 DSGVO binnen 72 Stunden nach Bekanntwerden. Ob das bei Ihnen zutrifft, klären wir gemeinsam anhand der Log-Analyse.',
       },
       {
         title: 'Was kostet die Absicherung?',
