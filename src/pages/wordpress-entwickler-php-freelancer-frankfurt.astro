@@ -10,7 +10,7 @@ import { pageTitles } from '~/site-titles.js';
 const metadata = {
   title: pageTitles.wordpressEntwickler,
   description:
-    'WordPress Entwickler und PHP Freelancer in Frankfurt: Entwicklung, Wartung und Notfall-Hilfe. Aktuelle PHP-Sicherheitslücke PHP2Shell? Ich aktualisiere PHP und bereinige gehackte Seiten.',
+    'WordPress Entwickler und PHP Freelancer in Frankfurt: Hilfe bei der kritischen PHP-Sicherheitslücke PHP2Shell (CVE-2026-109618, CVE-2026-109619). PHP-Update, Befalls-Prüfung und Bereinigung.',
 };
 ---
 
@@ -18,66 +18,122 @@ const metadata = {
   <!-- Hero Widget ******************* -->
 
   <Hero
-    tagline="WordPress Entwickler & PHP Freelancer"
-    title="WordPress Entwickler Frankfurt – PHP Freelancer"
-    subtitle="Individuelle WordPress-Entwicklung, Plugins, Themes und Wartung vom Freelancer im Rhein-Main-Gebiet. Und wenn es brennt, etwa bei der aktuellen PHP2Shell-Sicherheitslücke: Ich aktualisiere, prüfe und bereinige."
-    actions={[{ variant: 'primary', target: '_blank', text: 'Jetzt anfragen!', href: '/kontakt' }]}
+    tagline="WordPress Entwickler & PHP Freelancer · Akute PHP-Sicherheitslücke"
+    title="WordPress Entwickler Frankfurt – PHP Freelancer gegen PHP2Shell"
+    subtitle="Eine kritische Lücke im PHP-Kern bedroht weltweit Websites und Online-Shops. Als WordPress Entwickler und PHP Freelancer in Frankfurt aktualisiere ich Ihren Server, prüfe auf Befall und bereinige gehackte Seiten."
+    actions={[{ variant: 'primary', target: '_blank', text: 'Jetzt Website prüfen lassen!', href: '/kontakt' }]}
   />
+
+  <!-- Content Widgets *************** -->
+
+  <Content
+    isAfterContent
+    items={[
+      {
+        title: 'Was ist PHP2Shell?',
+        description:
+          'PHP2Shell bezeichnet zwei kritische Schwachstellen im PHP-Kern (CVE-2026-109618 und CVE-2026-109619). Sie ermöglichen laut Berichten die Ausführung von Code aus der Ferne, ohne dass sich ein Angreifer anmelden muss. Betroffen sind Websites jeder Art, nicht nur WordPress.',
+        icon: 'tabler:bug',
+      },
+      {
+        title: 'Warum ist das so gefährlich?',
+        description:
+          'PHP läuft auf rund zwei Dritteln aller Websites. Im schlimmsten Fall übernehmen Angreifer den ganzen Server: Sie greifen Kundendaten ab, stören Zahlungen oder missbrauchen den Server für weitere Angriffe. Es wurden bereits erste Angriffe beobachtet.',
+        icon: 'tabler:alert-triangle',
+      },
+      {
+        title: 'Was jetzt zu tun ist',
+        description:
+          'PHP auf eine gepatchte Version aktualisieren (8.5.12, 8.4.27, 8.3.36 oder 8.2.35), die PHP-Prozesse neu starten und prüfen, ob die Seite schon kompromittiert wurde. Ältere Versionen wie PHP 5 und 7 werden laut Berichten nicht mehr gepatcht und müssen auf eine aktuelle Version umziehen.',
+        icon: 'tabler:shield-check',
+      },
+    ]}
+    image={{
+      src: '/images/suchmaschinenmarketing-in-frankfurt.jpg',
+      alt: 'PHP2Shell Sicherheitslücke: Website-Absicherung in Frankfurt',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
+        Die PHP-Sicherheitslücke betrifft auch Ihre Website
+      </h3>
+    </Fragment>
+  </Content>
+
+  <Content
+    isReversed
+    items={[
+      {
+        title: '1. Sofort-Check',
+        description:
+          'Ich prüfe, welche PHP-Version bei Ihnen läuft, ob Ihr Hoster bereits gepatcht hat und ob es Hinweise auf einen Angriff gibt: unbekannte PHP-Dateien, neue Benutzer, auffällige Logs.',
+        icon: 'tabler:zoom-check',
+      },
+      {
+        title: '2. Update & Absicherung',
+        description:
+          'Ich spiele das PHP-Update ein beziehungsweise veranlasse es beim Hoster, starte die PHP-Prozesse neu und teste, dass Ihre Website, Plugins und Shop danach einwandfrei laufen. Falls ein Update nicht sofort möglich ist, richte ich Übergangsschutz auf Webserver-Ebene ein.',
+        icon: 'tabler:refresh',
+      },
+      {
+        title: '3. Bereinigung & Härtung',
+        description:
+          'Ist die Seite bereits befallen, entferne ich Webshells und Hintertüren, ändere alle Zugangsdaten, stelle bei Bedarf aus einem sauberen Backup wieder her und richte Monitoring ein.',
+        icon: 'tabler:lock',
+      },
+    ]}
+    image={{
+      src: '/images/suchmaschinenmarketing-in-frankfurt-2.jpg',
+      alt: 'PHP Update und Bereinigung durch PHP Freelancer in Frankfurt',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">So behebe ich das Problem für Sie</h3>
+    </Fragment>
+  </Content>
 
   <!-- Features3 Widget ************** -->
 
   <Features3
-    title="WordPress Entwickler Frankfurt – Meine Leistungen"
-    subtitle="Vom Plugin bis zum Notfall-Einsatz, alles aus einer Hand"
+    title="PHP2Shell – Meine Leistungen"
+    subtitle="Schnelle Hilfe für Unternehmen im Rhein-Main-Gebiet"
     columns={2}
     items={[
       {
-        title: 'Individuelle WordPress-Entwicklung',
+        title: 'PHP-Update auf gepatchte Version',
         description:
-          'Maßgeschneiderte Themes und Websites, die schnell, sauber und wartbar sind. Ohne überladene Page-Builder-Lösungen, wenn es auch schlanker geht.',
-        icon: 'tabler:brand-wordpress',
+          'Auf Ihrem Server oder in Abstimmung mit Ihrem Hoster, inklusive Test von WordPress, WooCommerce, Plugins und eigenem Code.',
+        icon: 'tabler:brand-php',
       },
       {
-        title: 'Plugin-Entwicklung in PHP',
+        title: 'Kompatibilität sicherstellen',
         description:
-          'Eigene Plugins, Schnittstellen zu CRM, ERP oder Zahlungsanbietern und Anpassungen bestehender Plugins. Sauberer PHP-Code nach WordPress-Standards.',
-        icon: 'tabler:puzzle',
+          'Läuft Ihre Seite noch auf einer alten PHP-Version, migriere ich Theme und Plugins auf eine aktuelle Version und behebe Fehler und Deprecation-Warnungen.',
+        icon: 'tabler:code',
       },
       {
-        title: 'WooCommerce & Online-Shops',
+        title: 'Befalls-Prüfung',
         description:
-          'Shops einrichten, erweitern und beschleunigen: Zahlungsarten, Versand, Produktimporte und individuelle Checkout-Anpassungen.',
-        icon: 'tabler:shopping-cart',
+          'Suche nach Webshells, manipulierten Dateien, fremden Administratoren und verdächtigen Cronjobs, damit Sie wissen, ob Sie betroffen waren.',
+        icon: 'tabler:search',
       },
       {
-        title: 'Wartung & Support',
+        title: 'Malware-Entfernung',
         description:
-          'Regelmäßige Updates, Backups, Monitoring und schnelle Hilfe bei Problemen, damit Sicherheitslücken wie PHP2Shell Sie nicht unvorbereitet treffen.',
-        icon: 'tabler:tool',
-      },
-      {
-        title: 'Malware-Entfernung & Hack-Reparatur',
-        description:
-          'Webshells, Spam-Injektionen, Weiterleitungen und Blacklist-Einträge: Ich finde die Ursache, räume auf und sorge dafür, dass es nicht wiederkommt.',
+          'Gründliche Bereinigung gehackter WordPress-Seiten, inklusive Blacklist-Entfernung bei Google, wenn Ihre Seite markiert wurde.',
         icon: 'tabler:shield-lock',
       },
       {
-        title: 'Performance & Core Web Vitals',
+        title: 'Übergangsschutz',
         description:
-          'Ladezeiten, Layout-Verschiebungen und Datenbank-Ballast optimieren, für bessere Nutzererfahrung und bessere Rankings.',
-        icon: 'tabler:bolt',
+          'Wenn das Update nicht sofort möglich ist, sichere ich den Webserver mit Regeln ab, etwa durch das Einschränken von Datei-Uploads, bis der Patch eingespielt ist.',
+        icon: 'tabler:shield-half',
       },
       {
-        title: 'Migration & Relaunch',
+        title: 'Wartungsvertrag',
         description:
-          'Umzug auf neuen Hoster, neue PHP-Version oder kompletter Relaunch, ohne Ranking-Verlust und mit sauberen Weiterleitungen.',
-        icon: 'tabler:arrows-transfer-up',
-      },
-      {
-        title: 'Persönlich vor Ort in Frankfurt',
-        description:
-          'Ein fester Ansprechpartner im Rhein-Main-Gebiet statt wechselnder Agentur-Teams. Kurze Wege, klare Absprachen, faire Preise.',
-        icon: 'tabler:map-pin',
+          'Regelmäßige Updates für PHP, WordPress und Plugins sowie Monitoring, damit Sie bei der nächsten Lücke nicht erst aus der Zeitung davon erfahren.',
+        icon: 'tabler:tool',
       },
     ]}
     classes={{ container: 'max-w-5xl' }}
@@ -86,39 +142,39 @@ const metadata = {
   <!-- FAQs Widget ******************* -->
 
   <FAQs
-    title="WordPress Entwickler Frankfurt – FAQs"
-    subtitle="Die wichtigsten Fragen zu WordPress-Entwicklung und zur PHP-Sicherheitslücke PHP2Shell. Weitere Fragen beantworte ich gerne persönlich."
+    title="PHP2Shell – häufige Fragen"
+    subtitle="Die wichtigsten Antworten zur aktuellen PHP-Sicherheitslücke."
     columns={1}
     items={[
       {
-        title: 'Meine Website ist gehackt. Was soll ich zuerst tun?',
+        title: 'Ist meine Website betroffen?',
         description:
-          'Ändern Sie keine Dateien, sondern sichern Sie den aktuellen Stand und melden Sie sich bei mir. Ändern Sie danach Passwörter für WordPress, Hosting, FTP und Datenbank. Je schneller die Hintertür geschlossen wird, desto kleiner der Schaden.',
+          'Wenn Ihre Website mit PHP läuft, was bei WordPress, WooCommerce, Joomla, Drupal, Typo3 und vielen Shops der Fall ist, ist sie grundsätzlich betroffen, solange PHP auf dem Server nicht aktualisiert wurde. Ich prüfe das gerne für Sie.',
       },
       {
-        title: 'Reicht ein Update von WordPress, um PHP2Shell zu beheben?',
+        title: 'Muss ich WordPress oder meine Plugins aktualisieren?',
         description:
-          'Nein. Die Lücke liegt in PHP selbst, also muss PHP auf dem Server aktualisiert werden. Und auch dieses Update entfernt keine Webshells, die bereits installiert wurden. Mehr dazu auf der Seite zur PHP-Sicherheitslücke.',
+          'Die Lücke liegt in PHP selbst, nicht in WordPress. Entscheidend ist das PHP-Update auf dem Server. Updates von WordPress und Plugins sind trotzdem sinnvoll und können bei einer neuen PHP-Version nötig sein.',
       },
       {
-        title: 'Wie lange dauert eine Bereinigung?',
+        title: 'Ich bin bei einem Hoster. Muss ich selbst etwas tun?',
         description:
-          'Je nach Größe der Installation meist wenige Stunden bis ein bis zwei Tage. Im Notfall melde ich mich schnell zurück und nenne Ihnen vorab einen realistischen Aufwand.',
+          'Bei Shared Hosting kümmert sich meist der Hoster. Prüfen Sie im Kundenmenü, welche PHP-Version aktiv ist, und fragen Sie nach, ob der Patch eingespielt wurde. Bei VPS und Root-Servern müssen Sie selbst aktualisieren. Dabei helfe ich.',
       },
       {
-        title: 'Was kostet ein WordPress Entwickler oder PHP Freelancer?',
+        title: 'Reicht das Update, wenn ich schon angegriffen wurde?',
         description:
-          'Das hängt vom Projekt ab. Kleine Anpassungen und Notfall-Einsätze rechne ich nach Aufwand ab, größere Projekte biete ich zum Festpreis an. Nach einem kurzen Gespräch erhalten Sie ein transparentes Angebot.',
+          'Nein. Das Update schließt die Lücke, entfernt aber keine Hintertüren, die bereits installiert wurden. Deshalb sollte nach dem Update immer geprüft werden, ob ein Befall vorliegt.',
       },
       {
-        title: 'Arbeiten Sie auch mit Kunden außerhalb von Frankfurt?',
+        title: 'Was kostet die Absicherung?',
         description:
-          'Ja. Die meisten Projekte laufen remote, vor Ort in Frankfurt und im Rhein-Main-Gebiet treffen wir uns gerne persönlich.',
+          'Ein Sofort-Check und ein PHP-Update sind meist in wenigen Stunden erledigt. Ich rechne nach Aufwand ab und nenne Ihnen vorab eine realistische Einschätzung. Größere Bereinigungen biete ich zum Festpreis an.',
       },
       {
-        title: 'Wie schütze ich meine WordPress-Seite künftig?',
+        title: 'Arbeiten Sie auch außerhalb von Frankfurt?',
         description:
-          'Halten Sie WordPress, Plugins und Themes aktuell, nutzen Sie starke Passwörter mit Zwei-Faktor-Login, entfernen Sie ungenutzte Plugins und legen Sie regelmäßige Backups an. Mit einem Wartungsvertrag übernehme ich das für Sie.',
+          'Ja, die meisten Einsätze laufen remote. Im Rhein-Main-Gebiet komme ich bei Bedarf auch persönlich vorbei.',
       },
     ]}
   />
@@ -129,11 +185,11 @@ const metadata = {
     actions={[
       {
         variant: 'primary',
-        text: 'Jetzt unverbindlich anfragen!',
+        text: 'Jetzt anfragen!',
         href: '/kontakt',
       },
     ]}
-    title="Website gehackt oder neues WordPress-Projekt?"
-    subtitle="Schreiben Sie mir eine Nachricht. Ich melde mich schnell zurück. Ihr WordPress Entwickler und PHP Freelancer aus Frankfurt."
+    title="Wissen Sie, ob Ihre Website sicher ist?"
+    subtitle="Schreiben Sie mir. Ich prüfe Ihre PHP-Version, spiele den Patch ein und bereinige bei Bedarf. Ihr WordPress Entwickler und PHP Freelancer aus Frankfurt."
   />
 </Layout>

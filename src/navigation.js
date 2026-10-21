@@ -21,10 +21,6 @@ export const headerData = {
           text: 'WordPress Entwickler Frankfurt',
           href: getPermalink('/wordpress-entwickler-php-freelancer-frankfurt'),
         },
-        {
-          text: 'PHP-Sicherheitslücke PHP2Shell',
-          href: getPermalink('/php-sicherheitsluecke-php2shell-frankfurt'),
-        },
       ],
     },
     {
@@ -52,7 +48,6 @@ export const footerData = {
         { text: 'SEO Frankfurt', href: '/suchmaschinenoptimierung-frankfurt' },
         { text: 'Suchmaschinenmarketing Frankfurt', href: '/suchmaschinenmarketing-frankfurt' },
         { text: 'WordPress Entwickler Frankfurt', href: '/wordpress-entwickler-php-freelancer-frankfurt' },
-        { text: 'PHP-Sicherheitslücke PHP2Shell', href: '/php-sicherheitsluecke-php2shell-frankfurt' },
       ],
     },
 
